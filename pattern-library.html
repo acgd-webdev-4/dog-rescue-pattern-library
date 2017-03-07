@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Pattern library</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>@-moz-viewport{width:device-width;scale:1}@-ms-viewport{width:device-width;scale:1}@-webkit-viewport{width:device-width;scale:1}@viewport{width:device-width;scale:1}html{box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}*,:after,:before{box-sizing:inherit}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}template{display:none}details{cursor:pointer}audio:not([controls]){display:none;height:0}[tabindex],a,area,button,input,label,select,textarea{-ms-touch-action:manipulation;touch-action:manipulation}img{border:0}.img-flex{display:block;width:100%}svg{fill:currentColor}svg:not(:root){overflow:hidden}svg.img-flex{width:100%;height:100%}.image-replacement,.ir{overflow:hidden;direction:ltr;text-align:left;text-indent:100%;white-space:nowrap}.list-group,.list-group--inline,.list-group-inline{padding-left:0;list-style-type:none}.list-group>dd{margin-left:0}.list-group--inline:after,.list-group--inline:before,.list-group-inline:after,.list-group-inline:before{content:"";display:table}.list-group--inline:after,.list-group-inline:after{clear:both}.list-group--inline>li,.list-group-inline>li{display:inline-block}.list-group--inline>dt,.list-group-inline>dt{clear:left;float:left;width:11em}.list-group--inline>dd,.list-group-inline>dd{float:left;min-width:12em}.icon{display:inline-block;position:relative;background:transparent none no-repeat 50%;background-size:contain;vertical-align:middle}.i-16,.i--16{height:16px;width:16px}.i-18,.i--18{height:18px;width:18px}.i-24,.i--24{height:24px;width:24px}.i-32,.i--32{height:32px;width:32px}.i-48,.i--48{height:48px;width:48px}.i-64,.i--64{height:64px;width:64px}.i-96,.i--96{height:96px;width:96px}.i-128,.i--128{height:128px;width:128px}.i-192,.i--192{height:192px;width:192px}.i-256,.i--256{height:256px;width:256px}.icon img,.icon svg{left:0;height:100%;position:absolute;top:0;width:100%}.icon-label{vertical-align:middle}.icon-link,.icon-link:focus,.icon-link:hover{text-decoration:none}.hidden,[hidden]{display:none!important;visibility:hidden!important}.visually-hidden{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;border:0;clip:rect(0 0 0 0)}.visually-hidden.focusable:active,.visually-hidden.focusable:focus{height:auto;margin:0;overflow:visible;position:static;width:auto;clip:auto}.invisible{visibility:hidden}.chop,.crop,.truncate{overflow:hidden}.truncate{max-width:100%;width:100%;text-overflow:ellipsis;white-space:nowrap}.scrollable{max-width:100%;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}.center{margin-left:auto;margin-right:auto}.clearfix:after{content:" ";display:block;clear:both}.left{float:left}.right{float:right}.center-flow,.center-text{text-align:center}.center-block{margin-left:auto;margin-right:auto}.center-contents,.center-contents-vertical{-ms-flex-pack:center;-ms-flex-align:center;-ms-flex-line-pack:center;-ms-flex-direction:column wrap;-ms-flex-flow:column wrap;flex-flow:column wrap}.center-contents,.center-contents-horizontal,.center-contents-vertical{display:-ms-flexbox;display:flex;justify-content:center;align-items:center;align-content:center}.center-contents-horizontal{-ms-flex-pack:center;-ms-flex-align:center;-ms-flex-line-pack:center;-ms-flex-direction:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap}.inline{display:inline}.block{display:block}.ib,.inline-block{display:inline-block}.valign-top{vertical-align:top}.valign-bottom{vertical-align:bottom}.valign-middle{vertical-align:middle}.fixed{position:fixed}.relative{position:relative}.absolute{position:absolute}.static{position:static}.zindex-1{z-index:1}.zindex-2{z-index:2}.zindex-3{z-index:3}.pin-tl,.pin-top-left{top:0;left:0}.pin-top-right,.pin-tr{top:0;right:0}.pin-bl,.pin-bottom-left{bottom:0;left:0}.pin-bottom-right,.pin-br{bottom:0;right:0}.pin-tc,.pin-top-center{left:50%;top:0;transform:translateX(-50%)}.pin-bc,.pin-bottom-center{bottom:0;left:50%;transform:translateX(-50%)}.pin-center-left,.pin-cl{left:0;top:50%;transform:translateY(-50%)}.pin-center-right,.pin-cr{right:0;top:50%;transform:translateY(-50%)}.pin-c,.pin-center{left:50%;top:50%;transform:translate(-50%,-50%)}.w-1-4,.width-quarter{width:25%}.w-1-2,.width-half{width:50%}.w-1,.width-full{width:100%}.h-1-4,.height-quarter{height:25%}.h-1-2,.height-half{height:50%}.h-1,.height-full{height:100%}.link-box{display:block;text-decoration:none}.btn,button{cursor:pointer;display:inline-block;margin:0;overflow:visible;padding:.375em .75em .42em;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#333;border-radius:4px;border:3px solid #333;color:#fff;font:inherit;text-decoration:none;text-transform:none}button::-moz-focus-inner{border:0;padding:0}.btn:focus,.btn:hover,button:focus,button:hover{background-color:#000;border-color:#000;color:#fff}button[disabled]{cursor:default}.btn--light,.btn-light{background-color:#e2e2e2;border-color:#e2e2e2;color:#000}.btn--light:focus,.btn--light:hover,.btn-light:focus,.btn-light:hover{background-color:#666;border-color:#666;color:#fff}.btn--ghost,.btn-ghost{background-color:transparent;border-color:#333;color:#000}.btn--ghost:focus,.btn--ghost:hover,.btn-ghost:focus,.btn-ghost:hover{background-color:#e2e2e2;border-color:#000;color:#000}.btn-link{display:inline;padding:0;border-radius:0;border:0}.btn-link,.btn-link:focus,.btn-link:hover{background-color:transparent;color:inherit}a:active,a:hover{outline:none}[tabindex="0"]:focus,a:focus,button:focus,details:focus,input:focus,select:focus,summary:focus,textarea:focus{outline:3px solid #000}[tabindex="0"]:focus,a:focus{outline-offset:3px}.skip-links{margin:0;padding:0;list-style-type:none}.skip-links>li:before{content:none}.skip-links a,.skip-links button{padding:.5em .75em;position:absolute;top:-10em;z-index:4;background-color:#000;border:0;color:#fff;font-size:1.125rem;font-weight:700;text-decoration:none}.skip-links a:focus,.skip-links button:focus{outline-offset:3px;top:0}[aria-busy=true]{cursor:progress}[aria-controls]{cursor:pointer}[aria-disabled]{cursor:default}.grid{margin:0;padding:0;letter-spacing:-.31em;text-rendering:optimizeSpeed;display:-ms-flexbox;display:flex;-ms-flex-flow:row wrap;flex-flow:row wrap}.grid-bottom{-ms-align-items:flex-end;-ms-flex-align:end;align-items:flex-end}.grid-middle{-ms-align-items:center;-ms-flex-align:center;align-items:center}.grid-stretch{-ms-align-items:stretch;-ms-flex-align:stretch;align-items:stretch}.grid,.opera-only :-o-prefocus{word-spacing:-.43em}.unit{letter-spacing:normal;text-rendering:auto;vertical-align:top;word-spacing:normal;display:inline-block;visibility:visible}.grid-bottom .unit{vertical-align:bottom}.grid-middle .unit{vertical-align:middle}[class*=unit-pull-],[class*=unit-push-]{position:relative}.unit-xs-hidden{display:none;visibility:hidden}.unit-xs-centered{margin:0 auto}.unit-xs-1,.xs-1{display:block;visibility:visible;width:100%}.unit-xs-1-2,.xs-1-2{width:50%}.unit-xs-1-3,.xs-1-3{width:33.3333%}.unit-xs-2-3,.xs-2-3{width:66.6667%}.unit-xs-1-4,.xs-1-4{width:25%}.unit-xs-3-4,.xs-3-4{width:75%}.unit-xs-1-5,.xs-1-5{width:20%}.unit-xs-2-5,.xs-2-5{width:40%}.unit-xs-3-5,.xs-3-5{width:60%}.unit-xs-4-5,.xs-4-5{width:80%}.unit-xs-1-6,.xs-1-6{width:16.6667%}.unit-xs-5-6,.xs-5-6{width:83.3333%}.unit-xs-1-2,.unit-xs-1-3,.unit-xs-1-4,.unit-xs-1-5,.unit-xs-1-6,.unit-xs-2-3,.unit-xs-2-5,.unit-xs-3-4,.unit-xs-3-5,.unit-xs-4-5,.unit-xs-5-6,.xs-1-2,.xs-1-3,.xs-1-4,.xs-1-5,.xs-1-6,.xs-2-3,.xs-2-5,.xs-3-4,.xs-3-5,.xs-4-5,.xs-5-6{display:inline-block;visibility:visible}@media only screen and (min-width:25em){.unit-s-hidden{display:none;visibility:hidden}.unit-s-centered{margin:0 auto}.s-1,.unit-s-1{display:block;visibility:visible;width:100%}.s-1-2,.unit-s-1-2{width:50%}.s-1-3,.unit-s-1-3{width:33.3333%}.s-2-3,.unit-s-2-3{width:66.6667%}.s-1-4,.unit-s-1-4{width:25%}.s-3-4,.unit-s-3-4{width:75%}.s-1-5,.unit-s-1-5{width:20%}.s-2-5,.unit-s-2-5{width:40%}.s-3-5,.unit-s-3-5{width:60%}.s-4-5,.unit-s-4-5{width:80%}.s-1-6,.unit-s-1-6{width:16.6667%}.s-5-6,.unit-s-5-6{width:83.3333%}.s-1-2,.s-1-3,.s-1-4,.s-1-5,.s-1-6,.s-2-3,.s-2-5,.s-3-4,.s-3-5,.s-4-5,.s-5-6,.unit-s-1-2,.unit-s-1-3,.unit-s-1-4,.unit-s-1-5,.unit-s-1-6,.unit-s-2-3,.unit-s-2-5,.unit-s-3-4,.unit-s-3-5,.unit-s-4-5,.unit-s-5-6{display:inline-block;visibility:visible}}@media only screen and (min-width:38em){.unit-m-hidden{display:none;visibility:hidden}.unit-m-centered{margin:0 auto}.m-1,.unit-m-1{display:block;visibility:visible;width:100%}.unit-offset-m-0{margin-left:0}.unit-pull-m-0,.unit-push-m-0{left:0}.m-1-2,.unit-m-1-2{width:50%}.unit-offset-m-1-2{margin-left:50%}.unit-push-m-1-2{left:50%}.unit-pull-m-1-2{left:-50%}.m-1-3,.unit-m-1-3{width:33.3333%}.unit-offset-m-1-3{margin-left:33.3333%}.unit-push-m-1-3{left:33.3333%}.unit-pull-m-1-3{left:-33.3333%}.m-2-3,.unit-m-2-3{width:66.6667%}.unit-offset-m-2-3{margin-left:66.6667%}.unit-push-m-2-3{left:66.6667%}.unit-pull-m-2-3{left:-66.6667%}.m-1-4,.unit-m-1-4{width:25%}.unit-offset-m-1-4{margin-left:25%}.unit-push-m-1-4{left:25%}.unit-pull-m-1-4{left:-25%}.m-3-4,.unit-m-3-4{width:75%}.unit-offset-m-3-4{margin-left:75%}.unit-push-m-3-4{left:75%}.unit-pull-m-3-4{left:-75%}.m-1-5,.unit-m-1-5{width:20%}.unit-offset-m-1-5{margin-left:20%}.unit-push-m-1-5{left:20%}.unit-pull-m-1-5{left:-20%}.m-2-5,.unit-m-2-5{width:40%}.unit-offset-m-2-5{margin-left:40%}.unit-push-m-2-5{left:40%}.unit-pull-m-2-5{left:-40%}.m-3-5,.unit-m-3-5{width:60%}.unit-offset-m-3-5{margin-left:60%}.unit-push-m-3-5{left:60%}.unit-pull-m-3-5{left:-60%}.m-4-5,.unit-m-4-5{width:80%}.unit-offset-m-4-5{margin-left:80%}.unit-push-m-4-5{left:80%}.unit-pull-m-4-5{left:-80%}.m-1-6,.unit-m-1-6{width:16.6667%}.unit-offset-m-1-6{margin-left:16.6667%}.unit-push-m-1-6{left:16.6667%}.unit-pull-m-1-6{left:-16.6667%}.m-5-6,.unit-m-5-6{width:83.3333%}.unit-offset-m-5-6{margin-left:83.3333%}.unit-push-m-5-6{left:83.3333%}.unit-pull-m-5-6{left:-83.3333%}.m-1-2,.m-1-3,.m-1-4,.m-1-5,.m-1-6,.m-2-3,.m-2-5,.m-3-4,.m-3-5,.m-4-5,.m-5-6,.unit-m-1-2,.unit-m-1-3,.unit-m-1-4,.unit-m-1-5,.unit-m-1-6,.unit-m-2-3,.unit-m-2-5,.unit-m-3-4,.unit-m-3-5,.unit-m-4-5,.unit-m-5-6{display:inline-block;visibility:visible}}@media only screen and (min-width:60em){.unit-l-hidden{display:none;visibility:hidden}.unit-l-centered{margin:0 auto}.l-1,.unit-l-1{display:block;visibility:visible;width:100%}.unit-offset-l-0{margin-left:0}.unit-pull-l-0,.unit-push-l-0{left:0}.l-1-2,.unit-l-1-2{width:50%}.unit-offset-l-1-2{margin-left:50%}.unit-push-l-1-2{left:50%}.unit-pull-l-1-2{left:-50%}.l-1-3,.unit-l-1-3{width:33.3333%}.unit-offset-l-1-3{margin-left:33.3333%}.unit-push-l-1-3{left:33.3333%}.unit-pull-l-1-3{left:-33.3333%}.l-2-3,.unit-l-2-3{width:66.6667%}.unit-offset-l-2-3{margin-left:66.6667%}.unit-push-l-2-3{left:66.6667%}.unit-pull-l-2-3{left:-66.6667%}.l-1-4,.unit-l-1-4{width:25%}.unit-offset-l-1-4{margin-left:25%}.unit-push-l-1-4{left:25%}.unit-pull-l-1-4{left:-25%}.l-3-4,.unit-l-3-4{width:75%}.unit-offset-l-3-4{margin-left:75%}.unit-push-l-3-4{left:75%}.unit-pull-l-3-4{left:-75%}.l-1-5,.unit-l-1-5{width:20%}.unit-offset-l-1-5{margin-left:20%}.unit-push-l-1-5{left:20%}.unit-pull-l-1-5{left:-20%}.l-2-5,.unit-l-2-5{width:40%}.unit-offset-l-2-5{margin-left:40%}.unit-push-l-2-5{left:40%}.unit-pull-l-2-5{left:-40%}.l-3-5,.unit-l-3-5{width:60%}.unit-offset-l-3-5{margin-left:60%}.unit-push-l-3-5{left:60%}.unit-pull-l-3-5{left:-60%}.l-4-5,.unit-l-4-5{width:80%}.unit-offset-l-4-5{margin-left:80%}.unit-push-l-4-5{left:80%}.unit-pull-l-4-5{left:-80%}.l-1-6,.unit-l-1-6{width:16.6667%}.unit-offset-l-1-6{margin-left:16.6667%}.unit-push-l-1-6{left:16.6667%}.unit-pull-l-1-6{left:-16.6667%}.l-5-6,.unit-l-5-6{width:83.3333%}.unit-offset-l-5-6{margin-left:83.3333%}.unit-push-l-5-6{left:83.3333%}.unit-pull-l-5-6{left:-83.3333%}.l-1-2,.l-1-3,.l-1-4,.l-1-5,.l-1-6,.l-2-3,.l-2-5,.l-3-4,.l-3-5,.l-4-5,.l-5-6,.unit-l-1-2,.unit-l-1-3,.unit-l-1-4,.unit-l-1-5,.unit-l-1-6,.unit-l-2-3,.unit-l-2-5,.unit-l-3-4,.unit-l-3-5,.unit-l-4-5,.unit-l-5-6{display:inline-block;visibility:visible}}.content-distribute,.unit-content-distribute{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:justify;justify-content:space-between}.content-fill,.content-stretch{-ms-flex-grow:2;-ms-flex-positive:2;flex-grow:2;max-width:100%}.content-shrink{-ms-align-self:center;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center}html{font-size:100%;line-height:1.3}a{background-color:transparent;-webkit-text-decoration-skip:objects}sub,sup{font-size:75%;line-height:1px;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}code,kbd,pre,samp{font-size:100%}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:700}caption,dfn{font-style:italic}hr{border:0;border-top:2px solid #000;height:0}table{border-collapse:collapse;border-spacing:0;width:100%;table-layout:fixed}caption,td,th{text-align:left}td,th{border-bottom:1px solid #000;vertical-align:top}thead th{vertical-align:bottom;border-bottom-width:2px}.text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.normal{font-style:normal}.normal,.not-bold{font-weight:400}.not-italic{font-style:normal}.bold{font-weight:700}.italic{font-style:italic}.text-upper{text-transform:uppercase}.text-lower{text-transform:lowercase}.wrapper{max-width:52em}.max-length,.wrapper{margin-left:auto;margin-right:auto;width:100%}.max-length{max-width:36em}blockquote,caption,dd,details,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,table,ul{margin:0 0 1.3rem}.yotta{font-size:1.5745rem;line-height:2.275rem}.zetta{font-size:1.4757rem}.exa,.zetta,h1{line-height:1.95rem}.exa,h1{font-size:1.383rem}.peta,h2{font-size:1.2962rem;line-height:1.95rem}.tera,h3{font-size:1.2148rem}.giga,.tera,h3,h4{line-height:1.625rem}.giga,h4{font-size:1.1385rem}.mega,h5{font-size:1.067rem;line-height:1.625rem}.kilo,h6,input,textarea{font-size:1rem;line-height:1.3rem}.milli,small{font-size:.9372rem;line-height:1.3rem}.micro{font-size:.8784rem;line-height:1.3rem}ul{padding-left:1em}ol{padding-left:1.6em}input,option,select{height:1.625rem}input[type=color]{width:1.625rem}input[type=checkbox],input[type=radio]{display:inline-block;height:auto;width:auto}.push{margin-bottom:1.3rem}.push-0,.push-none{margin-bottom:0}.push-2,.push-double{margin-bottom:2.6rem}.push-1-2,.push-half{margin-bottom:.65rem}.push-1-4,.push-quarter{margin-bottom:.325rem}.push-1-8,.push-eighth{margin-bottom:.1625rem}.push-r-1-8,.push-right-eighth{margin-right:.1625rem}.push-r-1-4,.push-right-quarter{margin-right:.325rem}.push-r-1-2,.push-right-half{margin-right:.65rem}.push-r,.push-right{margin-right:1.3rem}.pad-t,.pad-top{padding-top:1.3rem}.pad-b,.pad-bottom{padding-bottom:1.3rem}.pad-t-2,.pad-top-double{padding-top:2.6rem}.pad-b-2,.pad-bottom-double{padding-bottom:2.6rem}.pad-t-1-2,.pad-top-half{padding-top:.65rem}.pad-b-1-2,.pad-bottom-half{padding-bottom:.65rem}.pad-t-1-4,.pad-top-quarter{padding-top:.325rem}.pad-b-1-4,.pad-bottom-quarter{padding-bottom:.325rem}.pad-t-1-8,.pad-top-eighth{padding-top:.1625rem}.pad-b-1-8,.pad-bottom-eighth{padding-bottom:.1625rem}.island{padding:1.3rem}.island-2,.island-double{padding:2.6rem}.island-1-2,.island-half{padding:.65rem}.island-1-4,.island-quarter,table th,td{padding:.325rem}.island-1-8,.island-eighth,input,textarea{padding:.1625rem}.gutter{padding-left:1.3rem;padding-right:1.3rem}.gutter-2,.gutter-double{padding-left:2.6rem;padding-right:2.6rem}.gutter-1-2,.gutter-half{padding-left:.65rem;padding-right:.65rem}.gutter-1-4,.gutter-quarter,caption{padding-left:.325rem;padding-right:.325rem}.gutter-1-8,.gutter-eighth{padding-left:.1625rem;padding-right:.1625rem}select{padding:0 .1625rem}fieldset{padding:.325rem 0;border:0;border-top:2px solid #000}legend{padding-right:.325rem}@media only screen and (min-width:38em){html{font-size:110%;line-height:1.4}blockquote,caption,dd,details,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,table,ul{margin:0 0 1.4rem}.yotta{font-size:2.2807rem;line-height:3.15rem}.zetta{font-size:2.0273rem;line-height:2.8rem}.exa,h1{font-size:1.802rem;line-height:2.45rem}.peta,h2{font-size:1.6018rem}.peta,.tera,h2,h3{line-height:2.1rem}.tera,h3{font-size:1.4238rem}.giga,h4{font-size:1.2656rem}.giga,.mega,h4,h5{line-height:1.75rem}.mega,h5{font-size:1.125rem}.kilo,h6,input,textarea{font-size:1rem;line-height:1.4rem}.milli,small{font-size:.8889rem;line-height:1.4rem}.micro{font-size:.7901rem;line-height:1.4rem}ol,ul{padding-left:0}ol ul,ul ul{padding-left:1em}ol ol,ul ol{padding-left:1.6em}.hang-punc{float:left;margin-left:-1.4em;text-align:right;width:1.3em}table{margin-left:-.35rem;margin-right:-.35rem;width:calc(100% + .35rem + .35rem)}input,option,select{height:1.75rem}input[type=color]{width:1.75rem}input[type=checkbox],input[type=radio]{display:inline-block;height:auto;width:auto}.push{margin-bottom:1.4rem}.push-0,.push-none{margin-bottom:0}.push-2,.push-double{margin-bottom:2.8rem}.push-1-2,.push-half{margin-bottom:.7rem}.push-1-4,.push-quarter{margin-bottom:.35rem}.push-1-8,.push-eighth{margin-bottom:.175rem}.push-r-1-8,.push-right-eighth{margin-right:.175rem}.push-r-1-4,.push-right-quarter{margin-right:.35rem}.push-r-1-2,.push-right-half{margin-right:.7rem}.push-r,.push-right{margin-right:1.4rem}.pad-t,.pad-top{padding-top:1.4rem}.pad-b,.pad-bottom{padding-bottom:1.4rem}.pad-t-2,.pad-top-double{padding-top:2.8rem}.pad-b-2,.pad-bottom-double{padding-bottom:2.8rem}.pad-t-1-2,.pad-top-half{padding-top:.7rem}.pad-b-1-2,.pad-bottom-half{padding-bottom:.7rem}.pad-t-1-4,.pad-top-quarter{padding-top:.35rem}.pad-b-1-4,.pad-bottom-quarter{padding-bottom:.35rem}.pad-t-1-8,.pad-top-eighth{padding-top:.175rem}.pad-b-1-8,.pad-bottom-eighth{padding-bottom:.175rem}.island{padding:1.4rem}.island-2,.island-double{padding:2.8rem}.island-1-2,.island-half{padding:.7rem}.island-1-4,.island-quarter,table th,td{padding:.35rem}.island-1-8,.island-eighth,input,textarea{padding:.175rem}.gutter{padding-left:1.4rem;padding-right:1.4rem}.gutter-2,.gutter-double{padding-left:2.8rem;padding-right:2.8rem}.gutter-1-2,.gutter-half{padding-left:.7rem;padding-right:.7rem}.gutter-1-4,.gutter-quarter,caption{padding-left:.35rem;padding-right:.35rem}.gutter-1-8,.gutter-eighth{padding-left:.175rem;padding-right:.175rem}select{padding:0 .175rem}fieldset{padding:.35rem 0;border:0;border-top:2px solid #000}legend{padding-right:.35rem}}@media only screen and (min-width:60em){html{font-size:120%;line-height:1.5}blockquote,caption,dd,details,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,table,ul{margin:0 0 1.5rem}.yotta{font-size:2.2807rem}.yotta,.zetta{line-height:3rem}.zetta{font-size:2.0273rem}.exa,h1{font-size:1.802rem;line-height:2.625rem}.peta,h2{font-size:1.6018rem;line-height:2.25rem}.tera,h3{font-size:1.4238rem}.giga,.tera,h3,h4{line-height:1.875rem}.giga,h4{font-size:1.2656rem}.mega,h5{font-size:1.125rem;line-height:1.5rem}.kilo,h6,input,textarea{font-size:1rem;line-height:1.5rem}.milli,small{font-size:.8889rem;line-height:1.5rem}.micro{font-size:.7901rem;line-height:1.5rem}ol,ul{padding-left:0}ol ul,ul ul{padding-left:1em}ol ol,ul ol{padding-left:1.6em}.hang-punc{float:left;margin-left:-1.4em;text-align:right;width:1.3em}table{margin-left:-.375rem;margin-right:-.375rem;width:calc(100% + .375rem + .375rem)}input,option,select{height:1.875rem}input[type=color]{width:1.875rem}input[type=checkbox],input[type=radio]{display:inline-block;height:auto;width:auto}.push{margin-bottom:1.5rem}.push-0,.push-none{margin-bottom:0}.push-2,.push-double{margin-bottom:3rem}.push-1-2,.push-half{margin-bottom:.75rem}.push-1-4,.push-quarter{margin-bottom:.375rem}.push-1-8,.push-eighth{margin-bottom:.1875rem}.push-r-1-8,.push-right-eighth{margin-right:.1875rem}.push-r-1-4,.push-right-quarter{margin-right:.375rem}.push-r-1-2,.push-right-half{margin-right:.75rem}.push-r,.push-right{margin-right:1.5rem}.pad-t,.pad-top{padding-top:1.5rem}.pad-b,.pad-bottom{padding-bottom:1.5rem}.pad-t-2,.pad-top-double{padding-top:3rem}.pad-b-2,.pad-bottom-double{padding-bottom:3rem}.pad-t-1-2,.pad-top-half{padding-top:.75rem}.pad-b-1-2,.pad-bottom-half{padding-bottom:.75rem}.pad-t-1-4,.pad-top-quarter{padding-top:.375rem}.pad-b-1-4,.pad-bottom-quarter{padding-bottom:.375rem}.pad-t-1-8,.pad-top-eighth{padding-top:.1875rem}.pad-b-1-8,.pad-bottom-eighth{padding-bottom:.1875rem}.island{padding:1.5rem}.island-2,.island-double{padding:3rem}.island-1-2,.island-half{padding:.75rem}.island-1-4,.island-quarter,table th,td{padding:.375rem}.island-1-8,.island-eighth,input,textarea{padding:.1875rem}.gutter{padding-left:1.5rem;padding-right:1.5rem}.gutter-2,.gutter-double{padding-left:3rem;padding-right:3rem}.gutter-1-2,.gutter-half{padding-left:.75rem;padding-right:.75rem}.gutter-1-4,.gutter-quarter,caption{padding-left:.375rem;padding-right:.375rem}.gutter-1-8,.gutter-eighth{padding-left:.1875rem;padding-right:.1875rem}select{padding:0 .1875rem}fieldset{padding:.375rem 0;border:0;border-top:2px solid #000}legend{padding-right:.375rem}}@media only screen and (min-width:90em){html{font-size:130%;line-height:1.5}blockquote,caption,dd,details,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,table,ul{margin:0 0 1.5rem}.yotta{font-size:2.2807rem}.yotta,.zetta{line-height:3rem}.zetta{font-size:2.0273rem}.exa,h1{font-size:1.802rem;line-height:2.625rem}.peta,h2{font-size:1.6018rem;line-height:2.25rem}.tera,h3{font-size:1.4238rem}.giga,.tera,h3,h4{line-height:1.875rem}.giga,h4{font-size:1.2656rem}.mega,h5{font-size:1.125rem;line-height:1.5rem}.kilo,h6,input,textarea{font-size:1rem;line-height:1.5rem}.milli,small{font-size:.8889rem;line-height:1.5rem}.micro{font-size:.7901rem;line-height:1.5rem}ol,ul{padding-left:0}ol ul,ul ul{padding-left:1em}ol ol,ul ol{padding-left:1.6em}.hang-punc{float:left;margin-left:-1.4em;text-align:right;width:1.3em}table{margin-left:-.375rem;margin-right:-.375rem;width:calc(100% + .375rem + .375rem)}input,option,select{height:1.875rem}input[type=color]{width:1.875rem}input[type=checkbox],input[type=radio]{display:inline-block;height:auto;width:auto}.push{margin-bottom:1.5rem}.push-0,.push-none{margin-bottom:0}.push-2,.push-double{margin-bottom:3rem}.push-1-2,.push-half{margin-bottom:.75rem}.push-1-4,.push-quarter{margin-bottom:.375rem}.push-1-8,.push-eighth{margin-bottom:.1875rem}.push-r-1-8,.push-right-eighth{margin-right:.1875rem}.push-r-1-4,.push-right-quarter{margin-right:.375rem}.push-r-1-2,.push-right-half{margin-right:.75rem}.push-r,.push-right{margin-right:1.5rem}.pad-t,.pad-top{padding-top:1.5rem}.pad-b,.pad-bottom{padding-bottom:1.5rem}.pad-t-2,.pad-top-double{padding-top:3rem}.pad-b-2,.pad-bottom-double{padding-bottom:3rem}.pad-t-1-2,.pad-top-half{padding-top:.75rem}.pad-b-1-2,.pad-bottom-half{padding-bottom:.75rem}.pad-t-1-4,.pad-top-quarter{padding-top:.375rem}.pad-b-1-4,.pad-bottom-quarter{padding-bottom:.375rem}.pad-t-1-8,.pad-top-eighth{padding-top:.1875rem}.pad-b-1-8,.pad-bottom-eighth{padding-bottom:.1875rem}.island{padding:1.5rem}.island-2,.island-double{padding:3rem}.island-1-2,.island-half{padding:.75rem}.island-1-4,.island-quarter,table th,td{padding:.375rem}.island-1-8,.island-eighth,input,textarea{padding:.1875rem}.gutter{padding-left:1.5rem;padding-right:1.5rem}.gutter-2,.gutter-double{padding-left:3rem;padding-right:3rem}.gutter-1-2,.gutter-half{padding-left:.75rem;padding-right:.75rem}.gutter-1-4,.gutter-quarter,caption{padding-left:.375rem;padding-right:.375rem}.gutter-1-8,.gutter-eighth{padding-left:.1875rem;padding-right:.1875rem}select{padding:0 .1875rem}fieldset{padding:.375rem 0;border:0;border-top:2px solid #000}legend{padding-right:.375rem}}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;color:#444}a{border-bottom:.1em solid rgba(0,0,0,.4);color:#000;font-weight:700;text-decoration:none}a:hover{border-bottom-color:#000}.max-length{margin-left:0;margin-right:0}.wrapper{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;max-width:100vw;width:100vw}.masthead{min-width:12em;width:12em;background-color:#333;color:#fff}.masthead-inner{position:fixed;width:12em}.nav a{border:0;color:#e2e2e2;text-decoration:none}.nav a:hover{background-color:#e2e2e2;color:#333}.nav .current{background-color:#999;color:#000}.main{-ms-flex-positive:1;flex-grow:1;width:calc(100% - 12em)}.main iframe{overflow:hidden;width:100%;border:0}.pattern-toolbar{background-color:#e2e2e2;border-bottom:1px solid #ccc;border-top:1px solid #ccc}.pattern-toolbar-inner{background-color:#f6f6f6}.btn-rounded{border-radius:50em;border-color:#999}.btn-rounded:hover{background-color:#ccc;border-color:#333}.pattern-desc{background-color:#fafafa;border-bottom:1px solid #f2f2f2}.pattern-desc :last-child{margin-bottom:0}.pattern-code,.pattern-code code,.pattern-code pre{font-family:Source Code Pro,monospace}.pattern-code{overflow-x:hidden;background-color:#f8f8f8;border:1px solid #f2f2f2;border-radius:4px}.pattern-code code,.pattern-code pre{margin:0}.pattern-code code{overflow-x:auto}</style>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1 class="tera gutter pad-t pad-b push-0">Pattern Library</h1>
+        <nav class="nav mega">
+          <ul class="list-group">
+            <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#brand">Brand</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banner">Banner</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+        <section class="pattern" id="brand">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Brand</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#brand-logos">Logos</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#brand-colours">Colours</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#brand-typefaces">Typefaces</a></li>
+          </ol>
+        </nav>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="brand-logos">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Logos</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/brand/1-logos.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="brand-colours">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Colours</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/brand/2-colours.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="brand-typefaces">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Typefaces</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/brand/3-typefaces.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="typography">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Typography</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-font-sizes">Font sizes</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-headings">Headings</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-links">Links</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-lists">Lists</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-vertical-spacing">Vertical spacing</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-horizontal-spacing">Horizontal spacing</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-quotations">Quotations</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#typography-emphasis-and-edits">Emphasis and edits</a></li>
+          </ol>
+        </nav>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The modular typography uses a system generated by <a href="https://typografier.web-dev.tools">Typografier</a>. There are multiple sizes and spacing classes available—all based on the font-size and line-height to create a harmonious vertical rhythm.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="typography-font-sizes">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Font sizes</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>There are 10 font-sizes available based on a typographic scale. The font-sizes and line-heights increase as the screen gets wider to better use the available space.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/00-font-sizes.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="typography-headings">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Headings</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/01-headings.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="typography-links">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Links</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/02-links.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="typography-lists">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Lists</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/03-lists.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="typography-vertical-spacing">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Vertical spacing</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The vertical spacing classes generated by <a href="https://typografier.web-dev.tools">Typografier</a> provide a range of different sizes for both top &amp; bottom padding and bottom margins. These same sizes would be applied to the island classes.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/04-vertical-spacing.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="typography-horizontal-spacing">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Horizontal spacing</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The horizontal spacing classes generated by <a href="https://typografier.web-dev.tools">Typografier</a> provide range of different sizes for left &amp; right padding. These same sizes would be applied to the island classes.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/05-horizontal-spacing.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="typography-quotations">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Quotations</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/06-quotations.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="typography-emphasis-and-edits">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Emphasis and edits</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/typography/07-emphasis-and-edits.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="grid">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Grid</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The grids generated by <a href="https://gridifier.web-dev.tools">Gridifier</a> provide an array of sizing options—with explicit classes—for each major breakpoint.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="grid-grid-sizes">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe  src="patterns/grid/1-grid-sizes.html" onload="resizeIframe(this)"></iframe>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="modules">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Modules</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#modules-list-group">List group</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#modules-embed">Embed</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#modules-media-object">Media object</a></li>
+          </ol>
+        </nav>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p><a href="https://modulifier.web-dev.tools">Modulifier</a> generates a series of simple, default CSS components that can be used throughout the site, or as basic building blocks for more complex patterns.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="modules-list-group">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">List group</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The list group system provides two classes: one for a vertical, stacking group of list items; and another for a horizontal, side-by-side group of list items.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/modules/1-list-group.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;ul class="list-group"&gt;
+  &lt;li>List item 1&lt;/li>
+  &lt;li>List item 2&lt;/li>
+  &lt;li>List item 3&lt;/li>
+  &lt;li>List item 4&lt;/li>
+&lt;/ul>
+
+&lt;ul class="list-group-inline">
+  &lt;li>List item 1&lt;/li>
+  &lt;li>List item 2&lt;/li>
+  &lt;li>List item 3&lt;/li>
+  &lt;li>List item 4&lt;/li>
+&lt;/ul>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="modules-embed">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Embed</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>Embed containers should be used for all content images, enforcing aspect ratios but also giving browsers a placeholder for the graphic before it loads to prevent unnecessary text reflows.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/modules/2-embed.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="embed embed-16by9"&gt;
+  &lt;img class="embed-item" src="placeholder-16by9.svg" alt="">
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="modules-media-object">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Media object</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>A simple pattern that provides and image beside some text—good for comments with avatars and many other situations. Will usually be combined into larger patterns.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/modules/3-media-object.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="media"&gt;
+  &lt;div class="media-img">
+    &lt;img src="placeholder-1by1.svg" alt="">
+  &lt;/div>
+  &lt;div class="media-body">
+    &lt;p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="icons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Icons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="icons-icons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/icons/1-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="banner">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Banner</h2>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="banner-banner">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/banner/banner.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="grid banner island-double gutter-2"&gt;
+  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 banner-content">
+    &lt;h1 class="push-1-4">Make a dog happy.&lt;/h1>
+  &lt;/div>
+  &lt;div>
+    &lt;a class="unit xs-1-2 s-1-2 m-1-2 l-1-2 push btn btn-light" href="">Adopt&lt;/a>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="buttons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Buttons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The buttons use our primary colour to draw attention and stand out. Each button has a specific purpose:</p>
+<ul>
+<li>The regular buttons are for cards, forms and where the background is light colour.</li>
+<li>The light buttons are for dark backgrounds.</li>
+<li>The ghost buttons should be used exclusively on banners where the background is an image.</li>
+</ul>
+<p>Feel free to mix them with the &#39;font-size&#39; classes to make different size of buttons.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="buttons-buttons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/buttons/buttons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;a class="btn" href="#"&gt;Standard button&lt;/a>
+&lt;a class="btn btn-light" href="#">Light button&lt;/a>
+&lt;a class="btn btn-ghost" href="#">Ghost button&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="cards">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Cards</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The cards provide a way for us to highlight important pieces of information &amp; separate them from basic body content</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="cards-icon-card">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="card grid"&gt;
+  &lt;i class="unit xs-1-2 s-1-2 m-1-2 l-1-2 icon i-64">
+      &lt;svg class="bone">&lt;use xlink:href="../../images/icons.svg#bone-icon"/>&lt;/svg>
+    &lt;/i>
+  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+    &lt;h2>Donate&lt;/h2>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+    </main>
+
+  </div>
+
+  <script>var resizeIframe=function(e){setTimeout(function(){e.height=e.contentWindow.document.body.scrollHeight+"px",e.contentWindow.document.body.style.overflow="hidden"},100)};!function(){"use strict";var e,t=function(){var e=document.querySelectorAll("iframe");[].forEach.call(e,function(e){e.height=e.contentWindow.document.body.scrollHeight+"px"})};window.addEventListener("resize",function(){clearTimeout(e),e=setTimeout(t,50)})}();</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+:root {
+  --color-primary: #115b74;
+  --color-primary-light: #86c5da;
+  --color-secondary: #e49600;
+  --color-regular: #000;
+
+  --font-primary: "PT Sans", sans-serif;
+  --font-secondary: "Amaranth", sans-serif;
+
+}
+
+html {
+  font-family: var(--font-primary);
+  color: var(--color-regular);
+}
+
+h1, h2, h3 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h4, h5, h6 {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
+  font-family: var(--font-secondary);
+}

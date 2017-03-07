@@ -1,0 +1,13 @@
+.banner {
+  background-size: cover;
+  background-color: var(--color-light-primary);
+}
+
+.banner-content:hover {
+  transition: 300ms all linear;
+}
+
+
+h1 {
+  color: var(--color-primary);
+}
