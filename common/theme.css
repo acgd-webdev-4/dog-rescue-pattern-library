@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #f1f1f1;
+  --color-secondary: #000;
+  --color-accent: #67d8ff;
+  --color-accent-light: #beeffc;
+
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Dosis", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+a, blockquote, cite, mark {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+}
+
+strong, abbr, i, b {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}

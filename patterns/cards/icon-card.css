@@ -1,0 +1,9 @@
+.icon-card {
+  border-radius: 20px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(103, 216, 255, 1), rgba(103, 216, 255, .5));
+}
+
+.content {
+  transition: 300ms all linear;
+}
