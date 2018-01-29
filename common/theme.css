@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #00D4C4;
+  --color-primary-light: #B9EEE3;
+  --color-secondary: #FF6871;
+  --color-accent: #00D4C4;
+  --color-neutral-beige: #B9EEE3;
+  --color-whatever: #BCF5A9;
+  --font-primary: font-family: "Archivo Black", sans-serif;
+  --font-secondary: font-family: "Playfair Display", serif;
+
+}
+
+html {
+  font-family: var(--font-primary);
+}
