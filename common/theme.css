@@ -11,4 +11,29 @@
 
 html {
   font-family: var(--font-primary);
+
+}
+
+h1 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h3 {
+  color: var(--color-primary-light);
+  font-family: var(--font-primary);
+}
+
+h4 {
+  color: var(--color-accent);
+  font-family: var(--font-primary);
+}
+
+h5, h6 {
+  color: var(--color-neutral);
 }
