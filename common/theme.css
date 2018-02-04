@@ -11,7 +11,6 @@
 
 html {
   font-family: var(--font-primary);
-
 }
 
 h1 {
@@ -46,4 +45,37 @@ ul, ol, dl {
 a {
   color: var(--color-neutral);
   font-style: normal;
+}
+
+blockquote {
+  color: var(--color-primary);
+  color: var(--color-whatever);
+  font-style: italic;
+}
+
+em {
+  color: var(--color-primary-light);
+}
+
+cite {
+  color: var(--color-whatever);
+}
+
+strong, b {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+abbr {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+mark {
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+}
+
+del, ins, dfn, i, q, s, u {
+  color: var(--color-primary-light);
 }
