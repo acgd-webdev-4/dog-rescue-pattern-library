@@ -37,3 +37,13 @@ h4 {
 h5, h6 {
   color: var(--color-neutral);
 }
+
+ul, ol, dl {
+  color: var(--color-accent);
+  font-style: normal;
+}
+
+a {
+  color: var(--color-neutral);
+  font-style: normal;
+}
