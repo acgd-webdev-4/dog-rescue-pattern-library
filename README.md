@@ -1,23 +1,25 @@
 ---
-fontUrl: "https://fonts.googleapis.com/css?family=Archivo+Black"
----
 name: "super company"
 fontUrl: "https://fonts.googleapis.com/css?family=Archivo+Black"
 
-this is the company introduction
-
 fonts:
-primary:
-This font is bold and is the stand out for most of the page.
-secondary:
-This font is for text and paragraphs.
----
+  primary: |
+    This font is bold and is the stand out for most of the page.
+
+    Use the primary typeface for body copy, captions, sections and all default text
+  secondary: |
+    This font is for text and paragraphs.
+
+    Use the secondary typeface for all headings, buttons and useful information
 colors:
-primary:
-These colors are used for heading, h1
-secondary:
-These colours are used for headings
-neutral:
-This color is used for a tags.
-accent:
-This is used for accents.
+  primary: |
+    These colors are used for heading, h1
+  primary-light: |
+    The light version of the primary color is a nice pale orange it will be used as the rules inside the nav.
+  secondary: |
+    These colours are used for headings
+  accent: |
+    This is used for accents.
+---
+
+this is the company introduction
