@@ -1,5 +1,5 @@
 ---
-name: "super company"
+name: "Garden Life"
 fontUrl: "https://fonts.googleapis.com/css?family=Archivo+Black"
 
 fonts:
@@ -22,4 +22,4 @@ colors:
     This is used for accents.
 ---
 
-this is the company introduction
+Garden Life is a small buisness looking to make your gardening experience a better one.
