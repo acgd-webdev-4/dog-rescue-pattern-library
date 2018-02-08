@@ -1,8 +1,14 @@
 .btn{
 background-color: var(--color-primary);
 border-color: var(--color-primary);
+font-family: var(--font-whatever);
 
 color: #fff;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 
 .btn-light {
@@ -12,9 +18,18 @@ color: #fff;
   color: #fff;
 }
 
+.btn-light:hover {
+  border-color: var(--color-secondary);
+}
+
 .btn-ghost {
   background-color: transparent;
   border-color: var(--color-primary);
 
   color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
 }
