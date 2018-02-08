@@ -5,9 +5,9 @@
   --color-secondary: #ee7236;
   --color-secondary-light: #fff;
   --color-secondary-dark: #4aa26c;
-  --color-accent: #333;
+  --color-accent: #000;
   --color-neutral: #e2e2e2;
-  --color-whatever: #f3f3f3;
+  --color-whatever: #777;
   --font-primary: "Rubik", sans-serif;
   --font-secondary: "Open Sans", monospace;
 }
