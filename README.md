@@ -11,7 +11,7 @@ fonts:
 
 color:
   primary: |
-    The primary colour are all the primary colours, red, yellow and blue. Use them for buttons, and main button for more information buttons, for purchase and filter buttons, and also use them for sections.
+    The primary colour is a composition of all the primary colours, of the colour spectrum. Use them for action buttons, main buttons, for more information buttons, for purchase and filter buttons, and also use them for sections.
   secondary: |
     The secondary colour is one of the three colours that face opposite of the primary colour found on the cube and are used throughout the web. Use them for headers, footers and emphasis.
 
