@@ -13,6 +13,27 @@
   filter: grayscale(1);
 }
 
+.product-card {
+  width: 25em;
+  border-right: 5em;
+  border: 1px solid #F5F5F5;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  background-color: #F5F5F5;
+}
+
+.product-list dd {
+  display: inline;
+}
+
+.product-list {
+  width: 50%;
+  overflow: hidden;
+}
+
+.product-list dt {
+  width: 50%;
+}
 .card {
   color: var(--color-primary);
   border: 2px solid var(--color-primary-light);
