@@ -1,0 +1,20 @@
+.image-container img {
+  height: 100%;
+}
+
+.size-img {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img:hover {
+  opacity: 0.8;
+  filter: grayscale(1);
+}
+
+.card {
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 3px;
+}
