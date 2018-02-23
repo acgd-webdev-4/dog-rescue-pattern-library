@@ -18,7 +18,7 @@
       }
 
     body {
-      background-color: #e2e2e2;
+      background-color: #fff;
     }
   </style>
     <link href="https://fonts.googleapis.com/css?family&#x3D;Open+Sans|Rubik:400,700,900" rel="stylesheet">
@@ -103,10 +103,30 @@
                   </div>
                 </a>
               </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="icons" href="#icons">
+                  <div class="relative">
+                    <span>Icons</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
                 <li role="presentation">
                   <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="buttons" href="#buttons">
                     <div class="relative">
                       <span>Buttons</span>
+                      <i class="icon i-18 absolute pin-cr">
+                        <svg><use xlink:href="#icon-active" /></svg>
+                      </i>
+                    </div>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="cards" href="#cards">
+                    <div class="relative">
+                      <span>Cards</span>
                       <i class="icon i-18 absolute pin-cr">
                         <svg><use xlink:href="#icon-active" /></svg>
                       </i>
@@ -631,6 +651,34 @@
 
 </section>
 
+        <section class="pattern" id="icons" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #db4448;">Icons</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+        </ul>
+  </div>
+
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability. <a href="https://learn-the-web.algonquindesign.ca/topics/modulifier-cheat-sheet/">See the documentation for all available classes.</a></p>
+</div>
+    </div>
+
+  
+
+    <div class="pattern-details" id="icons-icons" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/icons/1-icons.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons" role="tabpanel" hidden aria-hidden="true" style="">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name exa push-1-4" style="color: #db4448;">Buttons</h2>
@@ -692,9 +740,457 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;a class="btn push-r"&gt;&lt;span class="btn-more-side" aria-label="More">More&lt;i class="btn-more-opposite">&lt;/i>&lt;/span>&lt;/a>
-&lt;a class="btn btn-cart push-r">&lt;span class="btn-cart-side" aria-label="Cart">Cart&lt;i class="btn-cart-opposite">&lt;/i>&lt;/span>&lt;/a>
-&lt;a class="btn btn-save">&lt;span class="btn-save-side" aria-label="Cart">Save&lt;i class="btn-save-opposite">&lt;/i>&lt;/span>&lt;/a>
+              <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;a class="btn"&gt;&lt;span aria-label="More">More&lt;i>&lt;/i>&lt;/span>&lt;/a>
+&lt;a class="btn btn-save pad-t">&lt;span aria-label="Save">Save&lt;i>&lt;/i>&lt;/span>&lt;/a>
+&lt;a class="btn btn-cart push-r-2 pad-t">&lt;span aria-label="Cart">Cart&lt;i>&lt;/i>&lt;/span>&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="cards" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
+    <h2 class="pattern-name exa push-1-4" style="color: #db4448;">Cards</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#cards-cart-item">Cart item</a></li>
+            <li><a href="#cards-home-banner">Home banner</a></li>
+            <li><a href="#cards-info-card">Info card</a></li>
+            <li><a href="#cards-popular-sell">Popular sell</a></li>
+            <li><a href="#cards-product-detail">Product detail</a></li>
+            <li><a href="#cards-product-list-banner">Product list banner</a></li>
+        </ol>
+      </nav>
+  </div>
+
+
+  
+
+    <div class="pattern-details" id="cards-cart-item" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Cart item</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-cart-item-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/cart-item.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/cards/cart-item.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-cart-item-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-cart-item-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-cart-item-code-sample-copy-chunk">&lt;div class="grid cart-item main-card gutter-1-2 pad-t-1-2 pad-b-1-2"&gt;
+  &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-2] push">
+    &lt;img class="img-flex" src="../../images/variation-rubik.jpg" alt="">
+  &lt;/div>
+  &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-2] gutter">
+    &lt;h3 class="pad-b-1-2 push-1-2">Item Name&lt;/h3>
+    &lt;p class="push-1-2">$$$$&lt;/p>
+    &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>
+    &lt;a class="btn btn-drop" href="#">drop&lt;/a>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="cards-home-banner" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Home banner</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-home-banner-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/home-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/cards/home-banner.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-home-banner-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-home-banner-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-home-banner-code-sample-copy-chunk">&lt;div class="banner relative"&gt;
+  &lt;div>
+    &lt;img class="img-flex" src="../../images/rubik-mainbanner.jpg" alt="">
+  &lt;/div>
+  &lt;div class="text-box-banner absolute pin-lc gutter-2">
+    &lt;h1 class="pad-t-2">Home of the Rubik&lt;/h1>
+    &lt;p class="max-length">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco&lt;/p>
+  &lt;/div>
+
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="cards-info-card" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Info card</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-info-card-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/info-card.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/cards/info-card.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-info-card-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-info-card-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-info-card-code-sample-copy-chunk">&lt;div class="main-card"&gt;
+  &lt;a class="link-box" href="#">
+    &lt;div class="grid">
+      &lt;div class="unit [ xs-1 s-1 m-1 l-1 ] gutter-1-2 pad-t-1-2 pad-b-1-2">
+        &lt;img class="img-flex" src="../../images/chess-pieces.jpg" alt="">
+      &lt;/div>
+      &lt;div class="unit [ xs-1 s-1 m-1 l-1 ] ">
+        &lt;div class="text-info pad-t-2 gutter">
+          &lt;h2 class="zetta push-0">New Release&lt;/h2>
+          &lt;p class="push-1-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+          &lt;a class="btn btn-more push" href="#">more&lt;/a>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/a>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="cards-popular-sell" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Popular sell</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-popular-sell-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/popular-sell.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/cards/popular-sell.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-popular-sell-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-popular-sell-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-popular-sell-code-sample-copy-chunk">&lt;div class="grid popular-sell"&gt;
+  &lt;div class="unit [ xs-1 s-1-3 m-1-4 l-1-4]">
+    &lt;img class="img-flex" src="../../images/variation-rubik.jpg" alt="">
+  &lt;/div>
+  &lt;div class="unit [ xs-1 s-2-3 m-3-4 l-3-4] gutter">
+    &lt;h3 class="h3-separator pad-b-1-2">NEW Releases&lt;/h3>
+    &lt;p class="push-1-2">$$$$&lt;/p>
+    &lt;a class="btn btn-more" href="#">more&lt;/a>
+    &lt;a class="btn btn-cart" href="#">cart&lt;/a>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="cards-product-detail" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Product detail</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-product-detail-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/product-detail.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/cards/product-detail.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-product-detail-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-product-detail-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-product-detail-code-sample-copy-chunk">&lt;div class="main-card"&gt;
+  &lt;div class="grid gutter-1-2 pad-t-1-2">
+
+    &lt;div class="unit [ xs-1 s-1 m-1-3 l-1-3]">
+      &lt;div class="grid">
+
+        &lt;div class="unit [ s-1 ] ">
+          &lt;img class="img-flex" src="../../images/wrench.jpg" alt="">
+        &lt;/div>
+        &lt;div class="unit [ s-1 ] pad-t">
+          &lt;div class="grid">
+            &lt;div class="unit [ xs-1-3 ] gutter-1-8">
+              &lt;img class="img-flex" src="../../images/wrench.jpg" alt="">
+            &lt;/div>
+            &lt;div class="unit [ xs-1-3 ] gutter-1-8">
+              &lt;img class="img-flex" src="../../images/wrench.jpg" alt="">
+            &lt;/div>
+            &lt;div class="unit [ xs-1-3 ] gutter-1-8">
+              &lt;img class="img-flex" src="../../images/wrench.jpg" alt="">
+            &lt;/div>
+          &lt;/div>
+        &lt;/div>
+
+      &lt;/div>
+    &lt;/div>
+
+    &lt;div class="unit [ xs-1 s-1 m-2-3 l-2-3] gutter pad-t-1-2">
+
+      &lt;h2 class="info-item push-1-2 zetta">Item Name&lt;/h2>
+      &lt;div class="info-container pad-t-1-4 pad-b-1-4">
+        &lt;ul class="list-group-inline push-0">
+          &lt;li>&lt;a class="link-box" href="#">7 reviews&lt;/a>&lt;/li> &lt;b class="separator">|&lt;/b>
+          &lt;li>&lt;a class="link-box" href="#">Make a Review&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+      &lt;h3 class="pad-t-1-2 peta push-1-2">$$$$&lt;/h3>
+      &lt;dl class="list-group-inline">
+        &lt;dt class="milli push-0">Brand:&lt;/dt>
+        &lt;dd class="milli push-0">Rubikas&lt;/dd>
+        &lt;dt class="milli push-0">Product Number:&lt;/dt>
+        &lt;dd class="milli push-0">00000000000&lt;/dd>
+        &lt;dt class="milli push-0">Availability:&lt;/dt>
+        &lt;dd class="milli push-0">In Stock&lt;/dd>
+        &lt;dt class="milli push-0">Accessibility:&lt;/dt>
+        &lt;dd class="milli push-0">Colour Blind Friendly.&lt;br> Unavailable to the Blind.&lt;/dd>
+      &lt;/dl>
+
+      &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+      &lt;div class=" push">
+        &lt;a class="btn btn-cart" href="#"> Cart&lt;/a>
+        &lt;a class="btn btn-cart" href="#"> Save&lt;/a>
+
+      &lt;/div>
+    &lt;/div>
+
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="cards-product-list-banner" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Product list banner</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-product-list-banner-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/product-list-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/cards/product-list-banner.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-product-list-banner-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-product-list-banner-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-product-list-banner-code-sample-copy-chunk">&lt;div class="banner"&gt;
+  &lt;div class="relative">
+    &lt;img class="img-flex" src="../../images/rubik-banner-filter.jpg" alt="">
+  &lt;/div>
+  &lt;div class="text-box-banner absolute pin-lc gutter-2">
+    &lt;h1 class="pad-t-2">Filtering your Rubik&lt;/h1>
+    &lt;p class="max-length">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco&lt;/p>
+  &lt;/div>
+
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -756,7 +1252,7 @@
     :root {
       --color-patternbot-interface: 0;
       --color-patternbot-interface-opposite: 255;
-      --color-patternbot-background: #e2e2e2;
+      --color-patternbot-background: #fff;
     }
   </script>
 
@@ -764,7 +1260,7 @@
     var patternbotInterfaceColours = {
       primary: 0,
       opposite: 255,
-      background: '#e2e2e2',
+      background: '#fff',
     };
   </script>
 
