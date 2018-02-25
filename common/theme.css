@@ -43,7 +43,7 @@ h6 {
 }
 
 a {
-  color: var(--color-primary-dark)
+  color: var(--color-primary-dark);
 }
 
 ul li {

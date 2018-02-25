@@ -1,0 +1,24 @@
+h2 {
+  color: var(--color-secondary-light);
+}
+
+.line-separator {
+  border-bottom: 4px solid var(--color-accent);
+}
+
+.number-devider {
+  background-color: #fff;
+  color: var(--color-secondary-dark);
+  height: 1.5em;
+  width: 1.5em;
+  border: 6px solid var(--color-accent);
+}
+
+.legend {
+  display: inline-block;
+}
+
+input,
+select {
+  border: 4px solid var(--color-accent);
+}
