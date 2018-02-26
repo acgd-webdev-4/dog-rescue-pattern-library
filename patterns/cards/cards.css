@@ -39,6 +39,10 @@
   width: 25em;
 }
 
+.productcard:hover {
+  background-color: #f0eee8;
+}
+
 h3 {
   color: var(--color-neutral-beige);
 }
