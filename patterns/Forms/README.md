@@ -1,10 +1,16 @@
 ---
-text:
-  width: 300
-  description: |
-    Basic form input used for text.
-select:
-  width: 400
-  description: |
-    Drop down menu for selecting an option.
+text area: |
+  This section allows you to input text into this feild.
+
+email input: |
+  This section is for inputting your email.
+
+drop bar: |
+    The drop bar is meant for a list of items, it allows you to select from the list within the bar.
+
+Checkbox: |
+    The Checkbox is for selecting one or more items by checking them off.
+
 ---
+
+The Forms provide a way for us to get information to complete a transaction or get to know someone better.

@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1519654980239
+ * @version 1519657362196
  */
-const patternManifest_1519654980239 = {
+const patternManifest_1519657362196 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -550,9 +550,9 @@ const patternManifest_1519654980239 = {
       "sizeLargeLocal": "logo.png"
     },
     "patterns": [
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms",
       "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/buttons",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards"
+      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards",
+      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms"
     ],
     "pages": []
   },
@@ -602,13 +602,15 @@ const patternManifest_1519654980239 = {
           "name": "image-card",
           "namePretty": "Image card",
           "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards/image-card.html",
-          "localPath": "patterns/cards/image-card.html"
+          "localPath": "patterns/cards/image-card.html",
+          "readme": {}
         },
         {
           "name": "product-card",
           "namePretty": "Product card",
           "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards/product-card.html",
-          "localPath": "patterns/cards/product-card.html"
+          "localPath": "patterns/cards/product-card.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -631,42 +633,45 @@ const patternManifest_1519654980239 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms",
+      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms",
       "html": [
+        {
+          "name": "checkbox",
+          "namePretty": "Checkbox",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/checkbox.html",
+          "localPath": "patterns/forms/checkbox.html"
+        },
         {
           "name": "dropbar",
           "namePretty": "Dropbar",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/dropbar.html",
-          "localPath": "patterns/Forms/dropbar.html"
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/dropbar.html",
+          "localPath": "patterns/forms/dropbar.html"
         },
         {
           "name": "emailinput",
           "namePretty": "Emailinput",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/emailinput.html",
-          "localPath": "patterns/Forms/emailinput.html"
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/emailinput.html",
+          "localPath": "patterns/forms/emailinput.html"
         },
         {
           "name": "text",
           "namePretty": "Text",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/text.html",
-          "localPath": "patterns/Forms/text.html",
-          "readme": {
-            "width": 300
-          }
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/text.html",
+          "localPath": "patterns/forms/text.html"
         },
         {
           "name": "textarea",
           "namePretty": "Textarea",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/textarea.html",
-          "localPath": "patterns/Forms/textarea.html"
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/textarea.html",
+          "localPath": "patterns/forms/textarea.html"
         }
       ],
       "md": [
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/README.md",
-          "localPath": "patterns/Forms/README.md"
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/README.md",
+          "localPath": "patterns/forms/README.md"
         }
       ],
       "css": []
@@ -692,5 +697,5 @@ const patternManifest_1519654980239 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519654980239);
+patternBotIncludes(patternManifest_1519657362196);
 }());

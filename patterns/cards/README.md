@@ -2,8 +2,11 @@
 basic-card: |
   The basic card should only be for information, it could include a button, but is never a link itself.
 
-icon-card: |
-  The icon card is generally used for calls-to-action on the homepage or highlight on inside pages.
+image-card: |
+  The icon card is used for images.
+
+product-card: |
+    The icon card is used products to help give more info on the product and also information about the pricing.
 
 ---
 

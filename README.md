@@ -13,13 +13,13 @@ fonts:
     Use the secondary typeface for all headings, buttons and useful information
 colors:
   primary: |
-    These colors are used for heading, h1
+    These colors are used for headings and h1s, the primary colours are also used for most of the website.
   primary-light: |
     The light version of the primary color is a nice pale orange it will be used as the rules inside the nav.
   secondary: |
-    These colours are used for headings
+    These colours are used for headings and button hovers to help create contrast in the website.
   accent: |
-    This is used for accents.
+    This is used for accents and areas that need a darker colour to help make other colours standout.
 ---
 
 Garden Life is a small buisness looking to make your gardening experience a better one.
