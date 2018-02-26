@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1519653661943
+ * @version 1519654623413
  */
-const patternManifest_1519653661943 = {
+const patternManifest_1519654623413 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -634,6 +634,12 @@ const patternManifest_1519653661943 = {
       "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms",
       "html": [
         {
+          "name": "dropbar",
+          "namePretty": "Dropbar",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/dropbar.html",
+          "localPath": "patterns/Forms/dropbar.html"
+        },
+        {
           "name": "text",
           "namePretty": "Text",
           "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/text.html",
@@ -641,6 +647,12 @@ const patternManifest_1519653661943 = {
           "readme": {
             "width": 300
           }
+        },
+        {
+          "name": "textarea",
+          "namePretty": "Textarea",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/Forms/textarea.html",
+          "localPath": "patterns/Forms/textarea.html"
         }
       ],
       "md": [
@@ -674,5 +686,5 @@ const patternManifest_1519653661943 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519653661943);
+patternBotIncludes(patternManifest_1519654623413);
 }());
