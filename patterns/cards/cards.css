@@ -40,9 +40,9 @@
   border-radius: 8px;
 }
 
-.product-card {
+.productcard {
   color: var(--color-secondary);
-  border-bottom: 2px solid var(--color-primary);
-  background-color: #fff;
+  background-color: var(--color-primary);
   display: block;
+  height: 5em;
 }

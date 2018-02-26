@@ -759,9 +759,11 @@
 
     <div class="pattern-desc milli island" style="">
       <div class="max-length"><p>The buttons use the primary color both bright and light forms, to make them eye catching. Each button has a specific use.</p>
-<p>-The regular button will be used for light colored background areas, cards.
--The light buttons will be for any form of dark background areas.
--The ghost buttons should be used on banners where the background is an image.</p>
+<ul>
+<li>The regular button will be used for light colored background areas, cards.</li>
+<li>The light buttons will be for any form of dark background areas.</li>
+<li>The ghost buttons should be used on banners where the background is an image.</li>
+</ul>
 <p>Feel free to mix them with the &#39;font-size&#39; classes to make different sizes of buttons.</p>
 </div>
     </div>
@@ -798,10 +800,10 @@
                 </i>
               </button>
               <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;
-&lt;link href="css/modules.css" rel="stylesheet">
-&lt;link href="css/grid.css" rel="stylesheet">
-&lt;link href="css/type.css" rel="stylesheet">
-&lt;link href="css/main.css" rel="stylesheet">
+&lt;link href="../../common/modules.css" rel="stylesheet">
+&lt;link href="../../common/grid.css" rel="stylesheet">
+&lt;link href="../../common/type.css" rel="stylesheet">
+&lt;link href="../../common/theme.css" rel="stylesheet">
 &lt;link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 &lt;link href="buttons.css" rel="stylesheet">
 
@@ -823,7 +825,6 @@
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#cards--basic-card">Basic card</a></li>
-            <li><a href="#cards--icon-card">Icon card</a></li>
             <li><a href="#cards--image-card">Image card</a></li>
             <li><a href="#cards--product-card">Product card</a></li>
         </ol>
@@ -905,77 +906,6 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details " id="cards--icon-card" style="">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
-          <h3 class="pattern-name tera push-1-8">Icon card</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-icon-card-code-sample">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-code"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="cards/icon-card" hidden>
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-copy"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/icon-card.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-pop-out"></use></svg>
-                    </i>
-                  </a>
-                </li>
-            </ul>
-        </div>
-          <div class="pattern-desc milli island" style="">
-            <div class="max-length"><p>The icon card is generally used for calls-to-action on the homepage or highlight on inside pages.</p>
-</div>
-          </div>
-
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
-            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/cards/icon-card.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-                <div class="resize-handle resize-handle-right" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-icon-card-code-sample" tabindex="-1">
-            <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-icon-card-code-sample-copy-chunk" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-              <code><pre id="cards-icon-card-code-sample-copy-chunk">&lt;div class="card island-1-2 text-center"&gt;
-  &lt;i class="icon i-128 push-1-2">
-      &lt;svg>&lt;use xlink:href="../../images/icons.svg#velociraptor"/>&lt;/svg>
-    &lt;/i>
-  &lt;h2 class="push-1-4">This is a card&lt;/h2>
-  &lt;p class="push-0">THIS IS A BASIC CARD&lt;/p>
-&lt;/div>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
     <div class="pattern-details " id="cards--image-card" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Image card</h3>
@@ -1031,10 +961,8 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-image-card-code-sample-copy-chunk">&lt;div class="grid island"&gt;
-  &lt;div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 image-container size-img">
-    &lt;a href="#">&lt;img class="img-flex" src="../../images/cardimage.png" alt="">&lt;/a>
-  &lt;/div>
+              <code><pre id="cards-image-card-code-sample-copy-chunk">&lt;div class="image-container size-img"&gt;
+  &lt;a href="#">&lt;img class="img-flex" src="../../images/cardimage.png" alt="">&lt;/a>
 &lt;/div>
 </pre></code>
             </div>
@@ -1096,7 +1024,15 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-product-card-code-sample-copy-chunk">
+              <code><pre id="cards-product-card-code-sample-copy-chunk">&lt;a class="productcard island" href="#"&gt;
+  &lt;div class="embed embed-1by1">
+    &lt;img class="embed-item img-flex" src="https://placehold.it/1by1" alt="">
+  &lt;/div>
+  &lt;div class="island-1-2 text-center">
+    &lt;h3 class="push-0">Heres a product shot&lt;/h3>
+    &lt;p class="italic">Pricing and other info&lt;/p>
+  &lt;/div>
+&lt;/a>
 </pre></code>
             </div>
           </div>
