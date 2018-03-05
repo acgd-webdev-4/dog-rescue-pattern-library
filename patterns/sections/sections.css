@@ -5,29 +5,32 @@ h1 {
   margin-right: 2em;
   font-family: var(--font-secondary);
 }
+
+.link,
 nav {
   background-color: #fcfcfc;
 }
 
-.nav-checkout {
+.link-checkout {
   color: var(--color-primary-light);
   font-family: var(--font-secondary);
   text-align: center;
 }
 
-.nav-bg {
+.link-bg {
   color: var(--color-primary);
 }
 
-.nav-list {
+.link-list {
   padding-left: 0;
 }
 
-.logo,
+.link,
 nav {
   text-align: center;
 }
 
+.link,
 nav a {
   color: var(--color-primary-light);
   border-bottom: 1.5px solid var(--color-primary);
@@ -45,4 +48,21 @@ nav a:hover {
 
 p {
 color: var(--color-primary);
+}
+
+.navi {
+  position: relative;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+}
+
+.navi ol:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+nav ol .selection {
+  background-color: var(--color-primary);
+  color: #fff;
 }

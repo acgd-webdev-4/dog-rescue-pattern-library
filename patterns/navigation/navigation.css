@@ -1,0 +1,49 @@
+.nav ol {
+  text-align: center;
+  position: relative;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ol:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+nav ol .selection {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+nav a {
+  display: inline-block;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: #fff;
+  transition: all 250ms ease;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-primary-light);
+  color: var(--color-primary-light);
+  border-radius: 5px;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: #fff;
+  transition: all 250ms ease;
+  border-radius: 3px;
+}
