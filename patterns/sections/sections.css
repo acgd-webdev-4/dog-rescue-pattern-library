@@ -5,6 +5,9 @@ h1 {
   margin-right: 2em;
   font-family: var(--font-secondary);
 }
+nav {
+  background-color: #fcfcfc;
+}
 
 .nav-checkout {
   color: var(--color-primary-light);
