@@ -19,3 +19,19 @@ h1 {
 .nav-list {
   padding-left: 0;
 }
+
+.logo,
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: var(--color-primary-light);
+  border-bottom: 1.5px solid var(--color-primary);
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-color: var(--color-whatever);
+  color: var(--color-whatever);
+}
