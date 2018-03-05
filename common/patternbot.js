@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1520262551575
+ * @version 1520263633322
  */
-const patternManifest_1520262551574 = {
+const patternManifest_1520263633322 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -636,9 +636,30 @@ const patternManifest_1520262551574 = {
       "name": "footer",
       "namePretty": "Footer",
       "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer",
-      "html": [],
-      "md": [],
-      "css": []
+      "html": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer/footer.html",
+          "localPath": "patterns/footer/footer.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
+        }
+      ]
     },
     {
       "name": "forms",
@@ -795,5 +816,5 @@ const patternManifest_1520262551574 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520262551574);
+patternBotIncludes(patternManifest_1520263633322);
 }());

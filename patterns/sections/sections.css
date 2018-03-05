@@ -43,11 +43,11 @@ nav a:hover {
 }
 
 .img-s {
-  width: 35px;
+  width: 40px;
 }
 
 p {
-color: var(--color-primary);
+color: var(--color-primary-light);
 }
 
 .navi {
