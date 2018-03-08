@@ -21,7 +21,7 @@
 }
 
 .buttons {
-  color: var(--color-secondary-light);
+  color: var(--color-accent);
 
 }
 
@@ -34,8 +34,37 @@
     translate(0, 100%);
 }
 
+h2 {
+  line-height: 48px;
+}
+
+.pin-top-left, .pin-left-top, .pin-tl, .pin-lt {
+  top: -24px;
+  left: 0;
+}
 
 .current {
   border: 4px solid var(--color-accent);
   border-radius: 8px;
+}
+
+.sections {
+  background-color: var(--color-secondary);
+}
+
+.tool-bar {
+  background-color: var(--color-secondary-light);
+  box-shadow: 2px -6px 20px var(--color-accent);
+}
+
+.cart-clicked {
+  display: none;
+}
+
+.cart-btn:focus .cart-click {
+  display: none;
+}
+
+.cart-btn:focus .cart-clicked {
+  display: block;
 }

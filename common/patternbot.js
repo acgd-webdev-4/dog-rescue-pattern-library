@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1520517519264
+ * @version 1520523124927
  */
-const patternManifest_1520517519264 = {
+const patternManifest_1520523124927 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -563,7 +563,7 @@ const patternManifest_1520517519264 = {
     },
     "icons": [
       "cart-item",
-      "cart",
+      "cart-empty",
       "form-completed",
       "form-optional",
       "form-warning",
@@ -811,11 +811,29 @@ const patternManifest_1520517519264 = {
           "readme": {}
         },
         {
+          "name": "filter",
+          "namePretty": "Filter",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/filter.html",
+          "localPath": "patterns/navigation/filter.html"
+        },
+        {
           "name": "page-navigation",
           "namePretty": "Page navigation",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/page-navigation.html",
           "localPath": "patterns/navigation/page-navigation.html",
           "readme": {}
+        },
+        {
+          "name": "section",
+          "namePretty": "Section",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/section.html",
+          "localPath": "patterns/navigation/section.html"
+        },
+        {
+          "name": "tool-bars",
+          "namePretty": "Tool bars",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/tool-bars.html",
+          "localPath": "patterns/navigation/tool-bars.html"
         }
       ],
       "md": [
@@ -856,5 +874,5 @@ const patternManifest_1520517519264 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520517519264);
+patternBotIncludes(patternManifest_1520523124927);
 }());
