@@ -26,10 +26,10 @@
 }
 
 .icon-flip {
-  transform-origin: right bottom; /* or 100% 100%, same thing */
+  transform-origin: right bottom;
   transform:
     rotate(90deg)
-    translate(0, 90%) /* go from bottom right to top right */
+    translate(0, 90%)
     rotate(90deg)
     translate(0, 100%);
 }
