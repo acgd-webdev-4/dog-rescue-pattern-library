@@ -14,10 +14,23 @@
 </head>
 <body>
 
-  <div class="unit [ xs-1-2 ] pad-t gutter-1-4">
-    <label for="first-name">First Name</label>
-    <input type="text" name="first-name" id="first-name" required>
-  </div>
+    <div>
+      <form class="" action="index.html" method="post" novalidate>
+
+        <div class="unit [ xs-1-2 ]">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" required aria-describedby="first-name-error">
+          <p class="error-message milli island-1-4 push-0 text-center" id="first-name-error">
+            <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#form-warning" /></svg></i>
+            <span class="icon-label">Please fill out your name as instructed</span>
+          </p>
+        </div>
+      </form>
+
+
+      <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+    </div>
+
 
 </body>
 </html>

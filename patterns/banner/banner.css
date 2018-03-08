@@ -1,0 +1,77 @@
+html {
+  line-height: 24px;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+.main-card {
+  border: 6px solid #000;
+  border-radius: 20px;
+  margin: 1em;
+  box-shadow: 10px 10px 10px #e2e2e2;
+}
+
+.home-text-image-banner {
+  background-image: url(../../images/rubik-mainbanner.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.home-text-box-banner {
+  bottom: 0;
+}
+
+.filter-text-image-banner {
+  background-image: url(../../images/rubik-banner.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.filter-text-box-banner {
+  bottom: 0;
+}
+
+p {
+  background-color: var(--color-secondary-light);
+  border-radius: 6px;
+  border: 6px solid var(--color-accent);
+}
+
+h3,
+h4,
+h5 {
+   line-height: 48px;
+}
+
+h1,
+h2 {
+  line-height: 62px;
+  text-shadow: 4px 0 0 var(--color-secondary-light), -4px 0 0 var(--color-secondary-light), 0 4px 0 var(--color-secondary-light), 0 -4px 0 var(--color-secondary-light);
+}
+
+.separator {
+  color: var(--color-primary-dark);
+}
+
+.info-container {
+  border-top: 4px solid var(--color-primary-dark);
+  border-bottom: 4px solid var(--color-primary-dark);
+}
+
+dl dd {
+  margin: 0;
+}
+
+.popular-sell {
+  margin-bottom: 4px solid var(--color-whatever);
+}
+
+.h3-separator {
+  border-bottom: 4px solid var(--color-primary-dark);
+  display: inline-block;
+  line-height: 62px;
+}
