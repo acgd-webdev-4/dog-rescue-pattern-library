@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1520263633322
+ * @version 1520857825575
  */
-const patternManifest_1520263633322 = {
+const patternManifest_1520857825575 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -641,7 +641,8 @@ const patternManifest_1520263633322 = {
           "name": "footer",
           "namePretty": "Footer",
           "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer/footer.html",
-          "localPath": "patterns/footer/footer.html"
+          "localPath": "patterns/footer/footer.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -718,9 +719,30 @@ const patternManifest_1520263633322 = {
       "name": "header",
       "namePretty": "Header",
       "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header",
-      "html": [],
-      "md": [],
-      "css": []
+      "html": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header/header.html",
+          "localPath": "patterns/header/header.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header/header.css",
+          "localPath": "patterns/header/header.css"
+        }
+      ]
     },
     {
       "name": "navigation",
@@ -816,5 +838,5 @@ const patternManifest_1520263633322 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520263633322);
+patternBotIncludes(patternManifest_1520857825575);
 }());
