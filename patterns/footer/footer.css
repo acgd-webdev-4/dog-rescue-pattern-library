@@ -1,0 +1,24 @@
+.footer-section {
+  background-color: var(--color-whatever);
+}
+
+.footer-section-text,
+.footer-section-heading {
+  color: var(--color-secondary-light);
+}
+
+.footer-bottom {
+  background-color: var(--color-accent);
+}
+
+.logo-footer {
+  color: var(--color-secondary-light);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .footer-section {
+    text-align: left;
+  }
+
+}
