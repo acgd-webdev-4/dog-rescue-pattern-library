@@ -140,7 +140,10 @@
 
 .btn-drop span::before,
 .btn-drop span::after,
-.btn-drop span i {
+.btn-drop span i,
+.btn-filter span::before,
+.btn-filter span::after,
+.btn-filter span i {
   content: attr(aria-label);
   display: inline-flex;
   position: absolute;
@@ -154,17 +157,35 @@
   top: 0;
 }
 
-.btn-drop span::after {
+.btn-drop span::after,
+.btn-filter span::after {
   transform: rotateX(-180deg) translate3d(0, 0, 2.5em);
   background-color: var(--color-primary-dark);
 }
 
-.btn-drop span i {
+.btn-filter span::before {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-filter span::after {
+  background-color: var(--color-secondary-dark);
+}
+
+.btn-drop span i,
+.btn-filter span i {
   top: 2px;
   transform: rotateX(90deg) translate3d(0, 0, 2.5em);
   background-color: var(--color-secondary-light);
 }
 
-.btn-drop:hover span {
+.btn-drop:hover span,
+.btn-filter:hover span {
   transform: rotateX(-180deg);
+}
+
+button,
+button:hover {
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }

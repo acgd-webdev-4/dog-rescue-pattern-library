@@ -66,3 +66,20 @@ textarea {
 .grey-text {
   color: var(--color-whatever);
 }
+
+.search-icon {
+  top: 1.5em;
+  left: 1.75em;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .search-icon {
+    top: 1.8em;
+    left: 1.75em;
+    height: 26px;
+    width: 26px;
+  }
+
+}

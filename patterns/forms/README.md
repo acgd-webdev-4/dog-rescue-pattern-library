@@ -16,6 +16,8 @@ legend-label: |
   The legend should be used to separate different sections in the form.
 select-input: |
   The select input should be used to select different options in drop-down selection.
+search-input: |
+  The select input should be used to filter out options when searching for products.
 
 ---
 
