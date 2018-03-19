@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1521455046800
+ * @version 1521455859487
  */
-const patternManifest_1521455046800 = {
+const patternManifest_1521455859487 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -668,28 +668,22 @@ const patternManifest_1521455046800 = {
       "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
-          "name": "checkbox",
-          "namePretty": "Checkbox",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/checkbox.html",
-          "localPath": "patterns/forms/checkbox.html"
+          "name": "email-input",
+          "namePretty": "Email input",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/email-input.html",
+          "localPath": "patterns/forms/email-input.html"
         },
         {
-          "name": "dropbar",
-          "namePretty": "Dropbar",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/dropbar.html",
-          "localPath": "patterns/forms/dropbar.html"
+          "name": "form-dropmenu",
+          "namePretty": "Form dropmenu",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/form-dropmenu.html",
+          "localPath": "patterns/forms/form-dropmenu.html"
         },
         {
-          "name": "emailinput",
-          "namePretty": "Emailinput",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/emailinput.html",
-          "localPath": "patterns/forms/emailinput.html"
-        },
-        {
-          "name": "text",
-          "namePretty": "Text",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/text.html",
-          "localPath": "patterns/forms/text.html"
+          "name": "text-form",
+          "namePretty": "Text form",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/text-form.html",
+          "localPath": "patterns/forms/text-form.html"
         },
         {
           "name": "textarea",
@@ -839,5 +833,5 @@ const patternManifest_1521455046800 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521455046800);
+patternBotIncludes(patternManifest_1521455859487);
 }());
