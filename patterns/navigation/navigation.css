@@ -1,11 +1,11 @@
 .breadcrumb li a {
-    color: var(--color-secondary-dark);
+    color: var(--color-primary-dark);
     text-decoration: none;
     display: inline-block;
 }
 
 .breadcrumb li a:hover {
-    color: var(--color-primary-dark);
+    color: var(--color-secondary-dark);
 }
 
 .page-available {
@@ -22,7 +22,10 @@
 
 .buttons {
   color: var(--color-accent);
+}
 
+.field-padding {
+  padding: 0;
 }
 
 h2 {

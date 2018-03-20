@@ -25,6 +25,26 @@
   margin-bottom: .5em;
 }
 
+li.current {
+  position: relative;
+}
+
+li.current::after {
+  position: absolute;
+  top: -0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  content:"";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: var(--color-secondary-dark);
+}
+
+li.current:hover::after {
+  background-color: var(--color-primary-dark);
+}
+
 .nav-bar-toggle {
   display: none;
 }
@@ -63,6 +83,5 @@
   .input-toggle {
     display: none;
   }
-
 
 }
