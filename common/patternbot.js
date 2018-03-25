@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1521565780770
+ * @version 1522011950485
  */
-const patternManifest_1521565780769 = {
+const patternManifest_1522011950485 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -660,7 +660,13 @@ const patternManifest_1521565780769 = {
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/leftovers",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/pages/home.html"
+      }
+    ]
   },
   "userPatterns": [
     {
@@ -1070,5 +1076,5 @@ const patternManifest_1521565780769 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521565780769);
+patternBotIncludes(patternManifest_1522011950485);
 }());

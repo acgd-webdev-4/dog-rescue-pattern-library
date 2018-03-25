@@ -1,6 +1,11 @@
+.rubikas-logo-text {
+  padding-left: 1em;
+}
+
 .nav-bar {
   background-color: var(--color-neutral);
   height: 4em;
+  position: relative;
 }
 
 #nav-items {
@@ -51,10 +56,20 @@ li.current:hover::after {
 
 .toggle-clicked {
   display: none;
+  z-index: 200;
+}
+
+#nav-check {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  bottom: -168px;
 }
 
 #nav-check:checked ~ .nav-bar-toggle {
   display: block;
+  left: 0;
+  height: 100%;
 }
 
 #nav-check:checked ~ .input-toggle .toggle-click  {

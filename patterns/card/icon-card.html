@@ -17,65 +17,87 @@
   <div class="main-card">
     <div class="grid gutter-1-2 pad-t-1-2">
 
-      <div class="unit [ xs-1 s-1 m-1-3 l-1-3]">
-        <div class="grid">
+      <div class="unit [ xs-1 s-1 l-1-4]">
+        <ul class="grid list-group relative">
 
-          <div class="unit [ s-1 ] ">
-            <img class="img-flex" src="../../images/wrench.jpg" alt="">
-          </div>
-          <div class="unit [ s-1 ] pad-t">
-            <div class="grid">
-              <div class="unit [ xs-1-3 ] gutter-1-8">
-                <img class="img-flex" src="../../images/wrench.jpg" alt="">
-              </div>
-              <div class="unit [ xs-1-3 ] gutter-1-8">
-                <img class="img-flex" src="../../images/wrench.jpg" alt="">
-              </div>
-              <div class="unit [ xs-1-3 ] gutter-1-8">
-                <img class="img-flex" src="../../images/wrench.jpg" alt="">
-              </div>
+          <li class="unit [ s-1 ] relative img-display-main">
+            <div class="embed embed-3by2 push" id="img-div">
+              <img id="img-shown-one" class="img-display embed-item current-img" src="../../images/wrench.jpg" aria-details="image-of-a-wrench-fixing-a-cube">
+              <img id="img-shown-two" class="img-display embed-item" src="../../images/chess-pieces.jpg" aria-details="image-of-a-wrench-fixing-a-cube">
+              <img id="img-shown-three" class="img-display embed-item" src="../../images/variation-rubik.jpg" aria-details="image-of-a-wrench-fixing-a-cube">
             </div>
-        </div>
+            <div class="grid small-img-show">
+              <div class="unit [ xs-1-3 ] gutter-1-8 current-img-s">
+                <a href="#img-shown-one">
+                  <img class="img-flex" src="../../images/wrench.jpg" aria-details="image-of-a-wrench-fixing-a-cube-second-view">
+                </a>
+              </div>
+              <div class="unit [ xs-1-3 ] gutter-1-8">
+                <a href="#img-shown-two">
+                  <img class="img-flex" src="../../images/chess-pieces.jpg" aria-details="iimage-of-a-wrench-fixing-a-cube-fourth-view">
+                </a>
+              </div>
+              <div class="unit [ xs-1-3 ] gutter-1-8">
+                <a href="#img-shown-three">
+                  <img class="img-flex" src="../../images/variation-rubik.jpg" aria-details="image-of-a-wrench-fixing-a-cube-third-view">
+                </a>
+              </div>
+          </div>
+        </li>
 
-      </div>
+        <a href="#img-div" class="absolute button-gallery button-l" arial-label="Previous">
+          <i class="icon i-64"><svg><use xlink:href="../../images/icons.svg#img-arrow-l"></use></svg></i>
+        </a>
+        <a href="#img-div" class=" absolute button-gallery button-r" arial-label="Next">
+          <i class="icon i-64"><svg><use xlink:href="../../images/icons.svg#img-arrow-r"></use></svg></i>
+        </a>
+
+      </ul>
     </div>
 
-    <div class="unit [ xs-1 s-1 m-2-3 l-2-3] gutter pad-t-1-2">
-
+    <div class="unit [ xs-1 s-1 l-3-4] gutter pad-t-1-2">
       <h2 class="info-item push-1-2 zetta">Item Name</h2>
       <div class="info-container pad-t-1-4 pad-b-1-4">
         <ul class="list-group-inline push-0">
 
-          <li class="gutter-1-4 link-box rating rated rating-box ratings-one"></li>
-          <li class="gutter-1-4 link-box rating rated rating-box ratings-two"></li>
-          <li class="gutter-1-4 link-box rating rated rating-box ratings-three"></li>
-          <li class="gutter-1-4 link-box rating rated rating-box ratings-four"></li>
-          <li class="push-r-1-2 gutter-1-4 link-box rating rating-box ratings-five"></li>
+          <li>
+            <input type="radio" id="rating-one" name="rating">
+            <input type="radio" id="rating-two" name="rating">
+            <input type="radio" id="rating-three" name="rating">
+            <input type="radio" id="rating-four" name="rating">
+            <input type="radio" id="rating-five" name="rating">
+            <label class="hide-custom-input" for="rating-one"></label>
+            <label for="rating-two"></label>
+            <label for="rating-three"></label>
+            <label for="rating-four"></label>
+            <label for="rating-five"></label>
+          </li>
 
           <li><a class="link-box" href="#">7 reviews</a></li> <b class="separator">|</b>
           <li><a class="link-box" href="#">Make a Review</a></li>
         </ul>
       </div>
-      <h3 class="pad-t-1-2 peta push-1-2">$$$$</h3>
-      <dl class="list-group-inline">
-        <dt class="milli push-0">Brand:</dt>
-        <dd class="milli push-0">Rubikas</dd>
-        <dt class="milli push-0">Product Number:</dt>
-        <dd class="milli push-0">00000000000</dd>
-        <dt class="milli push-0">Availability:</dt>
-        <dd class="milli push-0">In Stock</dd>
-        <dt class="milli push-0">Accessibility:</dt>
-        <dd class="milli push-0">Colour Blind Friendly.<br> Unavailable to the Blind.</dd>
-      </dl>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="push-2">
-        <a class="btn btn-small btn-save btn-small-flip pad-t"><span aria-label="Save">Save<i></i></span></a>
-        <a class="btn btn-small btn-cart btn-small-reverse push-r-2 pad-t"><span aria-label="Cart">Cart<i></i></span></a>
-
+        <h3 class="pad-t-1-2 peta push-1-2">$$$$</h3>
+        <dl class="list-group-inline">
+          <dt class="milli push-0">Brand:</dt>
+          <dd class="milli push-0">Rubikas</dd>
+          <dt class="milli push-0">Product Number:</dt>
+          <dd class="milli push-0">00000000000</dd>
+          <dt class="milli push-0">Availability:</dt>
+          <dd class="milli push-0">In Stock</dd>
+          <dt class="milli push-0">Accessibility:</dt>
+          <dd class="milli push-0">Colour Blind Friendly.<br> Unavailable to the Blind.</dd>
+        </dl>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="push-2">
+          <a class="btn btn-small btn-save btn-small-flip pad-t"><span aria-label="Save">Save<i></i></span></a>
+          <a class="btn btn-small btn-cart btn-small-reverse push-r-2 pad-t"><span aria-label="Cart">Cart<i></i></span></a>
+        </div>
       </div>
+
     </div>
-
   </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="gallery.js"></script>
 </body>
 </html>
