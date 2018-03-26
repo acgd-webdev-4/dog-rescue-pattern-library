@@ -1,6 +1,7 @@
 h1 {
   font-family: var(--font-primary);
 }
+
 .intro-section {
   margin-right: 2em;
   font-family: var(--font-secondary);
@@ -9,6 +10,7 @@ h1 {
 .link,
 nav {
   background-color: #fcfcfc;
+  text-align: center;
 }
 
 .link-checkout {
@@ -23,11 +25,6 @@ nav {
 
 .link-list {
   padding-left: 0;
-}
-
-.link,
-nav {
-  text-align: center;
 }
 
 .link,
@@ -47,7 +44,7 @@ nav a:hover {
 }
 
 p {
-color: var(--color-primary-light);
+  color: var(--color-primary-light);
 }
 
 .navi {

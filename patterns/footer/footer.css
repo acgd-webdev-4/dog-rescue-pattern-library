@@ -1,3 +1,9 @@
 .footer {
   display: block;
+  background-color: #f9f9f9;
+  color: var(--color-primary-light);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 28em;
+  text-align: right;
 }

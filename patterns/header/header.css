@@ -12,13 +12,6 @@ p {
   text-align: right;
 }
 
-.banner {
-  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 40%, rgba(16, 52, 41, .8)), url("../../images/leaf-bg.png");
-  min-height: 20em;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media only screen and (min-width: 60em) {
 
   .logo {
@@ -27,10 +20,6 @@ p {
 
   .nav {
     text-align: right;
-  }
-
-  .banner {
-    background-position: bottom left;
   }
 
 }
