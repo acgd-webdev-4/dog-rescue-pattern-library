@@ -4,7 +4,11 @@
 }
 
 h1 {
-  padding-top: 13em;
-  color: var(--color-primary-light);
+  padding-top: 9em;
+  color: var(--color-whatever);
   font-family: "Archivo Black", sans-serif;
+}
+
+p {
+  color: var(--color-primary-light);
 }

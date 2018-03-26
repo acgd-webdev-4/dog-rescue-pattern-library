@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1522066585291
+ * @version 1522068102839
  */
-const patternManifest_1522066585291 = {
+const patternManifest_1522068102839 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -604,6 +604,11 @@ const patternManifest_1522066585291 = {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "products.html",
+        "namePretty": "Products",
+        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/pages/products.html"
       }
     ]
   },
@@ -904,5 +909,5 @@ const patternManifest_1522066585291 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522066585291);
+patternBotIncludes(patternManifest_1522068102839);
 }());
