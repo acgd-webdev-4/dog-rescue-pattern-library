@@ -8,7 +8,9 @@
   background-color: transparent;
   border: none;
   color: rgba(0, 0, 0, 0);
-  margin: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 0;
 }
 
 .btn:hover {

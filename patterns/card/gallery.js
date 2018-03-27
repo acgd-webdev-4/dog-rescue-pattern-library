@@ -8,8 +8,13 @@ $(".small-img-show a").on("click", function (){
 
 $(".button-r").on("click", function() {
   var gallerySize = $("#img-div img").length;
+  var currentPosition = $("#img-div img").index($(".current-img"));
   $(".current-img").removeClass("current-img");
-  var nextImagePosition = currentPosition + 1 % gallerySize;
+  var nextImagePosition = currentPosition + 1;
+
+  if(nextImagePosition >= gallerySize) {
+    nextImagePosition = 0;
+  }
   $("#img-div").children().eq(nextImagePosition).addClass("current-img");
   $(".current-img-s").removeClass("current-img-s");
   $(".small-img-show").children().eq(nextImagePosition).addClass("current-img-s");

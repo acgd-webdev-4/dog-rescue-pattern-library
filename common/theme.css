@@ -18,15 +18,18 @@ html {
 
 h1 {
   font-size: 4em;
+  line-height: 1em;
 }
 
 h2 {
   font-size: 3.25em;
+  line-height: 1em;
 }
 
 h3 {
   font-size: 3em;
   font-weight: normal;
+  line-height: 1em;
 }
 
 h4 {

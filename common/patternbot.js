@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1522011950485
+ * @version 1522178224345
  */
-const patternManifest_1522011950485 = {
+const patternManifest_1522178224345 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -428,9 +428,14 @@ const patternManifest_1522011950485 = {
         "prefix": "l",
         "columns": 4,
         "mq": 60
+      },
+      {
+        "prefix": "xl",
+        "columns": 4,
+        "mq": 85
       }
     ],
-    "gridifierUrl": "xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1",
+    "gridifierUrl": "xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1;xl,4,85,1,1",
     "typografier": [
       {
         "mq": 0,
@@ -680,13 +685,6 @@ const patternManifest_1522011950485 = {
           "filename": "home-banner",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/banner/home-banner.html",
           "localPath": "patterns/banner/home-banner.html"
-        },
-        {
-          "name": "product-list-banner",
-          "namePretty": "Product list banner",
-          "filename": "product-list-banner",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/banner/product-list-banner.html",
-          "localPath": "patterns/banner/product-list-banner.html"
         }
       ],
       "md": [],
@@ -933,6 +931,13 @@ const patternManifest_1522011950485 = {
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header/header.html",
           "localPath": "patterns/header/header.html",
           "readme": {}
+        },
+        {
+          "name": "skip-links",
+          "namePretty": "Skip links",
+          "filename": "skip-links",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header/skip-links.html",
+          "localPath": "patterns/header/skip-links.html"
         }
       ],
       "md": [
@@ -1076,5 +1081,5 @@ const patternManifest_1522011950485 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522011950485);
+patternBotIncludes(patternManifest_1522178224345);
 }());
