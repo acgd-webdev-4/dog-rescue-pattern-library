@@ -11,4 +11,8 @@ links-section:
               desc: |
                 The links-section is where all the social media links will go.
 
+Products:
+                desc: |
+                  The Products section displays all the products the store offers.
+
 ---
