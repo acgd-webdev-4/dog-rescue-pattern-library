@@ -1,10 +1,5 @@
 h1 {
-  font-family: var(--font-primary);
-}
-
-.intro-section {
-  margin-right: 2em;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary-light);
 }
 
 .link,

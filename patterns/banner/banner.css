@@ -1,10 +1,10 @@
 .banner {
-  background: url("../../images/home-banner.png") center top / cover no-repeat;
+  background: url("../../images/home-banner.jpg") center top / cover no-repeat;
   height: 80vh;
 }
 
-h1 {
-  padding-top: 9em;
+.btn-1 {
+  padding-top: 22em;
   color: var(--color-whatever);
   font-family: "Archivo Black", sans-serif;
 }

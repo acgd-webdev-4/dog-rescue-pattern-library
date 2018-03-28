@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1522202123347
+ * @version 1522203825124
  */
-const patternManifest_1522202123347 = {
+const patternManifest_1522203825123 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -597,7 +597,8 @@ const patternManifest_1522202123347 = {
       "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms",
       "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header",
       "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/navigation",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections"
+      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections",
+      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section"
     ],
     "pages": [
       {
@@ -851,12 +852,6 @@ const patternManifest_1522202123347 = {
       "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
-          "name": "intro-text",
-          "namePretty": "Intro text",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections/intro-text.html",
-          "localPath": "patterns/sections/intro-text.html"
-        },
-        {
           "name": "links-section",
           "namePretty": "Links section",
           "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections/links-section.html",
@@ -893,6 +888,28 @@ const patternManifest_1522202123347 = {
           "localPath": "patterns/sections/sections.css"
         }
       ]
+    },
+    {
+      "name": "text-section",
+      "namePretty": "Text section",
+      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section",
+      "html": [
+        {
+          "name": "text-section",
+          "namePretty": "Text section",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section/text-section.html",
+          "localPath": "patterns/text-section/text-section.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "section",
+          "namePretty": "Section",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section/section.css",
+          "localPath": "patterns/text-section/section.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -915,5 +932,5 @@ const patternManifest_1522202123347 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522202123347);
+patternBotIncludes(patternManifest_1522203825123);
 }());
