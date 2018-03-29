@@ -1,17 +1,24 @@
-.home-text-box-banner {
-  display: block;
-  background-color: var(--color-primary);
-}
-.home-text-image-banner {
-  background-image: url(../../images/rubik-mainbanner.jpg);
-  background-size: 150%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 50vh;
+.banner-p {
+  display: none;
 }
 
-.home-text-box-banner {
+.home-text-image-banner {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
   bottom: 0;
+}
+
+.banner-img-1 {
+  background-image: url(../../images/rubik-mainbanner.jpg);
+}
+
+.banner-img-2 {
+  background-image: url(../../images/rubik-banner.jpg);
+}
+
+.banner-img-3 {
+  background-image: url(../../images/rubik-banner-filter.jpg);
 }
 
 .separator {
@@ -37,36 +44,42 @@ dl dd {
   line-height: 62px;
 }
 
-@media only screen and (min-width: 60em) {
-
   .banner {
-    position: relative;
-  }
+  position: relative;
+  text-shadow: 2px 0 0 var(--color-secondary-light), -2px 0 0 var(--color-secondary-light), 0 2px 0 var(--color-secondary-light), 0 -2px 0 var(--color-secondary-light);
 
-  .home-text-box-banner {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 20em;
-    background-color: transparent;
-  }
+}
 
-  .banner-h1 {
-    color: var(--color-accent);
-    text-shadow: 4px 0 0 var(--color-secondary-light), -4px 0 0 var(--color-secondary-light), 0 4px 0 var(--color-secondary-light), 0 -4px 0 var(--color-secondary-light);
-  }
+.home-text-box-banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.banner-h1 {
+  color: var(--color-accent);
+}
+
+.banner-p {
+  background-color: var(--color-secondary-light);
+  border-radius: 6px;
+  border: 6px solid var(--color-accent);
+  padding: 1em;
+}
+
+@media only screen and (min-width: 25em) {
 
   .banner-p {
-    background-color: var(--color-secondary-light);
-    border-radius: 6px;
-    border: 6px solid var(--color-accent);
-    padding: 1em;
+    display: block;
   }
 
-  .home-text-image-banner {
-    background-image: url(../../images/rubik-mainbanner.jpg);
-    background-size: 130%;
-    height: 100vh;
-    background-position: center;
+}
+
+@media only screen and (min-width: 36em) {
+  .banner-h1 {
+    text-shadow: 4px 0 0 var(--color-secondary-light), -4px 0 0 var(--color-secondary-light), 0 4px 0 var(--color-secondary-light), 0 -4px 0 var(--color-secondary-light);
   }
 }
