@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Rubikas | Cart</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <script type="application/json" data-pattern="header/skip-links"></script>
+  <script type="application/json" data-pattern="navigation/tool-bars"></script>
+
+  <script type="application/json" data-pattern="header/header"></script>
+
+  <section class="pad-t-2 cart-section pad-b-2">
+    <div class="pad-t-2 gutter-2 wrapper">
+      <h1>Cart Items</h1>
+      <div class="grid">
+        <div class="unit s-1 l-1-2">
+          <script type="application/json" data-pattern="card/cart-item"></script>
+        </div>
+        <div class="unit s-1 l-1-2">
+          <script type="application/json" data-pattern="card/cart-item"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="pad-t-2 pad-b-2 cart-checkout"  id="main" role="main" tabindex="0">
+    <section class="gutter-2 push-1-2">
+      <h2>Checkout</h2>
+      <ul class="grid list-group-inline cart-checkout-text">
+        <li class="unit [ xs-1 s-1-2 ] text-left">
+          <p class="push-0 inline gutter-1-4">Already Registered?</p><a class="bold" href="#">Login here</a>
+        </li>
+        <li class="unit [ xs-1 s-1-2 ] push-1-2 text-right">
+          <p class="push-0 inline gutter-1-4">Continue Shopping</p><a class="bold" href="#">Cart</a>
+        </li>
+      </div>
+    </section>
+    <section>
+      <form class="" action="index.html" method="post" novalidate>
+        <div class="grid gutter">
+
+          <div class="unit xs-1 xl-1-3 pad-b-2">
+            <script class="push-2" type="application/json" data-pattern="forms/legend-label"></script>
+            <div class="pad-t">
+              <script class="pad-t-2" type="application/json" data-pattern="forms/radio-input"></script>
+            </div>
+
+            <div class="grid pad-t">
+              <div class="unit xs-1-2 gutter-1-4">
+                <script type="application/json" data-pattern="forms/text-input">{
+                  "label":"First Name"
+                }</script>
+              </div>
+              <div class="unit xs-1-2 gutter-1-4">
+                <script type="application/json" data-pattern="forms/text-input">{
+                  "label":"Last Name"
+                }</script>
+              </div><div class="unit xs-1-2 gutter-1-4 pad-t-1-2">
+                <script type="application/json" data-pattern="forms/email-input"></script>
+              </div>
+
+              <div class="unit xs-1-2 gutter-1-4 pad-t-1-2">
+                <script type="application/json" data-pattern="forms/phone-form"></script>
+              </div>
+              <div class="unit xs-1 pad-t-1-2">
+                <script type="application/json" data-pattern="forms/password-input"></script>
+              </div>
+              <div class="unit xs-1">
+                <script type="application/json" data-pattern="forms/text-input">{
+                  "label":"Address"
+                }</script>
+              </div>
+            </div>
+          </div>
+
+          <div class="unit xs-1 xl-1-3 pad-b-2">
+            <div class="grid">
+              <div class="unit xs-1 pad-b-2">
+                <script type="application/json" data-pattern="forms/legend-label">{
+                  "legend span":"Shipping Method",
+                  "legend b": "2"
+                }</script>
+              </div>
+
+              <div class="unit xs-1 pad-b-2">
+                <script type="application/json" data-pattern="forms/legend-label">{
+                  "legend span":"Payment Method",
+                  "legend b": "3"
+                }</script>
+              </div>
+            </div>
+          </div>
+
+          <div class="unit xs-1 xl-1-3 pad-b-2">
+            <script type="application/json" data-pattern="forms/legend-label">{
+              "legend": "Order Review"
+            }</script>
+          </div>
+
+
+        </div>
+
+    </section>
+
+  </main>
+
+  <script type="application/json" data-pattern="footer/footer"></script>
+
+  </body>
+  </html>

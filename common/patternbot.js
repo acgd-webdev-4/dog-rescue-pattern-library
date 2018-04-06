@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1522345480786
+ * @version 1523050092270
  */
-const patternManifest_1522345480786 = {
+const patternManifest_1523050092269 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -659,17 +659,27 @@ const patternManifest_1522345480786 = {
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/banner",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card",
+      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/leftovers",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation"
     ],
     "pages": [
       {
+        "name": "checkout-page.html",
+        "namePretty": "Checkout page",
+        "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/pages/checkout-page.html"
+      },
+      {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "product-page.html",
+        "namePretty": "Product page",
+        "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/pages/product-page.html"
       }
     ]
   },
@@ -793,6 +803,45 @@ const patternManifest_1522345480786 = {
       ]
     },
     {
+      "name": "filters",
+      "namePretty": "Filters",
+      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters",
+      "html": [
+        {
+          "name": "filter",
+          "namePretty": "Filter",
+          "filename": "filter",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/filter.html",
+          "localPath": "patterns/filters/filter.html"
+        },
+        {
+          "name": "view-grid",
+          "namePretty": "View grid",
+          "filename": "view-grid",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/view-grid.html",
+          "localPath": "patterns/filters/view-grid.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/README.md",
+          "localPath": "patterns/filters/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "filter",
+          "namePretty": "Filter",
+          "filename": "filter",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/filter.css",
+          "localPath": "patterns/filters/filter.css"
+        }
+      ]
+    },
+    {
       "name": "footer",
       "namePretty": "Footer",
       "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer",
@@ -859,6 +908,13 @@ const patternManifest_1522345480786 = {
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/password-input.html",
           "localPath": "patterns/forms/password-input.html",
           "readme": {}
+        },
+        {
+          "name": "phone-form",
+          "namePretty": "Phone form",
+          "filename": "phone-form",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/phone-form.html",
+          "localPath": "patterns/forms/phone-form.html"
         },
         {
           "name": "radio-input",
@@ -960,38 +1016,6 @@ const patternManifest_1522345480786 = {
       ]
     },
     {
-      "name": "leftovers",
-      "namePretty": "Leftovers",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/leftovers",
-      "html": [
-        {
-          "name": "view-grid",
-          "namePretty": "View grid",
-          "filename": "view-grid",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/leftovers/view-grid.html",
-          "localPath": "patterns/leftovers/view-grid.html"
-        }
-      ],
-      "md": [
-        {
-          "name": "readme",
-          "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/leftovers/README.md",
-          "localPath": "patterns/leftovers/README.md"
-        }
-      ],
-      "css": [
-        {
-          "name": "leftover",
-          "namePretty": "Leftover",
-          "filename": "leftover",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/leftovers/leftover.css",
-          "localPath": "patterns/leftovers/leftover.css"
-        }
-      ]
-    },
-    {
       "name": "navigation",
       "namePretty": "Navigation",
       "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation",
@@ -1003,13 +1027,6 @@ const patternManifest_1522345480786 = {
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/bread-crumbs.html",
           "localPath": "patterns/navigation/bread-crumbs.html",
           "readme": {}
-        },
-        {
-          "name": "filter",
-          "namePretty": "Filter",
-          "filename": "filter",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/filter.html",
-          "localPath": "patterns/navigation/filter.html"
         },
         {
           "name": "page-navigation",
@@ -1081,5 +1098,5 @@ const patternManifest_1522345480786 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522345480786);
+patternBotIncludes(patternManifest_1523050092269);
 }());

@@ -171,6 +171,16 @@
                 </a>
               </li>
               <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="filters" href="#filters">
+                  <div class="relative">
+                    <span>Filters</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li role="presentation">
                 <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="footer" href="#footer">
                   <div class="relative">
                     <span>Footer</span>
@@ -201,16 +211,6 @@
                 </a>
               </li>
               <li role="presentation">
-                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="leftovers" href="#leftovers">
-                  <div class="relative">
-                    <span>Leftovers</span>
-                    <i class="icon i-18 absolute pin-cr">
-                      <svg><use xlink:href="#icon-active" /></svg>
-                    </i>
-                  </div>
-                </a>
-              </li>
-              <li role="presentation">
                 <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="navigation" href="#navigation">
                   <div class="relative">
                     <span>Navigation</span>
@@ -232,9 +232,29 @@
         <nav class="nav mega">
           <ul class="list-group">
               <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/checkout-page.html" target="_blank">
+                  <div class="relative">
+                    <span>Checkout page</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                   <div class="relative">
                     <span>Home</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/product-page.html" target="_blank">
+                  <div class="relative">
+                    <span>Product page</span>
                     <i class="icon i-18 absolute pin-cr">
                       <svg><use xlink:href="#icon-pop-out" /></svg>
                     </i>
@@ -858,18 +878,18 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="banner-home-banner-code-sample-copy-chunk">&lt;main id="main" role="main" tabindex="0"&gt;
+              <code><pre id="banner-home-banner-code-sample-copy-chunk">&lt;section&gt;
   &lt;div class="banner">
-    &lt;div class="home-text-image-banner banner-img-1 embed embed-4by3" aria-details="banner-image-of-one-of-our-rubik&apos;s-cube">
+    &lt;div class="home-text-image-banner banner-img-1 embed embed-16by9" aria-details="banner-image-of-one-of-our-rubik&apos;s-cube">
     &lt;/div>
     &lt;div class="gutter-2 home-text-box-banner island">
       &lt;div class="wrapper">
-        &lt;h1 class="banner-h1 tenamega push-0">Home of the Rubik&lt;/h1>
-        &lt;p class="banner-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>
+        &lt;h1 class="banner-h1 tenamega push-0">This is your Heading, target h1.&lt;/h1>
+        &lt;p class="banner-p">Add a description to your banner, target p.&lt;/p>
       &lt;/div>
     &lt;/div>
   &lt;/div>
-&lt;/main>
+&lt;/section>
 </pre></code>
             </div>
           </div>
@@ -1116,11 +1136,11 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="card-cart-item-code-sample-copy-chunk">&lt;div class="grid cart-item main-card gutter-1-2 pad-t-1-2 pad-b"&gt;
-  &lt;div class="unit [ xs-1 s-1 m-1-3 l-1-3] push">
+              <code><pre id="card-cart-item-code-sample-copy-chunk">&lt;div class="cart-item main-card gutter-1-2 pad-t-1-2 pad-b"&gt;
+  &lt;div class="push">
     &lt;img class="img-flex" src="../../images/variation-rubik.jpg" aria-details="iimage-of-our-variety-of-different-rubiks-cube">
   &lt;/div>
-  &lt;div class="unit [ xs-1 s-1 m-2-3 l-2-3] gutter pad-b">
+  &lt;div class="gutter pad-b">
     &lt;h3 class="pad-b-1-2 push-1-2">Item Name&lt;/h3>
     &lt;p class="push-1-2">$$$$&lt;/p>
     &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>
@@ -1428,6 +1448,318 @@
 
 </section>
 
+        <section class="pattern" id="filters" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
+    <h2 class="pattern-name exa push-1-4" style="color: #db4448; font-family: &quot;Open Sans&quot;, monospace;">Filters</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#filters--filter">Filter</a></li>
+            <li><a href="#filters--view-grid">View grid</a></li>
+        </ol>
+      </nav>
+  </div>
+
+
+  
+
+    <div class="pattern-details " id="filters--filter" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Filter</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="filters-filter-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="filters/filter" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/filters/filter.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/filters/filter.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="filters-filter-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#filters-filter-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="filters-filter-code-sample-copy-chunk">&lt;div class="filter gutter"&gt;
+  &lt;div class="filter-section max-length">
+    &lt;div class="filter-price">
+
+      &lt;fieldset class="field-padding">
+        &lt;div class="filter-section-title pad-t">
+          &lt;legend class="pad-t-1-2 pad-b-1-2 bold peta gutter">Price&lt;/legend>
+        &lt;/div>
+        &lt;div class="gutter">
+          &lt;ul class="list-group pad-t pad-b-2">
+            &lt;li class="pad-t island-1-2">
+              &lt;input type="checkbox" name="price" id="price-1">
+              &lt;label class="block" for="price-1">$4 &#x2013; $10 Dollars&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="price" id="price-2">
+              &lt;label class="block" for="price-2">$10 &#x2013; $40 Dollars&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="price" id="price-3">
+              &lt;label class="block" for="price-3">$40 &#x2013; $80 Dollars&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="price" id="price-4">
+              &lt;label class="block" for="price-4">$80 &#x2013; $100 Dollars&lt;/label>
+            &lt;/li>
+          &lt;/ul>
+        &lt;/div>
+        &lt;div class="filter-section-title-straight pad-t">
+          &lt;legend class="pad-t-1-2 pad-b-1-2 bold peta gutter">Features&lt;/legend>
+        &lt;/div>
+        &lt;div class="gutter">
+          &lt;ul class="list-group pad-t pad-b-2">
+            &lt;li class="pad-t island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-1">
+              &lt;label class="block" for="feature-1">2 by 2 by 2&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-2">
+              &lt;label class="block" for="feature-2">3 by 3 by 3&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-3">
+              &lt;label class="block" for="feature-3">4 by 4 by 4&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-4">
+              &lt;label class="block" for="feature-4">Towers&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-5">
+              &lt;label class="block" for="feature-5">Hexagon&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-6">
+              &lt;label class="block" for="feature-6">Towers&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-7">
+              &lt;label class="block" for="feature-7">Prism&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-8">
+              &lt;label class="block" for="feature-8">Board Games&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-9">
+              &lt;label class="block" for="feature-9">Cards&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="feature" id="feature-10">
+              &lt;label class="block" for="feature-10">Other&lt;/label>
+            &lt;/li>
+          &lt;/ul>
+        &lt;/div>
+        &lt;div class="filter-section-title-straight pad-t">
+          &lt;legend class="pad-t-1-2 pad-b-1-2 bold peta gutter">Design&lt;/legend>
+        &lt;/div>
+        &lt;div class="gutter">
+          &lt;ul class="list-group pad-t pad-b-2">
+            &lt;li class="pad-t island-1-2">
+              &lt;input type="checkbox" name="design" id="design-1">
+              &lt;label class="block" for="design-1">By colour&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="design" id="design-2">
+              &lt;label class="block" for="design-2">Size&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="design" id="design-3">
+              &lt;label class="block" for="design-3">weight&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="design" id="design-4">
+              &lt;label class="block" for="design-4">texture&lt;/label>
+            &lt;/li>
+          &lt;/ul>
+        &lt;/div>
+        &lt;div class="filter-section-title-straight pad-t">
+          &lt;legend class="pad-t-1-2 pad-b-1-2 bold peta gutter">Accessibility&lt;/legend>
+        &lt;/div>
+        &lt;div class="gutter">
+          &lt;ul class="list-group pad-t pad-b-2">
+            &lt;li class="pad-t island-1-2">
+              &lt;input type="checkbox" name="accessibility" id="accessibility-1">
+              &lt;label class="block" for="accessibility-1">Protanomaly&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="accessibility" id="accessibility-2">
+              &lt;label class="block" for="accessibility-2">Deuteranomaly&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="accessibility" id="accessibility-3">
+              &lt;label class="block" for="accessibility-3">Tritanomaly&lt;/label>
+            &lt;/li>
+            &lt;li class="island-1-2">
+              &lt;input type="checkbox" name="accessibility" id="accessibility-4">
+              &lt;label class="block" for="accessibility-4">Blind&lt;/label>
+            &lt;/li>
+          &lt;/ul>
+        &lt;/div>
+        &lt;div class="gutter">
+          &lt;button type="submit" name="button">
+            &lt;a class="btn btn-drop pad-t">&lt;span aria-label="Filter">Filter&lt;i>&lt;/i>&lt;/span>&lt;/a>
+          &lt;/button>
+        &lt;/div>
+      &lt;/fieldset>
+    &lt;/div>
+
+  &lt;/div>
+
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="filters--view-grid" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">View grid</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="filters-view-grid-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="filters/view-grid" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/filters/view-grid.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/filters/view-grid.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="filters-view-grid-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#filters-view-grid-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="filters-view-grid-code-sample-copy-chunk">&lt;div class="view-options island-1-2"&gt;
+
+  &lt;div class="pad-t gutter short-by-section">
+    &lt;select id="short-by" name="short-by">
+      &lt;option value="">Short by&lt;/option>
+      &lt;option value="lowest-highest">Lowest &gt; Highest&lt;/option>
+      &lt;option value="highest-lowest">Highest &gt; Lowest&lt;/option>
+      &lt;option value="new-release">New Release&lt;/option>
+      &lt;option value="most-popular">Most Popular&lt;/option>
+    &lt;/select>
+  &lt;/div>
+
+  &lt;div class="search-bar-field">
+    &lt;div class="push gutter pad-t relative">
+      &lt;input id="search" type="search" placeholder="Search" style="text-indent:24px;">
+      &lt;i class="icon i-18 absolute search-icon">&lt;svg>&lt;use xlink:href="../../images/icons.svg#search-bar"/>&lt;/svg>&lt;/i>
+    &lt;/div>
+  &lt;/div>
+
+  &lt;div class="view-as pad-t push-r-1-4">
+    &lt;p class="mega view-title">View as:&lt;/p>
+  &lt;/div>
+
+  &lt;div class="pad-t gutter-1-4">
+    &lt;input type="radio" class="grid-check hide-custom-input" id="list-check" name="view-selection" checked>
+    &lt;div class="list-selection">
+      &lt;label class="link-box icon i-32" for="list-check">
+        &lt;i class="icon i-32 absolute list-view">&lt;svg>&lt;use xlink:href="../../images/icons.svg#list-view"/>&lt;/svg>&lt;/i>
+        &lt;i class="icon i-32 absolute list-view-selected">&lt;svg>&lt;use xlink:href="../../images/icons.svg#list-view-selected"/>&lt;/svg>&lt;/i>
+      &lt;/label>
+    &lt;/div>
+  &lt;/div>
+
+  &lt;div class="pad-t push-r-1-2">
+    &lt;input type="radio" class="list-check hide-custom-input" id="grid-check" name="view-selection">
+    &lt;div class="grid-selection">
+      &lt;label class="link-box icon i-32" for="grid-check">
+        &lt;i class="icon i-32 absolute grid-view">&lt;svg>&lt;use xlink:href="../../images/icons.svg#grid-view"/>&lt;/svg>&lt;/i>
+        &lt;i class="icon i-32 absolute grid-view-selected">&lt;svg>&lt;use xlink:href="../../images/icons.svg#grid-view-selected"/>&lt;/svg>&lt;/i>
+      &lt;/label>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="footer" role="tabpanel" hidden aria-hidden="true" style="">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name exa push-1-4" style="color: #db4448; font-family: &quot;Open Sans&quot;, monospace;">Footer</h2>
@@ -1513,10 +1845,10 @@
       &lt;div class="unit [ xs-1 m-1-3 ] island">
         &lt;ul class="list-group push-0">
           &lt;span class="bold footer-section-heading mega push-1-2">Company info&lt;/span>
-          &lt;li>&lt;a class="link-box footer-section-text" href="../../pages/index.html">HomePage&lt;/a>&lt;/li>
-          &lt;li>&lt;a class="link-box footer-section-text" href="../../pages/product-list.html">Product Page&lt;/a>&lt;/li>
-          &lt;li>&lt;a class="link-box footer-section-text" href="../../pages/product-detail.html">&lt;/a>&lt;/li>
-          &lt;li>&lt;a class="link-box footer-section-text" href="../../pages/checkout.html">Option 1&lt;/a>&lt;/li>
+          &lt;li>&lt;a class="link-box footer-section-text" href="../pages/home.html">HomePage&lt;/a>&lt;/li>
+          &lt;li>&lt;a class="link-box footer-section-text" href="../pages/product-list.html">Product Page&lt;/a>&lt;/li>
+          &lt;li>&lt;a class="link-box footer-section-text" href="../pages/product-detail.html">Product Details&lt;/a>&lt;/li>
+          &lt;li>&lt;a class="link-box footer-section-text" href="../pages/checkout.html">Checkout&lt;/a>&lt;/li>
 
 
         &lt;/ul>
@@ -1537,22 +1869,22 @@
             &lt;ul class="list-group-inline">
               &lt;li>
                 &lt;a href="#">
-                    &lt;i class="icon i-48">&lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>&lt;/i>
+                    &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>&lt;/i>
                   &lt;/a>
               &lt;/li>
               &lt;li>
                 &lt;a href="#">
-                    &lt;i class="icon i-48">&lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>&lt;/i>
+                    &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>&lt;/i>
                   &lt;/a>
               &lt;/li>
               &lt;li>
                 &lt;a href="#">
-                    &lt;i class="icon i-48">&lt;svg>&lt;use xlink:href="../../images/icons.svg#snapchat"/>&lt;/svg>&lt;/i>
+                    &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#snapchat"/>&lt;/svg>&lt;/i>
                   &lt;/a>
               &lt;/li>
               &lt;li>
                 &lt;a href="#">
-                    &lt;i class="icon i-48">&lt;svg>&lt;use xlink:href="../../images/icons.svg#instagram"/>&lt;/svg>&lt;/i>
+                    &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#instagram"/>&lt;/svg>&lt;/i>
                   &lt;/a>
               &lt;/li>
             &lt;/ul>
@@ -1595,6 +1927,7 @@
             <li><a href="#forms--email-input">Email input</a></li>
             <li><a href="#forms--legend-label">Legend label</a></li>
             <li><a href="#forms--password-input">Password input</a></li>
+            <li><a href="#forms--phone-form">Phone form</a></li>
             <li><a href="#forms--radio-input">Radio input</a></li>
             <li><a href="#forms--search-bar">Search bar</a></li>
             <li><a href="#forms--select-input">Select input</a></li>
@@ -1740,19 +2073,15 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-email-input-code-sample-copy-chunk">&lt;div class="unit [ xs-1-2 ]"&gt;
-
-  &lt;form action="index.html" method="post" novalidate="">
-
-    &lt;div class="push-1-2 unit [ xs-1-8 ] pad-t-1-2 gutter-1-4">
-      &lt;label for="email">Email&lt;/label>
-      &lt;input type="email" id="email" required aria-describedby="email-error">
-      &lt;p class="error-message milli island-1-4 push-0 text-center" id="email-error">
-        &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-warning"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
-      &lt;/p>
-    &lt;/div>
-  &lt;/form>
+              <code><pre id="forms-email-input-code-sample-copy-chunk">&lt;div&gt;
+  &lt;div>
+    &lt;label for="email">Email&lt;/label>
+    &lt;input type="email" id="email" required aria-describedby="email-error">
+    &lt;p class="error-message milli island-1-4 push-0 text-center" id="email-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-warning"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+    &lt;/p>
+  &lt;/div>
 
 
 
@@ -1828,7 +2157,7 @@
         &lt;span class="icon-label">There are items that require your attention&lt;/span>
       &lt;/h3>
   &lt;/div>
-  &lt;legend class="legend zetta bold">&lt;b class="inline-block number-devider text-center zetta push-r-1-2">1&lt;/b>Billing information&lt;/legend>
+  &lt;legend class="legend zetta bold">&lt;b class="inline-block number-devider text-center zetta push-r-1-2">1&lt;/b>&lt;span>Billing information&lt;/span>&lt;/legend>
 &lt;/div>
 </pre></code>
             </div>
@@ -1895,17 +2224,88 @@
                 </i>
               </button>
               <code><pre id="forms-password-input-code-sample-copy-chunk">&lt;div&gt;
-  &lt;form action="index.html" method="post" novalidate="">
 
-    &lt;div class="unit [ xs-1-2 ]">
-      &lt;label for="password">Password&lt;/label>
-      &lt;input type="password" name="password" id="password" required aria-describedby="password-error">
-      &lt;p class="error-message milli island-1-4 push-0 text-center" id="password-error">
-        &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-warning"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">Your email address/password information are incorrect&lt;/span>
-      &lt;/p>
-    &lt;/div>
-  &lt;/form>
+  &lt;div>
+    &lt;label for="password">Password&lt;/label>
+    &lt;input type="password" name="password" id="password" required aria-describedby="password-error">
+    &lt;p class="error-message milli island-1-4 push-0 text-center" id="password-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-warning"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Your email address/password information are incorrect&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+
+
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--phone-form" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Phone form</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-phone-form-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/phone-form" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/phone-form.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/phone-form.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-phone-form-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-phone-form-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-phone-form-code-sample-copy-chunk">&lt;div&gt;
+  &lt;div>
+    &lt;label for="phone-number">Phone&lt;/label>
+    &lt;input type="tel" id="phone-number" required aria-describedby="phone-error">
+    &lt;p class="error-message milli island-1-4 push-0 text-center" id="email-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-warning"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a properly a reachable phone contact&lt;/span>
+    &lt;/p>
+  &lt;/div>
 
 
 
@@ -1974,13 +2374,20 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-radio-input-code-sample-copy-chunk">&lt;div class="unit xs-1"&gt;
+              <code><pre id="forms-radio-input-code-sample-copy-chunk">&lt;div&gt;
 
-  &lt;label for="status" class="giga bold push-1-2">Registered or Guest&lt;/label>
-  &lt;input type="radio" id="resgistered" name="status">
-  &lt;label class="push-r" for="resgistered">Registered&lt;/label>
-  &lt;input type="radio" id="guest" name="status">
-  &lt;label for="guest">Guest&lt;/label>
+  &lt;label for="status" class="peta bold push-1-2">Registered or Guest&lt;/label>
+  &lt;div class="grid">
+    &lt;div class="unit xs-1-2">
+      &lt;input type="radio" id="resgistered" name="status">
+      &lt;label class="push-r mega" for="resgistered">Registered&lt;/label>
+    &lt;/div>
+    &lt;div class="unit xs-1-2">
+      &lt;input type="radio" id="guest" name="status">
+      &lt;label class="mega" for="guest">Guest&lt;/label>
+    &lt;/div>
+
+  &lt;/div>
 &lt;/div>
 </pre></code>
             </div>
@@ -2190,7 +2597,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-text-area-code-sample-copy-chunk">&lt;div class="unit [ xs-1-2 ] pad-t "&gt;
+              <code><pre id="forms-text-area-code-sample-copy-chunk">&lt;div class="pad-t "&gt;
   &lt;label for="comments">Comments&lt;/label>
   &lt;textarea class="italic milli grey-text" name="comments" id="commments" rows="4" cols="80">Leave us a message!&lt;/textarea>
 &lt;/div>
@@ -2259,19 +2666,14 @@
                 </i>
               </button>
               <code><pre id="forms-text-input-code-sample-copy-chunk">&lt;div&gt;
-  &lt;form action="index.html" method="post" novalidate="">
-
-    &lt;div class="unit [ xs-1-2 ]">
-      &lt;label for="first-name">First Name&lt;/label>
-      &lt;input type="text" name="first-name" id="first-name" required aria-describedby="first-name-error">
-      &lt;p class="error-message milli island-1-4 push-0 text-center" id="first-name-error">
-        &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-warning"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">Please fill out your name as instructed&lt;/span>
-      &lt;/p>
-    &lt;/div>
-  &lt;/form>
-
-
+  &lt;div>
+    &lt;label for="first-name">First Name&lt;/label>
+    &lt;input type="text" name="first-name" id="first-name" required aria-describedby="first-name-error">
+    &lt;p class="error-message milli island-1-4 push-0 text-center" id="first-name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-warning"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please fill out your name as instructed&lt;/span>
+    &lt;/p>
+  &lt;/div>
 
 &lt;/div>
 </pre></code>
@@ -2464,124 +2866,12 @@
 
 </section>
 
-        <section class="pattern" id="leftovers" role="tabpanel" hidden aria-hidden="true" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
-    <h2 class="pattern-name exa push-1-4" style="color: #db4448; font-family: &quot;Open Sans&quot;, monospace;">Leftovers</h2>
-        <ul class="list-group-inline gutter absolute pin-cr">
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="leftovers-view-grid-code-sample">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-code"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="leftovers/view-grid" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/leftovers/view-grid.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-pop-out"></use></svg>
-                </i>
-              </a>
-            </li>
-        </ul>
-  </div>
-
-
-  
-
-    <div class="pattern-details " id="leftovers--view-grid" style="">
-
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
-            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/leftovers/view-grid.html" scrolling="no" data-inject-css=" " ></iframe>
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-                <div class="resize-handle resize-handle-right" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="leftovers-view-grid-code-sample" tabindex="-1">
-            <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#leftovers-view-grid-code-sample-copy-chunk" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-              <code><pre id="leftovers-view-grid-code-sample-copy-chunk">&lt;div class="view-options island-1-2"&gt;
-
-  &lt;div class="pad-t gutter short-by-section">
-    &lt;select id="short-by" name="short-by">
-      &lt;option value="">Short by&lt;/option>
-      &lt;option value="lowest-highest">Lowest &gt; Highest&lt;/option>
-      &lt;option value="highest-lowest">Highest &gt; Lowest&lt;/option>
-      &lt;option value="new-release">New Release&lt;/option>
-      &lt;option value="most-popular">Most Popular&lt;/option>
-    &lt;/select>
-  &lt;/div>
-
-  &lt;div class="search-bar-field">
-    &lt;div class="push gutter pad-t relative">
-      &lt;input id="search" type="search" placeholder="Search" style="text-indent:24px;">
-      &lt;i class="icon i-18 absolute search-icon">&lt;svg>&lt;use xlink:href="../../images/icons.svg#search-bar"/>&lt;/svg>&lt;/i>
-    &lt;/div>
-  &lt;/div>
-
-  &lt;div class="view-as pad-t push-r-1-4">
-    &lt;p class="mega view-title">View as:&lt;/p>
-  &lt;/div>
-
-  &lt;div class="pad-t gutter-1-4">
-    &lt;input type="radio" class="grid-check hide-custom-input" id="list-check" name="view-selection" checked>
-    &lt;div class="list-selection">
-      &lt;label class="link-box icon i-32" for="list-check">
-        &lt;i class="icon i-32 absolute list-view">&lt;svg>&lt;use xlink:href="../../images/icons.svg#list-view"/>&lt;/svg>&lt;/i>
-        &lt;i class="icon i-32 absolute list-view-selected">&lt;svg>&lt;use xlink:href="../../images/icons.svg#list-view-selected"/>&lt;/svg>&lt;/i>
-      &lt;/label>
-    &lt;/div>
-  &lt;/div>
-
-  &lt;div class="pad-t push-r-1-2">
-    &lt;input type="radio" class="list-check hide-custom-input" id="grid-check" name="view-selection">
-    &lt;div class="grid-selection">
-      &lt;label class="link-box icon i-32" for="grid-check">
-        &lt;i class="icon i-32 absolute grid-view">&lt;svg>&lt;use xlink:href="../../images/icons.svg#grid-view"/>&lt;/svg>&lt;/i>
-        &lt;i class="icon i-32 absolute grid-view-selected">&lt;svg>&lt;use xlink:href="../../images/icons.svg#grid-view-selected"/>&lt;/svg>&lt;/i>
-      &lt;/label>
-    &lt;/div>
-  &lt;/div>
-&lt;/div>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
-
-</section>
-
         <section class="pattern" id="navigation" role="tabpanel" hidden aria-hidden="true" >
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
     <h2 class="pattern-name exa push-1-4" style="color: #db4448; font-family: &quot;Open Sans&quot;, monospace;">Navigation</h2>
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#navigation--bread-crumbs">Bread crumbs</a></li>
-            <li><a href="#navigation--filter">Filter</a></li>
             <li><a href="#navigation--page-navigation">Page navigation</a></li>
             <li><a href="#navigation--section-illustration">Section illustration</a></li>
             <li><a href="#navigation--section">Section</a></li>
@@ -2658,112 +2948,12 @@
               </button>
               <code><pre id="navigation-bread-crumbs-code-sample-copy-chunk">&lt;nav id="#nav"&gt;
   &lt;ul class="list-group-inline breadcrumb valign-bottom">
-    &lt;li>&lt;a class="link-box peta gutter-1-8" href="#">Home &lt;b class="inline normal">&gt;&lt;/b>&lt;/a>&lt;/li>
-    &lt;li>&lt;a class="link-box peta gutter-1-8" href="#">Product list &lt;b class="inline normal">&gt;&lt;/b>&lt;a>&lt;/a>&lt;/a>
-    &lt;/li>
-    &lt;li>&lt;a class="link-box peta gutter-1-8" href="#">Rubik &lt;b class="inline normal">&gt;&lt;/b>&lt;/a>&lt;/li>
+    &lt;li>&lt;a class="link-box peta gutter-1-8" href="#">Home&lt;/a>&lt;b class="inline peta normal">&gt;&lt;/b>&lt;/li>
+    &lt;li>&lt;a class="link-box peta gutter-1-8" href="#">Product list&lt;/a>&lt;b class="inline peta normal">&gt;&lt;/b>&lt;/li>
+    &lt;li>&lt;a class="link-box peta gutter-1-8" href="#">Rubik&lt;/a>&lt;b class="inline peta normal">&gt;&lt;/b>&lt;/li>
     &lt;li class="peta gutter-1-8">Current Item&lt;/li>
   &lt;/ul>
 &lt;/nav>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="pattern-details " id="navigation--filter" style="">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
-          <h3 class="pattern-name tera push-1-8">Filter</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigation-filter-code-sample">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-code"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigation/filter" hidden>
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-copy"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigation/filter.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-pop-out"></use></svg>
-                    </i>
-                  </a>
-                </li>
-            </ul>
-        </div>
-
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
-            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/navigation/filter.html" scrolling="no" data-inject-css=" " ></iframe>
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-                <div class="resize-handle resize-handle-right" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigation-filter-code-sample" tabindex="-1">
-            <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigation-filter-code-sample-copy-chunk" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-              <code><pre id="navigation-filter-code-sample-copy-chunk">&lt;div class="filter gutter"&gt;
-  &lt;div class="filter-section max-length">
-    &lt;div class="filter-price">
-
-      &lt;fieldset class="field-padding">
-        &lt;div class="filter-section-title pad-t">
-          &lt;legend class="pad-t-1-2 pad-b-1-2 bold peta gutter-2">Price&lt;/legend>
-        &lt;/div>
-        &lt;div class="gutter">
-          &lt;ul class="list-group">
-            &lt;li class="pad-t island-1-2">
-              &lt;input type="checkbox" name="price" id="price-1">
-              &lt;label class="block" for="price-1">$4 &#x2013; $10 Dollars&lt;/label>
-            &lt;/li>
-            &lt;li class="island-1-2">
-              &lt;input type="checkbox" name="price" id="price-2">
-              &lt;label class="block" for="price-2">$10 &#x2013; $40 Dollars&lt;/label>
-            &lt;/li>
-            &lt;li class="island-1-2">
-              &lt;input type="checkbox" name="price" id="price-3">
-              &lt;label class="block" for="price-3">$40 &#x2013; $80 Dollars&lt;/label>
-            &lt;/li>
-            &lt;li class="island-1-2">
-              &lt;input type="checkbox" name="price" id="price-4">
-              &lt;label class="block" for="price-4">$80 &#x2013; $100 Dollars&lt;/label>
-            &lt;/li>
-          &lt;/ul>
-
-        &lt;/div>
-        &lt;button class="gutter" type="submit" name="button">
-          &lt;a class="btn btn-drop pad-t">&lt;span aria-label="Filter">Filter&lt;i>&lt;/i>&lt;/span>&lt;/a>
-        &lt;/button>
-
-      &lt;/fieldset>
-    &lt;/div>
-
-  &lt;/div>
-
-&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2942,13 +3132,17 @@
               <code><pre id="navigation-section-illustration-code-sample-copy-chunk">&lt;div class="section-illustration gutter pad-t-2 pad-b-2"&gt;
 
   &lt;div class="island-2 relative wrapper">
-    &lt;div class="accesibility-notice island-2 wrapper">
-      &lt;h2>Did you Know?&lt;/h2>
-      &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;br> Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-      &lt;a class="btn">&lt;span aria-label="More">More&lt;i>&lt;/i>&lt;/span>&lt;/a>
+    &lt;div class="accesibility-notice island-2">
+      &lt;div class="notice-wrapper">
+        &lt;h2>Did you Know?&lt;/h2>
+        &lt;p class="push-r">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p>
+        &lt;a class="btn">&lt;span aria-label="More">More&lt;i>&lt;/i>&lt;/span>&lt;/a>
+      &lt;/div>
     &lt;/div>
-    &lt;div class="absolute accesibility-illustration icon i-256">
-      &lt;img src="http://placehold.it/640x480" alt="">
+    &lt;div class="absolute accesibility-illustration">
+      &lt;i class="icon i-sizing-accessibility">
+          &lt;img src="../../images/accessibility-cube.svg" alt="">
+        &lt;/i>
     &lt;/div>
   &lt;/div>
 
