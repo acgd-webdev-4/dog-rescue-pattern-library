@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Text</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+<section class="island max-length">
+  <div class="pad-t pad-b">
+      <fieldset>
+        <legend class="italic not-bold push giga">Personal details</legend>
+        <div class="grid">
+          <div class="push unit xs-1 s-1 m-1 l-1-2 space-right">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" value="">
+          </div>
+
+          <div class="push unit xs-1 s-1 m-1 l-1-2 space-left">
+            <label for="age">Age</label>
+            <input id="age" type="number" name="age" value="">
+          </div>
+
+          <div class="push unit xs-1 s-1 m-1 l-1-2 space-right">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" value="">
+          </div>
+
+          <div class="push unit xs-1 s-1 m-1 l-1-2 space-left">
+            <label for="fitness">Quantity</label>
+            <select id="fitness" name="fitness">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
+          </div>
+        </div>
+        <div class="">
+          <label for="address">Address</label>
+          <textarea id="address" name="address"></textarea>
+        </div>
+
+      </fieldset>
+      <div class="text-center">
+        <button class="button" type="submit" value="send">Send</button>
+      </div>
+      <input type="hidden" name="_subject" value="Request to join the mission">
+    </form>
+  </div>
+</section>

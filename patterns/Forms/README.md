@@ -11,6 +11,9 @@ drop bar: |
 Checkbox: |
     The Checkbox is for selecting one or more items by checking them off.
 
+Fullform: |
+        The fullform is only used for checkout.
+
 ---
 
 The Forms provide a way for us to get information to complete a transaction or get to know someone better.
