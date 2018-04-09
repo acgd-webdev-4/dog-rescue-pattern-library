@@ -387,10 +387,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library
- * @version 1523275099018
+ * /Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina
+ * @version 1523277204521
  */
-const patternManifest_1523275099017 = {
+const patternManifest_1523277204521 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -574,47 +574,52 @@ const patternManifest_1523275099017 = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/common/grid.css",
-      "typografier": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/common/type.css",
-      "modulifier": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/common/modules.css",
-      "theme": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/common/theme.css"
+      "gridifier": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/common/grid.css",
+      "typografier": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/common/type.css",
+      "modulifier": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/common/modules.css",
+      "theme": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/images/icons.svg"
+      "icons": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/images/logo.png",
+      "sizeLarge": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/images/logo.png",
       "size64": false,
       "size32": false,
       "size16": false,
       "sizeLargeLocal": "logo.png"
     },
     "patterns": [
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/banner",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/buttons",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/navigation",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section"
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/banner",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/buttons",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/cards",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/footer",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/header",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/navigation",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/sections",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/text-section"
     ],
     "pages": [
       {
         "name": "checkout.html",
         "namePretty": "Checkout",
-        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/pages/checkout.html"
+        "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/pages/checkout.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/pages/home.html"
+        "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/pages/home.html"
+      },
+      {
+        "name": "product-details.html",
+        "namePretty": "Product details",
+        "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/pages/product-details.html"
       },
       {
         "name": "products.html",
         "namePretty": "Products",
-        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/pages/products.html"
+        "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/pages/products.html"
       }
     ]
   },
@@ -622,12 +627,12 @@ const patternManifest_1523275099017 = {
     {
       "name": "banner",
       "namePretty": "Banner",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/banner",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/banner",
       "html": [
         {
           "name": "banner",
           "namePretty": "Banner",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/banner/banner.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/banner/banner.html",
           "localPath": "patterns/banner/banner.html"
         }
       ],
@@ -636,7 +641,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "banner",
           "namePretty": "Banner",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/banner/banner.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/banner/banner.css",
           "localPath": "patterns/banner/banner.css"
         }
       ]
@@ -644,12 +649,12 @@ const patternManifest_1523275099017 = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/buttons",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/buttons",
       "html": [
         {
           "name": "buttons",
           "namePretty": "Buttons",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/buttons/buttons.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/buttons/buttons.html",
           "localPath": "patterns/buttons/buttons.html"
         }
       ],
@@ -657,7 +662,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/buttons/README.md",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -665,7 +670,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "buttons",
           "namePretty": "Buttons",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/buttons/buttons.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ]
@@ -673,26 +678,26 @@ const patternManifest_1523275099017 = {
     {
       "name": "cards",
       "namePretty": "Cards",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/cards",
       "html": [
         {
           "name": "basic-card",
           "namePretty": "Basic card",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards/basic-card.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/cards/basic-card.html",
           "localPath": "patterns/cards/basic-card.html",
           "readme": {}
         },
         {
           "name": "image-card",
           "namePretty": "Image card",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards/image-card.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/cards/image-card.html",
           "localPath": "patterns/cards/image-card.html",
           "readme": {}
         },
         {
           "name": "product-card",
           "namePretty": "Product card",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards/product-card.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/cards/product-card.html",
           "localPath": "patterns/cards/product-card.html",
           "readme": {}
         }
@@ -701,7 +706,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards/README.md",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/cards/README.md",
           "localPath": "patterns/cards/README.md"
         }
       ],
@@ -709,7 +714,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "cards",
           "namePretty": "Cards",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/cards/cards.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
       ]
@@ -717,12 +722,12 @@ const patternManifest_1523275099017 = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer/footer.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/footer/footer.html",
           "localPath": "patterns/footer/footer.html",
           "readme": {}
         }
@@ -731,7 +736,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer/README.md",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/footer/README.md",
           "localPath": "patterns/footer/README.md"
         }
       ],
@@ -739,7 +744,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "footer",
           "namePretty": "Footer",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/footer/footer.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/footer/footer.css",
           "localPath": "patterns/footer/footer.css"
         }
       ]
@@ -747,65 +752,65 @@ const patternManifest_1523275099017 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms",
       "html": [
         {
           "name": "email-input",
           "namePretty": "Email input",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/email-input.html",
-          "localPath": "patterns/forms/email-input.html"
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms/email-input.html",
+          "localPath": "patterns/Forms/email-input.html"
         },
         {
           "name": "form-dropmenu",
           "namePretty": "Form dropmenu",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/form-dropmenu.html",
-          "localPath": "patterns/forms/form-dropmenu.html"
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms/form-dropmenu.html",
+          "localPath": "patterns/Forms/form-dropmenu.html"
         },
         {
           "name": "fullform",
           "namePretty": "Fullform",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/fullform.html",
-          "localPath": "patterns/forms/fullform.html"
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms/fullform.html",
+          "localPath": "patterns/Forms/fullform.html"
         },
         {
           "name": "text-form",
           "namePretty": "Text form",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/text-form.html",
-          "localPath": "patterns/forms/text-form.html"
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms/text-form.html",
+          "localPath": "patterns/Forms/text-form.html"
         },
         {
           "name": "textarea",
           "namePretty": "Textarea",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/textarea.html",
-          "localPath": "patterns/forms/textarea.html"
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms/textarea.html",
+          "localPath": "patterns/Forms/textarea.html"
         }
       ],
       "md": [
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/README.md",
-          "localPath": "patterns/forms/README.md"
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms/README.md",
+          "localPath": "patterns/Forms/README.md"
         }
       ],
       "css": [
         {
           "name": "forms",
           "namePretty": "Forms",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/forms/forms.css",
-          "localPath": "patterns/forms/forms.css"
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/Forms/forms.css",
+          "localPath": "patterns/Forms/forms.css"
         }
       ]
     },
     {
       "name": "header",
       "namePretty": "Header",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/header",
       "html": [
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header/header.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/header/header.html",
           "localPath": "patterns/header/header.html",
           "readme": {}
         }
@@ -814,7 +819,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header/README.md",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/header/README.md",
           "localPath": "patterns/header/README.md"
         }
       ],
@@ -822,7 +827,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/header/header.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/header/header.css",
           "localPath": "patterns/header/header.css"
         }
       ]
@@ -830,12 +835,12 @@ const patternManifest_1523275099017 = {
     {
       "name": "navigation",
       "namePretty": "Navigation",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/navigation",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/navigation",
       "html": [
         {
           "name": "navigation",
           "namePretty": "Navigation",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/navigation/navigation.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/navigation/navigation.html",
           "localPath": "patterns/navigation/navigation.html",
           "readme": {}
         }
@@ -844,7 +849,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/navigation/README.md",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/navigation/README.md",
           "localPath": "patterns/navigation/README.md"
         }
       ],
@@ -852,7 +857,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "navigation",
           "namePretty": "Navigation",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/navigation/navigation.css",
           "localPath": "patterns/navigation/navigation.css"
         }
       ]
@@ -860,26 +865,26 @@ const patternManifest_1523275099017 = {
     {
       "name": "sections",
       "namePretty": "Sections",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/sections",
       "html": [
         {
           "name": "links-section",
           "namePretty": "Links section",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections/links-section.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/sections/links-section.html",
           "localPath": "patterns/sections/links-section.html",
           "readme": {}
         },
         {
           "name": "nav-checkout",
           "namePretty": "Nav checkout",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections/nav-checkout.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/sections/nav-checkout.html",
           "localPath": "patterns/sections/nav-checkout.html",
           "readme": {}
         },
         {
           "name": "products",
           "namePretty": "Products",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections/products.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/sections/products.html",
           "localPath": "patterns/sections/products.html"
         }
       ],
@@ -887,7 +892,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections/README.md",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/sections/README.md",
           "localPath": "patterns/sections/README.md"
         }
       ],
@@ -895,7 +900,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "sections",
           "namePretty": "Sections",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/sections/sections.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/sections/sections.css",
           "localPath": "patterns/sections/sections.css"
         }
       ]
@@ -903,12 +908,12 @@ const patternManifest_1523275099017 = {
     {
       "name": "text-section",
       "namePretty": "Text section",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/text-section",
       "html": [
         {
           "name": "text-section",
           "namePretty": "Text section",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section/text-section.html",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/text-section/text-section.html",
           "localPath": "patterns/text-section/text-section.html"
         }
       ],
@@ -917,7 +922,7 @@ const patternManifest_1523275099017 = {
         {
           "name": "section",
           "namePretty": "Section",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library/patterns/text-section/section.css",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library-paulina/patterns/text-section/section.css",
           "localPath": "patterns/text-section/section.css"
         }
       ]
@@ -943,5 +948,5 @@ const patternManifest_1523275099017 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523275099017);
+patternBotIncludes(patternManifest_1523277204521);
 }());
