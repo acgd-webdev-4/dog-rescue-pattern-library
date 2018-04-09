@@ -1,0 +1,38 @@
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+  transition: all 250ms ease;
+}

@@ -1,0 +1,90 @@
+.nav ol{
+  position: relative;
+  background-color: var(--color-secondary);
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ol:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+nav ol .selection {
+  background-color: var(--color-secondary);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  transition: all 250ms ease;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 5px;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  transition: all 250ms ease;
+  border-radius: 5px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+}
+
+.prime {
+  color: var(--color-primary);
+}
+
+.nav {
+  text-align: center;
+  padding-bottom: 1em;
+  color: var(--color-primary);
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  color: var(--color-primary);
+}
+
+.nav a:hover {
+  color: var(--color-accent);
+  border-top: 2px solid var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 3px;
+  transition: .5s ease;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    text-align: right;
+    padding-bottom: 0;
+  }
+}

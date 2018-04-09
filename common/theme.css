@@ -1,0 +1,37 @@
+:root {
+  --color-primary: #44948a;
+  --color-secondary: #0c473d;
+  --color-accent: #eece7b;
+  --color-neutral: #9d9c99;
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Merriweather", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+a {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+ul,
+ol,
+dl,
+blockquote,
+cite,
+q {
+  color: var(--color-secondary);
+  font-family: var(--font-primary);
+}

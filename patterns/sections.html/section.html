@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>sections</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family&#x3D;Open+Sans:400,400i,700|Merriweather:400,400i,700" rel="stylesheet">
+  <link href="sections.css" rel="stylesheet">
+</head>
+<body>
+
+  <section id="contact" tabindex="0">
+    <div class="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1 gutter-1-2">
+        <h3 class="pad-t-1-2 push-1-2 gutter-1-2">SUBSCRIBE</h3>
+        <p class="mega push-0 pad-b-1-2 gutter-1-2 navy">Sign up today and recieve 15% off your first purchase!</p>
+
+        <form class="grid" method="post" action="#">
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] push gutter-1-2 pad-t-1-2 navy">
+            <label for="name" class="push-1-8">Your name</label>
+            <input id="name" required>
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] push gutter-1-2 pad-t-1-2 navy">
+            <label for="email" class="push-1-8">E-mail address</label>
+            <input type="text" id="email" required>
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] push gutter-1-2 pad-b-1-2 navy">
+            <label for="how-did-you-hear-about-us" class="push-1-8">How did you hear about us?</label>
+            <select id="how-did-you-hear-about-us" name="...">
+              <option>Family & Friends</option>
+              <option>Web</option>
+              <option>Advertisement</option>
+              <option>Other...</option>
+            </select>
+          </div>
+          <div class="unit xs-1 text-center pad-b-2">
+            <button class="btn mega" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

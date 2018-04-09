@@ -1,0 +1,15 @@
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 30em;
+}
+
+figcaption {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+}
