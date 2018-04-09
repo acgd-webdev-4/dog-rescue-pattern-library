@@ -17,11 +17,7 @@ h1 {
 
 legend {
   padding-right: 1rem;
-  display: block;
-}
-
-body {
-  background-color: #f2f2f2;
+  border-color: var(--color-whatever);
 }
 
 section {
