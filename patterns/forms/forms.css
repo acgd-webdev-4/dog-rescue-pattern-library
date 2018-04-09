@@ -68,6 +68,11 @@ textarea {
   left: 1.75em;
 }
 
+.table-body tr th {
+  font-weight: normal;
+}
+
+
 
 @media only screen and (min-width: 38em) {
 

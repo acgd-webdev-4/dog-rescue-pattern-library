@@ -27,7 +27,7 @@
   </section>
 
   <main class="pad-t-2 pad-b-2 cart-checkout"  id="main" role="main" tabindex="0">
-    <section class="gutter-2 push-1-2">
+    <section class="gutter-2 push-1-2 pad-t-2">
       <h2>Checkout</h2>
       <ul class="grid list-group-inline cart-checkout-text">
         <li class="unit [ xs-1 s-1-2 ] text-left">
@@ -39,15 +39,16 @@
       </div>
     </section>
     <section>
+
       <form class="" action="index.html" method="post" novalidate>
+
         <div class="grid gutter">
 
-          <div class="unit xs-1 xl-1-3 pad-b-2">
+          <div class="unit xs-1 xl-1-3 pad-t pad-b-2 gutter-1-2">
             <script class="push-2" type="application/json" data-pattern="forms/legend-label"></script>
             <div class="pad-t">
               <script class="pad-t-2" type="application/json" data-pattern="forms/radio-input"></script>
             </div>
-
             <div class="grid pad-t">
               <div class="unit xs-1-2 gutter-1-4">
                 <script type="application/json" data-pattern="forms/text-input">{
@@ -65,26 +66,23 @@
               <div class="unit xs-1-2 gutter-1-4 pad-t-1-2">
                 <script type="application/json" data-pattern="forms/email-input"></script>
               </div>
-
               <div class="unit xs-1-2 gutter-1-4 pad-t-1-2">
                 <script type="application/json" data-pattern="forms/phone-form"></script>
               </div>
-
-              <div class="unit xs-1 pad-t-1-2">
+              <div class="unit xs-1 pad-t">
                 <script type="application/json" data-pattern="forms/password-input"></script>
               </div>
-
-              <div class="unit xs-1 pad-t-1-2">
+              <div class="unit xs-1 pad-t">
                 <div class="grid">
                   <div class="unit  xs-1">
                     <script type="application/json" data-pattern="forms/text-input">{
-                      "label":"Address*",
+                      "label":"Address",
                       "label[for]": "address",
                       "input[id]":"address",
                       "input[name]": "address"
                     }</script>
                   </div>
-                  <div class="unit xs-1 pad-t-1-4">
+                  <div class="unit xs-1 pad-t-1-2">
                     <script type="application/json" data-pattern="forms/text-input">
                       {
                         "label":"",
@@ -96,8 +94,7 @@
                   </div>
                 </div>
               </div>
-
-              <div class="unit xs-1 pad-t-1-2">
+              <div class="unit xs-1 pad-t">
                 <script type="application/json" data-pattern="forms/text-input">
                   {
                     "label": "City",
@@ -107,8 +104,7 @@
                   }
               </script>
               </div>
-
-              <div class="unit xs-1-2 pad-t-1-2">
+              <div class="unit xs-1-2 pad-t">
                 <script type="application/json" data-pattern="forms/text-input">{
                   "label":"Province",
                   "label[for]": "province",
@@ -116,44 +112,186 @@
                   "input[name]": "province"
                 }</script>
               </div>
-
-              <div class="unit xs-1-2 gutter-1-2 pad-t-1-2">
+              <div class="unit xs-1-2 gutter-1-2 pad-t">
                 <script type="application/json" data-pattern="forms/select-input"></script>
               </div>
-
-
-
             </div>
           </div>
 
-          <div class="unit xs-1 xl-1-3 pad-b-2">
-            <div class="grid">
-              <div class="unit xs-1 pad-b-2">
-                <script type="application/json" data-pattern="forms/legend-label">{
-                  "legend span":"Shipping Method",
-                  "legend b": "2"
-                }</script>
-              </div>
+            <div class="unit xs-1 xl-1-3 pad-t pad-b gutter-1-2">
+              <div class="grid">
+                <div class="unit xs-1 pad-b">
+                  <script type="application/json" data-pattern="forms/legend-label">{
+                    "legend span":"Shipping Method",
+                    "legend b": "2"
+                  }</script>
+                  <div class="grid pad-t">
+                    <div>
+                      <div class="unit xs-1 gutter-1-4 push-1-2">
+                          <script type="application/json" data-pattern="forms/standard-radio-selection">
+                            {
+                                "label":"Premium 2 day Shipping—+  $4.99",
+                                "label[for]": "shipping",
+                                "input[name]": "shipping-method",
+                                "input[id]":"shipping",
+                                "input[name]":"shipping"
+                            }
+                          </script>
+                        </div>
+                        <div class="unit xs-1 gutter-1-4 push-1-2">
+                          <script type="application/json" data-pattern="forms/standard-radio-selection">
+                            {
+                              "label":"Premium 2 day Shipping—+  $4.99",
+                              "label[for]": "premium",
+                              "input[name]": "shipping-method",
+                              "input[id]":"premium",
+                              "input[name]": "premium"
+                            }
+                          </script>
+                        </div>
+                        <div class="unit xs-1 gutter-1-4 push-1-2">
+                          <script type="application/json" data-pattern="forms/standard-radio-selection">
+                            {
+                              "label":"Platinum 1 day Shipping—+ $5.99",
+                              "label[for]": "platinum",
+                              "input[name]": "shipping-method",
+                              "input[id]":"platinum",
+                              "input[name]": "platinum"
+                            }
+                          </script>
+                        </div>
+                      </div>
 
-              <div class="unit xs-1 pad-b-2">
-                <script type="application/json" data-pattern="forms/legend-label">{
-                  "legend span":"Payment Method",
-                  "legend b": "3"
-                }</script>
+                  </div>
+                </div>
+
+                <div class="unit xs-1 pad-b">
+                  <script type="application/json" data-pattern="forms/legend-label">{
+                    "legend span":"Payment Method",
+                    "legend b": "3"
+                  }</script>
+                  <div class="grid pad-t">
+                    <div class="unit xs-1 s-1-2 gutter-1-4 push-1-2">
+                      <script type="application/json" data-pattern="forms/standard-radio-selection">
+                        {
+                          "label":"Credit Card",
+                          "label[for]": "credit-card",
+                          "input[name]": "payment",
+                          "input[id]":"credit-card",
+                          "input[name]": "credit-card"
+                        }
+                      </script>
+                    </div>
+                    <div class="unit xs-1 s-1-2 gutter-1-4 push-1-2">
+                      <script type="application/json" data-pattern="forms/standard-radio-selection">
+                        {
+                          "label":"Debit Card",
+                          "label[for]": "debit-card",
+                          "input[name]": "payment",
+                          "input[id]":"debit-card",
+                          "input[name]": "debit-card"
+                        }
+                      </script>
+                    </div>
+                    <div class="unit xs-1 s-1-2 gutter-1-4 push-1-2">
+                      <script type="application/json" data-pattern="forms/standard-radio-selection">
+                        {
+                          "label":"Money Order",
+                          "label[for]": "money-order",
+                          "input[name]": "payment",
+                          "input[id]":"money-order",
+                          "input[name]": "money-order"
+                        }
+                      </script>
+                    </div>
+                    <div class="unit xs-1 s-1-2 gutter-1-4 push-1-2">
+                      <script type="application/json" data-pattern="forms/standard-radio-selection">
+                        {
+                          "label":"Other",
+                          "label[for]": "other",
+                          "input[name]": "payment",
+                          "input[id]":"other",
+                          "input[name]": "other"
+                        }
+                      </script>
+                    </div>
+
+                    <div class="unit xs-1 pad-t-1-2 gutter-1-4">
+                      <script type="application/json" data-pattern="forms/text-input">{
+                        "label":"Name(as it appears on card)",
+                        "label[for]": "card-record",
+                        "input[id]":"name-on-card",
+                        "input[name]": "name-on-card"
+                      }</script>
+                    </div>
+                    <div class="unit xs-1 pad-t-1-2 gutter-1-4">
+                      <script type="application/json" data-pattern="forms/text-input">{
+                        "label":"Card Number(no dashed or spaces)",
+                        "label[for]": "card-record",
+                        "input[id]":"number-on-card",
+                        "input[name]": "number-on-card"
+                      }</script>
+                    </div>
+                    <div class="unit xs-1-2 pad-t-1-2 gutter-1-4">
+                      <script type="application/json" data-pattern="forms/date-field"></script>
+                    </div>
+                    <div class="unit xs-1-2 pad-t-1-2 gutter-1-4">
+                        <script type="application/json" data-pattern="forms/select-input">
+                       {
+                          "label":"Expiration date",
+                          "label[for]":"expiration-date",
+                          "select[id]":"expiration-date",
+                          "select[name]":"expiration-date",
+                          "option": "2018",
+                          "option": "2019",
+                          "option": "2020",
+                          "option": "2021",
+                          "option": "2022",
+                          "option": "2024",
+                          "option": "2025"
+                        }
+                      </script>
+                    </div>
+                    <div class="unit xs-1-2 pad-t-1-2">
+                      <script type="application/json" data-pattern="forms/password-input">
+                      {
+                        "label": "Security Code",
+                        "label[for]": "security",
+                        "input[name]": "security",
+                        "input[id]": "security"
+                      }
+                    </script>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="unit xs-1 xl-1-3 pad-b-2">
+          <div class="unit xs-1 xl-1-3 pad-t gutter-1-2">
             <script type="application/json" data-pattern="forms/legend-label">{
-              "legend": "Order Review",
-              "input": ""
+              "legend": "Order Review"
             }</script>
+            <script class="push" type="application/json" data-pattern="forms/checkout-table"></script>
+            <div class="grid pad-t">
+              <div class="unit xs-1-2 pad-t-1-2">
+                <script type="application/json" data-pattern="forms/text-input">
+                  {
+                    "label": "Add Coupon Code",
+                    "label[for]": "coupon",
+                    "input[id]":"coupon",
+                    "input[name]": "coupon"
+                  }
+              </script>
+              </div>
+              <div class="unit xs-1-2  gutter">
+                <script type="application/json" data-pattern="buttons/button-save"></script>
+              </div>
+            </div>
+            <script type="application/json" data-pattern="forms/text-area"></script>
+            <script class="gutter" type="application/json" data-pattern="buttons/buttons-submit"></script>
           </div>
-
-
         </div>
-
+      </form>
     </section>
 
   </main>

@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1523287627346
+ * @version 1523304812477
  */
-const patternManifest_1523287627346 = {
+const patternManifest_1523304812477 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -714,6 +714,45 @@ const patternManifest_1523287627346 = {
       "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
+          "name": "button-cart",
+          "namePretty": "Button cart",
+          "filename": "button-cart",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-cart.html",
+          "localPath": "patterns/buttons/button-cart.html",
+          "readme": {}
+        },
+        {
+          "name": "button-drop",
+          "namePretty": "Button drop",
+          "filename": "button-drop",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-drop.html",
+          "localPath": "patterns/buttons/button-drop.html",
+          "readme": {}
+        },
+        {
+          "name": "button-more",
+          "namePretty": "Button more",
+          "filename": "button-more",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-more.html",
+          "localPath": "patterns/buttons/button-more.html",
+          "readme": {}
+        },
+        {
+          "name": "button-save",
+          "namePretty": "Button save",
+          "filename": "button-save",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-save.html",
+          "localPath": "patterns/buttons/button-save.html",
+          "readme": {}
+        },
+        {
+          "name": "buttons-submit",
+          "namePretty": "Buttons submit",
+          "filename": "buttons-submit",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/buttons-submit.html",
+          "localPath": "patterns/buttons/buttons-submit.html"
+        },
+        {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
@@ -879,6 +918,14 @@ const patternManifest_1523287627346 = {
       "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
+          "name": "checkout-table",
+          "namePretty": "Checkout table",
+          "filename": "checkout-table",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/checkout-table.html",
+          "localPath": "patterns/forms/checkout-table.html",
+          "readme": {}
+        },
+        {
           "name": "date-field",
           "namePretty": "Date field",
           "filename": "date-field",
@@ -938,6 +985,13 @@ const patternManifest_1523287627346 = {
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/select-input.html",
           "localPath": "patterns/forms/select-input.html",
           "readme": {}
+        },
+        {
+          "name": "standard-radio-selection",
+          "namePretty": "Standard radio selection",
+          "filename": "standard-radio-selection",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/standard-radio-selection.html",
+          "localPath": "patterns/forms/standard-radio-selection.html"
         },
         {
           "name": "text-area",
@@ -1098,5 +1152,5 @@ const patternManifest_1523287627346 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523287627346);
+patternBotIncludes(patternManifest_1523304812477);
 }());

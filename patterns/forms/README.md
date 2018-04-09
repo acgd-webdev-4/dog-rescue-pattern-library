@@ -1,7 +1,7 @@
 ---
 
 text-input: |
-  The text input field should be used for names, address information.
+  The text input field should be used for names, and address information.
 email-input: |
   The email input field should be used specifically for any email information.
 password-input: |
@@ -16,8 +16,12 @@ legend-label: |
   The legend should be used to separate different sections in the form.
 select-input: |
   The select input should be used to select different options in drop-down selection.
+shipping-method: |
+    The select input should be used to select desired shipping method of products.
 search-input: |
   The select input should be used to filter out options when searching for products.
+checkout-table: |
+  The table should be used at the end of the checkout form to give breakdown of the pricing breakdown.
 
 ---
 
