@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1523304812477
+ * @version 1523310731422
  */
-const patternManifest_1523304812477 = {
+const patternManifest_1523310731422 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -890,7 +890,8 @@ const patternManifest_1523304812477 = {
           "namePretty": "Footer",
           "filename": "footer",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer/footer.html",
-          "localPath": "patterns/footer/footer.html"
+          "localPath": "patterns/footer/footer.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1095,21 +1096,24 @@ const patternManifest_1523304812477 = {
           "namePretty": "Section illustration",
           "filename": "section-illustration",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/section-illustration.html",
-          "localPath": "patterns/navigation/section-illustration.html"
+          "localPath": "patterns/navigation/section-illustration.html",
+          "readme": {}
         },
         {
           "name": "section",
           "namePretty": "Section",
           "filename": "section",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/section.html",
-          "localPath": "patterns/navigation/section.html"
+          "localPath": "patterns/navigation/section.html",
+          "readme": {}
         },
         {
           "name": "tool-bars",
           "namePretty": "Tool bars",
           "filename": "tool-bars",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/tool-bars.html",
-          "localPath": "patterns/navigation/tool-bars.html"
+          "localPath": "patterns/navigation/tool-bars.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1152,5 +1156,5 @@ const patternManifest_1523304812477 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523304812477);
+patternBotIncludes(patternManifest_1523310731422);
 }());
