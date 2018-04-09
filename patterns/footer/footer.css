@@ -1,0 +1,15 @@
+html {
+  font-family: sans-serif;
+}
+
+a svg:hover {
+  background-color: #fff;
+}
+
+.copyright {
+  display: block;
+}
+
+section-icon {
+  display: inline-block;
+}

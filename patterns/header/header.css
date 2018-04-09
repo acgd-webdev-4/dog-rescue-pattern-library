@@ -1,0 +1,25 @@
+.masthead {
+  background-size: 64px auto;
+  background-repeat: repeat;
+  background-position: .2em center;
+}
+
+p {
+  color: white;
+}
+
+.nav {
+  text-align: right;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}

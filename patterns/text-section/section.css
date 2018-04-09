@@ -1,0 +1,10 @@
+p {
+  color: var(--color-primary-light);
+  text-align: center;
+}
+
+h1 {
+  color: var(--color-primary);
+  padding-top: 1em;
+  text-align: center;
+}

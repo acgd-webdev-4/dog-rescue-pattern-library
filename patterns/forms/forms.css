@@ -1,0 +1,36 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-whatever);
+  border-width: 1em;
+  padding: 1em;
+  padding-top: 1em;
+  border-radius: 1em;
+}
+
+fieldset {
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+legend {
+  padding-right: 1rem;
+  border-color: var(--color-whatever);
+}
+
+section {
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .space-right {
+    padding-right: .5rem;
+  }
+
+  .space-left {
+    padding-left: .5rem;
+  }
+}

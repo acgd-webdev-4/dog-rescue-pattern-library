@@ -1,0 +1,14 @@
+.banner {
+  background: url("../../images/home-banner.jpg") center top / cover no-repeat;
+  height: 80vh;
+}
+
+.btn-1 {
+  padding-top: 25em;
+  color: var(--color-whatever);
+  font-family: "Archivo Black", sans-serif;
+}
+
+p {
+  color: var(--color-primary-light);
+}

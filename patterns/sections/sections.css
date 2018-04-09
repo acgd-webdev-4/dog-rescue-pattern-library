@@ -1,0 +1,60 @@
+h1 {
+  font-family: var(--font-primary-light);
+}
+
+.link,
+nav {
+  background-color: #fcfcfc;
+  text-align: center;
+}
+
+.link-checkout {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+  text-align: center;
+}
+
+.link-bg {
+  color: var(--color-primary);
+}
+
+.link-list {
+  padding-left: 0;
+}
+
+.link,
+nav a {
+  color: var(--color-primary-light);
+  border-bottom: 1.5px solid var(--color-primary);
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-color: var(--color-whatever);
+  color: var(--color-whatever);
+}
+
+.img-s {
+  width: 40px;
+}
+
+p {
+  color: var(--color-primary-light);
+}
+
+.navi {
+  position: relative;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+}
+
+.navi ol:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+nav ol .selection {
+  background-color: var(--color-primary);
+  color: #fff;
+}
