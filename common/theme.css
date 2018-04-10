@@ -42,7 +42,12 @@ h5 {
 }
 
 h6 {
-  font-size: .725em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1em;
 }
 
 a {

@@ -2,6 +2,10 @@ html {
   line-height: 24px;
 }
 
+.img-flex {
+  border-radius: 10px 10px 0 0;
+}
+
 .main-card,
 .basic-card {
   border: 6px solid var(--color-neutral);
@@ -29,37 +33,37 @@ html {
     border: 2px solid var(--color-accent);
 }
 
-#rating-one[type="radio"]:checked  ~ [for="rating-one"] {
+#rating-one[type="radio"]:checked ~ [for="rating-one"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
 
-#rating-two[type="radio"]:checked  ~ [for="rating-one"],
-#rating-two[type="radio"]:checked  ~ [for="rating-two"] {
+#rating-two[type="radio"]:checked ~ [for="rating-one"],
+#rating-two[type="radio"]:checked ~ [for="rating-two"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
 
-#rating-three[type="radio"]:checked  ~ [for="rating-one"],
-#rating-three[type="radio"]:checked  ~ [for="rating-two"],
-#rating-three[type="radio"]:checked  ~ [for="rating-three"] {
+#rating-three[type="radio"]:checked ~ [for="rating-one"],
+#rating-three[type="radio"]:checked ~ [for="rating-two"],
+#rating-three[type="radio"]:checked ~ [for="rating-three"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
 
-#rating-four[type="radio"]:checked  ~ [for="rating-one"],
-#rating-four[type="radio"]:checked  ~ [for="rating-two"],
-#rating-four[type="radio"]:checked  ~ [for="rating-three"],
-#rating-four[type="radio"]:checked  ~ [for="rating-four"] {
+#rating-four[type="radio"]:checked ~ [for="rating-one"],
+#rating-four[type="radio"]:checked ~ [for="rating-two"],
+#rating-four[type="radio"]:checked ~ [for="rating-three"],
+#rating-four[type="radio"]:checked ~ [for="rating-four"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
 
-#rating-five[type="radio"]:checked  ~ [for="rating-one"],
-#rating-five[type="radio"]:checked  ~ [for="rating-two"],
-#rating-five[type="radio"]:checked  ~ [for="rating-three"],
-#rating-five[type="radio"]:checked  ~ [for="rating-four"],
-#rating-five[type="radio"]:checked  ~ [for="rating-five"] {
+#rating-five[type="radio"]:checked~ [for="rating-one"],
+#rating-five[type="radio"]:checked~ [for="rating-two"],
+#rating-five[type="radio"]:checked~ [for="rating-three"],
+#rating-five[type="radio"]:checked~ [for="rating-four"],
+#rating-five[type="radio"]:checked~ [for="rating-five"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
@@ -70,32 +74,32 @@ html {
   background-image: none;
 }
 
-#rating-two[type="radio"]:hover  ~ [for="rating-one"],
-#rating-two[type="radio"]:hover  ~ [for="rating-two"] {
+#rating-two[type="radio"]:hover ~ [for="rating-one"],
+#rating-two[type="radio"]:hover ~ [for="rating-two"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
 
-#rating-three[type="radio"]:hover  ~ [for="rating-one"],
-#rating-three[type="radio"]:hover  ~ [for="rating-two"],
-#rating-three[type="radio"]:hover  ~ [for="rating-three"] {
+#rating-three[type="radio"]:hover ~ [for="rating-one"],
+#rating-three[type="radio"]:hover ~ [for="rating-two"],
+#rating-three[type="radio"]:hover ~ [for="rating-three"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
 
-#rating-four[type="radio"]:hover  ~ [for="rating-one"],
-#rating-four[type="radio"]:hover  ~ [for="rating-two"],
-#rating-four[type="radio"]:hover  ~ [for="rating-three"],
-#rating-four[type="radio"]:hover  ~ [for="rating-four"] {
+#rating-four[type="radio"]:hover ~ [for="rating-one"],
+#rating-four[type="radio"]:hover ~ [for="rating-two"],
+#rating-four[type="radio"]:hover ~ [for="rating-three"],
+#rating-four[type="radio"]:hover ~ [for="rating-four"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }
 
-#rating-five[type="radio"]:hover  ~ [for="rating-one"],
-#rating-five[type="radio"]:hover  ~ [for="rating-two"],
-#rating-five[type="radio"]:hover  ~ [for="rating-three"],
-#rating-five[type="radio"]:hover  ~ [for="rating-four"],
-#rating-five[type="radio"]:hover  ~ [for="rating-five"] {
+#rating-five[type="radio"]:hover ~ [for="rating-one"],
+#rating-five[type="radio"]:hover ~ [for="rating-two"],
+#rating-five[type="radio"]:hover ~ [for="rating-three"],
+#rating-five[type="radio"]:hover ~ [for="rating-four"],
+#rating-five[type="radio"]:hover ~ [for="rating-five"] {
   background-color: var(--color-primary-dark);
   background-image: none;
 }

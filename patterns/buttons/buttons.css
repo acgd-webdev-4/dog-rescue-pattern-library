@@ -61,7 +61,8 @@
   background-color: var(--color-primary-dark);
 }
 
-.btn-cart span i {
+.btn-cart span i,
+.btn-submit span i {
   left: 6px;
   transform: rotateY(-90deg) translate3d(0, 0, 2.5em);
   background-color: var(--color-secondary-dark);
@@ -71,7 +72,8 @@
   transform: rotateY(-180deg);
 }
 
-.btn-cart:hover span {
+.btn-cart:hover span,
+.btn-submit:hover span {
   transform: rotateY(180deg);
 }
 
