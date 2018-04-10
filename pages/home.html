@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Rubikas | Home Page</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="img/ico" href="../images/favicon.ico">
   <script src="../common/patternbot.js"></script>
 </head>
 <body>
@@ -12,70 +13,103 @@
 
   <script type="application/json" data-pattern="header/header"></script>
 
-  <script type="application/json" data-pattern="banner/home-banner">{
-    ".home-text-image-banner[class]": "home-text-image-banner banner-img-1 embed embed-16by9",
-    "h1": "The Home of the Cubes",
-    "p": "The Magic Cube was created in 1974 by the Hungarian professor Ernő Rubik. Rubikas is devoted to producing and selling this world's top selling puzzle game."
-  }</script>
+  <script type="application/json" data-pattern="banner/home-banner">
+    {
+      ".home-text-image-banner[class]": "home-text-image-banner banner-img-1 embed embed-16by9",
+      "h1": "The Home of the Cubes",
+      "p": "The Magic Cube was created in 1974 by the Hungarian professor Ernő Rubik. Rubikas is devoted to producing and selling this world's top selling puzzle game."
+    }
+  </script>
 
-  <main >
+  <main class="pad-t-2 pad-b-2 cart-checkout" id="main" role="main" tabindex="0">
     <div class="grid grid-stretch island-2">
       <div class="unit [ xs-1 l-1-2 xl-1-4 ] unit-content-distribute pad-t pad-b">
-        <script type="application/json" data-pattern="card/info-card">{
-          "img[src]": "../images/four-by-four-by-four.jpg",
-          "h3": "New Releases",
-          "p": "A Whole new type of rubik introduced to our collection at Rubikas"
-        }</script>
+        <script type="application/json" data-pattern="card/info-card">
+          {
+            "img[src]": "../images/four-by-four-by-four.jpg",
+            "h3": "New Releases",
+            "p": "A Whole new type of rubik introduced to our collection at Rubikas"
+          }
+        </script>
       </div>
       <div class="unit [ xs-1 l-1-2 xl-1-4 ] unit-content-distribute pad-t pad-b">
-        <script type="application/json" data-pattern="card/info-card">{
-          "img[src]": "../images/compete.jpg",
-          "h3" : "Get involved!"
-        }</script>
+        <script type="application/json" data-pattern="card/info-card">
+          {
+            "img[src]": "../images/compete.jpg",
+            "h3": "Get involved!",
+            "p": "Here you will find many competitions and events, come and join our newsletter"
+          }
+        </script>
       </div>
       <div class="unit [ xs-1 l-1-2 xl-1-4 ] unit-content-distribute pad-t pad-b">
-        <script type="application/json" data-pattern="card/info-card">{
-          "img[src]": "../images/wrench.jpg",
-          "h3": "Fixing the Cube",
-          "p": "Check out our list of manual of your rubik and get cracking. From our 2 by 2 to our hexagonal rubiks, we got the guide to help you through the steps necessary to master your cube."
-        }</script>
+        <script type="application/json" data-pattern="card/info-card">
+          {
+            "img[src]": "../images/wrench.jpg",
+            "h3": "Fixing the Cube",
+            "p": "Check out our list of manual of your rubik and get cracking. From our 2 by 2 to our hexagonal rubiks, we got the guide to help you through the steps necessary to master your cube"
+          }
+        </script>
       </div>
       <div class="unit [ xs-1 l-1-2 xl-1-4 ] unit-content-distribute pad-t pad-b">
-        <script type="application/json" data-pattern="card/info-card">{
-          "img[src]": "../images/chess.jpg",
-          "H3": "Collector's choice"
-        }</script>
+        <script type="application/json" data-pattern="card/info-card">
+          {
+            "img[src]": "../images/chess.jpg",
+            "h3": "Collector's choice",
+            "p": "Check out our list of most purchased items. From our most complex cube to our most demanded board games "
+          }
+        </script>
       </div>
     </div>
   </main>
 
-  <script type="application/json" data-pattern="navigation/section">{
-    "img[src]" : "../images/rubik-two-by-two.png"
-  }</script>
-
   <section>
+    <script type="application/json" data-pattern="navigation/section">
+      {
+        "img[src]": "../images/pyramid-rubik.png",
+        "h2": "That's a cube?",
+        "p": "Ever since the original magic cube was created, many creators have been inspired by it and are always able to come up with a more innovative shaped cube. Now of course, not all cubes found in our store in itself can be consituted as a cube. For a cube is a symmetrical three-dimensional shape contained by six equal squares. However, you can drop the cube, but they will always be magical."
+      }
+    </script>
+
     <div class="grid island-2 grid-stretch">
       <div class="unit [ xs-1 l-1-3 xl-1-3 ] unit-content-distribute">
-        <script type="application/json" data-pattern="card/basic-card">{
-          "img[src]": "../images/checkers-two.jpg",
-          "p": "Chess"
-        }</script>
+        <script type="application/json" data-pattern="card/basic-card">
+          {
+            "img[src]": "../images/checkers-two.jpg",
+            "h3": "Checkers",
+            "span": "$52",
+            "p": "Challenge your friends to find out who is the real board master"
+          }
+        </script>
       </div>
       <div class="unit [ xs-1 l-1-3 xl-1-3 ] unit-content-distribute">
-        <script type="application/json" data-pattern="card/basic-card">{
-          "img[src]": "../images/jigsaw.jpg",
-          "p": "Puzzles"
-        }</script>
+        <script type="application/json" data-pattern="card/basic-card">
+          {
+            "img[src]": "../images/jigsaw.jpg",
+            "h3": "Puzzles",
+            "span": "$24",
+            "p": "Now introducing our 10,000 pieces puzzle"
+          }
+        </script>
       </div>
       <div class="unit [ xs-1 l-1-3 xl-1-3 ] unit-content-distribute">
-        <script type="application/json" data-pattern="card/basic-card">{
-          "img[src]": "../images/checkers.jpg",
-          "p": "Board Game"
-        }</script>
+        <script type="application/json" data-pattern="card/basic-card">
+          {
+            "img[src]": "../images/checkers.jpg",
+            "h3": "Board Game",
+            "span": "$45",
+            "p": "Test your strategies with our acient-type board games"
+          }
+        </script>
       </div>
     </div>
   </section>
-  <script type="application/json" data-pattern="navigation/section-illustration"></script>
+  <script type="application/json" data-pattern="navigation/section-illustration">
+    {
+      "h2": "Did you know?",
+      "p": "The Magic Cube was an invention by the Hungarian professor Erno Rubik in 1978. He ... Here at Rubikas we are commmitted to make all of our product highly accessible to all audiences. We develop state-of-the-art cubes that are user-friendly, from colour blind to fully blind members of our community. You are safe with us."
+    }
+  </script>
 
   <script type="application/json" data-pattern="footer/footer"></script>
 
