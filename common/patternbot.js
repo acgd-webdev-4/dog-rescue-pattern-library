@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1523324500636
+ * @version 1523377036840
  */
-const patternManifest_1523324500636 = {
+const patternManifest_1523377036840 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -744,6 +744,13 @@ const patternManifest_1523324500636 = {
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-save.html",
           "localPath": "patterns/buttons/button-save.html",
           "readme": {}
+        },
+        {
+          "name": "buttons-filter",
+          "namePretty": "Buttons filter",
+          "filename": "buttons-filter",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/buttons-filter.html",
+          "localPath": "patterns/buttons/buttons-filter.html"
         },
         {
           "name": "buttons-submit",
@@ -1156,5 +1163,5 @@ const patternManifest_1523324500636 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523324500636);
+patternBotIncludes(patternManifest_1523377036840);
 }());

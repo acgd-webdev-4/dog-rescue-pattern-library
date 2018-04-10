@@ -11,7 +11,11 @@
   <script type="application/json" data-pattern="header/skip-links"></script>
   <script type="application/json" data-pattern="navigation/tool-bars"></script>
 
-  <script type="application/json" data-pattern="header/header"></script>
+  <script type="application/json" data-pattern="header/header">
+    {
+      "li:nth-child(1)[class]": "gutter-1-4 milli bold hover-nav"
+    }
+  </script>
 
   <section class="pad-t-2 cart-section pad-b-2">
     <div class="pad-t-2 gutter-2">
@@ -65,10 +69,10 @@
               <script class="pad-t-2" type="application/json" data-pattern="forms/radio-input"></script>
             </div>
             <div class="grid pad-t">
-              <div class="unit xs-1-2 gutter-1-4">
+              <div class="unit xs-1 m-1-2 gutter-1-4">
                 <script type="application/json" data-pattern="forms/text-input"></script>
               </div>
-              <div class="unit xs-1-2 gutter-1-4">
+              <div class="unit xs-1 m-1-2 gutter-1-4">
                 <script type="application/json" data-pattern="forms/text-input">
                   {
                     "label": "Last Name",
@@ -78,10 +82,10 @@
                   }
                 </script>
               </div>
-              <div class="unit xs-1-2 gutter-1-4 pad-t-1-2">
+              <div class="unit xs-1 m-1-2 gutter-1-4 pad-t-1-2">
                 <script type="application/json" data-pattern="forms/email-input"></script>
               </div>
-              <div class="unit xs-1-2 gutter-1-4 pad-t-1-2">
+              <div class="unit xs-1 m-1-2 gutter-1-4 pad-t-1-2">
                 <script type="application/json" data-pattern="forms/phone-form"></script>
               </div>
               <div class="unit xs-1 pad-t">
@@ -121,7 +125,7 @@
                   }
                 </script>
               </div>
-              <div class="unit xs-1-2 pad-t">
+              <div class="unit xs-1 m-1-2 pad-t">
                 <script type="application/json" data-pattern="forms/text-input">
                   {
                     "label": "Province",
@@ -131,13 +135,13 @@
                   }
                 </script>
               </div>
-              <div class="unit xs-1-2 gutter-1-2 pad-t">
+              <div class="unit xs-1 m-1-2 gutter-1-2 pad-t">
                 <script type="application/json" data-pattern="forms/select-input"></script>
               </div>
             </div>
           </div>
 
-          <div class="unit xs-1 xl-1-3 pad-t pad-b gutter-1-2">
+          <div class="unit xs-1 xl-1-3 pad-t pad-b">
             <div class="grid">
               <div class="unit xs-1 pad-b">
                 <script type="application/json" data-pattern="forms/legend-label">
@@ -150,11 +154,10 @@
                   <div class="unit xs-1 gutter-1-4 push-1-2">
                     <script type="application/json" data-pattern="forms/standard-radio-selection">
                       {
-                        "label": "Premium 2 day Shipping—+ $4.99",
+                        "label": "Standard 4  day Shipping—FREE",
                         "label[for]": "shipping",
                         "input[name]": "shipping-method",
-                        "input[id]": "shipping",
-                        "input[name]": "shipping"
+                        "input[id]": "shipping"
                       }
                     </script>
                   </div>
@@ -164,8 +167,7 @@
                         "label": "Premium 2 day Shipping—+ $4.99",
                         "label[for]": "premium",
                         "input[name]": "shipping-method",
-                        "input[id]": "premium",
-                        "input[name]": "premium"
+                        "input[id]": "premium"
                       }
                     </script>
                   </div>
@@ -175,8 +177,7 @@
                         "label": "Platinum 1 day Shipping—+ $5.99",
                         "label[for]": "platinum",
                         "input[name]": "shipping-method",
-                        "input[id]": "platinum",
-                        "input[name]": "platinum"
+                        "input[id]": "platinum"
                       }
                     </script>
                   </div>
@@ -197,8 +198,7 @@
                         "label": "Credit Card",
                         "label[for]": "credit-card",
                         "input[name]": "payment",
-                        "input[id]": "credit-card",
-                        "input[name]": "credit-card"
+                        "input[id]": "credit-card"
                       }
                     </script>
                   </div>
@@ -208,8 +208,7 @@
                         "label": "Debit Card",
                         "label[for]": "debit-card",
                         "input[name]": "payment",
-                        "input[id]": "debit-card",
-                        "input[name]": "debit-card"
+                        "input[id]": "debit-card"
                       }
                     </script>
                   </div>
@@ -219,8 +218,7 @@
                         "label": "Money Order",
                         "label[for]": "money-order",
                         "input[name]": "payment",
-                        "input[id]": "money-order",
-                        "input[name]": "money-order"
+                        "input[id]": "money-order"
                       }
                     </script>
                   </div>
@@ -230,8 +228,7 @@
                         "label": "Other",
                         "label[for]": "other",
                         "input[name]": "payment",
-                        "input[id]": "other",
-                        "input[name]": "other"
+                        "input[id]": "other"
                       }
                     </script>
                   </div>
@@ -266,13 +263,15 @@
                         "label[for]": "expiration-date",
                         "select[id]": "expiration-date",
                         "select[name]": "expiration-date",
-                        "option": "2018",
-                        "option": "2019",
-                        "option": "2020",
-                        "option": "2021",
-                        "option": "2022",
-                        "option": "2024",
-                        "option": "2025"
+                        "option:nth-child(1)": "2018",
+                        "option:nth-child(2)": "2019",
+                        "option:nth-child(3)": "2020",
+                        "option:nth-child(4)": "2021",
+                        "option:nth-child(5)": "2022",
+                        "option:nth-child(6)": "2024",
+                        "option:nth-child(7)": "2025",
+                        "option:nth-child(8)[class]": "hidden",
+                        "option:nth-child(9)[class]": "hidden"
                       }
                     </script>
                   </div>
@@ -314,7 +313,7 @@
               </div>
             </div>
             <script type="application/json" data-pattern="forms/text-area"></script>
-            <script class="gutter" type="application/json" data-pattern="buttons/buttons-submit"></script>
+            <script type="application/json" data-pattern="buttons/buttons-submit"></script>
           </div>
         </div>
       </form>

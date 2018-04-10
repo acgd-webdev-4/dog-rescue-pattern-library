@@ -11,7 +11,12 @@
   <script type="application/json" data-pattern="header/skip-links"></script>
   <script type="application/json" data-pattern="navigation/tool-bars"></script>
 
-  <script type="application/json" data-pattern="header/header"></script>
+  <script type="application/json" data-pattern="header/header">
+    {
+      "li:nth-child(3)[class]": "gutter-1-4 milli bold hover-nav current",
+      "li:nth-child(1)[class]": "gutter-1-4 milli bold hover-nav"
+    }
+  </script>
 
   <script type="application/json" data-pattern="banner/home-banner">
     {

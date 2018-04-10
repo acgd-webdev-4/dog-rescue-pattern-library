@@ -83,6 +83,10 @@ mark {
 
 /* other css */
 
+.home-background-neutral {
+  background-color: var(--color-neutral);
+}
+
 .cart-section {
   background-color: var(--color-primary-light);
 }

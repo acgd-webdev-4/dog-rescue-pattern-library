@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   bottom: 0;
-  padding-top: 90.25%;
+  padding-top: 100%;
 }
 
 .banner-img-1 {
@@ -82,6 +82,12 @@ dl dd {
   }
 
   .home-text-image-banner {
-    padding-top: 58.25%;
+    padding-top: 68%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .home-text-image-banner {
+    padding-top: 38%;
   }
 }

@@ -907,6 +907,7 @@
             <li><a href="#buttons--button-drop">Button drop</a></li>
             <li><a href="#buttons--button-more">Button more</a></li>
             <li><a href="#buttons--button-save">Button save</a></li>
+            <li><a href="#buttons--buttons-filter">Buttons filter</a></li>
             <li><a href="#buttons--buttons-submit">Buttons submit</a></li>
             <li><a href="#buttons--buttons">Buttons</a></li>
         </ol>
@@ -1188,6 +1189,71 @@
           </div>
       </div>
     </div>
+    <div class="pattern-details " id="buttons--buttons-filter" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Buttons filter</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-buttons-filter-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="buttons/buttons-filter" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/buttons/buttons-filter.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/buttons/buttons-filter.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-buttons-filter-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-buttons-filter-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="buttons-buttons-filter-code-sample-copy-chunk">&lt;div class="pad-t"&gt;
+  &lt;button type="submit" name="button">
+    &lt;a class="btn btn-filter pad-t">&lt;span aria-label="Filter">filter&lt;i>&lt;/i>&lt;/span>&lt;/a>
+  &lt;/button>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="buttons--buttons-submit" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Buttons submit</h3>
@@ -1245,7 +1311,7 @@
               </button>
               <code><pre id="buttons-buttons-submit-code-sample-copy-chunk">&lt;div class="pad-t"&gt;
   &lt;button type="submit" name="button">
-    &lt;a class="btn btn-filter pad-t">&lt;span aria-label="Filter">filter&lt;i>&lt;/i>&lt;/span>&lt;/a>
+    &lt;a class="btn btn-submit pad-t">&lt;span aria-label="Submit">Submit&lt;i>&lt;/i>&lt;/span>&lt;/a>
   &lt;/button>
 &lt;/div>
 </pre></code>
@@ -1315,6 +1381,10 @@
   &lt;a class="btn btn-drop pad-t">&lt;span aria-label="Drop">drop&lt;i>&lt;/i>&lt;/span>&lt;/a>
   &lt;button type="submit" name="button">
     &lt;a class="btn btn-filter pad-t">&lt;span aria-label="Filter">filter&lt;i>&lt;/i>&lt;/span>&lt;/a>
+  &lt;/button>
+
+  &lt;button type="submit" name="button">
+    &lt;a class="btn btn-submit pad-t">&lt;span aria-label="Submit">Submit&lt;i>&lt;/i>&lt;/span>&lt;/a>
   &lt;/button>
 &lt;/div>
 </pre></code>
@@ -2244,7 +2314,7 @@
 
     &lt;div class="grid grid-middle">
       &lt;div class="unit [ s-1-2 ] text-right gutter-1-4">
-        &lt;i class="icon i-96">&lt;svg>&lt;use xlink:href="../../images/icons.svg#footer-logo"/>&lt;/svg>&lt;/i>
+        &lt;i class="icon i-64">&lt;svg>&lt;use xlink:href="../../images/icons.svg#footer-logo"/>&lt;/svg>&lt;/i>
       &lt;/div>
       &lt;div class="unit [ s-1-2 ] text-left gutter-1-4">
         &lt;span class="yotta bold logo-footer">Rubikas&lt;/span>
