@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1523382890437
+ * @version 1523541638253
  */
-const patternManifest_1523382890437 = {
+const patternManifest_1523541638253 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -609,26 +609,26 @@ const patternManifest_1523382890437 = {
       "bodyBasic": "This company is focused in being accessible to all and we welcome everyone that enjoys puzzles and most of all the Rubik."
     },
     "icons": [
-      "cart-item",
-      "cart",
       "facebook",
+      "cart-item",
       "footer-logo",
-      "form-completed",
-      "form-optional",
+      "cart",
       "form-warning",
       "grid-view-selected",
+      "form-completed",
+      "form-optional",
       "grid-view",
-      "img-arrow-l",
       "img-arrow-r",
       "instagram",
-      "list-view-selected",
-      "list-view",
+      "img-arrow-l",
       "qty-arrow",
+      "list-view",
+      "list-view-selected",
       "search-bar",
-      "snapchat",
-      "toggle-down",
       "toggle",
-      "twitter"
+      "snapchat",
+      "twitter",
+      "toggle-down"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -1163,5 +1163,5 @@ const patternManifest_1523382890437 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523382890437);
+patternBotIncludes(patternManifest_1523541638253);
 }());
