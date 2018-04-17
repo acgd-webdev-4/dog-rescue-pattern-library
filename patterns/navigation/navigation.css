@@ -88,14 +88,32 @@
 
 .accesibility-illustration {
   right: -10em;
-  top: 4em;
+  top: 6em;
   display: none;
+}
+
+.img-section-banner {
+  max-width: 16em;
+  margin: 0 auto;
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .img-section-banner {
+    max-width: 25em;
+  }
+
 }
 
 @media only screen and (min-width: 80em){
 
   .accesibility-illustration {
     display: block;
+  }
+
+  .img-section-banner {
+    max-width: 32em;
   }
 
 }
