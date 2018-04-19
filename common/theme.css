@@ -1,0 +1,64 @@
+:root {
+  --color-primary-dark: #002737;
+  --color-primary-light: #55a7cf;
+  --color-secondary-dark: #825a29;
+  --color-secondary-light: #cf9855;
+  --color-accent: #f06543;
+  --color-access: #5fad56;
+  --font-primary: "Fjalla One", sans-serif;
+  --font-secondary: "Cantarell", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-primary);
+  color: var(--primary-dark);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}
+
+ul li,
+ol li,
+dl,
+dt,
+dd {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+}
+
+.hide-xs-s {
+  display: none;
+}
+
+.hide-m-l {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide-xs-s {
+    display: block;
+  }
+
+  .hide-m-l {
+    display: none;
+  }
+
+}

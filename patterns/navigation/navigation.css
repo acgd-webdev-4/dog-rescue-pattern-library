@@ -1,0 +1,101 @@
+.breadcrumbs li,
+.breadcrumbs li a {
+  color: #909090;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav i {
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.nav-background-color {
+  background-color: var(--color-primary-light);
+}
+
+.nav {
+  height: 8em;
+}
+
+.nav-light {
+  text-align: right;
+}
+
+.nav-light a {
+  color: #fff;
+  padding: 1em 2em;
+}
+
+.nav-light li {
+  display: inline;
+}
+
+.nav a,
+.nav-footer a {
+  color: #fff;
+}
+
+.nav li {
+  display: inline-block;
+  /* margin-top: 3em; */
+  cursor: pointer;
+  padding: 0 1em;
+}
+
+.nav li:hover,
+.nav-light li:hover {
+  border-bottom: 2px solid #fff;
+
+  transition : border 200ms ease-out;
+  -webkit-transition : border 200ms ease-out;
+  -moz-transition : border 200ms ease-out;
+  -o-transition : border 200ms ease-out;
+}
+
+.nav-footer li:hover {
+  background-color: var(--color-primary-dark);
+
+  transition : background-color 200ms ease-out;
+  -webkit-transition : background-color 200ms ease-out;
+  -moz-transition : background-color 200ms ease-out;
+  -o-transition : background-color 200ms ease-out;
+}
+
+.nav-footer a {
+  display: block;
+  padding: .5em 0;
+  padding-left: 2em;
+}
+
+.nav-footer {
+  background-color: var(--color-primary-light);
+}
+
+nav ul {
+  margin-bottom: 0;
+}
+
+.pagination a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+}
+
+.page-n {
+  margin: 0 .25em;
+}
+
+.nav-current {
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 0 .48em;
+}
+
+.pagination-full .current {
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 0 .35em;
+}

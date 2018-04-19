@@ -1,0 +1,35 @@
+.section-text a {
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.reviews {
+  color: #fff;
+  padding-top: 4em;
+  height: 14em;
+}
+
+.reviews-name h3 {
+  font-family: var(--font-secondary);
+}
+
+.reviews p {
+  padding-left: 2em;
+}
+
+.reviews-a {
+  text-decoration: none;
+}
+
+.input-width {
+  max-width: 20em;
+}
+
+.bg-blue {
+  background-color: var(--color-primary-light);
+}
+
+.cart-img {
+  width: 10em;
+  height: 10em;
+}
