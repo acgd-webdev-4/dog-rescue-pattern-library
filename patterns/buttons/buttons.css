@@ -1,0 +1,40 @@
+.btn-default {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+
+  color: #fff;
+}
+
+.btn-green {
+  background-color: var(--color-tertiary);
+  border-color: var(--color-tertiary);
+
+  color: #fff;
+}
+
+.btn-grey {
+  background-color: rgba(0, 0, 0, .4);
+  border: 0px;
+
+  color: #fff;
+}
+
+.btn-underline {
+  background-color: transparent;
+  border: 0px;
+
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.btn-ghost {
+  background-color: var(--color-primary);
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-default:hover, .btn-green:hover, .btn-grey:hover, .btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color)
+}

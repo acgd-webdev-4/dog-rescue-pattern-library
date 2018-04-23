@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Month select box</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700" rel="stylesheet">
+  <link href="form-fields.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="push-1-2">
+      <label for="month">Month</label>
+      <div class="">
+        <select id="month" required aria-describedby="month-error">
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+
+      <p class="error-message milli island-1-4 push-0" id="month-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide an expiry month</span>
+      </p>
+    </div>
+
+    <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+</body>
+</html>

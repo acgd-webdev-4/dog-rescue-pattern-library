@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Checkout Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <script type="application/json" data-pattern="header/header"></script>
+
+  <h1 class="text-center push-2">Complete your order form</h1>
+
+  <form class="max-length push-2" action="index.html" method="post">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <script type="application/json" data-pattern="form-fields/error-message"></script>
+    </div>
+
+    <fieldset>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 push">
+          <script type="application/json" data-pattern="form-fields/fieldset-headers"></script>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "First Name"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Last Name"
+            }
+          </script>
+        </div>
+
+        <div class="gutter-1-2 unit xs-1 s-1 m-1 l-1">
+          <script type="application/json" data-pattern="form-fields/full-input">
+            {
+              "label": "Email"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Phone"
+            }
+          </script>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 push">
+          <script type="application/json" data-pattern="form-fields/fieldset-headers">
+            {
+              "legend": "Mailing Information"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/full-input">
+            {
+              "label": "Address 1"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/full-input">
+            {
+              "label": "Address 2"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "City"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Postal Code"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/select-box">
+            {
+              "label": "Province"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Country"
+            }
+          </script>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 push">
+          <script type="application/json" data-pattern="form-fields/fieldset-headers">
+            {
+              "legend": "Billing Information"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/select-box">
+            {
+              "label": "Credit Card Type",
+              "option": "American Express",
+              "option:nth-child(2)": "Master Card",
+              "option:nth-child(3)": "Visa",
+              "option:nth-child(4)[class]": "hidden",
+              "option:nth-child(5)[class]": "hidden",
+              "option:nth-child(6)[class]": "hidden",
+              "option:nth-child(7)[class]": "hidden",
+              "option:nth-child(8)[class]": "hidden",
+              "option:nth-child(9)[class]": "hidden",
+              "option:nth-child(10)[class]": "hidden",
+              "option:nth-child(11)[class]": "hidden",
+              "option:nth-child(12)[class]": "hidden",
+              "option:nth-child(4)[class]": "hidden"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Cardholder Name"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Credit Card Number"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1-2 m-1-4 l-1-4 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Security Code"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1-2 m-1-4 l-1-4 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/month-select-box"></script>
+        </div>
+        <div class="unit xs-1 s-1-2 m-1-4 l-1-4 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/year-select-box"></script>
+        </div>
+      </div>
+      <div>
+        <script type="application/json" data-pattern="form-fields/checkbox">
+          {
+            "label": "Billing address same as mailing address",
+            "span": "Please provide a billing address"
+          }
+        </script>
+      </div>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/full-input">
+            {
+              "label": "Address 1"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/full-input">
+            {
+              "label": "Address 2"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "City"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Postal Code"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/select-box">
+            {
+              "label": "Province"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <script type="application/json" data-pattern="form-fields/short-text">
+            {
+              "label": "Country"
+            }
+          </script>
+        </div>
+      </div>
+    </fieldset>
+    <div class="gutter-1-2">
+      <script type="application/json" data-pattern="form-fields/submit-button">
+        {
+          "a": "Submit Order"
+        }
+      </script>
+    </div>
+
+  </form>
+
+  <script type="application/json" data-pattern="footer/footer"></script>
+
+</body>
+</html>

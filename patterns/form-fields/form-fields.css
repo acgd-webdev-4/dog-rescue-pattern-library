@@ -1,0 +1,44 @@
+input, select, textarea {
+  border-radius: 5px;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+label {
+  color: var(--color-primary);
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+legend {
+  color: var(--color-primary);
+  font: var(--font-secondary);
+}
+
+.btn-submit {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  color: #fff;
+
+}

@@ -1,0 +1,100 @@
+.search-btn {
+  background-color: var(--color-primary);
+  border: none;
+  height: 2em;
+  border-radius: 0 5px 5px 0;
+  max-width: 2em;
+}
+
+.search-term {
+  height: 2em;
+  border-radius: 5px 0 0 5px;
+  border-color: var(--color-primary);
+}
+
+.search-icon {
+  position: absolute;
+  right: .4em;
+  top: .4em;
+}
+
+.icon-link {
+  position: relative;
+}
+
+.search-btn:hover {
+  background-color: var(--color-primary-light)
+}
+
+.search-container {
+  margin-top: 2.5em;
+}
+
+.logo {
+  max-width: 8em;
+  margin-left: 5em;
+
+}
+
+.nav-bar {
+  padding-top: 2em;
+}
+
+.cart-btn {
+  padding-left: 1em;
+  padding-top: .3em;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.drop-down {
+  position: relative;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 1em;
+}
+
+.drop-down-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-primary);
+  min-width: 10em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop-down-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop-down-content a:hover {
+  background-color: var(--color-primary-light);
+  color: white;
+}
+
+.drop-down:hover .drop-down-content {
+  display: block;
+}
+
+.drop-down:hover .dropbtn {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+@media only screen and (min-width: 36em) {
+  header {
+    text-align: center;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .search-container {
+    margin: auto;
+  }

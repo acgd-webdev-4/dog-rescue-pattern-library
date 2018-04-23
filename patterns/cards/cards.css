@@ -1,0 +1,11 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-card-circle-content {
+  color: var(--color-primary);
+}
+
+.product-header {
+  colour: var(--color-primary);
+}

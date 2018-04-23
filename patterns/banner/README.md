@@ -1,0 +1,1 @@
+The banner is used on the home page. It will use an image related to the sale or advertisement being presented. The type colour can be changed so it works well on top of the image. The button should be bright and draw the users attention. Use the default or green button here.

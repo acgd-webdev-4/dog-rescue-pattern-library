@@ -1,0 +1,14 @@
+.banner-content {
+
+  padding-left: 1em;
+  padding-top: 1em;
+  max-width: 50%;
+  color: white;
+}
+
+@media only screen and (min-width: 60em) {
+  .banner-content {
+    padding-left: 4em;
+    padding-top: 7em;
+  }
+}
