@@ -1,0 +1,45 @@
+.banner-text {
+  display: block;
+  position: absolute;
+  bottom: 10;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+  position: sticky;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+    background-color: transparent;
+  }
+
+  .banner-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: #fff;
+    width: 100%;
+    transform: translate(-50%);
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, .1), rgba(73, 85, 98, .9));
+  }
+
+  .button {
+    text-align: right;
+  }
+
+}

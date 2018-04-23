@@ -1,0 +1,60 @@
+html {
+  font-family: sans-serif;
+}
+
+.flag-optional {
+  color: var(--color-primary);
+}
+
+.is-validated input:invalid,
+input[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-extra);
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+input, select, textarea {
+  border-color: #000;
+}
+
+fieldset {
+  border: none;
+}
+
+hr {
+  border-color: #999;
+}
+
+.opt {
+  color: #000;
+}
+
+th,
+td {
+  border-color: var(--color-primary);
+}
+
+.btn-light {
+  background-color: var(--color-primary);
+  border-color:  var(--color-primary);
+  color: #fff;
+}
