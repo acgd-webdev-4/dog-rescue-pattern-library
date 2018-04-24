@@ -35,11 +35,9 @@
   margin-bottom: .5em;
 }
 
-
 li.hover-nav {
   border-bottom: 4px solid transparent;
 }
-
 
 li.current {
   position: relative;
@@ -48,10 +46,10 @@ li.current {
 
 li.current::after {
   position: absolute;
-  top: -0.5em;
+  top: -.5em;
   left: 50%;
   transform: translateX(-50%);
-  content:"";
+  content: "";
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -84,11 +82,11 @@ li.current:hover::after {
   height: 100%;
 }
 
-#nav-check:checked ~ .input-toggle .toggle-click  {
+#nav-check:checked ~ .input-toggle .toggle-click {
   display: none;
 }
 
-#nav-check:checked ~ .input-toggle .toggle-clicked  {
+#nav-check:checked ~ .input-toggle .toggle-clicked {
   display: block;
 }
 

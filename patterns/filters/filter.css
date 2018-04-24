@@ -10,12 +10,14 @@
 .search-bar-field {
   width: 100%;
 }
+
 .list-view-selected {
   display: none;
 }
 
 .popular-scroll {
   max-height: 20em;
+  height: 20em;
   overflow-y: scroll;
 }
 
@@ -23,7 +25,7 @@
   display: block;
 }
 
-#list-check:checked ~ .list-selection .list-view  {
+#list-check:checked ~ .list-selection .list-view {
   display: none;
 }
 
@@ -35,7 +37,7 @@
   display: block;
 }
 
-#grid-check:checked ~ .grid-selection .grid-view  {
+#grid-check:checked ~ .grid-selection .grid-view {
   display: none;
 }
 
@@ -59,7 +61,6 @@
 }
 
 @media only screen and (min-width: 42em) {
-
 
   .view-as {
     margin-left: auto;
