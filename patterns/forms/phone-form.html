@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Phone-Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik:400,700" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div>
+    <div>
+      <label for="phone-number">Phone</label>
+      <input type="tel" id="phone-number" required aria-describedby="phone-error">
+      <p class="error-message milli island-1-4 push-0 text-center" id="phone-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#form-warning" /></svg></i>
+        <span class="icon-label">Please provide a properly a reachable phone contact</span>
+      </p>
+    </div>
+
+    <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+  </div>
+
+</body>
+</html>

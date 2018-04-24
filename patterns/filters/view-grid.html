@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>View Grid</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik:400,700" rel="stylesheet">
+  <link href="../forms/forms.css" rel="stylesheet">
+  <link href="filter.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="view-options island-1-2">
+
+    <div class="pad-t gutter short-by-section">
+      <select id="short-by" name="short-by">
+        <option value="">Short by</option>
+        <option value="lowest-highest">Lowest > Highest</option>
+        <option value="highest-lowest">Highest > Lowest</option>
+        <option value="new-release">New Release</option>
+        <option value="most-popular">Most Popular</option>
+      </select>
+    </div>
+
+    <div class="search-bar-field">
+      <div class="push gutter pad-t relative">
+        <input id="search" type="search" placeholder="Search" style="text-indent:24px;">
+        <i class="icon i-18 absolute search-icon"><svg><use xlink:href="../../images/icons.svg#search-bar"></use></svg></i>
+      </div>
+    </div>
+
+    <div class="view-as pad-t push-r-1-4">
+      <p class="mega view-title">View as:</p>
+    </div>
+
+    <div class="pad-t gutter-1-4">
+      <input type="radio" class="grid-check hide-custom-input" id="list-check" name="view-selection" checked>
+      <div class="list-selection">
+        <label class="link-box icon i-32" for="list-check">
+          <i class="icon i-32 absolute list-view"><svg><use xlink:href="../../images/icons.svg#list-view"></use></svg></i>
+          <i class="icon i-32 absolute list-view-selected"><svg><use xlink:href="../../images/icons.svg#list-view-selected"></use></svg></i>
+        </label>
+      </div>
+    </div>
+
+    <div class="pad-t push-r-1-2">
+      <input type="radio" class="list-check hide-custom-input" id="grid-check" name="view-selection">
+      <div class="grid-selection">
+        <label class="link-box icon i-32" for="grid-check">
+          <i class="icon i-32 absolute grid-view"><svg><use xlink:href="../../images/icons.svg#grid-view"></use></svg></i>
+          <i class="icon i-32 absolute grid-view-selected"><svg><use xlink:href="../../images/icons.svg#grid-view-selected"></use></svg></i>
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

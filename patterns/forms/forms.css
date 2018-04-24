@@ -1,0 +1,84 @@
+.line-separator {
+  border-bottom: 4px solid var(--color-accent);
+}
+
+.number-devider {
+  background-color: #fff;
+  color: var(--color-secondary-dark);
+  height: 1.5em;
+  width: 1.5em;
+  border: 6px solid var(--color-accent);
+}
+
+.legend {
+  display: inline-block;
+}
+
+input,
+select,
+textarea {
+  border: 4px solid var(--color-accent);
+}
+
+[type="radio"] + label::before {
+  border: 6px solid #000;
+}
+
+[type="radio"]:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Ccircle fill='%232461cc' cx='128' cy='128' r='70.4'/%3E%3C/svg%3E");
+  border: 4px solid #000;
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #000;
+}
+
+.error-message {
+  display: none;
+  background-color: #ee7236;
+  color: #000;
+  border: 6px solid #000;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.error-message-highlighted {
+  display: none;
+  background-color: #ee7236;
+  color: #000;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.grey-text {
+  color: var(--color-whatever);
+}
+
+.search-icon {
+  top: 1.5em;
+  left: 1.75em;
+}
+
+.table-body tr th {
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .search-icon {
+    top: 1.8em;
+    left: 1.75em;
+    height: 26px;
+    width: 26px;
+  }
+
+}

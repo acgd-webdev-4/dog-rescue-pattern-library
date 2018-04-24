@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Text input</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik:400,700" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div>
+    <div>
+      <label for="first-name">First Name</label>
+      <input type="text" name="first-name" id="first-name" required aria-describedby="first-name-error">
+      <p class="error-message milli island-1-4 push-0 text-center" id="first-name-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#form-warning" /></svg></i>
+        <span class="icon-label">Please fill out your name as instructed</span>
+      </p>
+    </div>
+    <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+  </div>
+
+</body>
+</html>
