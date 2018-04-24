@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1524289659374
+ * @version 1524591566614
  */
-const patternManifest_1524289659374 = {
+const patternManifest_1524591566614 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -804,7 +804,8 @@ const patternManifest_1524289659374 = {
           "namePretty": "Cart item",
           "filename": "cart-item",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/cart-item.html",
-          "localPath": "patterns/card/cart-item.html"
+          "localPath": "patterns/card/cart-item.html",
+          "readme": {}
         },
         {
           "name": "icon-card",
@@ -819,14 +820,16 @@ const patternManifest_1524289659374 = {
           "namePretty": "Info card",
           "filename": "info-card",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/info-card.html",
-          "localPath": "patterns/card/info-card.html"
+          "localPath": "patterns/card/info-card.html",
+          "readme": {}
         },
         {
           "name": "popular-sell",
           "namePretty": "Popular sell",
           "filename": "popular-sell",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/popular-sell.html",
-          "localPath": "patterns/card/popular-sell.html"
+          "localPath": "patterns/card/popular-sell.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1176,5 +1179,5 @@ const patternManifest_1524289659374 = {
   }
 };
 
-patternBotIncludes(patternManifest_1524289659374);
+patternBotIncludes(patternManifest_1524591566614);
 }());
