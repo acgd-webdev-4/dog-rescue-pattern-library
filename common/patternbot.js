@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1523987598085
+ * @version 1524289659374
  */
-const patternManifest_1523987598084 = {
+const patternManifest_1524289659374 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -858,14 +858,24 @@ const patternManifest_1523987598084 = {
           "namePretty": "Filter",
           "filename": "filter",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/filter.html",
-          "localPath": "patterns/filters/filter.html"
+          "localPath": "patterns/filters/filter.html",
+          "readme": {}
+        },
+        {
+          "name": "product-listing",
+          "namePretty": "Product listing",
+          "filename": "product-listing",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/product-listing.html",
+          "localPath": "patterns/filters/product-listing.html",
+          "readme": {}
         },
         {
           "name": "view-grid",
           "namePretty": "View grid",
           "filename": "view-grid",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/view-grid.html",
-          "localPath": "patterns/filters/view-grid.html"
+          "localPath": "patterns/filters/view-grid.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -938,7 +948,8 @@ const patternManifest_1523987598084 = {
           "namePretty": "Date field",
           "filename": "date-field",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/date-field.html",
-          "localPath": "patterns/forms/date-field.html"
+          "localPath": "patterns/forms/date-field.html",
+          "readme": {}
         },
         {
           "name": "email-input",
@@ -969,7 +980,8 @@ const patternManifest_1523987598084 = {
           "namePretty": "Phone form",
           "filename": "phone-form",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/phone-form.html",
-          "localPath": "patterns/forms/phone-form.html"
+          "localPath": "patterns/forms/phone-form.html",
+          "readme": {}
         },
         {
           "name": "radio-input",
@@ -1055,7 +1067,8 @@ const patternManifest_1523987598084 = {
           "namePretty": "Skip links",
           "filename": "skip-links",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header/skip-links.html",
-          "localPath": "patterns/header/skip-links.html"
+          "localPath": "patterns/header/skip-links.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1163,5 +1176,5 @@ const patternManifest_1523987598084 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523987598084);
+patternBotIncludes(patternManifest_1524289659374);
 }());

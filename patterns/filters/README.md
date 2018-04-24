@@ -1,8 +1,11 @@
 ---
-bread-crumbs: |
-  Bread crumbs should be used on the website so audience know where they are on the page. It should be located at the top of the page.
+filter: |
+  Filters are to be used when filtering your product list. It should always be visible in your product listing page.
 
-page-navigation: |
-  Page navigation should be used specifically in the case product filtering page. It should be used to enable more content to page.
+product-listing: |
+  Page listing should be in the product detail page to display the store's most popular items.
+
+view-grid: |
+  View grid is designed specifically to set up how the product is to be layout to users.
 
 ---

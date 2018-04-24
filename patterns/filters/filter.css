@@ -14,6 +14,11 @@
   display: none;
 }
 
+.popular-sell {
+  height: 20em;
+  overflow-y: scroll;
+}
+
 #list-check:checked ~ .list-selection .list-view-selected {
   display: block;
 }
