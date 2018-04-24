@@ -387,10 +387,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library
- * @version 1524289659374
+ * /Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01
+ * @version 1524587574586
  */
-const patternManifest_1524289659374 = {
+const patternManifest_1524587574586 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -637,49 +637,54 @@ const patternManifest_1524289659374 = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/common/grid.css",
-      "typografier": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/common/type.css",
-      "modulifier": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/common/modules.css",
-      "theme": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/common/theme.css"
+      "gridifier": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/common/grid.css",
+      "typografier": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/common/type.css",
+      "modulifier": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/common/modules.css",
+      "theme": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/images/icons.svg"
+      "icons": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/images/logo-256.svg",
-      "size64": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/images/logo-64.svg",
-      "size32": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/images/logo-32.svg",
-      "size16": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/images/logo-16.svg",
+      "sizeLarge": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/images/logo-256.svg",
+      "size64": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/images/logo-64.svg",
+      "size32": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/images/logo-32.svg",
+      "size16": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/images/logo-16.svg",
       "size16Local": "logo-16.svg",
       "sizeLargeLocal": "logo-256.svg",
       "size32Local": "logo-32.svg",
       "size64Local": "logo-64.svg"
     },
     "patterns": [
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/banner",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header",
-      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation"
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/banner",
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons",
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card",
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/filters",
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/footer",
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms",
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/header",
+      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation"
     ],
     "pages": [
       {
         "name": "checkout-page.html",
         "namePretty": "Checkout page",
-        "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/pages/checkout-page.html"
+        "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/pages/checkout-page.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/pages/home.html"
+        "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/pages/home.html"
+      },
+      {
+        "name": "product-details-page.html",
+        "namePretty": "Product details page",
+        "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/pages/product-details-page.html"
       },
       {
         "name": "product-page.html",
         "namePretty": "Product page",
-        "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/pages/product-page.html"
+        "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/pages/product-page.html"
       }
     ]
   },
@@ -687,13 +692,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "banner",
       "namePretty": "Banner",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/banner",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/banner",
       "html": [
         {
           "name": "home-banner",
           "namePretty": "Home banner",
           "filename": "home-banner",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/banner/home-banner.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/banner/home-banner.html",
           "localPath": "patterns/banner/home-banner.html"
         }
       ],
@@ -703,7 +708,7 @@ const patternManifest_1524289659374 = {
           "name": "banner",
           "namePretty": "Banner",
           "filename": "banner",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/banner/banner.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/banner/banner.css",
           "localPath": "patterns/banner/banner.css"
         }
       ]
@@ -711,13 +716,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons",
       "html": [
         {
           "name": "button-cart",
           "namePretty": "Button cart",
           "filename": "button-cart",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-cart.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/button-cart.html",
           "localPath": "patterns/buttons/button-cart.html",
           "readme": {}
         },
@@ -725,7 +730,7 @@ const patternManifest_1524289659374 = {
           "name": "button-drop",
           "namePretty": "Button drop",
           "filename": "button-drop",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-drop.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/button-drop.html",
           "localPath": "patterns/buttons/button-drop.html",
           "readme": {}
         },
@@ -733,7 +738,7 @@ const patternManifest_1524289659374 = {
           "name": "button-more",
           "namePretty": "Button more",
           "filename": "button-more",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-more.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/button-more.html",
           "localPath": "patterns/buttons/button-more.html",
           "readme": {}
         },
@@ -741,7 +746,7 @@ const patternManifest_1524289659374 = {
           "name": "button-save",
           "namePretty": "Button save",
           "filename": "button-save",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/button-save.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/button-save.html",
           "localPath": "patterns/buttons/button-save.html",
           "readme": {}
         },
@@ -749,21 +754,21 @@ const patternManifest_1524289659374 = {
           "name": "buttons-filter",
           "namePretty": "Buttons filter",
           "filename": "buttons-filter",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/buttons-filter.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/buttons-filter.html",
           "localPath": "patterns/buttons/buttons-filter.html"
         },
         {
           "name": "buttons-submit",
           "namePretty": "Buttons submit",
           "filename": "buttons-submit",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/buttons-submit.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/buttons-submit.html",
           "localPath": "patterns/buttons/buttons-submit.html"
         },
         {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/buttons.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/buttons.html",
           "localPath": "patterns/buttons/buttons.html"
         }
       ],
@@ -772,7 +777,7 @@ const patternManifest_1524289659374 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/README.md",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -781,7 +786,7 @@ const patternManifest_1524289659374 = {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/buttons/buttons.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ]
@@ -789,13 +794,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "card",
       "namePretty": "Card",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card",
       "html": [
         {
           "name": "basic-card",
           "namePretty": "Basic card",
           "filename": "basic-card",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/basic-card.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card/basic-card.html",
           "localPath": "patterns/card/basic-card.html",
           "readme": {}
         },
@@ -803,14 +808,14 @@ const patternManifest_1524289659374 = {
           "name": "cart-item",
           "namePretty": "Cart item",
           "filename": "cart-item",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/cart-item.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card/cart-item.html",
           "localPath": "patterns/card/cart-item.html"
         },
         {
           "name": "icon-card",
           "namePretty": "Icon card",
           "filename": "icon-card",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/icon-card.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card/icon-card.html",
           "localPath": "patterns/card/icon-card.html",
           "readme": {}
         },
@@ -818,14 +823,14 @@ const patternManifest_1524289659374 = {
           "name": "info-card",
           "namePretty": "Info card",
           "filename": "info-card",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/info-card.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card/info-card.html",
           "localPath": "patterns/card/info-card.html"
         },
         {
           "name": "popular-sell",
           "namePretty": "Popular sell",
           "filename": "popular-sell",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/popular-sell.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card/popular-sell.html",
           "localPath": "patterns/card/popular-sell.html"
         }
       ],
@@ -834,7 +839,7 @@ const patternManifest_1524289659374 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/README.md",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card/README.md",
           "localPath": "patterns/card/README.md"
         }
       ],
@@ -843,7 +848,7 @@ const patternManifest_1524289659374 = {
           "name": "cards",
           "namePretty": "Cards",
           "filename": "cards",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/card/cards.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/card/cards.css",
           "localPath": "patterns/card/cards.css"
         }
       ]
@@ -851,13 +856,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "filters",
       "namePretty": "Filters",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/filters",
       "html": [
         {
           "name": "filter",
           "namePretty": "Filter",
           "filename": "filter",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/filter.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/filters/filter.html",
           "localPath": "patterns/filters/filter.html",
           "readme": {}
         },
@@ -865,7 +870,7 @@ const patternManifest_1524289659374 = {
           "name": "product-listing",
           "namePretty": "Product listing",
           "filename": "product-listing",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/product-listing.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/filters/product-listing.html",
           "localPath": "patterns/filters/product-listing.html",
           "readme": {}
         },
@@ -873,7 +878,7 @@ const patternManifest_1524289659374 = {
           "name": "view-grid",
           "namePretty": "View grid",
           "filename": "view-grid",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/view-grid.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/filters/view-grid.html",
           "localPath": "patterns/filters/view-grid.html",
           "readme": {}
         }
@@ -883,7 +888,7 @@ const patternManifest_1524289659374 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/README.md",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/filters/README.md",
           "localPath": "patterns/filters/README.md"
         }
       ],
@@ -892,7 +897,7 @@ const patternManifest_1524289659374 = {
           "name": "filter",
           "namePretty": "Filter",
           "filename": "filter",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/filters/filter.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/filters/filter.css",
           "localPath": "patterns/filters/filter.css"
         }
       ]
@@ -900,13 +905,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
           "filename": "footer",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer/footer.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/footer/footer.html",
           "localPath": "patterns/footer/footer.html",
           "readme": {}
         }
@@ -916,7 +921,7 @@ const patternManifest_1524289659374 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer/README.md",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/footer/README.md",
           "localPath": "patterns/footer/README.md"
         }
       ],
@@ -925,7 +930,7 @@ const patternManifest_1524289659374 = {
           "name": "footer",
           "namePretty": "Footer",
           "filename": "footer",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/footer/footer.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/footer/footer.css",
           "localPath": "patterns/footer/footer.css"
         }
       ]
@@ -933,13 +938,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms",
       "html": [
         {
           "name": "checkout-table",
           "namePretty": "Checkout table",
           "filename": "checkout-table",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/checkout-table.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/checkout-table.html",
           "localPath": "patterns/forms/checkout-table.html",
           "readme": {}
         },
@@ -947,7 +952,7 @@ const patternManifest_1524289659374 = {
           "name": "date-field",
           "namePretty": "Date field",
           "filename": "date-field",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/date-field.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/date-field.html",
           "localPath": "patterns/forms/date-field.html",
           "readme": {}
         },
@@ -955,7 +960,7 @@ const patternManifest_1524289659374 = {
           "name": "email-input",
           "namePretty": "Email input",
           "filename": "email-input",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/email-input.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/email-input.html",
           "localPath": "patterns/forms/email-input.html",
           "readme": {}
         },
@@ -963,7 +968,7 @@ const patternManifest_1524289659374 = {
           "name": "legend-label",
           "namePretty": "Legend label",
           "filename": "legend-label",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/legend-label.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/legend-label.html",
           "localPath": "patterns/forms/legend-label.html",
           "readme": {}
         },
@@ -971,7 +976,7 @@ const patternManifest_1524289659374 = {
           "name": "password-input",
           "namePretty": "Password input",
           "filename": "password-input",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/password-input.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/password-input.html",
           "localPath": "patterns/forms/password-input.html",
           "readme": {}
         },
@@ -979,7 +984,7 @@ const patternManifest_1524289659374 = {
           "name": "phone-form",
           "namePretty": "Phone form",
           "filename": "phone-form",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/phone-form.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/phone-form.html",
           "localPath": "patterns/forms/phone-form.html",
           "readme": {}
         },
@@ -987,7 +992,7 @@ const patternManifest_1524289659374 = {
           "name": "radio-input",
           "namePretty": "Radio input",
           "filename": "radio-input",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/radio-input.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/radio-input.html",
           "localPath": "patterns/forms/radio-input.html",
           "readme": {}
         },
@@ -995,14 +1000,14 @@ const patternManifest_1524289659374 = {
           "name": "search-bar",
           "namePretty": "Search bar",
           "filename": "search-bar",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/search-bar.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/search-bar.html",
           "localPath": "patterns/forms/search-bar.html"
         },
         {
           "name": "select-input",
           "namePretty": "Select input",
           "filename": "select-input",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/select-input.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/select-input.html",
           "localPath": "patterns/forms/select-input.html",
           "readme": {}
         },
@@ -1010,14 +1015,14 @@ const patternManifest_1524289659374 = {
           "name": "standard-radio-selection",
           "namePretty": "Standard radio selection",
           "filename": "standard-radio-selection",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/standard-radio-selection.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/standard-radio-selection.html",
           "localPath": "patterns/forms/standard-radio-selection.html"
         },
         {
           "name": "text-area",
           "namePretty": "Text area",
           "filename": "text-area",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/text-area.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/text-area.html",
           "localPath": "patterns/forms/text-area.html",
           "readme": {}
         },
@@ -1025,7 +1030,7 @@ const patternManifest_1524289659374 = {
           "name": "text-input",
           "namePretty": "Text input",
           "filename": "text-input",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/text-input.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/text-input.html",
           "localPath": "patterns/forms/text-input.html",
           "readme": {}
         }
@@ -1035,7 +1040,7 @@ const patternManifest_1524289659374 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/README.md",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/README.md",
           "localPath": "patterns/forms/README.md"
         }
       ],
@@ -1044,7 +1049,7 @@ const patternManifest_1524289659374 = {
           "name": "forms",
           "namePretty": "Forms",
           "filename": "forms",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/forms/forms.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
       ]
@@ -1052,13 +1057,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "header",
       "namePretty": "Header",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/header",
       "html": [
         {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header/header.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/header/header.html",
           "localPath": "patterns/header/header.html",
           "readme": {}
         },
@@ -1066,7 +1071,7 @@ const patternManifest_1524289659374 = {
           "name": "skip-links",
           "namePretty": "Skip links",
           "filename": "skip-links",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header/skip-links.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/header/skip-links.html",
           "localPath": "patterns/header/skip-links.html",
           "readme": {}
         }
@@ -1076,7 +1081,7 @@ const patternManifest_1524289659374 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header/README.md",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/header/README.md",
           "localPath": "patterns/header/README.md"
         }
       ],
@@ -1085,7 +1090,7 @@ const patternManifest_1524289659374 = {
           "name": "headers",
           "namePretty": "Headers",
           "filename": "headers",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/header/headers.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/header/headers.css",
           "localPath": "patterns/header/headers.css"
         }
       ]
@@ -1093,13 +1098,13 @@ const patternManifest_1524289659374 = {
     {
       "name": "navigation",
       "namePretty": "Navigation",
-      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation",
+      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation",
       "html": [
         {
           "name": "bread-crumbs",
           "namePretty": "Bread crumbs",
           "filename": "bread-crumbs",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/bread-crumbs.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation/bread-crumbs.html",
           "localPath": "patterns/navigation/bread-crumbs.html",
           "readme": {}
         },
@@ -1107,7 +1112,7 @@ const patternManifest_1524289659374 = {
           "name": "page-navigation",
           "namePretty": "Page navigation",
           "filename": "page-navigation",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/page-navigation.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation/page-navigation.html",
           "localPath": "patterns/navigation/page-navigation.html",
           "readme": {}
         },
@@ -1115,7 +1120,7 @@ const patternManifest_1524289659374 = {
           "name": "section-illustration",
           "namePretty": "Section illustration",
           "filename": "section-illustration",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/section-illustration.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation/section-illustration.html",
           "localPath": "patterns/navigation/section-illustration.html",
           "readme": {}
         },
@@ -1123,7 +1128,7 @@ const patternManifest_1524289659374 = {
           "name": "section",
           "namePretty": "Section",
           "filename": "section",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/section.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation/section.html",
           "localPath": "patterns/navigation/section.html",
           "readme": {}
         },
@@ -1131,7 +1136,7 @@ const patternManifest_1524289659374 = {
           "name": "tool-bars",
           "namePretty": "Tool bars",
           "filename": "tool-bars",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/tool-bars.html",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation/tool-bars.html",
           "localPath": "patterns/navigation/tool-bars.html",
           "readme": {}
         }
@@ -1141,7 +1146,7 @@ const patternManifest_1524289659374 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/README.md",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation/README.md",
           "localPath": "patterns/navigation/README.md"
         }
       ],
@@ -1150,7 +1155,7 @@ const patternManifest_1524289659374 = {
           "name": "navigation",
           "namePretty": "Navigation",
           "filename": "navigation",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/Week 3/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/ecommerce-pattern-library-raquelalves01/patterns/navigation/navigation.css",
           "localPath": "patterns/navigation/navigation.css"
         }
       ]
@@ -1176,5 +1181,5 @@ const patternManifest_1524289659374 = {
   }
 };
 
-patternBotIncludes(patternManifest_1524289659374);
+patternBotIncludes(patternManifest_1524587574586);
 }());

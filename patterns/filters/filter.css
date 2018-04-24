@@ -14,8 +14,8 @@
   display: none;
 }
 
-.popular-sell {
-  height: 20em;
+.popular-scroll {
+  max-height: 20em;
   overflow-y: scroll;
 }
 
