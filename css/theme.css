@@ -13,34 +13,60 @@ html {
   font-family: var(--font-primary);
 }
 
-{% include_relative modules.css %}
-{% include_relative grid.css %}
-{% include_relative type.css %}
-{% include_relative theme.css %}
-{{pattern_css}}
-
 h1 {
   font-family: var(--font-secondary);
   font-color: var(--color-primary);
+  font-weight: 700;
 }
 
 h2 {
   font-family: var(--font-secondary);
   font-color: var(--color-primary-light);
+  font-weight: 300;
 }
 
 h3 {
   font-family: var(--font-primary);
   font-color: var(--color-primary);
+  font-weight: 700;
 }
 
 h4 {
   font-family: var(--font-primary);
   font-color: var(--color-primary);
+  font-weight: 400;
 }
 
 p {
   font-family: var(--font-primary);
   font-style: italic;
   font-color: var(--color-secondary);
+  font-weight: 400;
+}
+
+ul {
+  font-family: var(--font-primary);
+  font-color: var(--color-primary);
+  font-weight: 400;
+}
+
+a {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-color: var(--color-secondary);
+  font-weight: 400;
+}
+
+blockquote {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-color: var(--color-secondary);
+  font-weight: 400;
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-color: var(--color-secondary);
+  font-weight: 400;
 }
