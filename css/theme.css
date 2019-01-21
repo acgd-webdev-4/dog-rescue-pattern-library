@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #292929;
+  --color-primary-light: #292929;
+  --color-secondary: #fff;
+  --color-accent: #898989;
+  --color-neutral-beige: #e2e2e2;
+  --color-whatever: hotpink;
+  --font-primary: urbane-rounded, sans-serif;
+  --font-secondary: century-gothic, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
