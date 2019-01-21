@@ -1,2 +1,5 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+  font_url: <link href="https://fonts.googleapis.com/css?family=Aleo|Lato" rel="stylesheet">
