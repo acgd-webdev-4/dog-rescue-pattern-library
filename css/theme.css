@@ -16,13 +16,13 @@ html {
 h1 {
   font-family: var(--font-secondary);
   font-color: var(--color-primary);
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h2 {
   font-family: var(--font-secondary);
   font-color: var(--color-primary-light);
-  font-weight: 300;
+  font-weight: 700;
 }
 
 h3 {
@@ -39,12 +39,24 @@ h4 {
 
 p {
   font-family: var(--font-primary);
-  font-style: italic;
   font-color: var(--color-secondary);
   font-weight: 400;
+  font-style: italic;
 }
 
 ul {
+  font-family: var(--font-primary);
+  font-color: var(--color-primary);
+  font-weight: 400;
+}
+
+ol {
+  font-family: var(--font-primary);
+  font-color: var(--color-primary);
+  font-weight: 400;
+}
+
+dl {
   font-family: var(--font-primary);
   font-color: var(--color-primary);
   font-weight: 400;
