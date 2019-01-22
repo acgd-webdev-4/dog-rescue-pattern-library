@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #372862;
+  --color-secondary: #0b9cdf;
+  --color-yellow: #fed676;
+  --color-light-red: #d83074;
+  --color-white: #fff;
+
+  --font-primary: Quicksand, Courier, sans-serif;
+  --font-secondary: "Open Sans", Helvetica, Arial;
+}
+
+html {
+  font-family: var(--font-primary);
+}
