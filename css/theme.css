@@ -5,10 +5,14 @@
   --color-light-red: #d83074;
   --color-white: #fff;
 
-  --font-primary: Quicksand, Courier, sans-serif;
-  --font-secondary: "Open Sans", Helvetica, Arial;
+  --font-primary: "Open Sans", Helvetica, Arial;
+  --font-secondary: Quicksand, Courier, sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-primary);
 }
