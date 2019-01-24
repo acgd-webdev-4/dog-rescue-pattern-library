@@ -20,6 +20,8 @@ h1 {
 }
 
 h2 {
+  font-weight: 700;
+  font-family:  var(--font-secondary: "Lato", sans-serif);
 
 }
 h3
