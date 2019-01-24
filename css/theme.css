@@ -12,3 +12,35 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-weight: 400;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-primary: #701647);
+}
+
+h2 {
+
+}
+h3
+h4
+h5
+h6
+ul
+ol
+dl
+a
+blockquote
+cite
+em
+strong
+del
+ins
+abbr
+dfn
+i
+b
+mark
+q
+s
+u
