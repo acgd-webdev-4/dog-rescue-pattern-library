@@ -14,28 +14,72 @@ html {
 }
 
 h1 {
-  font-weight: 400;
-  font-family: var(--font-secondary: "Lato", sans-serif);
+  font-weight: 700;
+  font-family: var(--font-secondary: "Aleo", serif);
   color: var(--color-primary: #701647);
 }
 
 h2 {
+  font-weight: 400;
+  font-family: var(--font-secondary: "Aleo", serif);
+  color: var(--color-neutral-dark-grey: #9e5681);
+}
+h3 {
+  font-weight: 400;
+  font-family:  var(--font-secondary: "Aleo", serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+
+h4 {
+  font-weight: 400;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+
+h5 {
+  font-weight: 400;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+}
+h6
+ul {
   font-weight: 700;
-  font-family:  var(--font-secondary: "Lato", sans-serif);
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
 
 }
-h3
-h4
-h5
-h6
-ul
-ol
-dl
+ol {
+  font-weight: 400;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+dl {
+  font-weight: 400;
+  font-family:  var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
 a
-blockquote
-cite
-em
-strong
+blockquote {
+  font-weight: 400;
+  font-family: var(--font-secondary: "Aleo", serif);
+  color: var(--color-primary: #701647);
+}
+cite {
+  font-weight: 300;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+em {
+  font-weight: 700;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+strong {
+  font-weight: 700;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
 del
 ins
 abbr
