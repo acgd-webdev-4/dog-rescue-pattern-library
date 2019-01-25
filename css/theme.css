@@ -59,7 +59,11 @@ dl {
   font-family:  var(--font-secondary: "Lato", sans-serif);
   color: var(--color-neutral-dark-grey: #4c4c49);
 }
-a
+a {
+  font-weight: 700;
+  font-family: var(--font-secondary: "Aleo", serif);
+  color: var(--color-primary: #701647);
+}
 blockquote {
   font-weight: 400;
   font-family: var(--font-secondary: "Aleo", serif);
@@ -80,13 +84,56 @@ strong {
   font-family: var(--font-secondary: "Lato", sans-serif);
   color: var(--color-neutral-dark-grey: #4c4c49);
 }
-del
-ins
-abbr
-dfn
-i
-b
-mark
-q
-s
-u
+del {
+  font-weight: 300, italic;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--#82827d);
+}
+
+ins {
+  font-weight: 300, italic;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--#4c4c49);
+}
+
+abbr {
+  font-weight: 400, italic;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+dfn {
+  font-weight: 300, italic;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+i {
+  font-weight: 300, italic;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+b {
+  font-weight: 700;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-dark-grey: #4c4c49);
+}
+mark {
+  font-weight: 700;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--#9e5681);
+}
+q {
+  font-weight: 400;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--#9e5681);
+}
+s {
+  font-weight: 300, italic;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--color-neutral-grey: #82827d);
+
+}
+u {
+  font-weight: 700;
+  font-family: var(--font-secondary: "Lato", sans-serif);
+  color: var(--#9e5681);
+}
