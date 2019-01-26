@@ -1,0 +1,102 @@
+:root {
+  --colour-primary: #5B320D;
+  --color-primary-light: #E3CEA6;
+  --color-secondary: #A78256;
+  --color-black: #000;
+  --color-accent: #fff;
+  --color-rustybrown: #995F34;
+
+  --font-primary: "Aref Ruqaa", serif;
+  --font-secondary: "Almendra SC", serif;
+
+}
+
+html {
+  font-family: var(--font-primary);
+  color: var(--color-accent: #fff);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-accent: #fff);
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  color: var(--color-accent: #fff);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-accent: #fff);
+  font-weight: bold;
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  color: var(--color-accent: #fff);
+  font-weight: bold;
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  color: var(--color-accent: #fff);
+  font-weight: bold;
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-accent: #fff);
+  font-weight: bold;
+}
+
+ul {
+  font-family: var(--font-primary);
+  color: var(--color-accent: #fff);
+}
+
+ol {
+  font-family: var(--font-primary);
+  color: var(--color-accent: #fff);
+}
+
+dl {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+nav a {
+  font-family: var(--font-primary);
+  color: var(--color-black: #000);
+  text-decoration: none;
+}
+
+a {
+  font-family: var(--font-primary);
+  text-decoration: none;
+  color: var(--color-accent: #fff);
+}
+
+.direction {
+  font-family: var(--font-primary);
+  color: var(--color-accent: #fff);
+}
+
+/* make sure to add a direction class */
+
+blockquote {
+  font-family: var(--font-primary);
+  color: var(--color-accent: #fff);
+}
+
+cite {
+  font-family: var(--font-primary);
+  color: var(--color-accent: #fff);
+}
+
+strong {
+  font-weight: bold;
+  color: var(--color-accent: #fff);
+}
