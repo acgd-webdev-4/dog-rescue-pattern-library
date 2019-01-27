@@ -1,6 +1,13 @@
 :root {
-  --color-primary: #372862;
+  --color-primary-light: #8563ee;
+  --color-primary: #6148af;
+  --color-primary-dark: #372862;
+
+  --color-secondary-light: #36b5fc;
   --color-secondary: #0b9cdf;
+  --color-secondary-dark: #05435f;
+
+
   --color-yellow: #fed676;
   --color-light-red: #d83074;
   --color-white: #fff;
@@ -13,6 +20,36 @@ html {
   font-family: var(--font-primary);
 }
 
-h1 {
-  color: var(--color-primary);
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary-dark);
+  font-family: var(--font-secondary)
+}
+
+a {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+  text-decoration-color: var(--color-primary-dark);
+}
+
+a:hover {
+  color: var(--color-primary-light);
+  text-decoration-color: var(--color-primary-light);
+  transition: all .1s linear;
+}
+
+blockquote {
+  color: var(--color-primary-dark);
+}
+
+cite {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+}
+
+b, strong, abbr {
+  color: var(--color-primary-dark);
+}
+
+del {
+  text-decoration-color: var(--color-primary);
 }
