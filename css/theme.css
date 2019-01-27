@@ -13,53 +13,55 @@
 
 html {
   font-family: var(--font-primary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
+  background-color: var(--color-secondary)
 }
 
 h1 {
   font-family: var(--font-secondary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 h2 {
   font-family: var(--font-secondary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 h3 {
   font-family: var(--font-secondary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 h4 {
   font-family: var(--font-secondary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 h5 {
   font-family: var(--font-secondary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 h6 {
   font-family: var(--font-secondary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
   font-weight: bold;
 }
 
 ul {
   font-family: var(--font-primary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
+  list-style-type: none;
 }
 
 ol {
   font-family: var(--font-primary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
 }
 
 dl {
@@ -67,36 +69,40 @@ dl {
   font-weight: bold;
 }
 
-nav a {
+nav > a {
   font-family: var(--font-primary);
-  color: var(--color-black: #000);
+  color: var(--color-black);
   text-decoration: none;
 }
+
+/* nav a:active {
+  text-decoration: underline;
+} */
 
 a {
   font-family: var(--font-primary);
   text-decoration: none;
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
 }
 
 .direction {
   font-family: var(--font-primary);
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
 }
 
 /* make sure to add a direction class */
 
 blockquote {
   font-family: var(--font-primary);
-  color: var(--color-accent: #fff);
-}
-
-cite {
-  font-family: var(--font-primary);
-  color: var(--color-accent: #fff);
+  font-style: oblique;
+  color: var(--color-accent);
 }
 
 strong {
   font-weight: bold;
-  color: var(--color-accent: #fff);
+  color: var(--color-accent);
+}
+
+footer {
+  color: var(--color-accent);
 }
