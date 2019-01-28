@@ -6,6 +6,9 @@ patternbot:
   description: |
     An online vendor of fine mythological beasts.
   font_url: "https://fonts.googleapis.com/css?family=Almendra+SC|Aref+Ruqaa:400,700"
+  colors:
+    background: "--color-primary-light"
+    accent: "--color-accent"
   rationales:
     typefaces.primary: |
       It looks rustic and is legible. It is used for all body copy, the navigation, the footer, and the site directory.
