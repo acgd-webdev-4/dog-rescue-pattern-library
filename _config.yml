@@ -2,4 +2,6 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: Archaic Records
+  description: A record company
   font_url: "https://use.typekit.net/slb4bkf.css"
