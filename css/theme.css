@@ -16,5 +16,8 @@ html {
 }
 
 h1 {
-  font-family: var(--font-primary)
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: normal;
+  font-style: normal;
 }
