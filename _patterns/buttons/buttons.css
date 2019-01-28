@@ -24,3 +24,9 @@
   border-color: var(--color-primary);
   color: var(--color-secondary);
 }
+
+.btn-more {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  text-decoration: underline, italic;
+}
