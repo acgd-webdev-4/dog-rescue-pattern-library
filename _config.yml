@@ -6,10 +6,10 @@ patternbot:
   description: A small record label that gives up and coming talented musicians a platform to promote their art.
   font_url: "https://use.typekit.net/slb4bkf.css"
   colors:
-    background: "--color-secondary-light"
+    background: "--color-primary-light"
     accent: "--color-primary-dark"
     patterns:
-      brand.logos: "--color-primary-light"
+      brand.logos: "--color-primary"
   rationales:
     typefaces.primary:
       The primary typeface - Century Gothic was chosen because of it's legibility and stylistic values. An easy to read sans serif font for small headers and body copy.
