@@ -5,3 +5,8 @@ patternbot:
   title: Archaic Records
   description: A small record label that gives up and coming talented musicians a platform to promote their art.
   font_url: "https://use.typekit.net/slb4bkf.css"
+  rationales:
+    typefaces.primary:
+      The primary typeface - Century Gothic was chosen because of it's legibility and stylistic values. An easy to read sans serif font for small headers and body copy.
+    typefaces.secondary:
+      The secondary typeface - Urbane Rounded is used for main headers, it has playful graffiti like features, and speaks to the lively, high-spirited while serious proffesional traits valued at Archaic Records.
