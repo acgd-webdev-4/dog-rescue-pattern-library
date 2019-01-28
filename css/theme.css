@@ -6,8 +6,9 @@
   --color-neutral-beige: #e2e2e2;
   --color-whatever: peachpuff;
 
-  --font-primary: "Alegreya Sans", "trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --font-primary: "Dosis", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+  --font-tertiary: "PT Serif", serif;
 }
 
 html {
