@@ -7,7 +7,7 @@ patternbot:
     Local Ottawa art prints, paintings and cards for sale
   font_url: "https://fonts.googleapis.com/css?family=Aleo|Lato|Open+Sans"
   colors:
-    background: "--color-light-yellow"
+    # background: "--color-light-yellow"
     accent: "--color-primary"
     patterns:
         brand.logos: "--color-primary-light"
