@@ -2,7 +2,8 @@ permalink: pretty
 theme: jekyll_patternbot
 patternbot:
   title: "Mythological Creature Market"
-  description: An online vendor of fine mythological beasts.
+  description: |
+    An online vendor of fine mythological beasts.
   font_url: "https://fonts.googleapis.com/css?family=Almendra+SC|Aref+Ruqaa:400,700"
   rationales:
     typefaces.primary: |
