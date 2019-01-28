@@ -3,8 +3,8 @@
   --color-primary-light: #E3CEA6;
   --color-secondary: #A78256;
   --color-black: #000;
-  --color-accent: #fff;
   --color-rustybrown: #995F34;
+  --color-accent: #fff;
 
   --font-primary: "Aref Ruqaa", serif;
   --font-secondary: "Almendra SC", serif;
@@ -14,7 +14,6 @@
 html {
   font-family: var(--font-primary);
   color: var(--color-accent);
-  background-color: var(--color-rustybrown)
 }
 
 h1 {
