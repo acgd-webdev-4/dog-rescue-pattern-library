@@ -26,7 +26,7 @@
 }
 
 .btn-more {
-  background-color: var(--color-primary);
+  background-color: none;
   color: var(--color-secondary);
   text-decoration: underline, italic;
 }
