@@ -1,6 +1,7 @@
 .btn {
   background-color: var(--color-rustybrown);
   border-color: var(--colour-primary);
+  border-width: 2px;
   color: var(--color-accent);
   text-decoration: none;
 }
@@ -8,4 +9,9 @@
 .btn:hover {
   background-color: var(--colour-primary);
   border-color: var(--color-rustybrown);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-accent);
 }
