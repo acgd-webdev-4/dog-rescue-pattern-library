@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 patternbot:
   title: "Flora and Zip"
   description:
-    Local art print, paintings and cards for sale
+    Local Ottawa art prints, paintings and cards for sale
   font_url: "https://fonts.googleapis.com/css?family=Aleo|Lato|Open+Sans"
   rationales:
     typefaces.primary:
@@ -15,3 +15,6 @@ patternbot:
       The primary colour was chosen for its vintage feel and it's contrast for accessibility. The mauve is youthful and appeals to the artistic sensibilties of the demographic.
     colors.secondary:
       The second colour was chosen for it's contrast to the primary colour. They are complementary and it adds a touch of brightness to the colour scheme. The grey is used for text and buttons.
+    colors:
+      background:
+        (--color-secondary)
