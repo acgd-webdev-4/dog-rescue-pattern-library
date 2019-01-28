@@ -12,5 +12,9 @@
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-tertiary);
+}
+
+h1 {
+  font-family: var(--font-primary)
 }
