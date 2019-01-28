@@ -6,3 +6,8 @@ patternbot:
   description:
     Local art print, paintings and cards for sale
   font_url: "https://fonts.googleapis.com/css?family=Aleo|Lato|Open+Sans"
+  rationales:
+    typefaces.primary:
+      Aleo is used as a young and fresh, slighly funky typeface. Used for heading and titles only.
+    typefaces.secondary:
+      Lato is used as secondary and for all body copy and buttons, including the footer and all other text.
