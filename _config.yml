@@ -7,9 +7,10 @@ patternbot:
     Local Ottawa art prints, paintings and cards for sale
   font_url: "https://fonts.googleapis.com/css?family=Aleo|Lato|Open+Sans"
   colors:
+    background: "--color-light-yellow"
     accent: "--color-primary"
     patterns:
-        brand.logos: "--color-light-yellow"
+        brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary:
       Aleo is used as a young and fresh, slighly funky and vintage typeface. Used for heading and titles only.
