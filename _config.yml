@@ -6,6 +6,11 @@ patternbot:
   description:
     Local Ottawa art prints, paintings and cards for sale
   font_url: "https://fonts.googleapis.com/css?family=Aleo|Lato|Open+Sans"
+    colors:
+      background: "--color-secondary"
+      accent: "--color-primary"
+      patterns:
+        brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary:
       Aleo is used as a young and fresh, slighly funky and vintage typeface. Used for heading and titles only.
@@ -15,9 +20,3 @@ patternbot:
       The primary colour was chosen for its vintage feel and it's contrast for accessibility. The mauve is youthful and appeals to the artistic sensibilties of the demographic.
     colors.secondary:
       The second colour was chosen for it's contrast to the primary colour. They are complementary and it adds a touch of brightness to the colour scheme. The grey is used for text and buttons.
-    colors:
-      background: "--color-secondary"
-      accent: "--color-primary"
-      patterns:
-        brand.logos:
-          "--color-primary-light"
