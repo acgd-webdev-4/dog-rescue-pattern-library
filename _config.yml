@@ -2,4 +2,9 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: Mythological Creature Market
+  description: An online vendor of fine mythological beasts.
   font_url: "https://fonts.googleapis.com/css?family=Almendra+SC|Aref+Ruqaa:400,700"
+  rationales:
+    typeface.primary: It looks rustic and is legible. It is used for all body copy, the navigation, the footer, and the site directory.
+    typeface.secondary: It is an interesting display typeface with a Medieval style. It is used for all headings.
