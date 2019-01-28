@@ -8,6 +8,10 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Aleo|Lato|Open+Sans"
   rationales:
     typefaces.primary:
-      Aleo is used as a young and fresh, slighly funky typeface. Used for heading and titles only.
+      Aleo is used as a young and fresh, slighly funky and vintage typeface. Used for heading and titles only.
     typefaces.secondary:
       Lato is used as secondary and for all body copy and buttons, including the footer and all other text.
+    colors.primary:
+      The primary colour was chosen for its vintage feel and it's contrast for accessibility. The mauve is youthfu;; and appeals to the artistic sensibilties of the demographic.
+    colors.secondary:
+      The second colour was chosen for it's contrast to the primary colour. They are complementary and it adds a touch of brightness to the colour scheme.
