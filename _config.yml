@@ -10,3 +10,7 @@ patternbot:
       The primary typeface - Century Gothic was chosen because of it's legibility and stylistic values. An easy to read sans serif font for small headers and body copy.
     typefaces.secondary:
       The secondary typeface - Urbane Rounded is used for main headers, it has playful graffiti like features, and speaks to the lively, high-spirited while serious proffesional traits valued at Archaic Records.
+    colors.primary:
+      The primary colours were chosen because of their simplicity and visibility, Archaic records wants to be represented as an indie/alternative label. Dark colurs show that we take all clients very seriously, and they personify the struggle many musicians may face.
+    colors.secondary:
+      The secondary colour is a plain white, chosen to contrast the dark primary colours, and in case there is any text that needs to be placed on a dark background. White also compliments the simplicity Archaic's brand wishes to acheive.
