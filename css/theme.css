@@ -1,10 +1,10 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-primary: #915d75;
+  --color-primary-light: #ede6f3;;
+  --color-secondary: #cd828c;
+  --color-accent: #adbe9a;
+  --color-neutral-beige: #dbb4a6;
+  --color-whatever: #d7602e;
 
   --font-primary: "Dosis", sans-serif;
   --font-secondary: "Raleway", sans-serif;
@@ -18,6 +18,6 @@ html {
 h1 {
   font-family: var(--font-primary);
   color: var(--color-primary);
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }

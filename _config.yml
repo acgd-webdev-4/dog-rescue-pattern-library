@@ -3,4 +3,4 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.google.com/?query=dosis&selection.family=Dosis"
+  font_url: "https://fonts.googleapis.com/css?family=Dosis:400,500,700|PT+Serif:400,400i,700|Raleway:400,500,500i,700"
