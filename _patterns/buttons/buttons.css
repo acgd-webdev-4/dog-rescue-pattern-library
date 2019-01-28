@@ -30,3 +30,23 @@
   border-color: var(--color-rustybrown);
   border-color: var(--colour-primary);
 }
+
+.shoppingcart {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.shoppingcart:hover {
+background-color: rgba(255, 255, 255, 0.27);
+border-radius: 100px;
+}
+
+.settings {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.settings:hover {
+background-color: rgba(255, 255, 255, 0.27);
+border-radius: 100px;
+}
