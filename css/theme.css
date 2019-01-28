@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #af2024;
+  --color-secondary: #231f20;
+  --color-accent: greenyellow;
+  --color-neutral-beige: #e2e2e2;
+  --color-whatever: peachpuff;
+
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Noto Serif SC', serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
