@@ -1,10 +1,11 @@
-.btn {
+.btn a {
   background-color: var(--color-rustybrown);
   border-color: var(--colour-primary);
   color: var(--color-accent);
 }
 
-.btn:hover {
+.btn a:hover {
   background-color: var(--colour-primary);
+  border-color: var(--color-rustybrown);
 
 }
