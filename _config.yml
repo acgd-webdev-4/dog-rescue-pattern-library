@@ -1,5 +1,6 @@
 permalink: pretty
 theme: jekyll_patternbot
+
 patternbot:
   title: "Mythological Creature Market"
   description: |
@@ -10,3 +11,7 @@ patternbot:
       It looks rustic and is legible. It is used for all body copy, the navigation, the footer, and the site directory.
     typefaces.secondary: |
       It is an interesting display typeface with a Medieval style. It is used for all headings.
+    colors.primary: |
+      This deep brown colour helps reflect Medieval style and also emulates the brown fur of potential creatures. It is used as a background to the page directory as well as the footer.
+    colors.secondary: |
+      This medium brown looks like old paper which fits the theme. It is the background colour of the navigation.
