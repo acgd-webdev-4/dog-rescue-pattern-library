@@ -37,6 +37,10 @@ a:hover {
   transition: all .1s linear;
 }
 
+ul, ol, dl {
+  color: var(--color-primary-dark);
+}
+
 blockquote {
   color: var(--color-primary-dark);
 }
