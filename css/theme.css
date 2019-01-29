@@ -3,14 +3,14 @@
   --color-primary: #6148af;
   --color-primary-dark: #372862;
 
-  --color-secondary-light: #36b5fc;
-  --color-secondary: #0b9cdf;
-  --color-secondary-dark: #05435f;
+  --color-secondary: #fff;
+  --color-secondary-dark: #f3f3f3;
+  --color-secondary-darker: #e2e2e2;
 
 
   --color-yellow: #fed676;
   --color-light-red: #d83074;
-  --color-white: #fff;
+  --color-blue: #0b9cdf;
 
   --font-primary: "Open Sans", Helvetica, Arial;
   --font-secondary: Quicksand, Courier, sans-serif;
@@ -56,4 +56,9 @@ b, strong, abbr {
 
 del {
   text-decoration-color: var(--color-primary);
+}
+
+mark {
+  color: var(--color-secondary);
+  background-color: var(--color-primary-light);
 }

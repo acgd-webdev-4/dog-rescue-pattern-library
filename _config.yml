@@ -2,4 +2,24 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Catonaut"
+  description: |
+    An online store where creatives and cat lovers can buy all kinds of beautiful cat art on pre-determined products.
+
   font_url: https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Quicksand:400,700"
+  colors:
+    background: "--color-secondary"
+    accent: "--color-primary-light"
+    patterns:
+      brand.logos: "--color-secondary-dark"
+  rationales:
+    typefaces.primary: |
+      Open Sans was selected because of its clean and easy readability for web. Open Sans should be used for all body copy and any other applicables areas with large amounts of text.
+    typefaces.secondary: |
+      Quicksand was selected because of its soft geometric characteristics. It fits well with the fun space theme and lends itself to being creative and futuristic. Quicksand should only be used for headings, links as its readability can be tough at smaller sizes.
+    colors.primary: |
+      The primary colours represent a deep space feeling and sets a mood for the website. It should be used on all text, foreground elements such as content section dividers.
+    colors.secondary: |
+      The secondary colours represent the stars we see in the sky. It should be used as a the base background colour and on text to contrast against the primary colour.
+    colors.accent: |
+      These accents pair well and create a space themed harmony with the primarys. Yellows draw attention and should only be used with pruchasing related items such as the shopping cart icon. Light red should be used with submission related content like search. Blue should only be use as a small foreground elements
