@@ -1,4 +1,12 @@
 :root {
-  --color-primary: ;
+  --color-primary: #632918;
+  --color-primary-light: #956957;
+  --color-secondary: #407487;
+  --color-accent: #f7f0cb;
 
+  --font-primary: 'Quicksand', sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
 }
