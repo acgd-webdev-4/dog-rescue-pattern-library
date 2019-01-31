@@ -6,13 +6,14 @@
   --color-extra: #683d66;
   --color-dark: #171133;
   --color-overlay: #3b0d38;
-  --background-color: white;
+  --background-color: #fff;
   --font-primary: 'Source Sans Pro', sans-serif;
   --font-secondary: 'Source Serif Pro', serif;
 }
 
 html {
   font-family: var(--font-primary);
+  background-color: #fff;
 }
 
 h1 {
@@ -48,4 +49,18 @@ p {
 
 .btn {
   background-color: var(--color-accent);
+}
+
+.heading {
+  font-family: var(--font-primary);
+}
+
+.content {
+  font-family: var(--font-secondary);
+}
+
+mark {
+  background-color: var(--color-accent);
+  font-family: var(--font-secondary);
+  color: #fff;
 }
