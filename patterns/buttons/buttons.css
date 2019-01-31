@@ -8,3 +8,18 @@
   background-color: var(--color-primary);
   border-color: var(--color-extra);
 }
+
+.btn-ghost{
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  color: var(--color-accent);
+}
+
+.btn-light {
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  color: white;
+}
