@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Obscure"
+  description: |
+    A small book webapp that allows parculier readers an insider on obscure books. From Romance to Sci-Fi, you name it!
   font_url: "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro"
+  colors:
+    background: "background-color"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-neutral"
+  rationales:
+    typefaces.primary: |
+      Source sans was selected because it is a bold sans-serif font that is good for titles and headings.
+    typefaces.secondary: |
+      Source serif is a good font selected for the use of this webapp. This classic font is good for body copy and buttons.
+    colors.primary: |
+      The primary colour is used for icons, and to represent a particular genre from the webapp.
+    colors.secondary: |
+      The secondary colour is darker which can be used to highlight a lettering.
