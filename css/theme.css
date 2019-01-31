@@ -1,14 +1,50 @@
 :root {
-  --color-primary: #af2024;
-  --color-secondary: #231f20;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
-
-  --font-primary: 'Open Sans', sans-serif;
-  --font-secondary: 'Noto Serif SC', serif;
+  --color-primary: #610d3b;
+  --color-secondary: #50254c;
+  --color-accent: #912065;
+  --color-neutral: #79667e;
+  --color-extra: #683d66;
+  --color-dark: #171133;
+  --background-color: #fff;
+  --font-primary: 'Source Sans Pro', sans-serif;
+  --font-secondary: 'Source Serif Pro', serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+h2 {
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+h5 {
+  font-family: var(--font-primary);
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+.btn {
+  background-color: var(--color-accent);
 }
