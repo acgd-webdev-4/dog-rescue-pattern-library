@@ -3,6 +3,7 @@
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 9);
   bottom: -6em;
   transition: all .2s linear;
+  color: #fff;
 }
 
 .hover-box:hover .hover-box-caption,
@@ -11,13 +12,12 @@
 }
 
 .hover-box-img {
-  filter: grayscale(100%);
   transition: all .2s linear;
 }
 
 .hover-box:hover .hover-box-img,
 .hover-box:focus .hover-box-img {
-  filter: grayscale(0);
+  background-color: var(--color-accent);
   transform: scale(1.1);
 }
 
