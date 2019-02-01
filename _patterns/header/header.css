@@ -1,6 +1,6 @@
 .masthead {
-  border-bottom: .2em solid var(--color-primary-light);
-  border-top: .2em solid var(--color-primary);
+  border-bottom: .2em solid var(--color-primary);
+  border-top: .2em solid var(--color-secondary);
   text-align: center;
   background-color: #fff;
 }
@@ -15,7 +15,7 @@ header {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: var(--color-extra);
+  background-color: var(--color-accent);
   display: none;
   position: absolute;
   right: 0;
