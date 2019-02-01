@@ -1,0 +1,26 @@
+.hover-box-caption {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 5));
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 9);
+  bottom: -6em;
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-caption,
+.hover-box:focus .hover-box-caption {
+  bottom: 0;
+}
+
+.hover-box-img {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.hover-box {
+  z-index: 10;
+}
