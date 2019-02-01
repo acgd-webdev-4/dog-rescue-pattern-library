@@ -11,6 +11,7 @@
 .btn-ghost {
   border-color: var(--color-primary);
   color: var(--color-neutral-dark-grey);
+  background-color: transparent;
 }
 
 .btn-ghost:hover {
