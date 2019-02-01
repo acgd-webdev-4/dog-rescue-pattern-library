@@ -7,10 +7,9 @@ patternbot:
     A small book webapp that allows parculier readers an insider on obscure books. From Romance to Sci-Fi, you name it!
   font_url: "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro"
   colors:
-    background: "background-color"
-    accent: "--color-primary"
+    accent: "--color-secondary"
     patterns:
-      brand.logos: "--color-neutral"
+      brand.logos: "--color-primary"
   rationales:
     typefaces.primary: |
       Source sans was selected because it is a bold sans-serif font that is good for titles and headings.
