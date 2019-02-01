@@ -7,6 +7,7 @@ patternbot:
     A small book webapp that allows parculier readers an insider on obscure books. From Romance to Sci-Fi, you name it!
   font_url: "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro"
   colors:
+    background: "--color-accent"
     accent: "--color-secondary"
     patterns:
       brand.logos: "--color-primary"
