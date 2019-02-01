@@ -1,12 +1,12 @@
 .btn {
-  background-color: var(--color-accent);
+  background-color: var(--color-secondary);
   border-color: none;
   color: #fff;
 }
 
 .btn:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-extra);
+  border-color: var(--color-accent);
 }
 
 .btn-ghost{
