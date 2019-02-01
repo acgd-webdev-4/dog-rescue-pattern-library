@@ -1,0 +1,27 @@
+h1 {
+  color:  #efc820;
+  padding: .5em;
+  text-align: left;
+  margin: 0;
+  border-bottom: 3px, #efc820;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: .75rem;
+}
+
+li {
+  display: block;
+}
+
+nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color:  #efc820;
+  padding: .3em 0 .5em;
+  white-space: nowrap;
+  width: 25%;
+  float: right;
+  display:inline-block;
+}
