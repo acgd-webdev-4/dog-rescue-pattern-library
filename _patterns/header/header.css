@@ -1,0 +1,55 @@
+.masthead {
+  border-bottom: .2em solid var(--color-primary-light);
+  border-top: .2em solid var(--color-primary);
+  text-align: center;
+  background-color: #fff;
+}
+
+header {
+  padding: 1em 0 40px;
+  text-align: center;
+  position: relative;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: var(--color-extra);
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 15em;
+}
+
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav a:hover {
+  background-color: var(--color-neutral);
+  color: var(--color-primary);
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer:nesw-resize;
+  font-size: .25rem;
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
