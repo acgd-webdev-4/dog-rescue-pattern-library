@@ -3,4 +3,7 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Unified Crystal"
+  discription: |
+    Handmade Crystal Healing Jewelry that combines the healing properties of crystals with intention to help you achieve a desired outcome.
   font_url: "https://fonts.googleapis.com/css?family=Dosis:400,500,700|PT+Serif:400,400i,700|Raleway:400,500,500i,700"
