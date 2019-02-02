@@ -7,3 +7,20 @@ patternbot:
   discription: |
     Handmade Crystal Healing Jewelry that combines the healing properties of crystals with intention to help you achieve a desired outcome.
   font_url: "https://fonts.googleapis.com/css?family=Dosis:400,500,700|PT+Serif:400,400i,700|Raleway:400,500,500i,700"
+  colors:
+    background: "--colour-primary-light"
+    accent: "--color-primary"
+    patterns:
+        brand.logos: "--color-primary"
+        brand.colours: "#ffffff"
+  rationales:
+    typefaces.primary: |
+      Dosis was selected because it is a clean modern font, that has smooth curves that reflects the modern smoothness of the crystals that are used for natural healing. This type face will mostly be used for main heading for thr title of thr website, in a medium/regular font weight. This will keep the website lookng unified with the logo.
+    typefaces.secondary: |
+      Raleway was selected for all the headings. This was chosen to reflect the clean and classy look of the overall website.
+    typefaces.tertiary: |
+      PT Serif was selected beacause it is a simple and easily readable text for body copy. This will help the user read when the font size is smaller then 14pt.
+    colors.primary: |
+      The primary colours represent a calm more down to earth tone. They are mellows tones and help the user to get a peacful organized flow through the website. These colours are to be used as background colours to seperate sections of the website to help the website stay organized.
+    color.secondary: |
+      The secondary colours still stay in the earth tone palette but are more dramatic to draw attention for the buttons, and cards. These colours will be used thourgh out the website.
