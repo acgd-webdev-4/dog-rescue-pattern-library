@@ -1,0 +1,10 @@
+title: "Cards"
+description: |
+  Cards are used to describe important bits of information quickly on the website.
+
+patterns:
+  product-card:
+    width: 400
+
+  sale-card:
+    width: 400

@@ -12,6 +12,7 @@ patternbot:
     accent: "--color-primary-light"
     patterns:
       brand.logos: "--color-secondary-dark"
+      icons.icons: "--color-secondary-dark"
   rationales:
     typefaces.primary: |
       Open Sans was selected because of its clean and easy readability for web. Open Sans should be used for all body copy and any other applicables areas with large amounts of text.
@@ -22,4 +23,4 @@ patternbot:
     colors.secondary: |
       The secondary colours represent the stars we see in the sky. It should be used as a the base background colour and on text to contrast against the primary colour.
     colors.accent: |
-      These accents pair well and create a space themed harmony with the primarys. Yellows draw attention and should only be used with pruchasing related items such as the shopping cart icon. Light red should be used with submission related content like search. Blue should only be use as a small foreground elements
+      These accents pair well and create a space themed harmony with the primarys. Yellows draw attention and should only be used with pruchasing related items such as the shopping cart icon. Light red should be used with submission related content like search. Blue should only be use as a small foreground elements.
