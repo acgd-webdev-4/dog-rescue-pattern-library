@@ -1,3 +1,19 @@
 patterns:
   image:
     width: 400
+feilds:
+  - name: tittle
+    type: string
+    examples: "Rose Quartz Stone"
+  - name: details
+    type: string
+    example: "Unconditional Love • Happiness • Passion"
+  - name: more-details
+    type: string
+    example: "See the world through rose tinted glasses by tapping into the unconditional love of Rose Quartz Tumbled Stone. This stone serves as a gentle reminder that the most important person to love and nurture is yourself. Working with Rose Quartz opens up your heart to all kinds of love: self-love, familial love, friendship, romance and more."
+  - name: image
+    type: image
+    example: "rose-quartz-stone.png"
+  - name: button_text
+    type: string
+    example: "Buy a Rose Quartz Stone"

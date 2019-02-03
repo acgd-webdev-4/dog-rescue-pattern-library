@@ -1,11 +1,14 @@
-title: "Buttons, buttons-oh-my!"
 description: |
-  Lots of different buttons for whatever.
+  Lots of different buttons for that can be used through the webiste, to view more in detail, to add to the cart and many more.
 
 patterns:
   basic:
     title: "Super basic"
-    description: should be used in almost all situations
+    description: Should be used in almost all situations
+  feilds:
+    - name: text
+      type: string
+      example: "Add to Cart"
   ghost:
-    description: the ghost button should only be used on abnners and in situations where the background is a photo
+    description: The ghost button should only be used on abnners and in situations where the background is a photo
     width: 320
