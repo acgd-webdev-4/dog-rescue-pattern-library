@@ -8,11 +8,11 @@ patternbot:
     Handmade Crystal Healing Jewelry that combines the healing properties of crystals with intention to help you achieve a desired outcome.
   font_url: "https://fonts.googleapis.com/css?family=Dosis:400,500,700|PT+Serif:400,400i,700|Raleway:400,500,500i,700"
   colors:
-    background: "--colour-primary-light"
+    background: "--color-primary-light"
     accent: "--color-primary"
     patterns:
-        brand.logos: "--color-primary"
-        brand.colours: "#ffffff"
+      brand.logos: "--color-primary"
+      brand.colours: "#ffffff"
   rationales:
     typefaces.primary: |
       Dosis was selected because it is a clean modern font, that has smooth curves that reflects the modern smoothness of the crystals that are used for natural healing. This type face will mostly be used for main heading for thr title of thr website, in a medium/regular font weight. This will keep the website lookng unified with the logo.

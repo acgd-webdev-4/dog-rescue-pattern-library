@@ -1,0 +1,25 @@
+.btn {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-light);
+  border: solid 3px var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn:hover {
+  background-color: var(--color-primary);
+  border: solid 3px var(--color-primary);
+  color: var(--color-primary-light);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-secondary);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border: solid 3px var(--color-primary);
+  color: var(--color-primary-light);
+}

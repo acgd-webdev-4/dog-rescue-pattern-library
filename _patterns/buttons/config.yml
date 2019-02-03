@@ -1,0 +1,11 @@
+title: "Buttons, buttons-oh-my!"
+description: |
+  Lots of different buttons for whatever.
+
+patterns:
+  basic:
+    title: "Super basic"
+    description: should be used in almost all situations
+  ghost:
+    description: the ghost button should only be used on abnners and in situations where the background is a photo
+    width: 320
