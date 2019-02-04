@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #292929;
+  --color-primary: #898989;
   --color-primary-light: #fff;
-  --color-secondary: #898989;
+  --color-secondary: #292929;
   --color-blue: #007AFF;
   --color-light-gray: #e2e2e2;
   --color-hot-pink: hotpink;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-family: var(--font-secondary);
-  font-color: var(--color-primary-light);
+  font-color: var(--color-secondary);
   font-weight: 700;
 }
 
@@ -87,5 +87,5 @@ mark {
   font-family: var(--font-primary);
   font-style: italic;
   color: var(--color-primary);
-  background-color: var(--color-light-gray);
+  background-color: var(--color-secondary);
 }
