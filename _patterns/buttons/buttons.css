@@ -1,4 +1,5 @@
 .btn {
+  transition: all .3s linear;
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
   color: var(--color-secondary);
@@ -6,50 +7,61 @@
 }
 
 .btn:hover {
+  transition: all .3s linear;
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
 }
 
 .btn-ghost {
+  transition: all .3s linear;
   background-color: transparent;
   color: var(--color-primary-dark);
 }
 
 .btn-ghost:hover {
+  transition: all .3s linear;
   color: var(--color-secondary);
 }
 
 .btn-light {
+  transition: all .3s linear;
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
 }
 
 .btn-light:hover {
+  transition: all .3s linear;
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
 }
 
-.btn-submit {
+.btn-submit,
+.btn-search {
+  transition: all .3s linear;
   border-radius: 40px;
   border-color: var(--color-light-red);
   background-color: var(--color-light-red);
 }
 
-.btn-submit:hover {
+.btn-submit:hover,
+.btn-search:hover {
+  transition: all .3s linear;
   background-color: var(--color-secondary);
   color: var(--color-light-red);
   border-color: var(--color-light-red);
 }
 
 .btn-attention {
+  transition: all .3s linear;
   border-radius: 40px;
   color: var(--color-primary-dark);
   border-color: var(--color-yellow);
   background-color: var(--color-yellow);
+  filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .3));
 }
 
 .btn-attention:hover {
-  border-radius: 40px;
+  transition: all .3s linear;
   color: var(--color-yellow);
   border-color: var(--color-primary-dark);
   background-color: var(--color-primary-dark);

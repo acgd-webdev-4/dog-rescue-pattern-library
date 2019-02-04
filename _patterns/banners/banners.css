@@ -1,0 +1,20 @@
+.promo-banner {
+  text-decoration: none;
+  background-color: var(--color-blue);
+  width: 100%
+}
+
+.pb-title,
+.pb-content {
+  color: var(--color-secondary);
+}
+
+.banner {
+  max-height: 25em;
+}
+
+.banner-content {
+  width: 100%;
+  background-color: rgba(255, 255, 255, .8);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .5));
+}

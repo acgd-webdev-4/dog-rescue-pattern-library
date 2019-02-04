@@ -4,8 +4,8 @@
   --color-primary-dark: #372862;
 
   --color-secondary: #fff;
-  --color-secondary-dark: #f3f3f3;
-  --color-secondary-darker: #bfbfbf;
+  --color-secondary-dark: #bfbfbf;
+  --color-secondary-darker: #7f7f7f;
 
 
   --color-yellow: #fed676;
@@ -22,7 +22,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-primary-dark);
-  font-family: var(--font-secondary)
+  font-family: var(--font-secondary);
 }
 
 a {
