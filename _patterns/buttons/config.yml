@@ -7,7 +7,24 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
+    background: "--color-secondary"
   ghost:
     title: "Ghost"
     description: |
-    The ghost button is specifically for banners, where it will be placed in front of busy images.
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+  light:
+    title: "Light"
+    description: |
+      Similar to the default button but with a lighter colour. Can be used on dark backgrounds.
+  shoppingcart:
+    title: "shoppingcart"
+    description: |
+      The shopping cart button is part of the navigation at the top of the page. Only use it in this instance.
+  hamburger:
+    title: "hamburger"
+    description: |
+      The hamburger button is part of the navigation at the top of the page. Only use it in this instance. It toggles a drop down navigation on small screen sizes.
+  settings:
+    title: "settings"
+    description: |
+      The settings button is part of the navigation at the top of the page. Only use it in this instance. The button allows users to sign in to the website and change their personal settings.
