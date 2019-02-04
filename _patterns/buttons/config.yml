@@ -5,11 +5,18 @@ Buttons should be used in situations where a dramatic, obvious action is require
 patterns:
   basic:
     title: "Basic"
-    description: |
+    description:
     Default to using the basic button. It should always be used in front of light backgrounds.
     width: "12em"
     ghost:
       title: "Ghost"
-      description: |
+      description:
       The ghost button is specifically for banners, where it will be placed in front of busy images.
       background: "--color-primary-light"
+  seemore:
+    title: "Seemore"
+    description:
+    Used as a linked button at the bottom of product cards to see more about the defined product. Text is white because it will be placed on a dark background.
+  light:
+    title: "Light"
+    description:
