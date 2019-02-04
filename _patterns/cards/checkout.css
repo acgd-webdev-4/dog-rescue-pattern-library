@@ -1,0 +1,56 @@
+section {
+  background-color: #fff;
+}
+
+.wrapper {
+  max-width: 45em;
+  padding: 1.3rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.section-icon {
+  float: right;
+  width: 50%;
+}
+
+.section-letter {
+  float: left;
+  width: 50%;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-icon {
+    padding: 0 1rem;
+  }
+
+  .section-letter {
+    padding: 0 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html
+  .section-icon,
+  .section-letter {
+    width: 25%;
+    padding: 0 2rem;
+  }
+
+}
