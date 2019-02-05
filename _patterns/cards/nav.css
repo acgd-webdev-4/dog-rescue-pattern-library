@@ -24,10 +24,8 @@ h1 {
 
 .nav a {
   text-decoration: none;
-  background-color: #9e5681;
-  border: solid 3px ;
-  border-radius: 8px;
-  color: #fff;
+  background-color: transparent;
+  color: #701647;
 }
 
 .nav a:hover {
