@@ -1,12 +1,24 @@
 .btn {
   background-color: transparent;
-  border-color: transparent;
+  border-color: var(--color-primary) ;
   color: var(--color-primary);
 }
 
 .btn:hover {
   background-color: var(--color-primary-light);
   border-color: transparent;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border-color: transparent ;
+  color: var(--color-primary);
+}
+
+.nav-btn:hover {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .btn-ghost {

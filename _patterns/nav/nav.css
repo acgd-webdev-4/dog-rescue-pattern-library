@@ -1,0 +1,43 @@
+h1 {
+  color: #701647;
+  padding: .5em;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.masthead {
+  background: url("/images/one-dot-50.jpg");
+  background-color: transparent;
+  background-size: 5px;
+  border-bottom: solid 3px #701647;
+}
+
+ul > li::before {
+    content: none;
+}
+
+.nav-ul li {
+  display: block;
+}
+
+.logo {
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (min-width:38em) {
+  .nav-ul li {
+    display: inline-block;
+    }
+
+  h1 {
+    text-align: left;
+
+}
+
+  .nav-ul {
+    text-align: right;
+  }
+
+}
