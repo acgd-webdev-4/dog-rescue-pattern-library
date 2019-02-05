@@ -1,9 +1,10 @@
 .product-card {
-  background-color: #fff;
-  border: 3px solid #efefef;
-  border-radius: 10px;
   text-align: center;
   max-width: 20em;
-  padding: .75rem;
   display: inline-block;
+}
+
+.product-card img {
+  object-fit: cover;
+  border: 2px double var(--color-primary);
 }

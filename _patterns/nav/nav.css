@@ -7,13 +7,10 @@ h1 {
 }
 
 .masthead {
-  background: url("/images/one-dot-50.jpg");
-  background-color: transparent;
-  background-size: 5px;
   border-bottom: solid 3px #701647;
 }
 
-ul > li::before {
+.nav-ul > li::before {
     content: none;
 }
 

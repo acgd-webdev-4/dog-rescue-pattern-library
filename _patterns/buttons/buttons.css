@@ -11,8 +11,9 @@
 
 .nav-btn {
   background-color: transparent;
-  border-color: transparent ;
+  border-bottom: 2px solid transparent ;
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 .nav-btn:hover {
@@ -42,4 +43,16 @@
   background-color: var(--color-secondary);
   border-color: var(--color-light-yellow);
   border-color: transparent;
+}
+
+.footer-btn {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: .9372rem;
+  line-height: 1.3rem;
+}
+
+.footer-btn:hover {
+  color: var(--color-secondary);
+
 }
