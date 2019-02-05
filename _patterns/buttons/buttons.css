@@ -35,16 +35,14 @@
   border-color: var(--color-primary-dark);
 }
 
-.btn-submit,
-.btn-search {
+.btn-submit {
   transition: all .3s linear;
   border-radius: 40px;
   border-color: var(--color-light-red);
   background-color: var(--color-light-red);
 }
 
-.btn-submit:hover,
-.btn-search:hover {
+.btn-submit:hover {
   transition: all .3s linear;
   background-color: var(--color-secondary);
   color: var(--color-light-red);

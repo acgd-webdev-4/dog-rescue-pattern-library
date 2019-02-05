@@ -1,0 +1,11 @@
+ .search-field:not([type="checkbox"]),
+ .search-field:not([type="radio"]) {
+  border-radius: 2em;
+  border-color: var(--color-secondary-dark);
+  padding: 1rem;
+  max-width: 25em;
+}
+
+.search-field:focus {
+  border-radius: 2em;
+}
