@@ -12,7 +12,6 @@ patternbot:
     accent: "--color-primary-light"
     patterns:
       brand.logos: "--color-secondary-dark"
-      icons.icons: "--color-blue"
   rationales:
     typefaces.primary: |
       Open Sans was selected because of its clean and easy readability for web. Open Sans should be used for all body copy and any other applicables areas with large amounts of text.

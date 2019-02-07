@@ -4,6 +4,9 @@ description: |
 
 patterns:
   product-card:
+    title: "product card"
+    description: |
+      hello
     width: 400
 
   sale-card:

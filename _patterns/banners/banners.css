@@ -1,7 +1,8 @@
 .promo-banner {
   text-decoration: none;
   background-color: var(--color-blue);
-  width: 100%
+  width: 100%;
+  transition: all .5s linear;
 }
 
 .pb-title,
@@ -9,12 +10,43 @@
   color: var(--color-secondary);
 }
 
-.hero-banner {
-  max-height: 25em;
+.promo-banner:hover {
+  background-color: var(--color-primary-light);
+  transition: all .4s linear;
 }
 
-.banner-content {
+.hb-content {
   width: 100%;
-  background-color: rgba(255, 255, 255, .8);
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .5));
+  background-color: var(--color-secondary);
+}
+
+.sec-img {
+  min-width: 38em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hb-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(255, 255, 255, .8);
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .5));
+
+    text-align: center;
+  }
+
+  .hero-banner {
+    max-height: 25em;
+  }
+
+  .sec-content {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
 }

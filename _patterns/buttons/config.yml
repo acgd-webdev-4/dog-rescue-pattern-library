@@ -1,0 +1,10 @@
+title: "Buttons"
+description: |
+  Buttons are to be used for a sudden or dramatic change in information takes place, such as linking to a new page or submitting information. They are mainly seen in call to actions or form fields.
+
+patterns:
+  attention:
+    title: "Attention"
+    description: |
+      The attention button uses yellow background with drop shadow to draw the users attention. It should be used in situtations involding purchasing i.e. "add to cart" or "buy now".
+    padding: 1em
