@@ -28,3 +28,9 @@ patterns:
     title: "settings"
     description: |
       The settings button is part of the navigation at the top of the page. Only use it in this instance. The button allows users to sign in to the website and change their personal settings.
+
+cards:
+  creature-card:
+    title: "Creature Card"
+    description: |
+      This style of card is used to display what animals are for sale on the products page.
