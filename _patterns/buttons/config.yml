@@ -1,14 +1,27 @@
+title: "Buttons"
 description: |
   Lots of different buttons for that can be used through the webiste, to view more in detail, to add to the cart and many more.
 
 patterns:
   basic:
-    title: "Super basic"
+    title: "Basic"
     description: Should be used in almost all situations
-  feilds:
-    - name: text
-      type: string
-      example: "Add to Cart"
+    fields:
+      - name: text
+        type: string
+        example: "Add to Cart"
   ghost:
-    description: The ghost button should only be used on abnners and in situations where the background is a photo
+    title: "Ghost"
+    description: The ghost button should only be used on banners and in situations where the background is a photo
     width: 320
+    fields:
+      - name: text
+        type: string
+        example: "Add to Cart"
+  wide:
+    title: "Wide Button"
+    description: The wide button should only be used on cards and in situations where the text withing the button is longer and needs ectra room to fit the surrounding information
+    fields:
+      - name: text
+        type: string
+        example: "Add to Cart"

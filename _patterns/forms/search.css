@@ -1,0 +1,10 @@
+.search {
+  background-color: var(--color-neutral-beige);
+  color: var(--color-primary);
+  width: 1900px;
+}
+
+.search input[type=text] {
+  border: none;
+  font-size: 17px;
+}

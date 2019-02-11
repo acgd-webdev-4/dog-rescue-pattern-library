@@ -1,0 +1,9 @@
+.pic {
+  transition: all 200ms linear;
+}
+
+.pic:hover {
+  left: 192px;
+  top: 100px;
+  transform: translate(0, -25px);
+}

@@ -23,3 +23,21 @@
   border: solid 3px var(--color-primary);
   color: var(--color-primary-light);
 }
+
+
+.btn-wide {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-light);
+  border: solid 3px var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  font-style: normal;
+  width: 350px;
+  text-align: center;
+}
+
+.btn-wide:hover {
+  background-color: var(--color-primary);
+  border: solid 3px var(--color-primary);
+  color: var(--color-primary-light);
+}

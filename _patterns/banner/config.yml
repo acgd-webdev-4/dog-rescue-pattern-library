@@ -1,0 +1,16 @@
+patterns:
+  banner:
+    width: 1900
+    fields:
+      - name: tittle
+        type: string
+        examples: "Shop Crystals"
+      - name: details
+        type: string
+        example: "Get amazing deals on crystals, kits and much more!"
+      - name: image
+        type: image
+        example: "rose-crystal-banner.jpg"
+      - name: button_text
+        type: string
+        example: "Crystals"

@@ -1,0 +1,8 @@
+.content {
+  position: absolute;
+}
+
+.sub {
+  position: relative;
+  left: 13em;
+}

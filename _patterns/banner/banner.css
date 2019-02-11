@@ -1,0 +1,12 @@
+.banner {
+  color: var(--color-accent);
+  position: relative;
+  overflow: hidden;
+  max-height: 24em;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 7em;
+  left: 28em;
+}

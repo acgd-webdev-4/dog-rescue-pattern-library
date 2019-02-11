@@ -13,6 +13,11 @@ patternbot:
     patterns:
       brand.logos: "--color-primary"
       brand.colours: "#ffffff"
+      icons.icons.view-white: "--color-primary"
+      icons.icons.insta-white: "--color-primary"
+      icons.icons.heart: "#ffffff"
+      icons.icons.heart-white: "#ffffff"
+
   rationales:
     typefaces.primary: |
       Dosis was selected because it is a clean modern font, that has smooth curves that reflects the modern smoothness of the crystals that are used for natural healing. This type face will mostly be used for main heading for thr title of thr website, in a medium/regular font weight. This will keep the website lookng unified with the logo.
@@ -22,5 +27,5 @@ patternbot:
       PT Serif was selected beacause it is a simple and easily readable text for body copy. This will help the user read when the font size is smaller then 14pt.
     colors.primary: |
       The primary colours represent a calm more down to earth tone. They are mellows tones and help the user to get a peacful organized flow through the website. These colours are to be used as background colours to seperate sections of the website to help the website stay organized.
-    color.secondary: |
+    colors.secondary: |
       The secondary colours still stay in the earth tone palette but are more dramatic to draw attention for the buttons, and cards. These colours will be used thourgh out the website.
