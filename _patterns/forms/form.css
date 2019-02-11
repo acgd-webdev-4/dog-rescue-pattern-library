@@ -42,6 +42,10 @@ p {
   border-color: var(--color-accent);
 }
 
+a {
+  display: block;
+}
+
 .error-message {
   display: none;
   background-color: var(--color-rustybrown);
