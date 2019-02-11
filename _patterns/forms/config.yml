@@ -3,19 +3,11 @@ description: |
   Forms are used in a variety of different situations where users need to input information.
 
 patterns:
-    checkout-form:
-      title: "Checkout Form"
-      description: |
-        The checkout form will be used when users are prepared to buy the product.
     mailinglist-form:
       title: "Mailing List Form"
       description: |
         The mailing list form can be toggled when users choose to join the mailing list from the signup page.
     signin-form:
       title: "Sign In Form"
-      description: |
-        The sign in form can be toggled from the navigation.
-    signup-form:
-      title: "Sign Up Form"
       description: |
         The sign in form can be toggled from the navigation.

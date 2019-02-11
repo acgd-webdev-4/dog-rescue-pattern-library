@@ -7,18 +7,12 @@ html {
 }
 
 label {
-  padding: 12px 12px 12px 0;
-  /* display: block; */
+  display: block;
   color: var(--color-accent);
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-  color: var(--color-primary-light);
-} */
-
 input {
   padding: 12px 12px 12px 0;
-  display: block;
 }
 
 .container {
@@ -46,14 +40,36 @@ a {
   display: block;
 }
 
+a:hover {
+  color: var(--colour-primary);
+}
+
+fieldset {
+  border-style: none;
+}
+
+legend {
+  color: var(--color-accent);
+}
+
+select {
+  display: block;
+}
+
 .error-message {
   display: none;
+  border-style: solid;
+  border-color: var(--colour-primary);
+  border-radius: 5px;
   background-color: var(--color-rustybrown);
   border-radius: 5px;
   color: var(--color-accent);
 }
 
 .error-message-highlighted {
+  border-style: solid;
+  border-color: var(--colour-primary);
+  border-radius: 5px;
   background-color: var(--color-rustybrown);
   color: var(--color-accent);
 }
