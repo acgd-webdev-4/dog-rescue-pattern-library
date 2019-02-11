@@ -1,0 +1,9 @@
+title: "Cards"
+description: |
+  You can use cards on the product page to establish what merchandise is available.
+
+patterns:
+    creature-card:
+      title: "Creature Card"
+      description: |
+        This card is used on the products page to display what categories of creatures are available.

@@ -1,113 +1,97 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Checkout Form</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-</head>
-<body>
+<div class="max-length island form-style-1 container" action="#" method="post" novalidate>
 
-  <form class="max-length island form-style-1 container" action="#" method="post" novalidate>
+  <div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
+    <h3 class="push-0 island text-center">
+      <!-- <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+      <span class="icon-label">There are items that require your attention.</span>
+    </h3>
+  </div>
 
-    <div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
-      <h3 class="push-0 island text-center">
-        <!-- <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-        <span class="icon-label">There are items that require your attention.</span>
-      </h3>
-    </div>
-
-    <div class="checkout-products">
-      <div class="product-in-cart1">
-        <a class="peta" href="#">Product 1</a>
-        <h6>Price</h6>
-        <p>$50</p>
-
-        <div class="push-1-2">
-          <h6>Quantity</h6>
-          <label for="quantity">Between 1 and 5</label>
-          <input id="quantity" type="number" name="quantity" min="1" max="5" required>
-        </div>
-      </div>
-
-      <div class="product-in-cart2">
-        <a class="peta" href="#">Product 2</a>
-        <h6>Price</h6>
-        <p>$50</p>
-
-        <div class="push-1-2">
-          <h6>Quantity</h6>
-          <label for="quantity">Between 1 and 5</label>
-          <input id="quantity" type="number" name="quantity" min="1" max="5" required>
-        </div>
-      </div>
-
-      <div class="total">
-        <h6>Total:</h6>
-        <p>$100</p>
-      </div>
-    </div>
-
-    <h2>Credit Card Details</h2>
-
-    <div class="push-1-2">
-      <label for="cardholder">Cardholder Name</label>
-      <input id="cardholder" required aria-describedby="name-error">
-      <p class="error-message milli island-1-2 text-center push-0" id="name-error">
-        <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-        <span class="icon-label">Please provide cardholder name</span>
-      </p>
-    </div>
-
-    <div class="push-1-2">
-      <label for="cardnumber">Card Number</label>
-      <input type="cardnumber" id="cardnumber" required aria-describedby="card-error">
-      <p class="error-message milli island-1-2 text-center push-0" id="card-error">
-        <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-        <span class="icon-label">Please provide credit card number with no spaces</span>
-      </p>
-    </div>
-
-    <div class="expiration">
-
-      <h3>Expiration</h3>
+  <div class="checkout-products">
+    <div class="product-in-cart1">
+      <a class="peta" href="#">Product 1</a>
+      <h6>Price</h6>
+      <p>$50</p>
 
       <div class="push-1-2">
-        <label for="month-expiration">Month</label>
-        <input type="month-expiration" id="month-expiration" required aria-describedby="expiration-error">
-        <p class="error-message milli island-1-2 text-center push-0" id="expiration-error">
-          <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-          <span class="icon-label">Please entire the month your card expires.</span>
-        </p>
+        <h6>Quantity</h6>
+        <label for="quantity">Between 1 and 5</label>
+        <input id="quantity" type="number" name="quantity" min="1" max="5" required>
       </div>
+    </div>
+
+    <div class="product-in-cart2">
+      <a class="peta" href="#">Product 2</a>
+      <h6>Price</h6>
+      <p>$50</p>
 
       <div class="push-1-2">
-        <label for="expiration-year">Year</label>
-        <input type="expiration-year" id="expiration-year" required aria-describedby="expiration-error">
-        <p class="error-message milli island-1-2 text-center push-0" id="expiration-error">
-          <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-          <span class="icon-label">Please entire the year your card expires.</span>
-        </p>
+        <h6>Quantity</h6>
+        <label for="quantity">Between 1 and 5</label>
+        <input id="quantity" type="number" name="quantity" min="1" max="5" required>
       </div>
+    </div>
+
+    <div class="total">
+      <h6>Total:</h6>
+      <p>$100</p>
+    </div>
+  </div>
+
+  <h2>Credit Card Details</h2>
+
+  <div class="push-1-2">
+    <label for="cardholder">Cardholder Name</label>
+    <input id="cardholder" required aria-describedby="name-error">
+    <p class="error-message milli island-1-2 text-center push-0" id="name-error">
+      <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+      <span class="icon-label">Please provide cardholder name</span>
+    </p>
+  </div>
+
+  <div class="push-1-2">
+    <label for="cardnumber">Card Number</label>
+    <input type="cardnumber" id="cardnumber" required aria-describedby="card-error">
+    <p class="error-message milli island-1-2 text-center push-0" id="card-error">
+      <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+      <span class="icon-label">Please provide credit card number with no spaces</span>
+    </p>
+  </div>
+
+  <div class="expiration">
+
+    <h3>Expiration</h3>
+
+    <div class="push-1-2">
+      <label for="month-expiration">Month</label>
+      <input type="month-expiration" id="month-expiration" required aria-describedby="expiration-error">
+      <p class="error-message milli island-1-2 text-center push-0" id="expiration-error">
+        <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+        <span class="icon-label">Please entire the month your card expires.</span>
+      </p>
     </div>
 
     <div class="push-1-2">
-      <label for="cvc">CVC</label>
-      <input type="cvc" id="cvc" required aria-describedby="cvc-error">
-      <p class="error-message milli island-1-2 text-center push-0" id="cvc-error">
+      <label for="expiration-year">Year</label>
+      <input type="expiration-year" id="expiration-year" required aria-describedby="expiration-error">
+      <p class="error-message milli island-1-2 text-center push-0" id="expiration-error">
         <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-        <span class="icon-label">The CVC is located on the back of your card.</span>
+        <span class="icon-label">Please entire the year your card expires.</span>
       </p>
-      <a class="block" href="#">What is this?</a>
     </div>
+  </div>
 
-    <div class="pad-t-1-2">
-      <button class="btn" type="submit">Send</button>
-    </div>
-  </form>
+  <div class="push-1-2">
+    <label for="cvc">CVC</label>
+    <input type="cvc" id="cvc" required aria-describedby="cvc-error">
+    <p class="error-message milli island-1-2 text-center push-0" id="cvc-error">
+      <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+      <span class="icon-label">The CVC is located on the back of your card.</span>
+    </p>
+    <a class="block" href="#">What is this?</a>
+  </div>
 
-  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
-</body>
-</html>
+  <div class="pad-t-1-2">
+    <button class="btn" type="submit">Send</button>
+  </div>
+</div>

@@ -1,38 +1,22 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Mailing Form</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-</head>
-<body>
+<div class="max-length island container" action="#" method="post" novalidate>
 
-  <form class="max-length island container" action="#" method="post" novalidate>
+  <div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
+    <h3 class="push-0 island text-center">
+      <!-- <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+      <span class="icon-label">There are items that require your attention.</span>
+    </h3>
+  </div>
 
-    <div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
-      <h3 class="push-0 island text-center">
-        <!-- <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-        <span class="icon-label">There are items that require your attention.</span>
-      </h3>
-    </div>
+  <div class="push-1-2">
+    <label for="email">Enter your email to join our mailing list.</label>
+    <input type="email" id="email" required aria-describedby="email-error">
+    <p class="error-message milli island-1-2 text-center push-0" id="email-error">
+      <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+      <span class="icon-label">Please provide a properly formatted email address</span>
+    </p>
+  </div>
 
-    <div class="push-1-2">
-      <label for="email">Enter your email to join our mailing list.</label>
-      <input type="email" id="email" required aria-describedby="email-error">
-      <p class="error-message milli island-1-2 text-center push-0" id="email-error">
-        <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
-        <span class="icon-label">Please provide a properly formatted email address</span>
-      </p>
-    </div>
-
-    <div class="pad-t-1-2">
-      <button class="btn" type="submit">Send</button>
-    </div>
-  </form>
-
-  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
-</body>
-</html>
+  <div class="pad-t-1-2">
+    <button class="btn" type="submit">Send</button>
+  </div>
+</div>
