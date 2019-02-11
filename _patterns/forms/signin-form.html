@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Account Sign-in Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island container" action="#" method="post" novalidate>
+
+    <div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
+      <h3 class="push-0 island text-center">
+        <!-- <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+        <span class="icon-label">There are items that require your attention.</span>
+      </h3>
+    </div>
+
+    <div class="push-1-2">
+      <label for="username">Username</label>
+      <input id="username" required aria-describedby="username-error">
+      <p class="error-message milli island-1-2 text-center push-0" id="username-error">
+        <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+        <span class="icon-label">Please enter your username</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="password">Password</label>
+      <input type="password" id="password" required aria-describedby="password-error">
+      <p class="error-message milli island-1-2 text-center push-0" id="password-error">
+        <!-- <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i> -->
+        <span class="icon-label">Please provide a properly formatted password</span>
+      </p>
+    </div>
+
+    <a href="#">Forgot your password?</a>
+
+    <div class="pad-t-1-2">
+      <button class="btn" type="submit">Send</button>
+    </div>
+  </form>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+</body>
+</html>

@@ -85,7 +85,7 @@ img {
 }
 
 svg {
-  fill: currentColor;
+  fill: #fff;
 }
 
 svg:not(:root) {
@@ -263,14 +263,14 @@ button::-moz-focus-inner {
 
 /* stylelint-enable */
 
-button:focus,
+/* button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
   background-color: #000;
   border-color: #000;
   color: #fff;
-}
+} */
 
 button[disabled] {
   cursor: default;

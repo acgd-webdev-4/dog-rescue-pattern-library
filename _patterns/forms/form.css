@@ -1,0 +1,63 @@
+html {
+  color: #000;
+}
+
+.flag-optional {
+  color: #999;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: block;
+  color: var(--color-accent);
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary-light);
+} */
+
+input {
+  padding: 12px 12px 12px 0;
+  display: block;
+}
+
+.container {
+  border-style: solid;
+  border-color: var(--colour-primary);
+  border-radius: 5px;
+  background-color: var(--color-secondary);
+  padding: 20px;
+  max-width: 20em;
+}
+
+p {
+  color: var(--color-accent);
+  max-width: 15em;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-accent);
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-rustybrown);
+  border-radius: 5px;
+  color: var(--color-accent);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-rustybrown);
+  color: var(--color-accent);
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}

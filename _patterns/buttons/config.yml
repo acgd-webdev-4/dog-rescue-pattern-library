@@ -28,3 +28,13 @@ patterns:
     title: "settings"
     description: |
       The settings button is part of the navigation at the top of the page. Only use it in this instance. The button allows users to sign in to the website and change their personal settings.
+
+title: "Cards"
+description: |
+  You can use cards on the product page to establish what merchandise is available.
+
+cards:
+  creature-card:
+    title: "Creature Card"
+    description: |
+      This card is used on the products page to display what categories of creatures are available.
