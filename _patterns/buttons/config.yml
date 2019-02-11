@@ -1,0 +1,25 @@
+title: "Buttons"
+description: |
+  Buttons are used for definite action such as buying or checking out. They will usually bring user to a different page.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+        This button is used to chose items in the products or to see more about item.
+  ghost:
+    title: "Ghost"
+    description: |
+      This button is used for banners to match styles.
+  nav-btn:
+    title: "Nav Button"
+    description: |
+      This is used for navigation.
+  light:
+    title: "Light"
+    description: |
+      This is the most dramatic, used for buying and checking out.
+  nav-footer-btn:
+    title: "Nav Footer"
+    description: |
+      This is used for footer and has no underline or decoration.

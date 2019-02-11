@@ -121,6 +121,7 @@ mark {
   font-weight: 700;
   font-family: var(--font-secondary);
   color: var(--color-primary-light);
+  background-color:var(--color-light-yellow);
 }
 q {
   font-weight: 400;
