@@ -29,3 +29,8 @@
   color: var(--color-secondary);
   text-decoration: underline, italic;
 }
+
+.btn-noborder {
+  color: var(--color-secondary);
+  border-color: none;
+}

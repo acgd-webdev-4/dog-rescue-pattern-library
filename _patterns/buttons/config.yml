@@ -16,8 +16,20 @@ patterns:
   seemore:
     title: "See More"
     description: |
-      Used as a linked button at the bottom of product cards to see more about the defined product. Text is white because it will be placed on a dark background.
+      Used as a linked button at the bottom of product cards to see more about the defined product. Text is white because it will be placed on a dark background. Clicking on see more results in a downward motion exposing more images.
+  seeless:
+    title: "See Less"
+    description: |
+      Used as a linked button at the bottom of product cards to see less about the defined product. Text is white because it will be placed on a dark background. Clicking on see less results in a upward motion hiding exposed images.
   light:
     title: "Light"
     description: |
-      sadfasdfasdf
+      To be used on a dark background, send button indicates that action on that page is complete and ready to submit.
+  itunes:
+    title: "Itunes"
+    description: |
+      To be used for promotional purposes. Placed next to or below a portion of the website advertising a specific song or album, with a link re-directing the user to the corresponding page.
+  spotify:
+    title: "Spotify"
+    description: |
+      To be used for promotional purposes. Placed next to or below a portion of the website advertising a specific song or album, with a link re-directing the user to the corresponding page.
