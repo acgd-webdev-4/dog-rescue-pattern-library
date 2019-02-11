@@ -29,6 +29,8 @@ patterns:
     description: |
       The settings button is part of the navigation at the top of the page. Only use it in this instance. The button allows users to sign in to the website and change their personal settings.
 
+# The code from this point forward does not work
+
 title: "Cards"
 description: |
   You can use cards on the product page to establish what merchandise is available.
@@ -38,3 +40,25 @@ cards:
     title: "Creature Card"
     description: |
       This card is used on the products page to display what categories of creatures are available.
+
+title: "forms"
+description: |
+  Forms are used in a variety of different situations where users need to input information.
+
+forms:
+  checkout-form:
+    title: "Checkout Form"
+    description: |
+      The checkout form will be used when users are prepared to buy the product.
+  mailinglist-form:
+    title: "Mailing List Form"
+    description: |
+      The mailing list form can be toggled when users choose to join the mailing list from the signup page.
+  signin-form:
+    title: "Sign In Form"
+    description: |
+      The sign in form can be toggled from the navigation.
+  signup-form:
+    title: "Sign Up Form"
+    description: |
+      The sign in form can be toggled from the navigation.
