@@ -9,3 +9,8 @@
   background-color: var(--color-secondary);
   width: 100%;
 }
+
+p {
+  color: var(--color-primary-light);
+  float: right;
+}

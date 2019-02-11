@@ -4,6 +4,12 @@
   color: var(--color-primary);
 }
 
+.btn2 {
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
 .btn:hover {
   background-color: var(--color-secondary);
   border-color: var(--color-primary-light);
@@ -34,4 +40,16 @@
 .btn-noborder {
   color: var(--color-secondary);
   border-color: none;
+}
+
+.wide {
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  background-color: var(--color-primary-light);
+}
+
+.wide:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-light);
 }
