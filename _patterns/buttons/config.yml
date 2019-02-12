@@ -4,7 +4,11 @@ description: |
 
 patterns:
   attention:
-    title: "Attention"
+    title: "Attention Button"
     description: |
       The attention button uses yellow background with drop shadow to draw the users attention. It should be used in situtations involding purchasing i.e. "add to cart" or "buy now".
     padding: 1em
+  basic:
+    title: "Basic Button"
+    description: |
+      This Basic button is used on white backgrounds to create great contrast. It should only be used to link to other important areas of the website like promos.

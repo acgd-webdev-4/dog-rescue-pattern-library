@@ -1,3 +1,8 @@
+.label {
+  color: var(--color-primary-dark);
+  font-family: var(--font-secondary);
+}
+
 .search-field:not([type="checkbox"]),
 .search-field:not([type="radio"]) {
   border-radius: 2em;
@@ -10,12 +15,33 @@
   border-radius: 2em;
 }
 
+.field:not([type="checkbox"]),
+.field:not([type="radio"]) {
+  border-radius: 2em;
+  border-color: var(--color-primary);
+  padding: 1em;
+}
+
+.text-area:not([type="checkbox"]),
+.text-area:not([type="radio"]) {
+  border-radius: .5em;
+  border-color: var(--color-primary);
+  padding: .5em;
+}
+
+.option-field:not([type="checkbox"]),
+.option-field:not([type="radio"]) {
+  border-radius: 1em;
+  border-color: var(--color-primary);
+  padding: 0 1em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .search-main {
     margin-left: auto;
     margin-right: auto;
-    max-width: 30em;
+    max-width: 28em;
     width: 100%;
   }
 

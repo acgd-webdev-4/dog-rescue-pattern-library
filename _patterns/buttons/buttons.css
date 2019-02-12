@@ -64,3 +64,8 @@
   border-color: var(--color-primary-dark);
   background-color: var(--color-primary-dark);
 }
+
+.search-btn {
+  border-radius: 1.5em;
+  padding: 1em;
+}
