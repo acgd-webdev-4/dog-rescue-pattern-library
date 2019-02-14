@@ -62,3 +62,9 @@ mark {
   color: var(--color-secondary);
   background-color: var(--color-primary-light);
 }
+
+fieldset {
+  font-family: var(--font-secondary);
+  border-top: none;
+  color: var(--color-primary-dark);
+}

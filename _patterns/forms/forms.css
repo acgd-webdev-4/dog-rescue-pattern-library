@@ -19,7 +19,7 @@
 .field:not([type="radio"]) {
   border-radius: 2em;
   border-color: var(--color-primary);
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .text-area:not([type="checkbox"]),
@@ -34,6 +34,52 @@
   border-radius: 1em;
   border-color: var(--color-primary);
   padding: 0 1em;
+}
+
+[type="checkbox"] + label::before {
+  border-color: var(--color-primary);
+  border-radius: .2em;
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before,
+.is-validated select:invalid,
+.is-validated select[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-label {
+  color: #c33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+  border-radius: .5em;
+}
+
+.error-message-highlighted {
+  background-color: #fee;
+  color: #fff;
+  border-radius: 1em;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated > fieldset > .error-message,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message,
+.is-validated select:invalid + .error-message,
+.is-validated select:invalid + label + .error-message {
+  display: block;
 }
 
 @media only screen and (min-width: 38em) {
