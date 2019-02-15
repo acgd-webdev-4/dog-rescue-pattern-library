@@ -1,0 +1,20 @@
+.box {
+  border: 1px solid var(--color-secondary);
+  background-color: #fff;
+}
+
+hr {
+  background-color: var(--color-accent);
+}
+
+html {
+  background-color: var(--color-accent);
+}
+
+.title {
+  color: var(--color-secondary);
+}
+
+.right-icons {
+  float: right;
+}
