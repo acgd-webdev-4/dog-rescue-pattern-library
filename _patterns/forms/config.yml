@@ -11,3 +11,39 @@ patterns:
       title: "Sign In Form"
       description: |
         The sign in form can be toggled from the navigation.
+    form-links:
+      title: "Form Links"
+      description: |
+        These links can be used to provide explanations about certain form components (i.e. credit card CVC). The second link can be used to reset a password.
+    form-send:
+      title: "Send Form"
+      description: |
+        This button would submit the form.
+    mailing-list-input:
+      title: "Mailing List Input"
+      description: |
+        This input allows users to signup for the website mailing list.
+    product-info:
+      title: "Product Information"
+      description: |
+        This text displays the item purchased within the shopping cart, a link to its page, and its price.
+    quantity-input:
+      title: "Input Quantity of Item"
+      description: |
+        Users can input the amount of the item they would like to purchase within the shopping cart dialogue.
+    radio-button:
+      title: "Radio Buttons"
+      description: |
+        Users can select radio button options.
+    select-box:
+      title: "Dropdown Menu"
+      description: |
+        Users can select varieties of creatures they would like to look at.
+    email-input:
+      title: "Email Input"
+      description: |
+        Users can type in their email address while purchasing a product.
+    text-input:
+      title: "Type Input"
+      description: |
+        Users can type in their name while purchasing a product.
