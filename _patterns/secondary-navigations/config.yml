@@ -1,0 +1,21 @@
+title: "Secondary Navigations"
+description: |
+  These features are used throughout the website.
+
+patterns:
+    breadcrumbs:
+      title: "Breadcrumbs"
+      description: |
+        These breadcrumbs are used on ever single page beneath the main navigation.
+    product-filters:
+      title: "Product Filters"
+      description: |
+        This product filter allows users to select which colour of creature they would like to purchase. The text can be modified to accomodate other specifications like size and age.
+    price-range:
+      title: "Price Range"
+      description: |
+        This dialogue allows for users to select a price span.
+    range-slider:
+      title: "Range Slider"
+      description: |
+        This slider can be used to adjust price or other elements (possibly quantity) within the checkout dialogue.
