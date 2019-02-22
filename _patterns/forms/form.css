@@ -26,7 +26,6 @@ input {
 
 p {
   color: var(--color-accent);
-  max-width: 15em;
 }
 
 .is-validated input:invalid,
