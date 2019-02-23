@@ -2,7 +2,7 @@
   text-decoration: none;
   background-color: var(--color-blue);
   width: 100%;
-  transition: all .5s linear;
+  transition: all .3s linear;
 }
 
 .pb-title,
@@ -12,7 +12,7 @@
 
 .promo-banner:hover {
   background-color: var(--color-primary-light);
-  transition: all .4s linear;
+  transition: all .3s linear;
 }
 
 .hb-content {

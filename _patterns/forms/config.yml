@@ -1,0 +1,58 @@
+title: "Forms"
+description: |
+  Forms are to be used in realtion with a submit button.
+
+patterns:
+  basic-field:
+    title: "Basic Input Field"
+    description: |
+      This is a standard input field meant for short lines of text. Should only be found in the checkout page and sign-up page, mainly for naming purposes.
+    padding: 1em
+  telephone:
+    title: "Phone Number Field"
+    description: |
+      A standard phone number field. Should only be found on the checkout page.
+    padding: 1em
+  email:
+    title: "Email Field"
+    description: |
+      This is a standard email field. This can be found on the checkpage and sign-up page.
+  select:
+    title: "Selection Field"
+    description: |
+      A selction field with multiple items to choose from. Should be used on a products page and checkout page.
+    padding: 1em
+  text-field:
+    title: "Message Field"
+    description: |
+      This a text field area that can be used for multiple lines of text. Should be used primarly for comment fields or text areas.
+    padding: 1em
+  checkbox:
+    title: "Checkboxes"
+    description: |
+      This is a standard checkbox. This should be used in the checkout page or in relation with sign-up to recieve emails, offers and agreement to terms.
+    padding: 1em
+  quantity:
+    title: "Quantity Field"
+    description: |
+      This quantity field used to determine how many of an item the customer may want. It can be found on the products page before adding to cart or even on the checkout page if the customer decides they want less or more.
+    padding: 1em
+  radio:
+    title: "Radio Buttons"
+    description: |
+      Radio buttons are used to determine yes or no questions or any question that invloves multiple answers but only one option to pick.
+    padding: 1em
+  fieldset:
+    title: "Fieldset with Warnings"
+    description: |
+      This is a standard fieldset with warning messages included, try clicking submit without entering any information.
+    padding: 1em
+  search:
+    title: "Search Field"
+    description: |
+      This search field is to be used only on the main page of the website, inside the hero banner. It can not be used anywhere else.
+    padding: 1em
+  alt-search:
+    title: "Alternate Search Field"
+    description: |
+      This search field is to be used on everypage that is necessary expect that of the homepage—use the Search Field for that. It should always be place in the top bar for easy access and continuity.

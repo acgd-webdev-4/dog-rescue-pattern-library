@@ -3,12 +3,28 @@ description: |
   Buttons are to be used for a sudden or dramatic change in information takes place, such as linking to a new page or submitting information. They are mainly seen in call to actions or form fields.
 
 patterns:
+  basic:
+    title: "Basic Button"
+    description: |
+      This basic button is used on white backgrounds to create contrast. It should only be used to link to other important areas of the website like promos.
+  light:
+    title: "Light Button"
+    description: |
+      This light button is used on dark backgrounds to create contrast. It should only be used to link to other important areas of the website like promos.
+  ghost:
+    title: "Ghost Button"
+    description: |
+      The ghost button should only be used when you want draw a little more attention then just a regular button. It should be used carefully as it can be hard to see, it is recommended to be used on white or lighter backgrounds where there is sufficient contrast.
   attention:
     title: "Attention Button"
     description: |
       The attention button uses yellow background with drop shadow to draw the users attention. It should be used in situtations involding purchasing i.e. "add to cart" or "buy now".
     padding: 1em
-  basic:
-    title: "Basic Button"
+  submit:
+    title: "Submit Button"
     description: |
-      This Basic button is used on white backgrounds to create great contrast. It should only be used to link to other important areas of the website like promos.
+      The submit button is a special case scenario. It does not link to others pages but submits a form and is used in relation with an input field such as the search bar or a checkout screen.
+  icon-search:
+    title: "Icon Search Button"
+    description: |
+      The icon search button is a super special case scenario. It is like the submit button, but can only be used with the alternate search field pattern. You should not have to use this pattern unless their is a special case.
