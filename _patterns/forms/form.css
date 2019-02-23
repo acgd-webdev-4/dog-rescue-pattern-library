@@ -8,7 +8,7 @@ html {
 
 label {
   display: block;
-  color: var(--color-accent);
+  color: var(--color-black);
 }
 
 input {
@@ -25,7 +25,7 @@ input {
 }
 
 p {
-  color: var(--color-accent);
+  color: var(--color-black);
 }
 
 .is-validated input:invalid,
@@ -48,7 +48,7 @@ fieldset {
 }
 
 legend {
-  color: var(--color-accent);
+  color: var(--color-black);
 }
 
 select {

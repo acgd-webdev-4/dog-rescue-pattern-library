@@ -86,7 +86,7 @@ a {
 
 .direction {
   font-family: var(--font-primary);
-  color: var(--color-accent);
+  color: var(--color-black);
 }
 
 /* make sure to add a direction class */
@@ -94,18 +94,18 @@ a {
 blockquote {
   font-family: var(--font-primary);
   font-style: oblique;
-  color: var(--color-accent);
+  color: var(--color-black);
 }
 
 strong {
   font-weight: bold;
-  color: var(--color-accent);
+  color: var(--color-black);
 }
 
 footer {
-  color: var(--color-accent);
+  color: var(--color-black);
 }
 
 mark {
-  background-color: var(--color-accent);
+  background-color: var(--color-black);
 }
