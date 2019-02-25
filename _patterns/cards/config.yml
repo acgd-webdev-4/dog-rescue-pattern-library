@@ -12,6 +12,6 @@ patterns:
   product-info:
     title: "Product Info"
     description: |
-        This is the card will all the specific info on the item and a button to buy it.
+        This is the card will all the specific info on the item, once it is selected and a button to buy it.
     width: "36em"
     background: "--color-light-grey"

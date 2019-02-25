@@ -27,3 +27,7 @@ html {
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
+
+label {
+  color: var(--color-primary);
+}
