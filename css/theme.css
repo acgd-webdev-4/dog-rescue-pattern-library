@@ -17,13 +17,13 @@ html {
 
 h1 {
   font-weight: 700;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-primary);
 }
 
 h2 {
   font-weight: 400;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-neutral-dark-grey);
 }
 h3 {
