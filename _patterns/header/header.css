@@ -4,8 +4,6 @@
 
 .topnav a {
   float: left;
-  display: block;
-  color: va;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -17,7 +15,7 @@
 }
 
 .topnav a.active {
-  color: white;
+  color: var(--color-accent);
 }
 
 .topnav .search-container {
@@ -25,19 +23,15 @@
 }
 
 .topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
+  padding: 10px;
   font-size: 17px;
   border: none;
 }
 
 .topnav .search-container button {
   float: right;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
+  padding: 1em;
+  background: var(--colour-primary);
   border: none;
   cursor: pointer;
 }
