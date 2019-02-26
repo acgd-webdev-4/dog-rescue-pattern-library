@@ -1,0 +1,24 @@
+.breadcrumb a,
+.page-nav a {
+  text-decoration: none;
+  font-family: var(--font-secondary);
+}
+
+.slash {
+  background: url(../../images/slash.svg) center right / 1rem auto no-repeat;
+  padding-right: 1.2rem;
+}
+
+.active,
+.hover:hover a {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+}
+
+.page-nav .hover:hover {
+  text-decoration: underline;
+}
+
+.social-nav a {
+  text-decoration: none;
+}

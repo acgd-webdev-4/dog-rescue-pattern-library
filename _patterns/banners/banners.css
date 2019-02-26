@@ -20,8 +20,12 @@
   background-color: var(--color-secondary);
 }
 
-.sec-img {
-  min-width: 38em;
+.page-banner {
+  background-color: var(--color-primary);
+}
+
+.page-title {
+  color: var(--color-secondary);
 }
 
 @media only screen and (min-width: 38em) {

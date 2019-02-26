@@ -4,10 +4,17 @@ description: |
 
 patterns:
   product-card:
-    title: "product card"
+    title: "Product Card"
     description: |
-      hello
+      This is the standard product card. It should always contain an image, title, product title and a price.
     width: 400
-
   sale-card:
+    title: "Sale Card"
+    description: |
+      This is a sale card and used when an item goes on sale. Must contain an image, title, product title, original price and a the current sale price.
+    width: 400
+  promo-card:
+    title: "Promotion Card"
+    description: |
+      This is a typical promo card that features new content. It is to be used on the home page as a sectional piece and can be used up to four times in a row for other products or promotions currently being offered. It should include a image, title and link to the promoted area.
     width: 400

@@ -1,0 +1,24 @@
+.sec-img {
+  min-width: 38em;
+}
+
+.text-section {
+  border-top: 1px solid var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .sec-content,
+  .hs-content {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hs-content {
+    text-align: center;
+  }
+
+}

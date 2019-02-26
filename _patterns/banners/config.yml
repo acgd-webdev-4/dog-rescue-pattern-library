@@ -11,7 +11,7 @@ patterns:
     title: "Promtional Banner"
     description: |
       The promotional banner is used to promote current deals and sales that the site has to offer, but can be found on every page at the top. This is allowed because it can never have an image with it.
-  sectional-banner:
-    title: "Sectional Banner"
+  page-banner:
+    title: "Page Banner"
     description: |
-      The sectional banner is used to promote new items or events that the website will offer. It should be used on the front page as a section and on its relative product page as a banner.
+      A Page banners are used for seperpate pages on the website, they do not include an image.

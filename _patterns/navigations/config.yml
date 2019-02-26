@@ -1,0 +1,9 @@
+title: "Navigations"
+description: |
+  These are common navigation found on the website that are not part of the header or footer.
+
+patterns:
+  breadcrumbs:
+    title: "Breadcrumb Navigation"
+    description: |
+      This navigation allows the user to quickly locate where they are on the page and quickly access previous pages they have been through.

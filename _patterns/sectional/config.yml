@@ -1,0 +1,17 @@
+title: "Sections"
+description: |
+  These sections are to be used on the main page. They will contain information involving new items, deals and art work that the site will provide for future circumstances.
+
+patterns:
+  sectional-banner:
+    title: "Sectional Banner"
+    description: |
+      The sectional banner is used to promote new items or events that the website will offer. It should be used on the front page as a section and contains a larger image to support the width. and the product must be located on the left side of the image.
+  half-section:
+    title: "Half Section"
+    description: |
+      The half sections are used when the image is not a full banner and are only found on the front page. It also uses an outlined button so that it brings more attention.
+  text-sec:
+    title: "Text Section"
+    description: |
+      This text section can be used for multiple lines of text. It is typically used for describing things such an about us or other things relating to the sites content. It can inculde a regular button but no imagery, but bear in mind that it would not be good for promoting items.
