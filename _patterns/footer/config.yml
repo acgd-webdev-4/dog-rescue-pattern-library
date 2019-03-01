@@ -6,4 +6,4 @@ patterns:
   Footer:
     title: "footer"
     description: |
-        This is the banner for the top of site on the home page
+      This is the footer at the bottom of every page
