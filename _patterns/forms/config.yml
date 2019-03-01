@@ -1,9 +1,19 @@
-title: "Receive News"
+title: "Forms"
 description: |
-  User is to click check box when registering should they wish to reveive news and updates from Archaic Records.
-title: "Email"
-description: |
-  Enter valid email address in to required field, user must also verify their email address.
-title: "Terms"
-description: |
-  Click check box when registering in order to agree to Archaic Records terms and conditions
+  Form page includes all the required form fields a user must complete before registration.
+
+patterns:
+  receivenews:
+    title: "Receive News"
+    description: |
+        User will check box if they wish to receive emails with news about Archaic Records.
+
+  email:
+    title: "Email"
+    description: |
+      Enter valid email address in to required field, user must also verify their email address.
+
+  terms:
+    title: terms
+    description: |
+      Click check box when registering in order to agree to Archaic Records terms and conditions
