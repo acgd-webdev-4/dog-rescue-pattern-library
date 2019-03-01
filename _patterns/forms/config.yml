@@ -14,6 +14,21 @@ patterns:
       Enter valid email address in to required field, user must also verify their email address.
 
   terms:
-    title: terms
+    title: Terms
     description: |
-      Click check box when registering in order to agree to Archaic Records terms and conditions
+      Click check box when registering in order to agree to Archaic Records terms and conditions.
+
+  creditcardnumber:
+    title: Credit Card Info
+    description: |
+      Enter valid credit card info when purchasing merchandise from Archaic Records. The first field is the 16 digit card number, the second field is the date the card expires, and the final field is the security code located on the back of your card.
+
+  unitnumber:
+    title: Unit Number
+    description: |
+      For users who live in a condo or apartment and need to include a second address for shipping a purchased product.
+
+  province:
+    title: Province
+    description: |
+      Archaic Records ship only within Canada, users must select their province of residence from the list.
