@@ -1,3 +1,10 @@
 title: "Cards"
 description: |
   Cards are used to advertise merchandise, they will appear frequently throughout the site with different images inside them.
+
+patterns:
+  cards:
+    title: "Cards"
+    description: |
+      Cards are used to advertise merchandise, they will appear frequently throughout the site with different images inside them.
+    width: "24em"
