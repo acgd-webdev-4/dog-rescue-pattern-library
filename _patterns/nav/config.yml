@@ -1,0 +1,10 @@
+title: "Navigation"
+description: |
+  This will hold photo of the items, all will be the same size
+
+patterns:
+  nav:
+    title: "Main navigation"
+    description: |
+        This will be the main navigation for the top of the site, this will appear on every page.
+    width: "24em"
