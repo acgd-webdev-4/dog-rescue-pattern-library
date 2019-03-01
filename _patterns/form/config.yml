@@ -44,3 +44,8 @@ patterns:
       title: "Last name"
       description: |
           This is the field for last name input
+
+  Province:
+      title: "Province"
+      description: |
+          This is the field for province input
