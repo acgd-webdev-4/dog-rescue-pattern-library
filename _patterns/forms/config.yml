@@ -3,7 +3,7 @@ description: |
   Form page includes all the required form fields a user must complete before registration.
 
 patterns:
-  receivenews:
+  receive-news:
     title: "Receive News"
     description: |
         User will check box if they wish to receive emails with news about Archaic Records.
