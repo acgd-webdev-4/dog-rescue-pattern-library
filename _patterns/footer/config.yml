@@ -1,0 +1,9 @@
+title: "Footer"
+description: |
+  This is a footer that will be at the bottom of the page
+
+patterns:
+  Footer:
+    title: "footer"
+    description: |
+        This is the banner for the top of site on the home page

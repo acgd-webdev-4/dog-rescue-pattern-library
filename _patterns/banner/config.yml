@@ -1,0 +1,9 @@
+title: "Banner"
+description: |
+  This is a banner that will contain the call to action
+
+patterns:
+  banner:
+    title: "banner"
+    description: |
+        This is the banner for the top of site
