@@ -1,0 +1,46 @@
+title: "forms"
+description: |
+  These are form fields that should be all together and make a form
+
+patterns:
+  address:
+    title: "Address"
+    description: |
+        This is the address field for house number without postal code or city
+
+  email:
+    title: "Email"
+    description: |
+        This is the email field to enter email address
+    width: "36em"
+
+  agree-box:
+    title: "Agree-Box"
+    description: |
+        This is the checkbox to be put on the mailing list
+
+  city:
+      title: "City"
+      description: |
+          This is the field for city input
+
+  first-name:
+      title: "First name"
+      description: |
+          This is the field for first name input
+
+  last-name:
+      title: "Last name"
+      description: |
+          This is the field for last name input
+
+    postal-code:
+        title: "Postal Code"
+        description: |
+            This is the field for postal code input
+        width: "24em"
+
+  last-name:
+      title: "Last name"
+      description: |
+          This is the field for last name input

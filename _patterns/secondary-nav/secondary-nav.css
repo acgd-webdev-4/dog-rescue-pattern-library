@@ -1,0 +1,22 @@
+.carousel-items > div {
+  display: none;
+}
+
+#artwork-1-control:checked ~ .carousel-inner #artwork-1,
+#artwork-2-control:checked ~ .carousel-inner #artwork-2,
+#artwork-3-control:checked ~ .carousel-inner #artwork-3,
+#artwork-4-control:checked ~ .carousel-inner #artwork-4 {
+  display: block;
+}
+
+.carousel-btn {
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+#artwork-1-control:checked ~ .carousel-inner [for="artwork-1-control"],
+#artwork-2-control:checked ~ .carousel-inner [for="artwork-2-control"],
+#artwork-3-control:checked ~ .carousel-inner [for="artwork-3-control"],
+#artwork-4-control:checked ~ .carousel-inner [for="artwork-4-control"] {
+  background-color: #fff;
+}

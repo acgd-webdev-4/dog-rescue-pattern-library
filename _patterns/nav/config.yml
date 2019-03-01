@@ -1,6 +1,6 @@
 title: "Navigation"
 description: |
-  This will hold photo of the items, all will be the same size
+  This will be the main navigation at top of page
 
 patterns:
   nav:
