@@ -23,7 +23,7 @@ patterns:
     description: |
       Enter valid credit card info when purchasing merchandise from Archaic Records. The first field is the 16 digit card number, the second field is the date the card expires, and the final field is the security code located on the back of your card.
 
-  unitnumber:
+  unit-number:
     title: Unit Number
     description: |
       For users who live in a condo or apartment and need to include a second address for shipping a purchased product.
