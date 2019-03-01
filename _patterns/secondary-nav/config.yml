@@ -1,9 +1,9 @@
-title: "carousel"
+title: "Secondary Navigation"
 description: |
   This will be the secondary navigation for the products.
 
 patterns:
-  secondary-nav:
-    title: "secondary navigation"
+  carousel:
+    title: "Carousel"
     description: |
         This will be on the product picture, pictures will change as requested.
