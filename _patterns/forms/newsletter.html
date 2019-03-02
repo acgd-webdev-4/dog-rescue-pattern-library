@@ -1,10 +1,11 @@
-<form class="max-length island" method="post" action="#">
-  <div class="push content">
+<div class="max-length gutter" method="post" action="#">
+  <div class="content">
     <label for="email"></label>
+    <i class="icon i-18"><svg><use xlink:href="/images/icons.svg#mail"></use></svg></i>
     <input id="email" name="email"
-    placeholder="Sign up for our News Letter" name="email" required>
+    placeholder="Sign up for our News Letter" name="email" >
+    <div class="sub">
+      {% pattern buttons/basic text="Submit" %}
+    </div>
   </div>
-  <div class="sub">
-    {% pattern buttons/basic text="Submit" %}
-  </div>
-</form>
+</div>

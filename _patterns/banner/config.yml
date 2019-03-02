@@ -2,9 +2,9 @@ patterns:
   banner:
     width: 1900
     fields:
-      - name: tittle
+      - name: title
         type: string
-        examples: "Shop Crystals"
+        example: "Shop Crystals"
       - name: details
         type: string
         example: "Get amazing deals on crystals, kits and much more!"

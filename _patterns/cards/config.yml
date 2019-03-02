@@ -1,10 +1,16 @@
+title: "Cards"
+description: |
+  Only a few different cards in this section, but through out the website the cards can be repeated for different crystals and gems.
+
 patterns:
   image:
+    title: "Image"
+    description: This card is used to showcase a small discription of the crystal that is being showcased before the customer moves forward to read more about the product and pruchase
     width: 400
     fields:
-      - name: tittle
+      - name: title
         type: string
-        examples: "Rose Quartz Stone"
+        example: "Rose Quartz Stone"
       - name: details
         type: string
         example: "Unconditional Love • Happiness • Passion"
@@ -19,14 +25,16 @@ patterns:
         example: "Buy a Rose Quartz Stone"
 
   view-card:
+    title: "View card"
+    description: This card is used to shop by theme. Shop by intetion of the crystal, either for health and wellness or wealth and success. This can also be used to showcase specific styles of crystals that you can purchase, tumble stoft edge stones, or more raw hard edge etc.
     width: 400
     fields:
       - name: image
         type: image
         example: "malachite.png"
-      - name: tittle
+      - name: title
         type: string
-        examples: "Malachite Crystal"
+        example: "Malachite Crystal"
       - name: button_text
         type: string
         example: "View"

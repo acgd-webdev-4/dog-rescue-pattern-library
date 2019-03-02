@@ -1,0 +1,44 @@
+title: "Forms"
+description: |
+  Lots of different form fields for different areas in the website. Some can be chuncked together, and some will be by them selves on some pages.
+
+patterns:
+  size:
+    title: "Size"
+    description: This form field is to as the customer what size of the crystal/gem they would like to purches, and indicates how much extra it would be to their total it would be to get a larger size.
+
+  phone:
+    title: "Phone"
+    description: This from field is to be used when the website needs to geth in contact with the customer about their order that they placed. This is optional to the customer to place their phone number on the account, because it is private information.
+
+  radio:
+    title: "Radio"
+    description: This from field is to be used when asking customer simple optional questions. For this example this is asking the customer if they wanted to continue as a guest of the website or register with the website for future convenience.
+
+  email:
+    title: "Email"
+    description: This form field is used to ask the customer for their email. When registaring with the website or placing an order they can place their email to track their package
+
+  newsletter:
+    title: "Newsletter"
+    description: This form field will be used in the footer for the users to quickly be able to get website updates.
+
+  quantity:
+    title: "Quantity"
+    description: This form field is used in the checkout screen for the users to input a quantity of the crystal/gem they would like to purchase
+
+  address:
+    title: "Address"
+    description: This is a chunck of form fields that is used to in part of the checkout to get the shipping address from the customer
+
+  name:
+    title: "Name"
+    description: These form fields are used to get the name of the customer for their checkout order, and also if the customer chooses to register with the website. This field can be used in mutliple areas of the website
+
+  search:
+    title: "Search"
+    description: This for field is used to serach producst on the website, The search field will be featured on al pages in the navigation area
+
+  password:
+    title: "Password"
+    description: This form field is used in the registartion section, where the customer can registar for faster checkout time. The confirm password section doesn't have to be used when customers are logining back into the website as a registared user. It should only be used for the first time registarin

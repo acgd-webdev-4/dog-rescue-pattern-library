@@ -1,8 +1,9 @@
 .content {
-  position: absolute;
+  display: block;
+  width: 70%;
 }
 
 .sub {
-  position: relative;
-  left: 13em;
+  display: block;
+  left: 1px;
 }

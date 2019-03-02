@@ -167,3 +167,10 @@ dt {
   font-weight: bold;
   font-style: normal;
 }
+
+.icon-link {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-style: normal;
+}
