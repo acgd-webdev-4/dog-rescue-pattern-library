@@ -18,3 +18,8 @@ patterns:
     description: |
       This is a typical promo card that features new content. It is to be used on the home page as a sectional piece and can be used up to four times in a row for other products or promotions currently being offered. It should include a image, title and link to the promoted area.
     width: 400
+  icon-card:
+    title: "Icon Card"
+    description: |
+      The Icon Card is used to display quick information on different aspects of the company. This includes where its made, shipping, returns etc. and a learn more option for the user to click on. Four of these cards will be located on the front page at the very bottom just above the footer.
+    width: 400

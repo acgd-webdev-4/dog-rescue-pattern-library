@@ -10,7 +10,7 @@
 }
 
 .active,
-.hover:hover a {
+.hover:hover {
   color: var(--color-primary-light);
   font-family: var(--font-secondary);
 }
@@ -19,6 +19,65 @@
   text-decoration: underline;
 }
 
-.social-nav a {
+.social-nav a,
+.side-nav a {
   text-decoration: none;
+}
+
+.side-navigation,
+.side-label {
+  color: var(--color-primary-dark);
+  width: 100%;
+  max-width: 15em;
+}
+
+.side-label {
+  border-bottom: 1px solid var(--color-secondary-darker);
+}
+
+.side-check[type="checkbox"] + label::before {
+  position: absolute;
+  top: -20em;
+  left: -20em;
+}
+
+.side-nav {
+  display: none;
+}
+
+.side-check:checked ~ .side-nav {
+  display: block;
+}
+
+.side-nav a {
+  border-left: 2px solid var(--color-secondary-dark);
+  background-color: var(--color-secondary-dark);
+  color: var(--color-secondary-darker);
+  font-family: var(--font-primary);
+}
+
+.side-icon {
+  transform: rotate(180deg);
+}
+
+.side-check:checked ~ .side-label i > .side-icon {
+  transform: rotate(0deg);
+}
+
+.side-check:checked ~ .side-label {
+    border-bottom: none;
+}
+
+.side-nav a:hover {
+  color: var(--color-primary-light);
+  border-left: 2px solid var(--color-primary-light);
+}
+
+.side-nav li .btn {
+  display: block;
+}
+
+.side-nav .side-current {
+  border-left: 2px solid var(--color-primary-light);
+  color: var(--color-primary-light);
 }

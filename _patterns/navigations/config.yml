@@ -7,3 +7,15 @@ patterns:
     title: "Breadcrumb Navigation"
     description: |
       This navigation allows the user to quickly locate where they are on the page and quickly access previous pages they have been through.
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      The page navigator allows the user to cycle through more then one page of products. They have numbers to jump directly to a page or simple left and right controls to go forward or back from their current position. Their never be more than nine numbers visible at any time.
+  social-nav:
+    title: "Social Navigation"
+    description: |
+      The social navigation is used for quick access to the sites social presence on the web. It should only ever be used in the footer.
+  sidebar:
+    title: "Filter Bar"
+    description: |
+      The Filter bar is only found on the product pages and is used to filter out options available for that product. It is always located to the left side of the content and should be a column of its own.

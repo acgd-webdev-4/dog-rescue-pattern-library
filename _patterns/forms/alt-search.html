@@ -1,6 +1,17 @@
-<div class="alt-search grid max-length text-center">
-  <input type="search" name="search" placeholder="search for stuff here…" class="search-field ib milli unit xs-1 s-1 m-3-4 push-1-2 push-r-1-4">
-  <div class="unit xs-1-2 s-1-2 m-1-4 text-left">
-    {% pattern buttons/icon-search %}
+<div class="alt-search relative">
+  <div class="grid">
+    <input type="search" name="search" placeholder="search for stuff here…" class="search-field-alt ib milli unit xs-1 s-1 m-3-4 push-1-2">
+    <div class="unit xs-0 s-0 m-1-4 text-left gutter-1-4 sub-btn">
+      {% pattern buttons/icon-search %}
+    </div>
+    <div class="sub-pos unit xs-1 s-1 m-0 l-0 text-right">
+      <button class="relative s-sub-btn" href="#">
+        <i class="icon i-24">
+          <svg>
+            <use xlink:href="/images/icons.svg#search"></use>
+          </svg>
+        </i>
+      </button>
+    </div>
   </div>
 </div>

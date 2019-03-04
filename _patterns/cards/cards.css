@@ -46,3 +46,12 @@
   width: 100%;
   font-family: var(--font-secondary)
 }
+
+.icon-card {
+  height: 100%;
+  max-width: 400px;
+}
+
+.icon-card i {
+  color: var(--color-primary-light);
+}

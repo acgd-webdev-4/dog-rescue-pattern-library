@@ -11,6 +11,13 @@
   max-width: 25em;
 }
 
+.search-field-alt:not([type="checkbox"]),
+.search-field-alt:not([type="radio"]) {
+  border-radius: 2em;
+  border-color: var(--color-primary);
+  padding: 1rem;
+}
+
 .search-field:focus {
   border-radius: 2em;
 }
@@ -43,6 +50,28 @@
 
 [type="radio"] + .radio::before {
   border-color: var(--color-primary);
+}
+
+.sub-pos {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.s-sub-btn {
+  border: none;
+  background-color: var(--color-secondary);
+  border-top-left-radius: 0;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 50%;
+  color: var(--color-secondary-darker);
+  padding: .24rem;
+}
+
+.s-sub-btn:hover {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-primary-dark);
 }
 
 .flag-optional {
