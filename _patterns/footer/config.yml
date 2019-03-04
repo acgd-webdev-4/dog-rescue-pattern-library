@@ -3,7 +3,7 @@ description: |
   This is a footer that will be at the bottom of the page
 
 patterns:
-  Footer:
-    title: "footer"
+  footer:
+    title: "Footer"
     description: |
       This is the footer at the bottom of every page
