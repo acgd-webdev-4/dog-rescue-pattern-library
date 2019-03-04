@@ -11,13 +11,12 @@ a {
 }
 
 ul.breadcrumb {
-  padding: 10px 16px;
+  /* padding: 10px 16px; */
   list-style: none;
 }
 
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
 }
 
 ul.breadcrumb li+li:before {

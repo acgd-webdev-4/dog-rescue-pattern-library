@@ -1,13 +1,20 @@
-.topnav {
-  overflow: hidden;
+.all {
+  background-color: var(--color-rustybrown);
+}
+
+li {
+  color: var(--color-primary-light);
+}
+
+.topnav li {
+  display: inline-block;
 }
 
 .topnav a {
   float: left;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 14px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .topnav a:hover {
@@ -24,18 +31,33 @@
 
 .topnav input[type=text] {
   padding: 10px;
-  font-size: 17px;
   border: none;
 }
 
-.topnav .search-container button {
-  float: right;
-  padding: 1em;
+button {
+  padding: 4px;
   background: var(--colour-primary);
-  border: none;
-  cursor: pointer;
+  border-style: none;
 }
 
-.topnav .search-container button:hover {
-  background: var(--color-secondary);
+.title {
+  background-color: var(--color-rustybrown);
+}
+
+h1 {
+  color: var(--color-accent);
+}
+
+.footer-box {
+  background-color: var(--color-rustybrown);
+}
+
+p {
+  color: var(--color-accent);
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 0;
 }
