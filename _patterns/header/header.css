@@ -19,6 +19,7 @@ li {
 
 .topnav a:hover {
   text-decoration: underline;
+  color: var(--color-primary-light);
 }
 
 .topnav a.active {
@@ -32,12 +33,15 @@ li {
 .topnav input[type=text] {
   padding: 10px;
   border: none;
+  display: inline-block;
 }
 
 button {
   padding: 4px;
   background: var(--colour-primary);
   border-style: none;
+  display: inline-block;
+
 }
 
 .title {
@@ -60,4 +64,8 @@ img {
   max-width: 150px;
   max-height: 150px;
   margin: 0;
+}
+
+ul > li::before {
+  display: none;
 }
