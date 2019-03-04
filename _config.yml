@@ -19,3 +19,6 @@ patternbot:
       The primary colours were chosen because of their simplicity and visibility, Archaic records wants to be represented as an indie/alternative label. Dark colurs show that we take all clients very seriously, and they personify the struggle many musicians may face.
     colors.secondary:
       The secondary colour is a plain white, chosen to contrast the dark primary colours, and in case there is any text that needs to be placed on a dark background. White also compliments the simplicity Archaic's brand wishes to acheive.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the websites primary header and footer.

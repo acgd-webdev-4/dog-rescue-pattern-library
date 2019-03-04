@@ -1,5 +1,6 @@
-img {
+.logo img {
   max-width: 250px;
+  display: block;
 }
 
 .line {
@@ -8,4 +9,8 @@ img {
 
 .shop-cart {
   float: right;
+}
+
+.logo {
+  display: block;
 }

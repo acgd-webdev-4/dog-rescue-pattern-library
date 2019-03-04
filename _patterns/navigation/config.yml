@@ -1,8 +1,9 @@
-title: "Navigation"
+title: "Banner"
 description: |
   Navigation is the banner running along the top of the website.
 
 patterns:
-  navigation:
-    title:
-    description:
+  banner:
+    title: "Banner"
+    description: |
+      Banner is the navigation running along the top of all pages.
