@@ -1,9 +1,9 @@
-title: "Secondary Navigation"
+title: "Gallery"
 description: |
   This will be the secondary navigation for the products, it will be on photos of products to show different angles and uses.
 
 patterns:
   carousel:
-    title: "Carousel"
+    title: "Gallery"
     description: |
         This will be on the product picture, pictures will change as requested.
