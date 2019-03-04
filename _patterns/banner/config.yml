@@ -11,7 +11,6 @@ patterns:
       -name: heading
        type: string
        example: "Make it Original. Make it Yours."
-
       -name: text
        type: string
        example: "Locally made handcrafted original art"
