@@ -1,0 +1,9 @@
+title: "Footer"
+description: |
+  Footer will be displayed at the bottom of every page.
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
