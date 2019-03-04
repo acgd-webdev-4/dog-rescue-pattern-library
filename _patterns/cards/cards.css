@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-p {
+.price {
   color: var(--color-primary-light);
   float: right;
 }

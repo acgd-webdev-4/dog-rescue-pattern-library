@@ -9,3 +9,7 @@ footer {
 .footer-icon {
   color: var(--color-primary-light);
 }
+
+.event {
+  text-decoration: underline;
+}

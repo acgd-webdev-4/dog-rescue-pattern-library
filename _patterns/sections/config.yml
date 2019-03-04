@@ -1,0 +1,10 @@
+title: "Sections"
+description: |
+  Sections include indepth info regarding the product description, includes add to cart button.
+
+patterns:
+  sections:
+    title: "Sections"
+    description: |
+      Sections include detailed information regarding the product displayed in the card.
+    width: "80em"

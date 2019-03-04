@@ -1,9 +1,13 @@
 title: "Banner"
 description: |
-  Navigation is the banner running along the top of the website.
+  Banners are the content running along the top of the website.
 
 patterns:
   banner:
     title: "Banner"
     description: |
       Banner is the navigation running along the top of all pages.
+  banner2:
+    title: "Banner 2"
+    description: |
+      Banner 2 is an image running along the top of the home page only, and is placed below the first banner.
