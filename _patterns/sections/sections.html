@@ -1,10 +1,21 @@
 <div class="left gutter-2 pad-t-2">
   <figure role="grid group">
-    <img alt="" class="unit xs-1 s-1 m-1-2 l-1-2 img-flex push island-1-2" src="/images/hoodie-black.png" aria-details="tiny-dog">
+    <img alt="" class="unit xs-1 s-1 m-1-2 l-1-2 img-flex push-0" src="/images/hoodie-black.png" aria-details="tiny-dog">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 right">
-      <h3 class="island-1-2 push-0">Black Wonderland Hoodie</h3>
-      <p class="island-1-2 push-0">$69.99</p>
-    {% pattern buttons/addtocart %}
+      <h3 class="push-0 pad-b-2">Black Wonderland Hoodie</h3>
+      <p class="push-0"><strong>Fabric</strong></p>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 push-0">
+      <ul class="list-group">
+        <li><p class="milli push-0">Bamboo</p></li>
+        <li><p class="milli push-0">Cotton</p></li>
+        <li><p class="milli push-0">Silk</p></li>
+      </ul>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 push-0 right">
+      <h6 class="island-1-2 push-0">$69.99</h6>
+      </div>
+      {% pattern forms/quantity %}
+      {% pattern buttons/addtocart %}
     </div>
   </figure>
 </div>

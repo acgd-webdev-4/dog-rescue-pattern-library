@@ -54,7 +54,8 @@
   background-color: var(--color-primary-light);
 }
 
-.addtocart {
-  position: center center;
-  display: inline-block;
+.btn-plus, .btn-minus {
+  color: var(--color-primary-light);
+  border-color: var(--color-secondary);
+  background-color: var(--color-secondary);
 }
