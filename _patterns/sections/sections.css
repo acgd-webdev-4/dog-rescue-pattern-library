@@ -1,0 +1,4 @@
+img {
+  outline: stroke;
+  border-color: var(--color-secondary);
+}
