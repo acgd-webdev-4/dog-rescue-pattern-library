@@ -5,3 +5,7 @@ img {
 .line {
   border-bottom: solid 4px var(--color-secondary);
 }
+
+.shop-cart {
+  float: right;
+}
