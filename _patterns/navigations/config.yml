@@ -19,3 +19,8 @@ patterns:
     title: "Filter Bar"
     description: |
       The Filter bar is only found on the product pages and is used to filter out options available for that product. It is always located to the left side of the content and should be a column of its own.
+  tool-bar:
+    title: "Tool Bar"
+    description: |
+      This tool bar is located on every page of the website along with the header. It gives the user quick access to login in, sign up or access their cart. It should always be found at the top of page unless there is a promotion banner, then it is found directly underneath it.
+    padding: 1em

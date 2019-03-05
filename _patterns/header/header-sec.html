@@ -1,0 +1,102 @@
+{% pattern navigations/tool-bar %}
+<header class="masthead wrapper text-center pad-t-2 pad-b grid grid-middle island">
+  <div class="wordmark push-1-2 unit xs-1 s-1 m-1-3">
+    <a href="#">
+      <i class="icon i-48">
+        <img src="/images/logo.svg" alt="Logo for the Catonaut website">
+      </i>
+      <span class="icon-label peta text-upper ib">Catonaut</span>
+    </a>
+  </div>
+  <div class="unit xs-1 s-1 m-2-3">
+    {% pattern forms/alt-search %}
+  </div>
+  <div class="unit xs-1 s-1 m-1">
+    <input type="checkbox" id="main-nav" class="main-check">
+    <label for="main-nav" class="main-label island-1-2 block">
+      <i class="icon i-48">
+        <svg><use xlink:href="/images/icons.svg#burger" /></svg>
+      </i>
+    </label>
+    <nav class="main-nav max-length">
+      <ul class="list-group-inline text-center grid grid-middle">
+
+        <li class="unit xs-1 s-1 m-1-4 l-1-4">
+          <a class="island-1-2 block" href="#">All Products</a>
+        </li>
+
+        <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
+          <input type="checkbox" id="print-nav" class="print-check">
+          <label for="print-nav" class="island-1-2 block">
+            <span>Art Prints</span>
+          </label>
+          <nav class="print-nav w-1 zindex-1000 pin" id="nav">
+            <ul class="list-group push-0">
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Framed</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Posters</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Cards</a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+
+        <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
+          <input type="checkbox" id="cloth-nav" class="cloth-check">
+          <label for="cloth-nav" class="island-1-2">
+            <span>Apparels</span>
+          </label>
+          <nav class="cloth-nav w-1 zindex-1000 pin" id="nav">
+            <ul class="list-group push-0">
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Menswear</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Womanswear</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Kidswear</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Babies</a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+
+        <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
+          <input type="checkbox" id="elec-nav" class="elec-check">
+          <label for="elec-nav" class="island-1-2">
+            <span>Device Cases</span>
+          </label>
+          <nav class="elec-nav w-1 zindex-1000 pin" id="nav">
+            <ul class="list-group push-0">
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Android</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Iphone</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Ipads</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Macbook Pro</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Laptops</a>
+              </li>
+              <li class="valign-middle">
+                <a class="block milli island-1-2" href="#">Tablets</a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

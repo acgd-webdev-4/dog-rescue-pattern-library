@@ -1,0 +1,105 @@
+.wordmark a,
+.main-nav a {
+  text-decoration: none;
+}
+
+.masthead {
+  font-family: var(--font-secondary);
+}
+
+.main-check[type="checkbox"] + label::before,
+.print-check[type="checkbox"] + label::before,
+.cloth-check[type="checkbox"] + label::before,
+.elec-check[type="checkbox"] + label::before {
+  position: absolute;
+  top: -20em;
+  left: -20em;
+}
+
+.main-nav {
+  display: none;
+}
+
+.main-check ~ .main-label i > svg {
+  border: 2px solid var(--color-primary-dark);
+  color: var(--color-primary-dark);
+}
+
+.main-check:checked ~ .main-label i > svg {
+  background-color: var(--color-blue);
+  color: var(--color-yellow);
+  border-color: transparent;
+}
+
+.main-check:checked ~ .main-nav {
+  display: block;
+}
+
+.print-nav,
+.cloth-nav,
+.elec-nav {
+  display: none;
+}
+
+.pin {
+  border-top: 2px solid var(--color-primary-dark);
+  border-bottom: 2px solid var(--color-primary-dark);
+}
+
+.main-nav li {
+  border-bottom: 2px solid #fff;
+}
+
+.main-nav li:hover {
+  color: var(--color-primary-light);
+}
+
+.print-check:checked ~ .print-nav,
+.cloth-check:checked ~ .cloth-nav,
+.elec-check:checked ~ .elec-nav {
+  border-top: 2px solid var(--color-primary-dark);
+  display: block;
+  background-color: var(--color-secondary-dark);
+}
+
+.print-nav li,
+.cloth-nav li,
+.elec-nav li {
+  border: none;
+}
+
+.print-nav li:hover,
+.cloth-nav li:hover,
+.elec-nav li:hover {
+  background-color: var(--color-secondary-darker);
+  border: none;
+}
+
+.print-nav li:hover a,
+.cloth-nav li:hover a,
+.elec-nav li:hover a   {
+  color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .main-check[type="checkbox"] + label {
+    display: none;
+  }
+
+  .main-nav {
+    display: block;
+  }
+
+  .main-nav li:hover {
+    border-bottom: 2px solid var(--color-primary-dark);
+  }
+
+  .pin {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}

@@ -1,0 +1,23 @@
+.footer {
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary);
+}
+
+.social {
+  color: var(--color-secondary);
+}
+
+.foot-list a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.foot-list a:hover {
+  color: var(--color-light-red);
+  text-decoration: none;
+}
+
+.secondary nav li {
+  color: var(--color-secondary);
+  font-family: var(--font-primary);
+}

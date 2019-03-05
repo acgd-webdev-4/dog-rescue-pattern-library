@@ -5,6 +5,11 @@
   transition: all .3s linear;
 }
 
+.hb-content {
+  width: 100%;
+  background-color: var(--color-secondary);
+}
+
 .pb-title,
 .pb-content {
   color: var(--color-secondary);
@@ -13,11 +18,6 @@
 .promo-banner:hover {
   background-color: var(--color-primary-light);
   transition: all .3s linear;
-}
-
-.hb-content {
-  width: 100%;
-  background-color: var(--color-secondary);
 }
 
 .page-banner {
