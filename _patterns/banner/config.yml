@@ -1,9 +1,9 @@
 patterns:
-  banner:
+  homepagebanner:
     fields:
       - name: heading
         type: string
-        example: "Griffins Griffins Griffins"
+        example: "The Griffin Collection"
       - name: text
         type: string
-        example: "Wow, look at all these Griffins."
+        example: "Browse our selection of these feisty beasts."

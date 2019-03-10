@@ -1,8 +1,13 @@
 <div class="banner embed embed-24by10 push-1-2">
-  <div class="banner-content pin-lc">
-    <!-- {% pattern photos/homepage-banner %} -->
-    <h1 class="banner-title yotta push-1-2">{{include.heading}}</h1>
-    <p class="banner-info exa italic max-length-no-center">{{include.text}}</p>
+
+  <div class="zindex-1 pin-lc">
+    {% pattern photos/homepage-banner %}
   </div>
-  {% pattern buttons/basic %}
+
+  <div class="banner-content pin-lc zindex-2">
+    <h1 class="banner-title exa push-1-2">{{include.heading}}</h1>
+    <p class="banner-info mega italic max-length-no-center">{{include.text}}</p>
+    {% pattern buttons/basic %}
+  </div>
+
 </div>
