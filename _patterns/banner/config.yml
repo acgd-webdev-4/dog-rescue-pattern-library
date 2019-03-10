@@ -1,0 +1,9 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Griffins Griffins Griffins"
+      - name: text
+        type: string
+        example: "Wow, look at all these Griffins."
