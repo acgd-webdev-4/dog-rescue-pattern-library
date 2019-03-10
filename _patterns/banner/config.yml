@@ -3,7 +3,7 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "The Griffin Collection"
+        example: "The Creature Collection"
       - name: text
         type: string
-        example: "Browse our selection of these feisty beasts."
+        example: "Browse our collection of feisty beasts."
