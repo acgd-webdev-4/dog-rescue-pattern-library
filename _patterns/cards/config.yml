@@ -3,7 +3,7 @@ description: |
   This will hold photo of the items, all will be the same size
 
 patterns:
-  products:
+  product-card:
     title: "Products"
     description: |
         This will be a card for items on the site, all the same size.
@@ -16,8 +16,8 @@ patterns:
     width: "36em"
     background: "--color-light-grey"
 
-  fields:
-    -name: data
-    type: object
-    data:
-      source: "site.products[0]"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
