@@ -8,9 +8,9 @@ patterns:
     description: |
         This is the banner for the top of site on the home page
     fields:
-      -name: heading
-       type: string
-       example: "Make it Original. Make it Yours."
-      -name: text
-       type: string
-       example: "Locally made handcrafted original art"
+      - name: heading
+        type: string
+        example: "Make it Original. Make it Yours."
+      - name: text
+        type: string
+        sexample: "Locally made handcrafted original art"
