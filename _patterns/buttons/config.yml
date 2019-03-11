@@ -8,6 +8,13 @@ patterns:
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
     background: "--color-secondary"
+    fields:
+      - name: text
+        type: string
+        example: "See Collection"
+      - name: url
+        type: url
+        example: "/griffins/"
   ghost:
     title: "Ghost"
     description: |

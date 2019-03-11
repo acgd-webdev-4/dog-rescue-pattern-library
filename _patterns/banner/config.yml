@@ -7,3 +7,11 @@ patterns:
       - name: text
         type: string
         example: "Browse our collection of feisty beasts."
+      - name: button_text
+        type: string
+        example: "See Collection"
+        required: false
+      - name: button_text
+        type: string
+        example: "/products/"
+        required: false

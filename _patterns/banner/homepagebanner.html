@@ -7,7 +7,11 @@
   <div class="banner-content pin-lc zindex-2 gutter">
     <h1 class="banner-title exa push-1-2">{{include.heading}}</h1>
     <p class="banner-info mega italic max-length-no-center">{{include.text}}</p>
-    {% pattern buttons/basic %}
+
+  {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+  {% endif %}
+
   </div>
 
 </div>

@@ -1,5 +1,42 @@
 ---
 layout: default
+highlight_nav: products
 ---
 
-<h1>Products</h1>
+{% pattern banner/homepagebanner heading="The Creature Collection" text="Browse our collection of feisty beasts." %}
+
+<div class="gutter max-length">
+  <h3 class="push-1-4">Our Products</h3>
+  <p>Browse our collection of rare and collectable mythological creatures. These creatures can not be found anywhere else, and can not be forged or faked. Enjoy the experience of adopting your own creature! </p>
+</div>
+
+<div class="grid pad-b .grid-stretch">
+
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter">
+    <div class="card creature-card">
+      <h4 class="center-content">Griffins</h4>
+      <img class="img-flex" src="/images/griffin.png" alt="">
+      <p>The griffin is a legendary creature with the body, tail, and back legs of a lion; the head and wings of an eagle; and sometimes an eagle’s talons as its front feet.</p>
+      {% pattern buttons/basic text="See Collection" url="/griffins/" %}
+    </div>
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter">
+    <div class="card creature-card">
+      <h4 class="center-content">Dragons</h4>
+      <img class="img-flex" src="/images/dragon.png" alt="">
+      <p>A dragon is a large, serpent-like legendary creature that appears in the folklore of many cultures around the world. It is depicted as winged, horned, four-legged, and capable of breathing fire.</p>
+      {% pattern buttons/basic text="See Collection" url="/griffins/" %}
+    </div>
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter">
+    <div class="card creature-card">
+      <h4 class="center-content">Cryptids</h4>
+      <img class="img-flex" src="/images/cryptid.png" alt="">
+      <p>An obscure, undocumented creature typically originating from folklore. Typically mythological in nature, but not necessarily supernatural, their existence is only recognized as pseudoscience.</p>
+      {% pattern buttons/basic text="See Collection" url="/griffins/" %}
+    </div>
+  </div>
+
+</div>
