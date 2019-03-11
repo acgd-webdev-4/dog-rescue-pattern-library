@@ -1,16 +1,7 @@
-.logo img {
-  max-width: 250px;
-  display: inline-block;
-}
-
 .line {
   border-bottom: solid 4px var(--color-secondary);
 }
 
 .shop-cart {
   float: right;
-}
-
-.logo {
-  display: block;
 }

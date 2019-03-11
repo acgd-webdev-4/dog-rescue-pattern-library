@@ -1,5 +1,7 @@
-.card {
-
+.card, img {
+  border-width: 4px;
+  border-color: var(--color-secondary);
+  border-style: solid;
 }
 
 .blackbg {
@@ -10,13 +12,4 @@
 
 .price {
   color: var(--color-primary-light);
-}
-
-img {
-  border-width: 4px;
-  border-color: var(--color-secondary);
-  border-style: solid;
-  padding-top: 0;
-  outline: stroke;
-  border-color: var(--color-secondary);
 }
