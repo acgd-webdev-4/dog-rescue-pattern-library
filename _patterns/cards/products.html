@@ -1,8 +1,8 @@
 <div class="product-card">
   <div class="embed embed-1by1 push">
-    <img class="embed-item" src="/images/logo-32.svg" alt="">
+    <img class="embed-item" src="{{include.data.image}}" alt="">
   </div>
-  <h3 class="push-0">Products</h3>
-  <p class="push-1-2">All made locally in Ottawa</p>
-  {% pattern buttons/ghost %}
+  <h3 class="push-0">{{include.data.title}}</h3>
+  <p class="push-1-2">{{include.data.description}}</p>
+  {% pattern buttons/ghost="Buy Now" %}
 </div>
