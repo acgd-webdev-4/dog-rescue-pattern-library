@@ -8,3 +8,9 @@ patterns:
     description: |
       Cards are used to advertise merchandise, they will appear frequently throughout the site with different images inside them.
     width: "14em"
+    fields:
+      name: data2
+      type: object
+      data:
+        source: "site.products[0]"
+        type: Product
