@@ -1,16 +1,22 @@
 .card {
-  border-width: 4px;
-  border-color: var(--color-secondary);
-  border-style: solid;
-  padding-top: 0;
+
 }
 
 .blackbg {
   background-color: var(--color-secondary);
   width: 100%;
+  float: right;
 }
 
 .price {
   color: var(--color-primary-light);
-  float: right;
+}
+
+img {
+  border-width: 4px;
+  border-color: var(--color-secondary);
+  border-style: solid;
+  padding-top: 0;
+  outline: stroke;
+  border-color: var(--color-secondary);
 }
