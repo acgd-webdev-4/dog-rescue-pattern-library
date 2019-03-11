@@ -15,3 +15,9 @@ patterns:
         This is the card will all the specific info on the item, once it is selected and a button to buy it.
     width: "36em"
     background: "--color-light-grey"
+
+  fields:
+    -name: data
+    type: object
+    data:
+      source: "site.products[0]"

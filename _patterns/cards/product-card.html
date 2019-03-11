@@ -4,5 +4,9 @@
   </div>
   <h3 class="push-0">{{include.data.title}}</h3>
   <p class="push-1-2">{{include.data.description}}</p>
-  {% pattern buttons/ghost="Buy Now" %}
+  {% pattern buttons/ghost %}
 </div>
+
+{% for product in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}
