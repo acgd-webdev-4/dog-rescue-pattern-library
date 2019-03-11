@@ -3,6 +3,10 @@ layout: default
 ---
 
 <h1>Products</h1>
+<div class="grid gutter-1-4">
 {% for product in site.products %}
+  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
   {% pattern cards/product data=product %}
+  </div>
 {% endfor %}
+</div>

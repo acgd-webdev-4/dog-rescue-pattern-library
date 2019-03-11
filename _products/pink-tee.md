@@ -1,5 +1,5 @@
 ---
-name: "Pink Tee"
+name: "Pink Wonderland Tee"
 description: |
   A beautifully designed t-shirt made with the best material, sure to make you feel like a rockstar.
 non_conflict: true
