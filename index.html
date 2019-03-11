@@ -2,13 +2,21 @@
 layout: default
 ---
 
-{% pattern banner/homepagebanner button_text="See Collection" button_url="/products/" heading="The Creature Collection" text="Browse our collection of feisty beasts." %}
+<ul class="skip-links">
+  <li><a href="#main">Skip to the main content</a></li>
+</ul>
 
-<div class="grid">
-  <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    {% pattern sections/homepage-welcome %}
+<div role="main">
+
+  {% pattern banner/homepagebanner button_text="See Collection" button_url="/products/" heading="The Creature Collection" text="Browse our collection of feisty beasts." %}
+
+  <div class="grid">
+    <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      {% pattern sections/homepage-welcome %}
+    </div>
+    <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      {% pattern sections/testimonial-section %}
+    </div>
   </div>
-  <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    {% pattern sections/testimonial-section %}
-  </div>
+
 </div>
