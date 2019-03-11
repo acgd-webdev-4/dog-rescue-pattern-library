@@ -8,8 +8,3 @@ patterns:
     description: |
       Cards are used to advertise merchandise, they will appear frequently throughout the site with different images inside them.
     width: "14em"
-  product2:
-    title: "Tee"
-    description: |
-      Cards are used to advertise merchandise, they will appear frequently throughout the site with different images inside them.
-    width: "14em"

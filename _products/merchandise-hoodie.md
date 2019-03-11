@@ -1,5 +1,5 @@
 ---
-name: "merchandise-hoodie"
+name: "Hoodie"
 description: |
   A beautifully designed hoodie made with the best material, sure to make you feel like a rockstar.
 non_conflict: true

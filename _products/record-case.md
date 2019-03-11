@@ -1,5 +1,5 @@
 ---
-name: "record-case"
+name: "Seasons Vinyl"
 description: |
   A vinyl collection of the Seasons album. Enjoy the beautifully crafted album art and vinyl copy, includes writers commentary and never before seen lyrics.
 non_conflict: true
