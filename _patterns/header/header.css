@@ -41,43 +41,54 @@
   display: none;
 }
 
-.pin {
-  border-top: 2px solid var(--color-primary-dark);
-  border-bottom: 2px solid var(--color-primary-dark);
-}
-
-.main-nav li {
-  border-bottom: 2px solid #fff;
-}
-
-.main-nav li:hover {
-  color: var(--color-primary-light);
-}
-
 .print-check:checked ~ .print-nav,
 .cloth-check:checked ~ .cloth-nav,
 .elec-check:checked ~ .elec-nav {
-  border-top: 2px solid var(--color-primary-dark);
   display: block;
+}
+
+.sec-nav {
+  border-top: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
   background-color: var(--color-secondary-dark);
 }
 
-.print-nav li,
-.cloth-nav li,
-.elec-nav li {
-  border: none;
+.main-nav li {
+  border-bottom: 2px solid transparent;
 }
 
-.print-nav li:hover,
-.cloth-nav li:hover,
-.elec-nav li:hover {
+.main-nav li:hover {
+  border-bottom-color: var(--color-primary);
+}
+
+.main-nav li > label:hover {
+  color: var(--color-primary-light);
+}
+
+.sec-nav li:hover {
   background-color: var(--color-secondary-darker);
-  border: none;
+  border-bottom-color: transparent;
 }
 
-.print-nav li:hover a,
-.cloth-nav li:hover a,
-.elec-nav li:hover a   {
+.sec-nav li:hover a {
+  color: var(--color-secondary);
+}
+
+.current a,
+.current label {
+  color: var(--color-primary-light);
+}
+
+.main-nav .current {
+  border-bottom-color: var(--color-primary);
+}
+
+.sec-nav .current {
+  background-color: var(--color-secondary-darker);
+  border-bottom-color: transparent;
+}
+
+.sec-nav .current a {
   color: var(--color-secondary);
 }
 
@@ -91,11 +102,7 @@
     display: block;
   }
 
-  .main-nav li:hover {
-    border-bottom: 2px solid var(--color-primary-dark);
-  }
-
-  .pin {
+  .sec-nav {
     position: absolute;
     top: 100%;
     left: 50%;

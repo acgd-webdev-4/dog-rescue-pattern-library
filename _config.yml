@@ -24,3 +24,8 @@ patternbot:
       The secondary colours represent the stars we see in the sky. It should be used as a the base background colour and on text to contrast against the primary colour.
     colors.accent: |
       These accents pair well and create a space themed harmony with the primarys. Yellows draw attention and should only be used with pruchasing related items such as the shopping cart icon. Light red should be used with submission related content like search. Blue should only be used on small foreground elements.
+  layouts:
+    default: |
+      The default layout should be used on every page other than the main front page. It contains the header navigation with a search bar and the standard footer.
+    front: |
+      The front layout should only be used on the main front page. Its header contains the main navigation links but no search bar. The search bar is included with the banner pattern. This page also contains the standard footer.

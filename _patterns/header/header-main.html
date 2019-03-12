@@ -1,7 +1,7 @@
 {% pattern navigations/tool-bar %}
 <header class="masthead max-length text-center pad-t-2 pad-b">
   <div class="wordmark push-1-2">
-    <a href="#">
+    <a href="/">
       <i class="icon i-64">
         <img src="/images/logo.svg" alt="Logo for the Catonaut website">
       </i>
@@ -18,8 +18,8 @@
     <nav class="main-nav">
       <ul class="list-group-inline text-center grid grid-middle">
 
-        <li class="unit xs-1 s-1 m-1-4 l-1-4">
-          <a class="island-1-2 block" href="#">All Products</a>
+        <li class="unit xs-1 s-1 m-1-4 l-1-4 {% if page.highlight_nav == 'all products' %}current{% endif %}">
+          <a class="island-1-2 block" href="/products/">All Products</a>
         </li>
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
@@ -27,15 +27,15 @@
           <label for="print-nav" class="island-1-2 block">
             <span>Art Prints</span>
           </label>
-          <nav class="print-nav w-1 zindex-1000 pin" id="nav">
+          <nav class="print-nav w-1 zindex-1000 sec-nav" id="nav">
             <ul class="list-group push-0">
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'framed' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Framed</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'posters' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Posters</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'cards' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Cards</a>
               </li>
             </ul>
@@ -47,18 +47,18 @@
           <label for="cloth-nav" class="island-1-2">
             <span>Apparels</span>
           </label>
-          <nav class="cloth-nav w-1 zindex-1000 pin" id="nav">
+          <nav class="cloth-nav w-1 zindex-1000 sec-nav" id="nav">
             <ul class="list-group push-0">
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'menswear' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Menswear</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'womanswear' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Womanswear</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'kidswear' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Kidswear</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'babies' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Babies</a>
               </li>
             </ul>
@@ -70,24 +70,24 @@
           <label for="elec-nav" class="island-1-2">
             <span>Device Cases</span>
           </label>
-          <nav class="elec-nav w-1 zindex-1000 pin" id="nav">
+          <nav class="elec-nav w-1 zindex-1000 sec-nav" id="nav">
             <ul class="list-group push-0">
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'android' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Android</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'iphone' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Iphone</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'ipad' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Ipads</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'mac' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Macbook Pro</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'laptop' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Laptops</a>
               </li>
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'tablet' %}current{% endif %}">
                 <a class="block milli island-1-2" href="#">Tablets</a>
               </li>
             </ul>

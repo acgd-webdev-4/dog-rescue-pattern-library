@@ -7,11 +7,37 @@ patterns:
     title: "Call to Action"
     description: |
       The call to action banner should only be used on the front store page and only ever used with a search bar. It is a means for the user to search the website.
+    fields:
+      - name: heading
+        type: string
+        example: "Rocket ship ready and fueled"
+      - name: banner
+        type: string
+        example: "banner-example.jpg"
   promo-banner:
     title: "Promtional Banner"
     description: |
       The promotional banner is used to promote current deals and sales that the site has to offer, but can be found on every page at the top. This is allowed because it can never have an image with it.
+    fields:
+      - name: heading
+        type: string
+        example: "All mugs are now 20% off!"
+      - name: description
+        type: string
+        example: "Get it now, offer only lasts till Feburary 12th"
   page-banner:
     title: "Page Banner"
     description: |
       A Page banners are used for seperpate pages on the website, they do not include an image.
+    fields:
+      - name: heading
+        type: string
+        example: "All Products"
+      - name: button_text
+        type: string
+        example: "Learn More"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false

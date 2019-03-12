@@ -1,3 +1,6 @@
-<div class="page-banner pad-t-2 pad-b-2 relative push">
-  <h2 class="text-center page-title push-0">Mugs</h2>
+<div class="page-banner pad-t-2 pad-b-2 relative push-2 text-center">
+  <h2 class="page-title push">{{include.heading}}</h2>
+  {% if include.button_url %}
+    {% pattern buttons/basic text=include.button_text url=include.button_url %}
+  {% endif %}
 </div>
