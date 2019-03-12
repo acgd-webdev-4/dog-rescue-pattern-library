@@ -1,7 +1,7 @@
 {% pattern navigations/tool-bar %}
 <header class="masthead wrapper text-center pad-t-2 pad-b grid grid-middle island">
   <div class="wordmark push-1-2 unit xs-1 s-1 m-1-3">
-    <a href="/">
+    <a href="/" aria-label="This link will bring you to the home page.">
       <i class="icon i-48">
         <img src="/images/logo.svg" alt="Logo for the Catonaut website">
       </i>
@@ -12,86 +12,86 @@
     {% pattern forms/alt-search %}
   </div>
   <div class="unit xs-1 s-1 m-1">
-    <input type="checkbox" id="main-nav" class="main-check">
+    <input type="checkbox" id="main-nav" class="main-check" aria-label="This will expand the navigation menu when checked and will close when unchecked.">
     <label for="main-nav" class="main-label island-1-2 block">
       <i class="icon i-48">
         <svg><use xlink:href="/images/icons.svg#burger" /></svg>
       </i>
     </label>
-    <nav class="main-nav max-length">
+    <nav class="main-nav max-length" role="navigation" id="nav">
       <ul class="list-group-inline text-center grid grid-middle">
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 {% if page.highlight_nav == 'all-products' %}current{% endif %}">
-          <a class="island-1-2 block" href="/products/">All Products</a>
+          <a class="island-1-2 block" href="/products/" aria-label="This link will bring you to the all products page.">All Products</a>
         </li>
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
-          <input type="checkbox" id="print-nav" class="print-check">
+          <input type="checkbox" id="print-nav" class="print-check sub-nav" aria-label="This will expand the prints navigation menu when checked and will close when unchecked.">
           <label for="print-nav" class="island-1-2 block">
             <span>Art Prints</span>
           </label>
-          <nav class="print-nav w-1 zindex-1000 sec-nav" id="nav">
+          <nav class="print-nav w-1 zindex-1000 sec-nav">
             <ul class="list-group push-0">
               <li class="valign-middle {% if page.highlight_nav == 'framed' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Framed</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the framed products page.">Framed</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'posters' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Posters</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the poster products page.">Posters</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'cards' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Cards</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the card products page.">Cards</a>
               </li>
             </ul>
           </nav>
         </li>
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
-          <input type="checkbox" id="cloth-nav" class="cloth-check">
+          <input type="checkbox" id="cloth-nav" class="cloth-check sub-nav" aria-label="This will expand the Apparels navigation menu when checked and will close when unchecked.">
           <label for="cloth-nav" class="island-1-2">
             <span>Apparels</span>
           </label>
-          <nav class="cloth-nav w-1 zindex-1000 sec-nav" id="nav">
+          <nav class="cloth-nav w-1 zindex-1000 sec-nav">
             <ul class="list-group push-0">
               <li class="valign-middle {% if page.highlight_nav == 'menswear' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Menswear</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the mens clothing product page.">Menswear</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'womanswear' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Womanswear</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the womans clothing product page.">Womanswear</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'kidswear' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Kidswear</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the kids clothing product page.">Kidswear</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'babies' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Babies</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the babies clothing products page.">Babies</a>
               </li>
             </ul>
           </nav>
         </li>
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
-          <input type="checkbox" id="elec-nav" class="elec-check">
+          <input type="checkbox" id="elec-nav" class="elec-check sub-nav" aria-label="This will expand the device cases navigation menu when checked and will close when unchecked.">
           <label for="elec-nav" class="island-1-2">
             <span>Device Cases</span>
           </label>
-          <nav class="elec-nav w-1 zindex-1000 sec-nav" id="nav">
+          <nav class="elec-nav w-1 zindex-1000 sec-nav">
             <ul class="list-group push-0">
               <li class="valign-middle {% if page.highlight_nav == 'android' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Android</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the Android cases product page.">Android</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'iphone' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Iphone</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the Iphone cases product page.">Iphone</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'ipad' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Ipads</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the Ipad cases product page.">Ipads</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'mac' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Macbook Pro</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the Macbook Pro cases product page.">Macbook Pro</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'laptop' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Laptops</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the Laptop cases product page.">Laptops</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'tablet' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Tablets</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the Tablet cases product page.">Tablets</a>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,9 @@
+- name: Menswear
+  items:
+    - All Mens Clothing
+    - T-shirts
+
+- name: Womanswear
+  items:
+    - All Womans Clothing
+    - T-shirts

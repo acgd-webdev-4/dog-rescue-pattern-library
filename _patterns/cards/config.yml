@@ -8,6 +8,12 @@ patterns:
     description: |
       This is the standard product card. It should always contain an image, title, product title and a price.
     width: 400
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   sale-card:
     title: "Sale Card"
     description: |
