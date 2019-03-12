@@ -1,7 +1,7 @@
 {% pattern navigations/tool-bar %}
 <header class="masthead max-length text-center pad-t-2 pad-b">
   <div class="wordmark push-1-2">
-    <a href="/">
+    <a href="/" aria-label="This link will bring you to the home page.">
       <i class="icon i-64">
         <img src="/images/logo.svg" alt="Logo for the Catonaut website">
       </i>
@@ -10,7 +10,7 @@
   </div>
   <div>
     <input type="checkbox" id="main-nav" class="main-check">
-    <label for="main-nav" class="main-label island-1-2 block">
+    <label for="main-nav" class="main-label island-1-2 block" aria-label="This will expand the navigation menu.">
       <i class="icon i-48">
         <svg><use xlink:href="/images/icons.svg#burger" /></svg>
       </i>
@@ -19,47 +19,47 @@
       <ul class="list-group-inline text-center grid grid-middle">
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 {% if page.highlight_nav == 'all products' %}current{% endif %}">
-          <a class="island-1-2 block" href="/products/">All Products</a>
+          <a class="island-1-2 block" href="/products/" aria-label="This link will bring you to the all products page.">All Products</a>
         </li>
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
-          <input type="checkbox" id="print-nav" class="print-check">
+          <input type="checkbox" id="print-nav" class="print-check" aria-label="This will expand the prints navigation menu.">
           <label for="print-nav" class="island-1-2 block">
             <span>Art Prints</span>
           </label>
           <nav class="print-nav w-1 zindex-1000 sec-nav" id="nav">
             <ul class="list-group push-0">
               <li class="valign-middle {% if page.highlight_nav == 'framed' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Framed</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the framed products page.">Framed</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'posters' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Posters</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the poster products page.">Posters</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'cards' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Cards</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the card products page.">Cards</a>
               </li>
             </ul>
           </nav>
         </li>
 
         <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
-          <input type="checkbox" id="cloth-nav" class="cloth-check">
+          <input type="checkbox" id="cloth-nav" class="cloth-check" aria-label="This will expand the Apparels navigation menu.">
           <label for="cloth-nav" class="island-1-2">
             <span>Apparels</span>
           </label>
           <nav class="cloth-nav w-1 zindex-1000 sec-nav" id="nav">
             <ul class="list-group push-0">
               <li class="valign-middle {% if page.highlight_nav == 'menswear' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Menswear</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the menswear product page.">Menswear</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'womanswear' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Womanswear</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the womanswear product page.">Womanswear</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'kidswear' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Kidswear</a>
+                <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the kidswear product page.">Kidswear</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'babies' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Babies</a>
+                <a class="block milli island-1-2" href="#" aria-label="">Babies</a>
               </li>
             </ul>
           </nav>
@@ -73,22 +73,22 @@
           <nav class="elec-nav w-1 zindex-1000 sec-nav" id="nav">
             <ul class="list-group push-0">
               <li class="valign-middle {% if page.highlight_nav == 'android' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Android</a>
+                <a class="block milli island-1-2" href="#" aria-label="">Android</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'iphone' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Iphone</a>
+                <a class="block milli island-1-2" href="#" aria-label="">Iphone</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'ipad' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Ipads</a>
+                <a class="block milli island-1-2" href="#" aria-label="">Ipads</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'mac' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Macbook Pro</a>
+                <a class="block milli island-1-2" href="#" aria-label="">Macbook Pro</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'laptop' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Laptops</a>
+                <a class="block milli island-1-2" href="#" aria-label="">Laptops</a>
               </li>
               <li class="valign-middle {% if page.highlight_nav == 'tablet' %}current{% endif %}">
-                <a class="block milli island-1-2" href="#">Tablets</a>
+                <a class="block milli island-1-2" href="#" aria-label="">Tablets</a>
               </li>
             </ul>
           </nav>
