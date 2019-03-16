@@ -6,7 +6,7 @@ non_conflict: true
 image: "/images/artwork-2.jpg"
 price: 135
 colors:
-  -"yellow"
-  -"blue"
+  - "yellow"
+  - "blue"
 shape: "5 by 7, watercolour paper"
 ---

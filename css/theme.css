@@ -143,3 +143,7 @@ u {
 .violet-text {
   color: var(--color-primary);
 }
+
+.back-ground {
+  background-color: var(--color-light-grey);
+}

@@ -1,9 +1,3 @@
-.product-card {
-  text-align: center;
-  max-width: 20em;
-  display: inline-block;
-}
-
 .product-card img {
   object-fit: cover;
   border: 2px double var(--color-primary);
