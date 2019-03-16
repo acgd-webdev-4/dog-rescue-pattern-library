@@ -1,4 +1,8 @@
+.product-card-embed {
+  overflow: hidden;
+  border: 2px double var(--color-primary);
+}
+
 .product-card img {
   object-fit: cover;
-  border: 2px double var(--color-primary);
 }

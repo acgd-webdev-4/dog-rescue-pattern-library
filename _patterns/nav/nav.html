@@ -5,13 +5,13 @@
     <nav class="nav unit xs-1 s-1 m-2-3 l-3-4">
       <ul class="nav-ul push-0">
         <li class="island-1-8">
-          <a class="nav-btn block text-center gutter-1-2 pad-t-1-4 pad-b-1-4 milli" href="/products/">Paintings</a>
+          <a class="nav-btn block text-center gutter-1-2 pad-t-1-4 pad-b-1-4 milli {% if page.highlight_nav == 'products' %}current{% endif %}" href="/products/">Paintings</a>
         </li>
         <li class="island-1-8">
-          <a class="nav-btn block text-center gutter-1-2 pad-t-1-4 pad-b-1-4 milli" href="/products/">Prints</a>
+          <a class="nav-btn block text-center gutter-1-2 pad-t-1-4 pad-b-1-4 milli {% if page.highlight_nav == 'prints' %}current{% endif %}" href="/prints/">Prints</a>
         </li>
         <li class="island-1-8">
-          <a class="nav-btn block text-center gutter-1-2 pad-t-1-4 pad-b-1-4 milli" href="/products/">Cards</a>
+          <a class="nav-btn block text-center gutter-1-2 pad-t-1-4 pad-b-1-4 milli {% if page.highlight_nav == 'cards' %}current{% endif %}" href="/cards/">Cards</a>
         </li>
         <li class="island-1-8">
           <a class="block text-center gutter-1-2 pad-t-1-4 pad-b-1-4 milli" href="#">
