@@ -5,11 +5,11 @@ desc: |
 image: "/images/dragon.png"
 cost: $900
 colors:
-  - blue
-  - white
-  - electric purple
+  - "blue"
+  - "white"
+  - "electric purple"
 personality:
-  - nasty
-  - too smart
-  - good babysitter
+  - "nasty"
+  - "too smart"
+  - "good babysitter"
 ---

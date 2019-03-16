@@ -18,13 +18,12 @@ patternbot:
       This deep brown colour helps reflect Medieval style and also emulates the brown fur of potential creatures. It is used as a background to the page directory as well as the footer.
     colors.secondary: |
       This medium brown looks like old paper which fits the theme. It is the background colour of the navigation.
-  layouts:
-    default: |
-      The default layout should be used for every page as it includes the header and footer.
+layouts:
+  default: |
+    The default layout should be used for every page as it includes the header and footer.
 collections:
   products:
     output: true
-
 defaults:
   - scope:
       path: _products

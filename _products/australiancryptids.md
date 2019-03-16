@@ -5,11 +5,11 @@ desc: |
 image: "/images/cryptid.png"
 cost: $800
 colors:
-  - brown
-  - tan
-  - black
+  - "brown"
+  - "tan"
+  - "black"
 personality:
-  - culture shocked
-  - confused
-  - dry wit
+  - "culture shocked"
+  - "confused"
+  - "dry wit"
 ---

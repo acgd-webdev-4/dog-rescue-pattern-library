@@ -5,11 +5,11 @@ desc: |
 image: "/images/griffin.png"
 cost: $700
 colors:
-  - brown
-  - tan
-  - black
+  - "brown"
+  - "tan"
+  - "black"
 personality:
-  - workaholic
-  - attention seeker
-  - mildly evil
+  - "workaholic"
+  - "attention seeker"
+  - "mildly evil"
 ---

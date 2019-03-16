@@ -8,8 +8,16 @@
 </head>
 <body class="bg">
 
+  <ul class="skip-links">
+    <li><a href="#main">Skip to the main content</a></li>
+  </ul>
+
   {% pattern header/header %}
-  {{content}}
+
+  <main role="main" id="main" tabindex="0">
+    {{content}}
+  </main>
+
   {% pattern footer/footer %}
 
 </body>
