@@ -17,6 +17,9 @@ patternbot:
       icons.icons.insta-white: "--color-primary"
       icons.icons.heart: "#ffffff"
       icons.icons.heart-white: "#ffffff"
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the websites header and footers
 
   rationales:
     typefaces.primary: |

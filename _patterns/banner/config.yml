@@ -2,7 +2,7 @@ patterns:
   banner:
     width: 1900
     fields:
-      - name: title
+      - name: heading
         type: string
         example: "Shop Crystals"
       - name: details

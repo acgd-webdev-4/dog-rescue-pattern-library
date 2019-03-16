@@ -2,11 +2,33 @@
   color: var(--color-accent);
   position: relative;
   overflow: hidden;
-  max-height: 24em;
+  max-height: 30em;
 }
 
 .banner-content {
   position: absolute;
-  bottom: 7em;
-  left: 28em;
+  bottom: 2em;
+  left: 0em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    position: absolute;
+    bottom: 10em;
+    left: 10em;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-content {
+    position: absolute;
+    bottom: 10em;
+    left: 40em;
+  }
+
+
 }
