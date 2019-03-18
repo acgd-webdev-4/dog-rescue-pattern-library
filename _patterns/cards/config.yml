@@ -8,8 +8,8 @@ patterns:
     description: |
       This card is used on the products page to display what categories of creatures are available.
     fields:
-      - name: creaturecard
+      - name: data
         type: object
         data:
           source: "site.products[0]"
-          type: product
+          type: Product
