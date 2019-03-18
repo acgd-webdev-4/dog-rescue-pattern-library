@@ -1,7 +1,7 @@
 ---
 title: "painting-1"
 description: |
-  Beautiful watercolor and ink drawing of a snail
+  Beautiful watercolor and ink drawing of a apples with type
 image: "/images/artwork-1.jpg"
 price: 135
 icon: "basket"
