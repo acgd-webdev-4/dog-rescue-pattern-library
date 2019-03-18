@@ -1,5 +1,7 @@
 patterns:
   homepagebanner:
+    title: "Home page banner"
+    description: This banner is used on the home page only. |
     fields:
       - name: heading
         type: string

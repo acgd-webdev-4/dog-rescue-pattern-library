@@ -1,0 +1,25 @@
+title: "Photos"
+description: |
+    These banner images are used at the top of the page on every page. They change depending on what page is active. Feel free to play around with which banners are on which page. The only one set in stone is the homepage banner with the Griffin & text.
+
+patterns:
+  checkout-banner:
+    title: "Checkout Banner"
+    description: |
+      This banner can be used on the checkout page. It is a kraken which falls into the cryptid classification.
+  homepage-banner:
+    title: "Homepage Banner"
+    description: |
+      This image is used as the homepage banner with some text on top. It can be found under banner > homepagebanner.html. It is a Middle Eastern styled Griffin.
+  product-page-banner:
+    title: "Product Page Banner"
+    description: |
+      This image is used as the homepage banner for the page that displays an individual product. This is a European styled Griffin.
+  products-banner:
+    title: "Products Banner"
+    description: |
+      You can use this image as the banner on the page displaying available products. It is a European style dragon.
+  testimonial-image:
+    title: "Testimonial Image"
+    description: |
+      This is Sven Svensalot, our testimonial guy. He is located on the homepage with some text describing his experience with the service. The code for his testimonial is located under sections > testimonial-section.html
