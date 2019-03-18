@@ -1,8 +1,10 @@
 <div class="product-card">
   <div class="embed embed-1by1 product-card-embed">
-    <img class="embed-item" src="{{include.image | default:'/images/artwork-1.jpg'}}" alt="">
+    <img class="embed-item" src="{{include.data.image | default:'/images/artwork-1.jpg'}}" alt="">
   </div>
-  <h3 class="push-0">{{include.title}}</h3>
-  <p class="push-1-2">{{include.description}}</p>
+  <h3 class="push-0">{{include.data.title}}</h3>
+  {% unless include.hide_description %}
+    <p class="push-1-2">{{include.data.description}}</p>
+    {% endunless %}
 </div>
-{% pattern buttons/basic text="Buy Now" url="/products/" %}
+{% pattern buttons/basic text="Buy Now" url=include.data.url %}
