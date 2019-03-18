@@ -11,6 +11,8 @@ desc: |
   There is nothing like a cute astronaut cat on a nice ceramic mug to keep you warm in the cold dead of space.
 artist: "Sebastian Turner"
 image: "/images/products/product-catonaut-mug.jpg"
+aria_label: "Click here if you want to learn more on the ceramic catonaut mug."
 price: 15.99
 sale_price: 7.99
+url: "/"
 ---

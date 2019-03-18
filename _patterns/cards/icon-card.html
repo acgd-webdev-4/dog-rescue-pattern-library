@@ -1,8 +1,8 @@
 <div class="icon-card text-center island">
   <i class="icon i-96 push-1-2">
-    <svg><use xlink:href="/images/icons.svg#leaf"></use></svg>
+    <svg><use xlink:href="/images/icons.svg{{include.icon}}"></use></svg>
   </i>
-  <h3 class="kilo push-0">True Canadian</h3>
-  <p class="milli push-1-2">All products are 100% Canadian made. And all art is by our nations very talented artists.</p>
-  <a class="milli" href="#">Learn More</a>
+  <h3 class="kilo push-0">{{include.title}}</h3>
+  <p class="milli push-1-2">{{include.desc}}</p>
+  <a class="milli" href="{{include.btn_url}}" aria-label="{{include.aria_label}}">Learn More</a>
 </div>

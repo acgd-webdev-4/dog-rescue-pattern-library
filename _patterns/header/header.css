@@ -84,7 +84,7 @@
 }
 
 .sec-nav .current {
-  background-color: var(--color-secondary-darker);
+  background-color: var(--color-primary-light);
   border-bottom-color: transparent;
 }
 

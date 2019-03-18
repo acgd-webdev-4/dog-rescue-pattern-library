@@ -1,6 +1,8 @@
 <div class="page-banner pad-t-2 pad-b-2 relative push-2 text-center">
-  <h2 class="page-title push">{{include.heading}}</h2>
-  {% if include.button_url %}
-    {% pattern buttons/basic text=include.button_text url=include.button_url %}
-  {% endif %}
+  <h2 class="page-title push-0 exa">{{include.heading}}</h2>
+  <div class="pad-t-1-2">
+    {% if include.button_url %}
+      {% pattern buttons/basic text=include.button_text url=include.button_url %}
+    {% endif %}
+  </div>
 </div>

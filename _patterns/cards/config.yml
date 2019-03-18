@@ -19,13 +19,48 @@ patterns:
     description: |
       This is a sale card and used when an item goes on sale. Must contain an image, title, product title, original price and a the current sale price.
     width: 400
-  promo-card:
-    title: "Promotion Card"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+  category-card:
+    title: "Category Card"
     description: |
-      This is a typical promo card that features new content. It is to be used on the home page as a sectional piece and can be used up to four times in a row for other products or promotions currently being offered. It should include a image, title and link to the promoted area.
+      A category card is used as link to different product sections on the website. The image should relate to the product itself.
     width: 400
+    fields:
+      - name: url
+        type: url
+        example: "/products/"
+      - name: aria_label
+        type: string
+        example: "Click this link to view all sorts of fun mugs here!"
+      - name: image
+        type: url
+        example: "/images/products/product-catonaut-mug.jpg"
+      - name: category
+        type: string
+        example: "Mugs"
   icon-card:
     title: "Icon Card"
     description: |
-      The Icon Card is used to display quick information on different aspects of the company. This includes where its made, shipping, returns etc. and a learn more option for the user to click on. Four of these cards will be located on the front page at the very bottom just above the footer.
+      The Icon Card is used to display quick information on different aspects of the company. This can include where a product is made, shipping, return policies etc. It can also include a learn more option for the user to click on if more info is needed. Four of these cards will be located on the front page at the very bottom just above the footer.
     width: 400
+    fields:
+      - name: icon
+        type: url
+        example: "#leaf"
+      - name: aria_label
+        type: string
+        example: "Click this link to learn more about our Canadian made products."
+      - name: title
+        type: string
+        example: "True Canadian"
+      - name: desc
+        type: string
+        example: "All products are 100% Canadian made. And all art is by our nations very talented artists."
+      - name: button_url
+        type: url
+        example: "#"
