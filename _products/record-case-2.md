@@ -10,6 +10,8 @@ colors:
   - "White"
   - "Yellow"
   - "Red"
+  - "Pink"
+  - "Green"
   - "Blue"
   - "Yellow"
 shape: "Square"
