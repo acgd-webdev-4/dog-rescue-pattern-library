@@ -1,6 +1,6 @@
 title: "Cards"
 description: |
-  This will hold photo of the items, all will be the same size
+  This will hold cards and photos of the items of the items, all will be the same size
 
 patterns:
   product-card:

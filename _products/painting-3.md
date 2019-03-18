@@ -7,5 +7,5 @@ price: 135
 colors:
   -"yellow"
   -"blue"
-shape: "5 by 7, watercolour paper"
+shape: "5 by 7, watercolor paper"
 ---
