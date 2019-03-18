@@ -106,3 +106,108 @@
 .tool-bar li:hover {
   background-color: var(--color-primary-dark);
 }
+
+.main-check[type="checkbox"] + label::before,
+.print-check[type="checkbox"] + label::before,
+.cloth-check[type="checkbox"] + label::before,
+.elec-check[type="checkbox"] + label::before {
+  position: absolute;
+  top: -20em;
+  left: -20em;
+}
+
+.main-nav {
+  display: none;
+}
+
+.main-check ~ .main-label i > svg {
+  border: 2px solid var(--color-primary-dark);
+  color: var(--color-primary-dark);
+}
+
+.main-check:checked ~ .main-label i > svg {
+  background-color: var(--color-blue);
+  color: var(--color-yellow);
+  border-color: transparent;
+}
+
+.main-check:checked ~ .main-nav {
+  display: block;
+}
+
+.print-nav,
+.cloth-nav,
+.elec-nav {
+  display: none;
+}
+
+.print-check:checked ~ .print-nav,
+.cloth-check:checked ~ .cloth-nav,
+.elec-check:checked ~ .elec-nav {
+  display: block;
+}
+
+.sec-nav {
+  border-top: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+  background-color: var(--color-secondary-dark);
+}
+
+.main-nav li {
+  border-bottom: 2px solid transparent;
+}
+
+.main-nav li:hover {
+  border-bottom-color: var(--color-primary);
+}
+
+.main-nav li > label:hover {
+  color: var(--color-primary-light);
+}
+
+.sec-nav li:hover {
+  background-color: var(--color-secondary-darker);
+  border-bottom-color: transparent;
+}
+
+.sec-nav li:hover a {
+  color: var(--color-secondary);
+}
+
+.current a,
+.current label {
+  color: var(--color-primary-light);
+}
+
+.main-nav .current {
+  border-bottom-color: var(--color-primary);
+}
+
+.sec-nav .current {
+  background-color: var(--color-primary-light);
+  border-bottom-color: transparent;
+}
+
+.sec-nav .current a {
+  color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .main-check,
+  .main-check[type="checkbox"] + label {
+    display: none;
+  }
+
+  .main-nav {
+    display: block;
+  }
+
+  .sec-nav {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
