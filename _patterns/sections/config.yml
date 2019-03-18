@@ -1,6 +1,6 @@
 title: "Sections"
 description: |
-  These sections are scattered throughout different pages of the website.
+    These sections are scattered throughout different pages of the website.
 
 patterns:
   homepage-welcome:
@@ -10,12 +10,12 @@ patterns:
   testimonial-section:
     title: "Sven's Testimonial"
     description: |
-    This testimonial appears on the homepage alongside the brief welcome text section.
+      This testimonial appears on the homepage alongside the brief welcome text section.
   productpage-text:
     title: "Product Page Text"
     description: |
-    This information is displayed on the page where one views the specific creature they are interested in purchasing.
-  products-intro-text:
-    title: "Products Intro Text"
+      This information is displayed on the page where one views the specific creature they are interested in purchasing.
+  checkout-text:
+    title: "Checkout Page Text"
     description: |
-    This information appears on the product page as an introduction to the different species.
+      You can add this information to the checkout page. It provides basic information about what the customer is purchasing.
