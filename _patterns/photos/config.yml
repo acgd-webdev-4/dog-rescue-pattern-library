@@ -1,6 +1,6 @@
 title: "Photos"
 description: |
-    These banner images are used at the top of the page on every page. They change depending on what page is active. Feel free to play around with which banners are on which page. The only one set in stone is the homepage banner with the Griffin & text.
+    These images can be used at the top of the page on every page as a banner. They change depending on what page is active. Feel free to play around with which banners are on which page. The only one set in stone is the homepage banner with the Griffin & text. Alternatively, you could also use them as product photography.
 
 patterns:
   checkout-banner:
