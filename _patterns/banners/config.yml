@@ -25,6 +25,9 @@ patterns:
       - name: description
         type: string
         example: "Get it now, offer only lasts till Feburary 12th"
+      - name: url
+        type: string
+        example: "#"
   page-banner:
     title: "Page Banner"
     description: |

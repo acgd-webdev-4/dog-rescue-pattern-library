@@ -1,12 +1,23 @@
 title: "Forms"
 description: |
-  Forms are to be used in realtion with a submit button.
+  Forms are to be used in realtion with a submit button. Every id field must be unique to the form it is placed in.
 
 patterns:
   basic-field:
     title: "Basic Input Field"
     description: |
       This is a standard input field meant for short lines of text. Should only be found in the checkout page and sign-up page, mainly for naming purposes.
+    fields:
+      - name: label
+        type: string
+        example: "Full Name"
+      - name: id
+        type: string
+        example: "name"
+      - name: placeholder
+        type: string
+        example: "Enter your full name here"
+        required: false
     padding: 1em
   telephone:
     title: "Phone Number Field"

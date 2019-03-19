@@ -7,10 +7,48 @@ patterns:
     title: "Sectional Banner"
     description: |
       The sectional banner is used to promote new items or events that the website will offer. It should be used on the front page as a section and contains a larger image to support the width. and the product must be located on the left side of the image.
+    fields:
+      - name: heading
+        type: string
+        example: "Brand new mugs starting at 20% off!"
+      - name: desc
+        type: string
+        example: "Get them now, deal only lasts till February 12th"
+      - name: image
+        type: url
+        example: "/images/section-example.jpg"
+      - name: aria_label
+        type: string
+        example: "This is an image of the new Catonaut ceramic mug"
   half-section:
     title: "Half Section"
     description: |
       The half sections are used when the image is not a full banner and are only found on the front page. It also uses an outlined button so that it brings more attention.
+    fields:
+      - name: heading
+        type: string
+        example: "Brand new mugs starting at 20% off!"
+      - name: desc
+        type: string
+        example: "Get them now, deal only lasts till February 12th"
+      - name: image
+        type: url
+        example: "/images/products/product-catonaut-mug.jpg"
+      - name: aria_label
+        type: string
+        example: "This is an image of the new Catonaut ceramic mug"
+      - name: button_text
+        type: string
+        example: "Learn More"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+      - name: button_aria
+        type: string
+        example: "This link will lead you somewhere"
+        required: false
   text-sec:
     title: "Text Section"
     description: |

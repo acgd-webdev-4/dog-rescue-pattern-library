@@ -7,33 +7,62 @@ patterns:
     title: "Basic Button"
     description: |
       This basic button is used on white backgrounds to create contrast. It should only be used to link to other important areas of the website like promos.
+    padding: 1em
     fields:
       - name: text
         type: string
         example: "See More"
       - name: url
-        type: url
-        example: "/products/"
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "This link will bring you somewhere"
   light:
     title: "Light Button"
     description: |
       This light button is used on dark backgrounds to create contrast. It should only be used to link to other important areas of the website like promos.
+    padding: 1em
     fields:
       - name: text
         type: string
         example: "See More"
       - name: url
-        type: url
-        example: "/products/"
+        type: string
+        example: "#"
+      - name: aria_label
+        type: string
+        example: "This link will bring you somewhere"
   ghost:
     title: "Ghost Button"
     description: |
       The ghost button should only be used when you want draw a little more attention then just a regular button. It should be used carefully as it can be hard to see, it is recommended to be used on white or lighter backgrounds where there is sufficient contrast.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria_label
+        type: string
+        example: "This link will bring you somewhere"
   attention:
     title: "Attention Button"
     description: |
       The attention button uses yellow background with drop shadow to draw the users attention. It should be used in situtations involding purchasing i.e. "add to cart" or "buy now".
     padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "Add To Cart"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria_label
+        type: string
+        example: "This link will bring you somewhere"
   submit:
     title: "Submit Button"
     description: |

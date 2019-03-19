@@ -32,7 +32,7 @@ patterns:
     width: 400
     fields:
       - name: url
-        type: url
+        type: string
         example: "/products/"
       - name: aria_label
         type: string

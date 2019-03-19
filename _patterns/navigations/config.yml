@@ -3,6 +3,11 @@ description: |
   These are common navigation found on the website that are not part of the header or footer.
 
 patterns:
+  main-nav:
+    title: "Main Navigation"
+    description: |
+      This is the main navigation used in the header for the website and no where else.
+    padding: 1em
   breadcrumbs:
     title: "Breadcrumb Navigation"
     description: |

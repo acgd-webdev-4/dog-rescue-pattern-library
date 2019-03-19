@@ -12,7 +12,7 @@ desc: |
 artist: "Sebastian Turner"
 image: "/images/products/product-catonaut-mug.jpg"
 aria_label: "Click here if you want to learn more on the ceramic catonaut mug."
-price: 15.99
-sale_price: 7.99
+price: 15
+sale_price: 7
 url: "/"
 ---
