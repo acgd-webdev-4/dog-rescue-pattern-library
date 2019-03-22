@@ -1,6 +1,7 @@
 ---
 layout: inside
 highlight_nav: posters
+filters: filters-posters
 ---
 
 {% pattern banners/page-banner heading="Posters" %}
@@ -12,7 +13,14 @@ highlight_nav: posters
   </div>
 
   <div class="unit xs-1 s-1 m-1 l-1-4 gutter">
-    {% pattern navigations/sidebar %}
+    <h5 class="normal gutter-1-4">Filters</h5>
+    <div class="grid">
+      {% for filter in site.data[page.filters] %}
+      <div class="unit xs-1-2 s-1-2 m-1 gutter-1-4">
+        {% pattern navigations/sidebar data=filter number=forloop.index %}
+      </div>
+      {% endfor %}
+    </div>
   </div>
 
   <div class="unit xs-1 s-1 m-1 l-3-4">

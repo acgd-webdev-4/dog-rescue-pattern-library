@@ -2,50 +2,52 @@
 layout: front
 ---
 
-{% pattern banners/hero-banner heading="Rocket ship ready and fueled" banner="banner-example.jpg" %}
+<section class="push-2">
+  {% pattern banners/hero-banner heading="Rocket ship ready and fueled" banner="hero-banner.jpg" %}
+</section>
 
 <section class="grid max-length push-2 gutter-1-4">
   <div class="unit xs-1 text-center">
     <h3 class="push light normal">Collections</h3>
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-    {% pattern cards/category-card url="#" aria_label="Click this link to view our collection of magnets." image="/images/products/product-catonaut-mug.jpg" category="Magnets" %}
+    {% pattern cards/category-card url="#" aria_label="Click this link to view our collection of mugs." image="/images/products/product-catonaut-mug.jpg" category="Mugs" %}
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts of clothing!" image="/images/products/product-catonaut-mug.jpg" category="Clothing" %}
+    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts of clothing!" image="/images/products/product-clothing.jpg" category="Clothing" %}
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts of prints" image="/images/products/product-catonaut-mug.jpg" category="Art Prints" %}
+    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts of framed prints" image="/images/products/product-frames.jpg" category="Framed" %}
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-    {% pattern cards/category-card url="#" aria_label="Click this link to view notepads with cats on them!" image="/images/products/product-catonaut-mug.jpg" category="Notepads" %}
+    {% pattern cards/category-card url="#" aria_label="Click this link to view notepads with cats on them!" image="/images/products/product-notepad.jpg" category="Notepads" %}
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts cases for different devices!" image="/images/products/product-catonaut-mug.jpg" category="Phone Cases" %}
+    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts cases for different devices!" image="/images/products/product-phonecase.jpg" category="Phone Cases" %}
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts of stickers!" image="/images/products/product-catonaut-mug.jpg" category="Stickers" %}
+    {% pattern cards/category-card url="#" aria_label="Click this link to view all sorts of stickers!" image="/images/products/product-sticker.jpg" category="Stickers" %}
   </div>
 </section>
 
-<section class="wrapper push-2 grid">
+<section class="push-2 grid">
   <div class="unit xs-1 text-center">
     <h3 class="push light normal">Whats New?</h3>
   </div>
-  <div class="unit xs-1 gutter-1-2">
-    {% pattern sectional/half-section button_text="Learn More" button_url="#" button_aria="This link will bring you to a world of mugs" heading="Brand new mugs starting at 20% off!" desc="Get them now, deal only lasts till February 12th" image="/images/products/product-catonaut-mug.jpg" aria_label="This is an image of the new Catonaut ceramic mug" %}
+  <div class="unit xs-1">
+    {% pattern sectional/sectional-banner heading="Brand new mugs starting at 20% off!" desc="Get them now, deal only lasts till February 12th" image="/images/section-example.jpg" aria_label="This is an image of the new Catonaut ceramic mug" %}
   </div>
 </section>
 
 <section class="grid wrapper push-2">
-  <div class="unit xs-1 text-center">
-    <h3 class="push light normal">Featured Content</h3>
+  <div class="unit xs-0 m-1 text-center push">
+    <h3 class="push-0 light normal">Featured Sales</h3>
   </div>
-  <div class="unit xs-1">
+  <div class="unit xs-0 m-1">
     <div class="grid gutter-1-4 grid-stretch">
-      {% for product in site.products %}
-        <div class="unit xs-1 s-1-2 m-1-3 l-1-3 island-1-4 unit-content-distribute">
-          {% pattern cards/product-card data=product %}
+      {% for product in site.products limit:3 %}
+        <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4 unit-content-distribute">
+          {% pattern cards/sale-card data=product %}
         </div>
       {% endfor %}
     </div>

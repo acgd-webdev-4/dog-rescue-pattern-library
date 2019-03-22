@@ -24,14 +24,14 @@ patterns:
         example: "All mugs are now 20% off!"
       - name: description
         type: string
-        example: "Get it now, offer only lasts till Feburary 12th"
+        example: "Get it now, offer only lasts till February 12th"
       - name: url
         type: string
         example: "#"
   page-banner:
     title: "Page Banner"
     description: |
-      A Page banners are used for seperpate pages on the website, they do not include an image.
+      A Page banner is used for seperpate pages on the website, they do not include an image. They can include a button though. If it has a button the pattern code must include the button_text and button_url.
     fields:
       - name: heading
         type: string

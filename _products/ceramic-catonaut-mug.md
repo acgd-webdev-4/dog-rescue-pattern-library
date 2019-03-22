@@ -1,17 +1,13 @@
 ---
-name: "Catonaut Mug"
-category: "Mug"
-cat: "Ceramic Mug"
+name: "Catonaut"
+category: "Poster"
+cat: "Poster Print"
 non_conflict: false
-colors:
-  - "Black"
-  - "White"
-  - "Red"
 desc: |
-  There is nothing like a cute astronaut cat on a nice ceramic mug to keep you warm in the cold dead of space.
+  If you're gonna buy a poster you may as well buy one with a cat on it.
 artist: "Sebastian Turner"
-image: "/images/products/product-catonaut-mug.jpg"
-aria_label: "Click here if you want to learn more on the ceramic catonaut mug."
+image: "/images/products/product-catonaut-poster.jpg"
+aria_label: "Click here if you want to learn more on the Catonaut Poster."
 price: 15
 sale_price: 7
 url: "/"

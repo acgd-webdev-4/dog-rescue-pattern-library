@@ -1,0 +1,20 @@
+- name: Product
+  items:
+    - All Wall Art
+    - Posters
+    - Canvas Prints
+    - Photographic Prints
+    - Art Boards
+    - Art Prints
+    - Framed Prints
+    - Metal Prints
+    - Wall Tapestries
+
+- name: Medium
+  items:
+    - All Mediums
+    - Design & Illustration
+    - Photography
+    - Painting & Mixed Media
+    - Drawing
+    - Digital Art

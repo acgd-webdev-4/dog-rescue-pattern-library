@@ -49,8 +49,8 @@
 
 .side-check[type="checkbox"] + label::before {
   position: absolute;
-  top: -20em;
-  left: -20em;
+  top: -50em;
+  left: -50em;
 }
 
 .side-nav {
