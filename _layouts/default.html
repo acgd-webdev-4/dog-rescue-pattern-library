@@ -8,11 +8,16 @@
     <link href="https://fonts.googleapis.com/css?family=Aleo|Lato|Open+Sans" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <ul class="skip-links">
+      <li><a href="#main">Jump to main content</a></li>
+      <li><a href="#nav">Jump to navigation</a></li>
+    </ul>
+    <header role="banner" class="masthead" id="header">
       {% pattern nav/nav %}
-      {{content}}
-      {% pattern footer/Footer %}
     </header>
-
+    <main role="main" id="main" tabindex="0">
+      {{content}}
+    </main>
+      {% pattern footer/Footer %}
   </body>
 </html>
