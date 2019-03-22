@@ -4,4 +4,5 @@
   background-size: 5px;
   border-bottom: solid 3px var(--color-primary);
   color: var(--color-primary);
+  height: 30em;
 }

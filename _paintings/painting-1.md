@@ -1,5 +1,5 @@
 ---
-title: "painting-1"
+title: "Painting-1"
 description: |
   Beautiful watercolor and ink drawing of a apples with type
 image: "/images/artwork-1.jpg"
