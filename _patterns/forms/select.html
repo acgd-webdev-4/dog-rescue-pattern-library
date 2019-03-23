@@ -1,8 +1,8 @@
 <div class="push">
-  <label class="label gutter-1-4" for="select">Item</label>
-  <select id="select" class="field option-field" value="Option 1" required>
-    <option>Option 1</option>
-    <option>Option 2</option>
-    <option>Option 3</option>
+  <label class="label gutter-1-4 push-1-8" for="select">{{include.data.label}}</label>
+  <select id="select" class="field option-field" value="" required>
+    {% for size in include.data.sizes %}
+      <option>{{size}}</option>
+    {% endfor %}
   </select>
 </div>

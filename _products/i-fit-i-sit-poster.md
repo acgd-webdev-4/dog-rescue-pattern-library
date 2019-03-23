@@ -6,7 +6,9 @@ non_conflict: false
 desc: |
   Yeah, just totally ignore the $40 climbing toy I got you and sit in the old, damp, cardboard box.
 artist: "Sebastain Turner"
-image: "/images/products/product-catonaut-mug.jpg"
+image: "/images/products/product-catonaut-poster-display-main.jpg"
+image_: "/images/products/product-catonaut-poster-display-2.jpg"
+image_three: "/images/products/product-catonaut-poster-display-3.jpg"
 aria_label: "Click here if you want to learn more on the I fits I sits poster."
 paper_type: "Card Stock"
 gloss: true

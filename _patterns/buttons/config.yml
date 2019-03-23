@@ -53,6 +53,7 @@ patterns:
     description: |
       The attention button uses yellow background with drop shadow to draw the users attention. It should be used in situtations involding purchasing i.e. "add to cart" or "buy now".
     padding: 1em
+    width: 400
     fields:
       - name: text
         type: string

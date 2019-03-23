@@ -6,13 +6,17 @@ non_conflict: true
 desc: |
   A little fur ball in space.
 artist: "Sebastain Turner"
-image: "/images/products/product-catonaut-mug.jpg"
+image: "/images/products/product-catonaut-poster-display-main.jpg"
+image_two: "/images/products/product-catonaut-poster-display-2.jpg"
+image_three: "/images/products/product-catonaut-poster-display-3.jpg"
 aria_label: "Click here if you want to learn more on the cats in space poster."
 paper_type: "Card Stock"
 gloss: true
+label: "Size:"
 sizes:
-  - "8.5 x 11"
-  - "11 x 17"
+  - "Small (42cm x 52cm)"
+  - "Medium (59cm x 74cm)"
+  - "Large (59cm x 74cm)"
 price: 10
 sale_price: 8
 url: "/"

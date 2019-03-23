@@ -32,6 +32,12 @@ patterns:
     title: "Selection Field"
     description: |
       A selction field with multiple items to choose from. Should be used on a products page and checkout page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
     padding: 1em
   text-field:
     title: "Message Field"

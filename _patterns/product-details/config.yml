@@ -1,0 +1,26 @@
+title: "Product Displays"
+description: |
+  These product display patterns are to be used on the product details page only. It contains the different types of product details used for different items and must all be used in conjuction with the photo array. The photo array must always placed on the left while the product details is on the right.
+
+patterns:
+  photo-array:
+    title: "Photo Array"
+    description: |
+      This photo array is to be use in conjuction with the products details page. It should not be used anywhere else and is always placed to the left of the product details.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
+  product-detail-posters:
+    title: "Poster Details"
+    description: |
+      This contains all the neccessary information for the details on a poster product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
+    width: 400

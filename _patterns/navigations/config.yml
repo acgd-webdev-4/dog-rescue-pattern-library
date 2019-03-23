@@ -20,6 +20,7 @@ patterns:
     title: "Social Navigation"
     description: |
       The social navigation is used for quick access to the sites social presence on the web. It should only ever be used in the footer.
+    background: "--color-primary-dark"
   sidebar:
     title: "Filter Bar"
     description: |
