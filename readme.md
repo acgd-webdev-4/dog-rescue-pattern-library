@@ -30,6 +30,8 @@ This is a link to all of the UX prototypes I created. I highly recommend looking
 
 If you encounter problems or have questions I encourage you to contact me at jenny.anne.owens@gmail.com, or approach me in class.
 
+I recommend keeping the products grouped together as they behave strangely when separated.
+
 ---
 
 ##Copyright Notice
