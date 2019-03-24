@@ -22,16 +22,13 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ##General Information
 
-This website sells different kinds of monsters. Checkout the pattern library to help visualize what your page will look like.
+This website sells different kinds of monsters. Checkout the pattern library to help visualize what your page will look like. The style I am emulating is a medieval manuscript.
 
 The Netlify Link: https://xenodochial-bell-cc0d86.netlify.com
 
 This is a link to all of the UX prototypes I created. I highly recommend looking at these as they may add clarity to your work: https://drive.google.com/drive/folders/168V6Me5n2V7BhktLGn1kLhbekk8_Byb9?usp=sharing
 
 If you encounter problems or have questions I encourage you to contact me at jenny.anne.owens@gmail.com, or approach me in class.
-
-There are some product cards that need to be coded together or they don't work:
-pattern cards/creature-card data=products
 
 ---
 
