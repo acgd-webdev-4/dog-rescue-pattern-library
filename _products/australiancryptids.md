@@ -1,7 +1,7 @@
 ---
 title: Australian Cryptids
 desc: |
-  Wow, get a load of these Cryptids. They are born and raised in the Australian desert.
+  These cryptids born and raised in the Australian desert. They are resilient and exotic. See for yourself.
 image: "/images/cryptid.png"
 cost: $800
 colors:
