@@ -1,0 +1,7 @@
+.border {
+  border-top: 5px solid var(--color-primary);
+}
+
+.background {
+  background-color: var(--color-primary-light);
+}
