@@ -18,6 +18,7 @@ html {
 
 .bg {
   background-image: url("../images/background.jpg");
+  background-repeat: round;
 }
 
 h1 {
