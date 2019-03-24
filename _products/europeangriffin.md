@@ -1,7 +1,7 @@
 ---
 title: European Griffin
 desc: |
-  Wow, get a load of these Griffins. They are born and raised in Europe and are grain fed.
+  These Griffins are born and raised in Europe and are grain fed. They are exceptionally intelligent. Browse our collection.
 image: "/images/griffin.png"
 cost: $700
 colors:
