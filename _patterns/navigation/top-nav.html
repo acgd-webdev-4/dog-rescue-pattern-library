@@ -7,12 +7,13 @@
   </div>
   <nav class=" unit s-1 m-1 l-3-4 text-center pad-t-1-4">
     <ul class="nav list-group">
-      <li><a class="island current" href="/index.html">Home</a></li>
-      <li><a class="island" href="#">About</a></li>
-      <li><a class="island" href="#">Shop Intention</a></li>
-      <li><a class="island" href="#">Learn</a></li>
-      <li><a class="island" href="#">Blog</a></li>
-      <li><a class="island" href="#">Contact</a></li>
+      <li class="{% if page.highlight_nav =='index' %}current{% endif %}"><a class="island" href="/index.html">Home</a></li>
+      <li class="{% if page.highlight_nav =='about' %}current{% endif %}"><a class="island" href="#">About</a></li>
+      <li class="{% if page.highlight_nav =='products' %}current{% endif %}"><a class="island" href="/products/products">Shop Intention</a></li>
+      <li class="{% if page.highlight_nav =='learn' %}current{% endif %}"><a class="island" href="#">Learn</a></li>
+      <li class="{% if page.highlight_nav =='blog' %}current{% endif %}"><a class="island" href="#">Blog</a></li>
+      <li class="{% if page.highlight_nav =='contact' %}current{% endif %}"><a class="island" href="#">Contact</a></li>
+      <li class="shopping-cart island-1-2 {% if page.highlight_nav =='cart' %}current{% endif %}"><a class="" href="#"><i class="icon i-48"><svg><use xlink:href="/images/icons.svg#cart"></use></svg></i></a></li>
     </ul>
   </nav>
 </header>

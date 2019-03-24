@@ -32,3 +32,12 @@ patternbot:
       The primary colours represent a calm more down to earth tone. They are mellows tones and help the user to get a peacful organized flow through the website. These colours are to be used as background colours to seperate sections of the website to help the website stay organized.
     colors.secondary: |
       The secondary colours still stay in the earth tone palette but are more dramatic to draw attention for the buttons, and cards. These colours will be used thourgh out the website.
+  collections:
+    products:
+      output: true
+
+  default:
+  - scope:
+      path: _products
+    values:
+      laoyout: product

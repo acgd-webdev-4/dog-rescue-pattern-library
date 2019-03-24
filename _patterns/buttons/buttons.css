@@ -19,6 +19,16 @@
   color: var(--color-secondary);
 }
 
+.btn-white {
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+.btn-white:hover {
+  color: var(--color-primary-light);
+  border: 3px solid #fff;
+}
+
 .btn-ghost:hover {
   background-color: var(--color-primary);
   border: solid 3px var(--color-primary);

@@ -1,5 +1,11 @@
+title: "Banners"
+description: |
+  Banners are to be used at the top of each page to give seperation form navigation and content. Some banners can have an image but other banners don't require one because it is to disracting.
+
 patterns:
   banner:
+    title: "Banner"
+    description: This banner is used on the homepage, and can be used on other pages that won't distract from the content
     width: 1900
     fields:
       - name: heading
@@ -14,3 +20,14 @@ patterns:
       - name: button_text
         type: string
         example: "Crystals"
+  plain:
+    title: "Plain"
+    description: This banner is to be used on other pages when thier is a large amount of content on the page that a banner with an image would be to disracting
+    width: 1900
+    fields:
+      - name: heading
+        type: string
+        example: "Crystals"
+      - name: details
+        type: string
+        example: "Find the right crystal for you"

@@ -1,0 +1,17 @@
+title: "sections"
+description: |
+  Sections are used when the page uses the repeated pattern on the specific page that is it being used on.
+
+patterns:
+  best-sellers:
+    title: "Best Sellers"
+    description: This section is for specifically for best sellers to encourage users to go visit some of the best selling items
+  cart-page:
+    title: "Cart Page"
+    description: This section is for the cart page when users are proceeding check out
+  crystal:
+    title: "Crystal"
+    description: This section is used when going to a specific crystals/inetetion of crystal to show case all the variations of the crystals in that section of crystals.
+  intention:
+    title: "Intention"
+    description: This section is to show case which section the user would like to shop by. Helping users to shop for specific crystals
