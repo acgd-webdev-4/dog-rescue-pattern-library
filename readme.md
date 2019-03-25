@@ -35,6 +35,13 @@ I recommend keeping the products grouped together as they behave strangely when 
 
 ---
 
+##Collaborators
+
+- [@jowens96] (https://github.com/jowens96)
+- [@aspirationyc] (https://github.com/aspirationyc)
+
+---
+
 ##Copyright Notice
 
 Copyright Jenny Owens 2019
