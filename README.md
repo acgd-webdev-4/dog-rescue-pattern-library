@@ -21,3 +21,9 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 View the website at Netlify:
 [https://happy-kowalevski-3ae54e.netlify.com/pattern-library/#brand]
 (https://happy-kowalevski-3ae54e.netlify.com/pattern-library/#brand)
+
+---
+
+## Collaborators
+
+- [@sander-aaron](https://github.com/sander-aaron)
