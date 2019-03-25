@@ -1,0 +1,8 @@
+<div>
+  <label class="label gutter-1-2 push-1-8" for="basic-req-{{include.id}}">{{include.label}}</label>
+  <input class="field" id="basic-req-{{include.id}}" type="text" placeholder="{{include.placeholder}}" aria-describedby="{{include.id}}-msg-error" required>
+  <p class="error-message milli island-1-4 push-0" id="{{include.id}}-msg-error">
+    <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#warning" /></svg></i>
+    <span class="icon-label">{{include.warning_msg}}</span>
+  </p>
+</div>

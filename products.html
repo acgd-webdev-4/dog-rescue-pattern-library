@@ -5,15 +5,18 @@ highlight_nav: posters
 filters: filters-posters
 ---
 
-{% pattern banners/page-banner heading="Posters" %}
+<section>
+  {% pattern banners/page-banner heading="Posters" %}
+</section>
 
-<div class="grid grid-top wrapper-2">
 
-  <div class="unit xs-1 gutter">
+<main class="grid grid-top wrapper-2">
+
+  <section class="unit xs-1 gutter">
     {% pattern navigations/breadcrumbs %}
-  </div>
+  </section>
 
-  <div class="unit xs-1 s-1 m-1 l-1-4 gutter">
+  <section class="unit xs-1 s-1 m-1 l-1-4 gutter">
     <h5 class="normal gutter-1-4">Filters</h5>
     <div class="grid">
       {% for filter in site.data[page.filters] %}
@@ -22,9 +25,9 @@ filters: filters-posters
       </div>
       {% endfor %}
     </div>
-  </div>
+  </section>
 
-  <div class="unit xs-1 s-1 m-1 l-3-4">
+  <section class="unit xs-1 s-1 m-1 l-3-4">
     <div class="grid gutter-1-4 grid-stretch">
       {% for product in site.products %}
         <div class="unit xs-1 s-1-2 m-1-3 l-1-3 island-1-4 unit-content-distribute">
@@ -35,6 +38,6 @@ filters: filters-posters
         {% pattern navigations/page-nav %}
       </div>
     </div>
-  </div>
+  </section>
 
-</div>
+</main>

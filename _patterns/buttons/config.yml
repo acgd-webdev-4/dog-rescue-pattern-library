@@ -68,7 +68,13 @@ patterns:
     title: "Submit Button"
     description: |
       The submit button is a special case scenario. It does not link to others pages but submits a form and is used in relation with an input field such as the search bar or a checkout screen.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "Submit"
   icon-search:
     title: "Icon Search Button"
     description: |
       The icon search button is a super special case scenario. It is like the submit button, but can only be used with the alternate search field pattern. You should not have to use this pattern unless their is a special case.
+    padding: 1em

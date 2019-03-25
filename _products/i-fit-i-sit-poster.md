@@ -12,11 +12,12 @@ image_three: "/images/products/product-catonaut-poster-display-3.jpg"
 aria_label: "Click here if you want to learn more on the I fits I sits poster."
 paper_type: "Card Stock"
 gloss: true
+label: "Size:"
 sizes:
-  - "8.5 x 11"
-  - "11 x 17"
-  - "12 x 18"
+  - "Small (42cm x 52cm)"
+  - "Medium (59cm x 74cm)"
+  - "Large (59cm x 74cm)"
 price: 13
 sale_price: 10
-url: "/"
+link: "/"
 ---

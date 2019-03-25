@@ -37,21 +37,22 @@ a:hover {
   transition: all .1s linear;
 }
 
-ul, ol, dl {
-  color: var(--color-primary-dark);
-}
-
-blockquote {
+ul,
+ol,
+dl,
+blockquote,
+legend,
+b,
+strong,
+abbr,
+th,
+tr {
   color: var(--color-primary-dark);
 }
 
 cite {
   color: var(--color-primary-light);
   font-family: var(--font-secondary);
-}
-
-b, strong, abbr {
-  color: var(--color-primary-dark);
 }
 
 del {

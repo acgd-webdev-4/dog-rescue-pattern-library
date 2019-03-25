@@ -1,0 +1,17 @@
+title: "Checkout"
+description: |
+  The page holds all the necessary pieces to build the checkout page website.
+
+patterns:
+  items:
+    title: "Items Summary Table"
+    description: |
+      The items table holds all the items the user has chosen. It displays the basic information of the product. This include its title, the chosen size or colour, the quantity, price, and the subtotal. It should always be located at the top of the checkout page.
+  cart-summary:
+    title: "Cart Summary List"
+    description: |
+      The cart summary list contains the cost summary of all the items the user has chosen. The total price, shipping cost, taxes, and the total price. It should be located to the left of the checkout form, but at the bottom so the user can review to final price before paying.
+  checkout-form:
+    title: "Checkout Form"
+    description: |
+      The checkout form contains all the necessary information for the user to fill out, submit, and pay for the products. It should be located left of the summary and below the item table.

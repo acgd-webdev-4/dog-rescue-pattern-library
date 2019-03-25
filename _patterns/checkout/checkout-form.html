@@ -1,0 +1,95 @@
+<form class="text-center checkout pad-t pad-b gutter-1-2" action="https://formspree.io/turn0213@algonquinlive.com" method="POST">
+  <h2 class="push-1-2 giga text-upper">Checkout</h2>
+  <div class="error-message error-message-highlighted push island-1-4 pad-b" role="alert" aria-live="assertive">
+    <h3 class="push-0 error-label">
+      <i class="icon i-32"><svg><use xlink:href="/images/icons.svg#warning" /></svg></i>
+      <span class="icon-label mega">There are items that require your attention!</span>
+    </h3>
+  </div>
+  <div>
+    <svg height="60" width="60">
+      <line x1="27" y1="0" x2="27" y2="60" style="stroke:var(--color-secondary-darker);stroke-width:2" />
+    </svg>
+  </div>
+  <fieldset class="text-left push-0">
+    <legend class="text-center step push">
+      <div class="number ib relative">
+        <svg height="60" width="60">
+          <circle cx="30" cy="30" r="25" fill="var(--color-blue)" />
+        </svg>
+        <span class="push mega push-0 pin-c number pad-b-1-4">1</span>
+      </div>
+      <span class="giga block normal">Shipping Details</span>
+    </legend>
+    <div class="grid">
+      <div class="push-1-2 unit xs-1 m-1-2 gutter-1-4">
+        {% pattern forms/basic-field-req label="Full Name" id="1" warning_msg="Please enter your full name here." placeholder="Enter your full name here" %}
+      </div>
+      <div class="push-1-2 unit xs-1 m-1-2 gutter-1-4">
+        {% pattern forms/telephone %}
+      </div>
+      <div class="push-1-2 unit xs-1 m-2-3 gutter-1-4">
+        {% pattern forms/email %}
+      </div>
+      <div class="push-1-2 unit xs-1 m-1-3 gutter-1-4">
+        {% pattern forms/basic-field-req label="Postalcode" id="4" warning_msg="Please enter a valid postalcode here." placeholder="A1A 1A1" %}
+      </div>
+      <div class="push-1-2 unit xs-1 m-1-2 gutter-1-4">
+        {% pattern forms/province %}
+      </div>
+      <div class="push-1-2 unit xs-1 m-1-2 gutter-1-4">
+        {% pattern forms/basic-field-req label="City" id="3" warning_msg="Please enter your city here." %}
+      </div>
+      <div class="push-1-2 unit xs-1 gutter-1-4">
+        {% pattern forms/basic-field-req label="Address Line 1" id="2" warning_msg="Please enter your full address here." placeholder="Enter your address here"%}
+      </div>
+      <div class="push-1-2 unit xs-1 gutter-1-4">
+        {% pattern forms/basic-field label="Address Line 2" id="1" %}
+      </div>
+      <div class="unit xs-1 gutter-1-2">
+        {% pattern forms/radio %}
+      </div>
+    </div>
+  </fieldset>
+  <div>
+    <svg height="60" width="60">
+      <line x1="27" y1="0" x2="27" y2="60" style="stroke:var(--color-secondary-darker);stroke-width:2" />
+    </svg>
+  </div>
+  <fieldset class="text-left step-2">
+    <legend class="text-center step push">
+      <div class="number ib relative">
+        <svg height="60" width="60">
+          <circle cx="30" cy="30" r="25" fill="var(--color-blue)" />
+        </svg>
+        <span class="push mega push-0 pin-c number pad-b-1-4">2</span>
+      </div>
+      <span class="giga block normal">Payment Details</span>
+    </legend>
+    <div class="grid">
+      <div class="unit xs-1 m-1-2 gutter-1-4 push-1-2">
+        {% pattern forms/basic-field-req label="Name on Card" id="5" warning_msg="Please enter the full name on the credit card here." %}
+      </div>
+      <div class="unit xs-1 m-1-2 gutter-1-4 push-1-2">
+        {% pattern forms/date-picker %}
+      </div>
+      <div class="unit xs-1 m-3-4 gutter-1-4 push-1-2">
+        {% pattern forms/basic-field-req label="Credit Card Number" id="6" warning_msg="Please enter a valid credit card number here." %}
+      </div>
+      <div class="unit xs-1 m-1-4 gutter-1-4 push">
+        {% pattern forms/basic-field-req label="CVC" id="7" warning_msg="Please enter a valid cvc code." %}
+      </div>
+      <div class="unit xs-1 gutter-1-2 push-1-2">
+        {% pattern forms/checkbox label="Want to recieve promotional offers?" id="1" %}
+      </div>
+      <div class="unit xs-1 gutter-1-2 push-1-2">
+        {% pattern forms/checkbox-required label="Agree to Terms & Services" id="1" warning_msg="You must accept the Terms & Services in order to continue." %}
+      </div>
+    </div>
+  </fieldset>
+  <div class="text-center gutter">
+    {% pattern buttons/submit text="Review & Pay" %}
+  </div>
+</form>
+
+<script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>

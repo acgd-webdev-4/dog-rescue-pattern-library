@@ -2,11 +2,16 @@
   <div class="poster-info gutter-1-4">
     <h1 class="giga push-0 ">{{include.data.name}}</h1>
     <h2 class="kilo product-subhead text normal push">{{include.data.category}}</h2>
-    <h3 class="normal push-1-2">${{include.data.price}}<span class="kilo bold text-upper"> can</span></h3>
+    <h3 class="normal push">${{include.data.price}}<span class="kilo bold text-upper"> can</span></h3>
   </div>
   <div>
     <div class="push-2 text-left">
-      {% pattern forms/select data=product %}
+      <div class="push-1-2">
+        {% pattern forms/select data=product %}
+      </div>
+      <div class="push-1-2 w-1-4">
+        {% pattern forms/quantity %}
+      </div>
     </div>
     <div class="push-2">
       {% pattern buttons/attention text="Add To Cart" url="#" aria_label="This link will add the catonaut poster to your cart" %}

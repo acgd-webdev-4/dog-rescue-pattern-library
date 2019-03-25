@@ -12,10 +12,11 @@ image_three: "/images/products/product-catonaut-poster-display-3.jpg"
 aria_label: "Click here if you want to learn more on the cats being cats poster."
 paper_type: "Card Stock"
 gloss: true
+label: "Size:"
 sizes:
-  - "8.5 x 11"
-  - "11 x 17"
+  - "Medium (59cm x 74cm)"
+  - "Large (59cm x 74cm)"
 price: 10
 sale_price: 8
-url: "/"
+link: "/"
 ---

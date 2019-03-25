@@ -3,22 +3,41 @@ description: |
   Forms are to be used in realtion with a submit button. Every id field must be unique to the form it is placed in.
 
 patterns:
-  basic-field:
-    title: "Basic Input Field"
+  basic-field-req:
+    title: "Required Basic Field"
     description: |
-      This is a standard input field meant for short lines of text. Should only be found in the checkout page and sign-up page, mainly for naming purposes.
+      This is a standard required input field for short lines of text. It should only be found in the checkout, sign-up or log-in page. It can be used as a name field or an address field.
+    padding: 1em
     fields:
       - name: label
         type: string
         example: "Full Name"
       - name: id
         type: string
-        example: "name"
+        example: "1"
+      - name: warning_msg
+        type: string
+        example: "Please enter your full name here."
       - name: placeholder
         type: string
         example: "Enter your full name here"
         required: false
+  basic-field:
+    title: "Basic Field"
+    description: |
+      This is a standard input field meant for short lines of text. It can be used where necessary. A good example for this is a second address line that would not be required.
     padding: 1em
+    fields:
+      - name: label
+        type: string
+        example: "Address Line 2"
+      - name: id
+        type: string
+        example: "1"
+      - name: placeholder
+        type: string
+        example: "Enter your full name here"
+        required: false
   telephone:
     title: "Phone Number Field"
     description: |
@@ -27,7 +46,23 @@ patterns:
   email:
     title: "Email Field"
     description: |
-      This is a standard email field. This can be found on the checkpage and sign-up page.
+      This is a standard email field. This can be found on the checkout and sign-up page.
+    padding: 1em
+  date-picker:
+    title: "Date Picker"
+    description: |
+      This date picker field is for choosing specific dates. It should only be found on the checkout page as an expirey date for credit cards.
+    padding: 1em
+  password:
+    title: "Password Field"
+    description: |
+      This is a password field. This is to be used in the sign-up form or log-in page.
+    padding: 1em
+  province:
+    title: "Province Field"
+    description: |
+      This is a select field geared towards provinces. This can be found on the checkout page.
+    padding: 1em
   select:
     title: "Selection Field"
     description: |
@@ -47,12 +82,39 @@ patterns:
   checkbox:
     title: "Checkboxes"
     description: |
-      This is a standard checkbox. This should be used in the checkout page or in relation with sign-up to recieve emails, offers and agreement to terms.
+      This is a standard checkbox. This should be used in the checkout page or in with the sign-up form to recieve emails, offers and other non-contract agreements.
+    fields:
+      - name: label
+        type: string
+        example: "Want to recieve promotional offers?"
+      - name: id
+        type: string
+        example: "1"
     padding: 1em
+  checkbox-required:
+    title: "Checkbox Required"
+    description: |
+      This checkbox is to be used when it is required to be checked in order to continue. A common place for this is during the checkout process.
+    padding: 1em
+    fields:
+      - name: label
+        type: string
+        example: "Agree to Terms & Services"
+      - name: id
+        type: string
+        example: "1"
+      - name: warning_msg
+        type: string
+        example: "You must accept the Terms & Services in order to continue."
   quantity:
     title: "Quantity Field"
     description: |
       This quantity field used to determine how many of an item the customer may want. It can be found on the products page before adding to cart or even on the checkout page if the customer decides they want less or more.
+    fields:
+      - name: hidden
+        type: string
+        example: "visually-hidden"
+        required: false
     padding: 1em
   radio:
     title: "Radio Buttons"

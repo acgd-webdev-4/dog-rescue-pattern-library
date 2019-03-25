@@ -1,0 +1,8 @@
+<div>
+  <input id="check-req-{{include.id}}" type="checkbox" required aria-describedby="{{include.id}}-agree-error">
+  <label for="check-req-{{include.id}}" class="check milli">{{include.label}}</label>
+  <p class="error-message milli island-1-4 push-0" id="{{include.id}}-agree-error">
+    <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#warning" /></svg></i>
+    <span class="icon-label">{{include.warning_msg}}</span>
+  </p>
+</div>
