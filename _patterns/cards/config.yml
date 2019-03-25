@@ -14,3 +14,13 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+  featured:
+    title: "Featured New Music"
+    description: |
+      This card is used only on the home page to advertise new releases. This will appear once throughout the site, but will update as new music is released, with different images placed inside to promote the merchandise.
+    fields:
+      - name: data2
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
