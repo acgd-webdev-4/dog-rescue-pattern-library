@@ -1,6 +1,6 @@
 title: "Photos"
 description: |
-    These images can be used at the top of the page on every page as a banner. They change depending on what page is active. Feel free to play around with which banners are on which page. The only one set in stone is the homepage banner with the Griffin & text. Alternatively, you could also use them as product photography.
+    These images can be used at the top of the page on every page as a banner or as a product image. They can change depending on what page is active. Feel free to play around with which banners are on which page. The only one set in stone is the homepage banner with the Griffin & text.
 
 patterns:
   checkout-banner:
@@ -23,3 +23,27 @@ patterns:
     title: "Testimonial Image"
     description: |
       This is Sven Svensalot, our testimonial guy. He is located on the homepage with some text describing his experience with the service. The code for his testimonial is located under sections > testimonial-section.html
+  american-cryptid:
+    title: "North American Cryptid"
+    description: |
+      Product photo for a North American Cryptid.
+  australian-cryptid:
+    title: "Australian Cryptid"
+    description: |
+      Product photo for an Australian Cryptid.
+  chinese-dragon:
+    title: "Chinese Dragon"
+    description: |
+      Product photo for a Chinese Dragon.
+  european-dragon:
+    title: "European Dragon"
+    description: |
+      Product photo for a European Dragon.
+  european-griffin:
+    title: "European Griffin"
+    description: |
+      Product photo for a European Griffin.
+  iranian-griffin:
+    title: "Iranian Griffin"
+    description: |
+      Product photo for an Iranian Griffin.
