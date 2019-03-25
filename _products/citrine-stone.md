@@ -1,0 +1,13 @@
+---
+name: "Citrine Stone"
+details: "Happiness • Positivity • Abundance"
+description: |
+  Citrine brings sunshine into your life. Its radiant energy cultivates positivity, growth and abundance.
+image: "/images/crystals/citrine-stone.png"
+price: 5.95
+size: "~.75"
+colors:
+  - "blue"
+shape: "Round"
+category: wealth
+---

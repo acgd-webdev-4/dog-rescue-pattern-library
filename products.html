@@ -1,0 +1,51 @@
+---
+layout: default
+highlight_nav: products
+---
+{% pattern banner/plain button_text="see collection"  button_url="/products/" heading="Crystals" details="Find the right crystal for you" %}
+
+<div class="island">
+  {% pattern sections/intention %}
+</div>
+
+<div class="island-2">
+  <h2 class="text-center" id="energy">Energy & Protection Crystals</h2>
+  <p>When you’re trying to make progress in life, you can’t afford to let the negative energy of others hold you back. That’s why powerful protection stones like Black Obsidian, Black Tourmaline, and Black Onyx are important tools to absorb internal negativity and shield you against the dark energy of others. Our jewelry for protection is specially designed with a combo of stones that are known for creating a force field against negative energy. Include our unique pairing of crystals in your collection, and let the black stones be your spiritual bodyguard while the throat chakra stones like Lapis Lazuli release your pent up emotions. These protection stones give you the power and support you need to feel secure in your spiritual transformation.</p>
+  <div class="grid gutter-1-4">
+    {% for product in site.products %}
+    {% if product.category == "energy" %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+      {% pattern cards/image data=product %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="island-2">
+  <h2 class="text-center" id="wealth">Wealth & Success</h2>
+  <p>If you want to attract money and success into your life, crystals like Aventurine, Jade, and Malachite are a must-have for your gem collection.  Used for centuries as powerful lucky charms, these crystals are what you need to be a boss at whatever you do. When you add the complementary energy of other stones like Citrine, Tiger’s Eye, and Pyrite, you’ve got a crystal powerhouse of wealth-attracting vibrations.</p>
+  <div class="grid gutter-1-4">
+    {% for product in site.products %}
+    {% if product.category == "wealth" %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+      {% pattern cards/image data=product %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="island-2">
+  <h2 class="text-center" id="love">Love & Happiness</h2>
+  <p>If you believe in love, then you owe it to yourself to indulge in these love bracelets and jewelry pieces. Made with a magical combination of healing crystals, our love and happiness bracelets and necklaces are just what you need to attract all kinds of love, including self-love, love for life and romantic love. Wherever you happen to be on your spiritual journey, our love and happiness jewelry has the perfect frequencies for your heart to flourish and grow.</p>
+  <div class="grid gutter-1-4">
+    {% for product in site.products %}
+    {% if product.category == "love" %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+      {% pattern cards/image data=product %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

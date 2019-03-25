@@ -33,11 +33,10 @@ patternbot:
     colors.secondary: |
       The secondary colours still stay in the earth tone palette but are more dramatic to draw attention for the buttons, and cards. These colours will be used thourgh out the website.
 collections:
-products:
-  output: true
-
+  products:
+    output: true
 defaults:
 - scope:
-  path: _products
-values:
-  laoyout: product
+    path: _products
+  values:
+    layout: product

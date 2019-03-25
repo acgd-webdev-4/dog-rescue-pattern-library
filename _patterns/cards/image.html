@@ -1,10 +1,10 @@
 <div class="card chop background">
-  <img class="img-flex" src="/images/crystals/{{include.image}}" alt="">
+  <img class="img-flex" src="{{include.data.image}}" alt="">
   <div class="island-1-2">
-    <h2>{{include.title}}</h2>
-    <p><i>{{include.details}}</i><br>
-      {{include.more-details}}
+    <h2>{{include.data.title}}</h2>
+    <p><i>{{include.data.details}}</i><br>
+      {{include.data.more-details}}
     </p>
-    {% pattern buttons/basic text=include.button_text%}
+    {% pattern buttons/basic text=include.button_text url=include.data.url%}
   </div>
 </div>

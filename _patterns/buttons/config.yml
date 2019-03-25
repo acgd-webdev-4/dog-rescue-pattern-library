@@ -10,6 +10,9 @@ patterns:
       - name: text
         type: string
         example: "Add to Cart"
+      - name: btn-text
+        type: string
+        example: "#"
   ghost:
     title: "Ghost"
     description: The ghost button should only be used on banners and in situations where the background is a photo

@@ -8,6 +8,11 @@ patterns:
     description: This card is used to showcase a small discription of the crystal that is being showcased before the customer moves forward to read more about the product and pruchase
     width: 400
     fields:
+      - name: data
+      type: object
+      data:
+        source: "site.products[0]"
+        type: Product
       - name: title
         type: string
         example: "Rose Quartz Stone"

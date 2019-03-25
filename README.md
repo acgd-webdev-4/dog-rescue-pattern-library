@@ -19,6 +19,12 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
 
 ---
+## Collaborators
+
+- [@ceci-bowles](https://github.com/ceci-bowles)
+- [@]
+---
+
 Shop by intention
 
 Protection & Energy Clearing
@@ -44,3 +50,20 @@ Life has a lot of ups and downs, but connecting with the resilient energy of the
 
 New Beginnings
 Need an all-over spiritual cleanse? If you’re in need of an emotional facelift, get ready to hit the reset button on your life with our collection of new beginnings jewelry. Combined to create a powerful energetic field, jewelry for fresh starts have a cleansing and purifying effect on the chakras. When you wear our new beginnings necklaces or bracelets, it helps you reconnect with the gentle and steady rhythm of the universe and your limitless potential to heal and rejuvenate.
+
+---
+Protection & Energy Clearing
+
+Details
+When you’re attracted to <strong>Black Tourmaline</strong>, it often means you need release tension, and permit your spirit the comfort of an extra layer of protection. Allow your black tourmaline to help you to detox from all the toxic thoughts that are holding your emotions captive. This is like a juice cleanse for the soul. It purges stress and tensions from the aura, and leaves you feeling lighter.
+
+Black Tourmaline is one of the most powerful crystals for protection and elimination of negative energy. It helps to put an energetic boundary between you and others, so that you don’t pick up unwanted energies. Use your Black Tourmaline touchstones in a meditation each morning to create a shield of protection around your body before you leave your home.
+
+Although not typically thought of for this, Black Tourmaline is also one of the most powerful crystals for anxiety. When you feel yourself getting overwhelmed, or if you're having an anxiety attack, hold a Black Tourmaline touchstone in each hand and you will feel its energy sucking the negativity, fear and bad vibes out of your body.
+
+How to Used
+1.Each morning, meditate with a Black Tourmaline touchstone in each hand to clear any negativity and create a shield of energetic protection.
+
+2.Keep your touchstone on your office desk as a touchstone to relieve stress and tension. When you feel overwhelmed or anxious during the work day, grab your touchstone, close your eyes and take 11 deep breaths in through the nose and out through the mouth.
+
+3.Place a Black Tourmaline touchstone on either side of your front door to create a barrier of protection as people go in and out of your space.
