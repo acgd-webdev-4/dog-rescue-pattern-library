@@ -1,6 +1,6 @@
 title: "Sections"
 description: |
-  Sections include indepth info regarding the product description, includes add to cart button.
+  Sections include indepth info regarding the product description, includes add to cart button which leads to cart page.
 
 patterns:
   sections:
