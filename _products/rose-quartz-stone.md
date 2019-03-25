@@ -1,13 +1,8 @@
 ---
-name: "Rose Quartz Stone"
+title: "Rose Quartz Stone"
 details: "Unconditional Love • Happiness • Passion"
-description: |
+more-details: |
   See the world through rose tinted glasses by tapping into the unconditional love of Rose Quartz Tumbled Stone.
 image: "/images/crystals/rose-quartz-stone.png"
-price: 5.95
-size: "~.75"
-colors:
-  - "pink"
-shape: "Round"
 category: love
 ---

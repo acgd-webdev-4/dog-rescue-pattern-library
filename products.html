@@ -49,3 +49,17 @@ highlight_nav: products
     {% endfor %}
   </div>
 </div>
+
+<div class="island-2">
+  <h2 class="text-center" id="health">Health & Wellness</h2>
+  <p>When it comes to health and wellness, healing crystals are a must-have for supporting your mind-body-spirit. Our collection of health and wellness jewelry is made with powerful crystal combos, which help create a synergistic wave of healing frequencies. Using stones with healing properties, like Turquoise, Sodalite, Jasper, and more, our health and wellness jewelry is designed to give you support, whether it’s for a performance, general good health, or pure energy.</p>
+  <div class="grid gutter-1-4">
+    {% for product in site.products %}
+    {% if product.category == "health" %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+      {% pattern cards/image data=product %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
