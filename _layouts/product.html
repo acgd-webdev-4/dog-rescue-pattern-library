@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+
+<div class="grid island-2 gutter-2">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <img class="img-flex" src="{{page.image}}" alt="">
+  </div>
+  <div class="island unit xs-1 s-1 m-1-2 l-1-2">
+    <h1>{{page.title}}</h1>
+    <p class="gutter-1-2">$8.00</p>
+    <p class="gutter-1-2">{{page.description}}</p>
+    <p class="gutter-1-2">Quantity: 1</p>
+    <div class="gutter-1-2 text-center">
+      {% pattern buttons/light %}
+    </div>
+  </div>
+</div>
