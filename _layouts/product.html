@@ -1,3 +1,22 @@
 ---
 layout: default
 ---
+
+{% pattern photos/product-page-banner %}
+{% pattern secondary-navigations/breadcrumbs %}
+<div class="grid">
+
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] content-fill unit-content-distribute">
+    <h1 class="text-center pad-t">{{page.title}}</h1>
+    <img class="creature-image center-block gutter-1-2 pad-b-2" src="{{page.image}}" alt="">
+  </div>
+
+    <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-2">
+      <p class="push-1-2"><b>Cost: </b><span class="tera">{{page.cost}}</span></p>
+      <p class="push-1-2"><b>Description: </b>{{page.desc}}</p>
+      <p class="push-1-2"><b>Colors: </b>{{page.colors|join:', '}}</p>
+      <p class="push-1-2"><b>Personalities: </b>{{page.personality|join:', '}}</p>
+      {% pattern buttons/basic text="Add to Cart" url="/griffins/" %}
+    </div>
+
+</div>

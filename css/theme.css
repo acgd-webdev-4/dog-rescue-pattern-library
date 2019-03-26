@@ -79,10 +79,6 @@ nav > a {
   text-decoration: none;
 }
 
-/* nav a:active {
-  text-decoration: underline;
-} */
-
 a {
   font-family: var(--font-primary);
   text-decoration: none;
@@ -93,8 +89,6 @@ a {
   font-family: var(--font-primary);
   color: var(--color-black);
 }
-
-/* make sure to add a direction class */
 
 blockquote {
   font-family: var(--font-primary);
@@ -113,4 +107,8 @@ footer {
 
 mark {
   background-color: var(--color-black);
+}
+
+.creature-image {
+  max-width: 400px;
 }
