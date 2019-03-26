@@ -13,7 +13,7 @@ aria_label: "Click here if you want to learn more on the cats being cats poster.
 paper_type: "Card Stock"
 gloss: true
 label: "Size:"
-sizes:
+options:
   - "Medium (59cm x 74cm)"
   - "Large (59cm x 74cm)"
 price: 10
