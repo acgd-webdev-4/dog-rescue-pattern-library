@@ -5,7 +5,7 @@ cat: "Poster Print"
 non_conflict: false
 desc: |
   Yeah, just totally ignore the $40 climbing toy I got you and sit in the old, damp, cardboard box.
-artist: "Sebastain Turner"
+artist: "Sebastian Turner"
 image: "/images/products/product-catonaut-poster-display-main.jpg"
 image_: "/images/products/product-catonaut-poster-display-2.jpg"
 image_three: "/images/products/product-catonaut-poster-display-3.jpg"
@@ -19,5 +19,4 @@ sizes:
   - "Large (59cm x 74cm)"
 price: 13
 sale_price: 10
-link: "/product-details/"
 ---

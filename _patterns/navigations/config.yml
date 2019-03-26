@@ -30,3 +30,7 @@ patterns:
     description: |
       This tool bar is located on every page of the website along with the header. It gives the user quick access to login in, sign up or access their cart. It should always be found at the top of page unless there is a promotion banner, then it is found directly underneath it.
     padding: 1em
+  page-jump:
+    title: "To Top button"
+    description: |
+      This button is included in the main navigation already and will appear across all pages.
