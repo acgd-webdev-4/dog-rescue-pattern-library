@@ -19,3 +19,11 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
 5. View the pattern library websit at:
 [https://epic-khorana-dd08aa.netlify.com/pattern-library/#brand](https://epic-khorana-dd08aa.netlify.com/pattern-library/#brand)
+
+---
+
+## Collaborators
+
+- [@Sebby-T](https://github.com/Sebby-T)
+- [@Pinestorm](https://github.com/Pinestorm)
+- [@nep2ne](https://github.com/nep2ne)
