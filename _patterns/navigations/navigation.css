@@ -157,12 +157,13 @@
   background-color: var(--color-secondary-dark);
 }
 
-.main-nav li {
-  border-bottom: 2px solid transparent;
+.sub-nav:checked ~ label > span {
+  color: var(--color-primary-light);
+  border-bottom: 2px solid var(--color-primary);
 }
 
-.main-nav li:hover {
-  border-bottom-color: var(--color-primary);
+.main-nav li {
+  border-bottom: 2px solid transparent;
 }
 
 .main-nav li > label:hover {
@@ -227,6 +228,15 @@
 
   .main-nav {
     display: block;
+  }
+
+  .main-nav li:hover {
+    border-bottom-color: var(--color-primary);
+  }
+
+  .sub-nav:checked ~ label > span {
+    color: var(--color-primary-light);
+    border-bottom: none;
   }
 
   .sec-nav {

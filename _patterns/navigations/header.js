@@ -8,7 +8,7 @@ $subnav.on('change', function(){
   if (isOpen) {
     $(this).prop('checked', true)
   }
-})
+});
 
 $sidebar.on('change', function(){
   var isOpen = $(this).prop('checked')
@@ -19,8 +19,8 @@ $sidebar.on('change', function(){
 });
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    console.log($btn.addClass('show'));
+  if ($(window).scrollTop() > 600) {
+    $btn.addClass('show');
   } else {
     $btn.removeClass('show');
   }
