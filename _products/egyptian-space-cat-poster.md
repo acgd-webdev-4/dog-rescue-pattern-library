@@ -5,7 +5,7 @@ cat: "Poster Print"
 non_conflict: false
 desc: |
   Like cats in space but now with egyptian cats
-artist: "Sebastain Turner"
+artist: "Sebastian Turner"
 image: "/images/products/product-cats-in-space-main.jpg"
 image_two: "/images/products/product-cats-in-space-display-2.jpg"
 image_three: "/images/products/product-cats-in-space-display-3.jpg"
@@ -19,5 +19,4 @@ sizes:
   - "Large (59cm x 74cm)"
 price: 13
 sale_price: 10
-link: "/product-details/"
 ---
