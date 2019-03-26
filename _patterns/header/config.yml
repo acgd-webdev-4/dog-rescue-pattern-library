@@ -6,3 +6,8 @@ patterns:
   header-main:
     title: "Main Header"
     description: |
+      This header is to be used on the main page only and is already supplied in the front layout.
+  header-sec:
+    title: "Inside Header"
+    description: |
+      This header is to be used on all inside pages only and is already supplied in the inside layout.
