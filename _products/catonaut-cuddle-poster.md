@@ -18,5 +18,5 @@ sizes:
   - "Medium (59cm x 74cm)"
 price: 10
 sale_price: 8
-link: "/test/"
+link: "/product-details/"
 ---

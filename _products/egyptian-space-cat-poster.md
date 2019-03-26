@@ -19,5 +19,5 @@ sizes:
   - "Large (59cm x 74cm)"
 price: 13
 sale_price: 10
-link: "/"
+link: "/product-details/"
 ---

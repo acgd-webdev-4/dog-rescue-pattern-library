@@ -16,5 +16,5 @@ image_three: "/images/products/product-catonaut-poster-display-3.jpg"
 aria_label: "Click here if you want to learn more on the Catonaut Poster."
 price: 15
 sale_price: 7
-link: "/"
+link: "/product-details/"
 ---
