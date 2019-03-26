@@ -13,7 +13,7 @@ aria_label: "Click here if you want to learn more on the just a little cuddle po
 paper_type: "Card Stock"
 gloss: true
 label: "Size:"
-sizes:
+options:
   - "Small (42cm x 52cm)"
   - "Medium (59cm x 74cm)"
 price: 10

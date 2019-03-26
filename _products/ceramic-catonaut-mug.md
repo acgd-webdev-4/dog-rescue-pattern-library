@@ -6,7 +6,8 @@ non_conflict: false
 desc: |
   If you're gonna buy a poster you may as well buy one with a cat on it.
 artist: "Sebastian Turner"
-color:
+label: "Colour:"
+options:
   - "Black"
   - "White"
   - "Blue"

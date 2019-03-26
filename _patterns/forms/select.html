@@ -1,8 +1,8 @@
 <div>
   <label class="label gutter-1-4 push-1-8" for="select">{{include.label}}</label>
   <select id="select" class="field option-field" value="" required>
-    {% for size in include.sizes %}
-      <option>{{size}}</option>
+    {% for option in include.options %}
+      <option>{{option}}</option>
     {% endfor %}
   </select>
 </div>
