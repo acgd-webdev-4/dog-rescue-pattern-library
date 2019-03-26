@@ -64,3 +64,18 @@ patterns:
       - name: button_url
         type: url
         example: "#"
+  image-card:
+    title: "Image Card"
+    description: |
+      An image card is used to display quick bits of information supported by an image, usually an illustration. It has no link nor button.
+    width: 300
+    fields:
+      - name: aria_label
+        type: string
+        example: "Click this link to view all sorts of fun mugs here!"
+      - name: image
+        type: string
+        example: "/images/logo.svg"
+      - name: text
+        type: string
+        example: "Catonaut is the best damn site you will ever see… Maybe."

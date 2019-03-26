@@ -66,6 +66,11 @@
   color: var(--color-primary-light);
 }
 
+.img-card > .img-card-content {
+  color: var(--color-secondary-darker);
+  background-color: var(--color-secondary-dark);
+}
+
 @media only screen and (min-width: 60em) {
 
   .product .price > p {

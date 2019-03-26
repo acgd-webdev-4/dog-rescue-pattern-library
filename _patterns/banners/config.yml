@@ -44,3 +44,17 @@ patterns:
         type: url
         example: "/products/"
         required: false
+  img-banner:
+    title: "Image Banner"
+    description: |
+      The image banner can be included on any page that is not the front page or the product related page. This can include about us page, updates page etc.
+    fields:
+      - name: title
+        type: string
+        example: "About Us"
+      - name: desc
+        type: string
+        example: "The Puurfect site for every cat lover."
+      - name: url
+        type: string
+        example: "/images/banners/banner-example.jpg"

@@ -53,3 +53,21 @@ patterns:
     title: "Text Section"
     description: |
       This text section can be used for multiple lines of text. It is typically used for describing things such an about us or other things relating to the sites content. It can inculde a regular button but no imagery, but bear in mind that it would not be good for promoting items.
+    fields:
+      - name: title
+        type: string
+        example: "About Us"
+      - name: text
+        type: string
+        example: "Catonaut is for the internet who loves cats and love products with cats on them even more! No one loves our little feline friends more than us. So start your crazy cat collection today with all of this beautiful art."
+  image-sec:
+    title: "Image Section"
+    description: |
+      The image section is used as seperator of content and can be filled with any image needed. It contains no text or buttons and is stricly meant for seperating purposes.
+    fields:
+      - name: url
+        type: string
+        example: "/images/banners/cat-banner.jpg"
+      - name: aria_label
+        type: string
+        example: "Out anjoying the sun."

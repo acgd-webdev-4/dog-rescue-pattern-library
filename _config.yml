@@ -26,11 +26,11 @@ patternbot:
       These accents pair well and create a space themed harmony with the primarys. Yellows draw attention and should only be used with pruchasing related items such as the shopping cart icon. Light red should be used with submission related content like search. Blue should only be used on small foreground elements.
   layouts:
     default: |
-      The default layout contains just the standard footer and tool bar navigation. It should not be used for any page as the base layout. It must be combined with a header in a seperate layout file.
+      The default layout contains just the standard footer and tool bar navigation. It should not be used for any page as the base layout. Use the Inside layout for every page that is not the homepage.
     inside: |
       The inside layout should be used on every page other than the main front page. It contains the header navigation with a search bar and the standard footer.
     front: |
-      The front layout should only be used on the main front page. Its header contains the main navigation links but no search bar. The search bar is included with the banner pattern. This page also contains the standard footer.
+      The front layout should only be used on the front page. Its header contains the main navigation links but no search bar. The search bar is included with the banner pattern. This page also contains the standard footer.
 
 collections:
   products:
