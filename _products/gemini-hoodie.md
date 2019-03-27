@@ -6,4 +6,5 @@ image: "/images/assets/gemini-hoodie.png"
 price: 45.00
 colors:
   - "Black"
+category: "Gemini"
 ---

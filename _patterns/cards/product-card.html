@@ -1,12 +1,15 @@
-<a href="{{include.data.url}}" class="grid island">
-  <div class="unit xs-1 center card border push pad-t">
-    <div class="unit">
+<a href="{{include.data.url}}" class="push-0">
+  <div class="unit border push pad-t">
+
+    <div class="hover-box block relative crop">
       <div class="unit unit-content-center-horizontal">
-        <img class="unit xs-1 img-flex" src="{{include.data.image}}" alt="">
-      <div class="large-screen">
-        <h2 class="push-0 text-center large-screen">{{include.data.name}}</h2>
-        <strong class="push-1-2 text-center large-screen">${{include.data.price}}</strong>
+        <img class="hover-box-img unit xs-1 img-flex pad-b-2" src="{{include.data.image}}" alt="">
+      </div>
+      <div class="hover-box-caption island-1-4 w-1 absolute">
+        <h2 class="push-0 text-center">{{include.data.name}}</h2>
+        <strong class="unit xs-1 push-1-2 text-center">${{include.data.price}}</strong>
       </div>
     </div>
+
   </div>
 </a>

@@ -6,4 +6,5 @@ image: "/images/assets/gemini-pillow.png"
 price: 20.00
 colors:
   - "Black"
+category: "Gemini"
 ---

@@ -6,4 +6,5 @@ image: "/images/assets/aqua-cap.png"
 price: 20.00
 colors:
   - "White"
+category: "Aquarius"
 ---

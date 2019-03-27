@@ -2,10 +2,35 @@
 layout: default
 ---
 
-<div class="grid gutter-1-4">
+{% pattern banner/aqua aquarius-heading="Aquarius" aquarius-paragraph="Creative perfectionists embracing their wild witted personality" %}
+<div class="grid grid-middle wrapper">
   {% for product in site.products %}
-    <div class="island-1-4">
-      {% pattern cards/product-card data=product %}
-    </div>
+    {% if product.category == 'Aquarius' %}
+      <div class="unit xs-1 s-1 m-1-2">
+        {% pattern cards/product-card data=product %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% pattern banner/gemini gemini-heading="Gemini" gemini-paragraph="Independent twins who were born intellectual and are caring zodiac friends" %}
+<div class="grid grid-middle wrapper">
+  {% for product in site.products %}
+    {% if product.category == 'Gemini' %}
+      <div class="unit xs-1 s-1 m-1-2">
+        {% pattern cards/product-card data=product %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% pattern banner/libra libra-heading="Libra" libra-paragraph="Born balanced by nature, loyal friends and are charming to the core" %}
+<div class="grid grid-middle wrapper">
+  {% for product in site.products %}
+    {% if product.category == 'Libra' %}
+      <div class="unit xs-1 s-1 m-1-2">
+        {% pattern cards/product-card data=product %}
+      </div>
+    {% endif %}
   {% endfor %}
 </div>

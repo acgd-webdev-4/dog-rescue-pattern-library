@@ -63,6 +63,30 @@ ul {
   margin-right: auto;
 }
 
+.blue {
+  color: var(--color-primary-light);
+}
+
+.purple {
+  color: var(--color-primary);
+}
+
+.green {
+  color: var(--color-secondary);
+}
+
+.red {
+  color: var(--color-red);
+}
+
+.white {
+  color: #fff;
+}
+
+.beige {
+  color: var(--color-neutral-beige);
+}
+
 .white-bg {
   background-color: #fff;
   color: var(--color-primary);

@@ -1,13 +1,14 @@
 <body>
   <ul class="skip-links">
     <li><a href="/index/">Home page</a></li>
-    <li><a href="/clothes/">Clothes page</a></li>
-    <li><a href="/decor/">Decor page</a></li>
-    <li><a href="/zodiac/">Shop by Zodiac signs</a></li>
+    <li><a href="/products/">Products</a></li>
     <li><a href="#footer">Footer</a></li>
   </ul>
-  <h1 class="white-bg milli text-center text-upper island-1-4 small-screen push-0"><i>Free shipping</i> world wide</h1>
-  <h1 class="white-bg milli text-center text-upper island-1-4 large-screen push-0">Take advantage of the <i>Free shipping</i> world wide</h1>
+
+  <div>
+    <h1 class="white-bg milli text-center text-upper island-1-4 small-screen push-0"><i>Free shipping</i> world wide</h1>
+    <h1 class="white-bg milli text-center text-upper island-1-4 large-screen push-0">Take advantage of the <i>Free shipping</i> world wide</h1>
+  </div>
 
   <header class="purple-bg toggle" id="top">
 
@@ -23,10 +24,10 @@
         <img src="/images/cancel-button.svg" class="nav-close social-media" alt="">
       </label>
 
-      <ul class="nav grid grid-middle list-group">
-        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="unit milli island gutter normal" href="/index/" id="home">Home</a></li>
-        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="unit milli island gutter normal" href="/products/" id="products">Items</a></li>
-        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'zodiac' %}current{% endif %}"><a class="unit milli island gutter normal" href="/zodiac/" id="zodiac">Zodiac</a></li>
+      <ul class="nav list-group max-length">
+        <li class="unit xs-1 s-1 m-1 l-1-4 push-1-2 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="btn-nav milli normal text-upper" href="/">Home</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 push-1-2 {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="btn-nav milli normal text-upper" href="/products/">Shop</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 push-1-2 {% if page.highlight_nav == 'cart' %}current{% endif %}"><a class="btn-nav milli normal text-upper" href="/cart/">Cart</a></li>
       </ul>
 
     </nav>

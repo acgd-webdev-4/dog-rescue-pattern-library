@@ -6,4 +6,5 @@ image: "/images/assets/aquarius-pillow.png"
 price: 20.00
 colors:
   - "Black"
+category: "Aquarius"
 ---

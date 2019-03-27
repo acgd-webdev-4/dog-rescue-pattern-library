@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "clothes"
+        example: "/products/"
   light:
     title: "Signs button"
     description: |

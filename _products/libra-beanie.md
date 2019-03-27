@@ -6,4 +6,5 @@ image: "/images/assets/libra-beanie.png"
 price: 30.00
 colors:
   - "Black"
+category: "Libra"
 ---

@@ -6,4 +6,5 @@ image: "/images/assets/a-beanie.png"
 price: 30.00
 colors:
   - "Black"
+category: "Aquarius"
 ---

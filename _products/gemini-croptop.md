@@ -7,4 +7,5 @@ image: "/images/assets/gem-crop.png"
 price: 17.50
 colors:
   - "White"
+category: "Gemini"
 ---
