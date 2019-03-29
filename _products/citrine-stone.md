@@ -10,4 +10,8 @@ colors:
   - "blue"
 shape: "Round"
 category: wealth
+type: "Wealth & Success"
+description:
+product-details:
+how-to-use:
 ---

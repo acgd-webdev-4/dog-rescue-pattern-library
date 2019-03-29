@@ -9,5 +9,9 @@ size: "~.75"
 colors:
   - "blue"
 shape: "Round"
-
+category:
+type: "Creativity & Passion"
+description:
+product-details:
+how-to-use:
 ---

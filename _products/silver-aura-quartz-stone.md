@@ -9,5 +9,9 @@ size: "~.75"
 colors:
   - "rainbow"
 shape: "Round"
-
+category:
+type: "New Beginnings"
+description:
+product-details:
+how-to-use:
 ---

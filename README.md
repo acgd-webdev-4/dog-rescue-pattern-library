@@ -61,7 +61,7 @@ Creativity & Passion
 Calling all the creative spirits! Does your creative muse need a boost? Do you miss indulging your creative side with spontaneity and adventure? If you need support embracing a more creative lifestyle, then creativity crystals and jewelry are just what you need! We’ve collected the best crystals for creativity and passion that have been combined in this jewelry to get you inspired. As soon as these passion crystals come into contact with your skin, get ready for a mind-opening shift of energy that stimulates creativity and innovation like no other.
 
 Spirituality & Faith
-- The image that is used here is: ![AmethystnStone](/images/crystals/amethyst-stone.png)
+- The image that is used here is: ![Amethyst Stone](/images/crystals/amethyst-stone.png)
 
 Life has a lot of ups and downs, but connecting with the resilient energy of the spiritual jewelry from Energy Muse will help you traverse your journey with grace. Our spiritual jewelry combines the power of numerology with crystal energy, which helps you connect with your guardian angels. Wear these unique faith bracelets and feel their divine vibrations filling your soul with pure healing energy. When your spirit has faith, it has the power to transport you to the heavenly realm, which is why our selection of elegant and dreamy crystal jewelry is a must-have for your gem collection.
 

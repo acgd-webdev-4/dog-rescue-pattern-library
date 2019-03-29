@@ -9,5 +9,9 @@ size: "~.75"
 colors:
   - "cream"
 shape: "Round"
-
+category:
+type: ""
+description:
+product-details:
+how-to-use:
 ---

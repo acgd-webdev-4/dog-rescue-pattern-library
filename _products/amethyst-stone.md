@@ -9,5 +9,9 @@ size: "~.75"
 colors:
   - "purple"
 shape: "Rounded"
-
+category:
+type: "Spirituality & Faith"
+description:
+product-details:
+how-to-use:
 ---
