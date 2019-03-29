@@ -72,6 +72,7 @@ Need an all-over spiritual cleanse? If you’re in need of an emotional facelift
 
 ---
 Protection & Energy Clearing
+- The image that is used here is: ![Black Tourmaline](/images/crystals/black-tourmaline.png)
 
 Details
 When you’re attracted to <strong>Black Tourmaline</strong>, it often means you need release tension, and permit your spirit the comfort of an extra layer of protection. Allow your black tourmaline to help you to detox from all the toxic thoughts that are holding your emotions captive. This is like a juice cleanse for the soul. It purges stress and tensions from the aura, and leaves you feeling lighter.
