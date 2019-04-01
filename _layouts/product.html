@@ -3,12 +3,12 @@ layout: default
 ---
 {% pattern banner/plain heading="Crystals" details="Find the right crystal for you" %}
 
-<div class="grid pad-b-2 background">
+<div class="grid island-2 pad-b-2 background">
   <div class="unit xs-1 s-1 m-1-2 l-1-2">
     <img class="img-flex" src="{{page.image}}" alt="">
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
-    <h2>{{page.name}}</h2>
+    <h2 class="pad-t-2">{{page.name}}</h2>
     <p>{{page.type}}</p>
     <p class="tera">${{page.price|default:"1.00"}}</p>
     <p><em>Size: {{page.size}}" to 1"</em></p>
@@ -33,12 +33,16 @@ layout: default
     <h3 class="gutter-2">Details</h3>
     <div class="max-length gutter">
       <p>{{page.product-details}}</p>
+      <p>{{page.product-details-2}}</p>
+      <p>{{page.product-details-3}}</p>
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
     <h3 class="gutter-2">How to Use</h3>
     <div class="max-length gutter">
     <ol>{{page.how-to-use}}</ol>
+    <ol>{{page.how-to-use-2}}</ol>
+    <ol>{{page.how-to-use-3}}</ol>
     </div>
   </div>
 </div>
