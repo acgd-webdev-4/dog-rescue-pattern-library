@@ -2,8 +2,8 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-    title: "Fairy Cake"
-    descripition: |
+  title: "Fairy Cake"
+  descripition: |
     This is a small bakery that produce cakes and bread.Come and buy our products now!
   font_url: "https://fonts.googleapis.com/css?family=Muli:200,300,400,700&display=swap"
   colors:
