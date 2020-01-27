@@ -6,3 +6,17 @@ patternbot:
     descripition: |
     This is a small bakery that produce cakes and bread.
   font_url: "https://fonts.googleapis.com/css?family=Muli:200,300,400,700&display=swap"
+  colors:
+    background: "--color-secondary-light"
+    accent: "--color-primary-dark"
+    patterns:
+      brand.logos: "--color-primary-light"
+    rationales:
+      typefaces.primary: |
+      Muli was selected because it's a clean and strightforward font.
+      typefaces.secondary: |
+      PT sans is only...
+      colors.primary: |
+      The primary colours..
+      colors.secondary: |
+      The secondary colour are..
