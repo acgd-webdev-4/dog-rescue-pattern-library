@@ -13,10 +13,10 @@ patternbot:
       brand.logos: "--color-primary-light"
     rationales:
       typefaces.primary: |
-      Muli was selected because it's a clean and strightforward font.
+        Muli was selected because it's a clean and strightforward font.
       typefaces.secondary: |
-      PT sans is only...
+        PT sans is only...
       colors.primary: |
-      The primary colours..
+        The primary colours..
       colors.secondary: |
-      The secondary colour are..
+        The secondary colour are..
