@@ -1,0 +1,13 @@
+:root {
+--color-primary: #7E9A9E;
+--color-secondary: #D2E0E2;
+--color-white: #ffffff;
+--color-black: #000000;
+--color-grey: #848484;
+
+--font-primary: Acumin Pro, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
