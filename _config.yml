@@ -1,2 +1,5 @@
-permallink:
+permallink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+  font_url: <link rel="stylesheet" href="https://use.typekit.net/rld0uvc.css">
