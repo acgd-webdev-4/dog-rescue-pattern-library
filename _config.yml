@@ -3,7 +3,7 @@ theme: jekyll_patternbot
 
 patternbot:
   title: "Fairy Cake"
-  descripition: |
+  description: |
     This is a small bakery that produce cakes and bread.Come and buy our products now!
   font_url: "https://fonts.googleapis.com/css?family=Muli:200,300,400,700&display=swap"
   colors:
@@ -13,10 +13,8 @@ patternbot:
       brand.logos: "--color-primary-light"
     rationales:
       typefaces.primary: |
-        Muli was selected because it's a clean and strightforward font.
-      typefaces.secondary: |
-        PT sans is only...
+        Muli was selected because it's a clean and strightforward font. Muli is to be used for all body copy.
       colors.primary: |
-        The primary colours..
+        The primary colours because it expresses the theme well.
       colors.secondary: |
         The secondary colour are..
