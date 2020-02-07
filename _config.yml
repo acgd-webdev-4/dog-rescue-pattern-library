@@ -2,4 +2,7 @@ permallink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: <link rel="stylesheet" href="https://use.typekit.net/rld0uvc.css">
+  font_url: "https://use.typekit.net/rld0uvc.css"
+  colors:
+    patterns:
+      brand.logos: "--color-secondary"
