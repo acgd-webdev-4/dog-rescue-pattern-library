@@ -6,3 +6,4 @@ patternbot:
   colors:
     patterns:
       brand.logos: "--color-secondary"
+      buttons.ghost: "--color-secondary"
