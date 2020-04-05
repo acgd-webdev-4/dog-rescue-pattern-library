@@ -7,10 +7,55 @@
   --color-neutral-beige: #e2e2e2;
   --color-whatever: #ed8575;
 
-  --font-primary: "Muli", "Trebuchet MS", Muli, sans-serif;
-  --font-secondary: "source Code Pro", Menlo, Consolas, monospace;（delete）
+  --font-primary: "Muli", sans-serif;
+  --font-secondary: "Spartan", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: bold;
+}
+
+ul, ol, dl {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+a {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+blockquote, cite {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-primary-light);
+}
+
+q {
+  font-family: var(--font-primary);
+  font-style: bold;
+  font-weight: normal;
+  color: var(--color-secondary);
+}
+
+em, strong, del, ins, abbr, dfn, i, b, u, s, mark {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  color: var(--color-secondary);
 }
