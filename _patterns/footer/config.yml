@@ -1,0 +1,8 @@
+title: "footer"
+description: |
+  The footer element is a structural element used to identify the footer of a page, document, article, or section. A footer typically contains copyright and authorship information or navigational elements pertaining to the contents of the parent element.
+patterns:
+  footer:
+    title: "footer"
+    description: |
+      The footer will be on the bottom of the every pages.
