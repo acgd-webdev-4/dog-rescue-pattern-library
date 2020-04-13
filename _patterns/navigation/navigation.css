@@ -1,0 +1,22 @@
+header {
+  background-color: var(--color-primary-light);
+}
+
+span {
+  font-weight: lighter;
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.nav a:focus {
+  outline: black;
+}

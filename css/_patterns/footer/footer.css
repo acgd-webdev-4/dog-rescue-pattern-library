@@ -1,0 +1,10 @@
+footer {
+  background-color: var(--color-primary);
+  text-decoration: none;
+}
+
+footer li a {
+  color: var(--color-secondary);
+  padding: .42em 0;
+  text-decoration: none;
+}
