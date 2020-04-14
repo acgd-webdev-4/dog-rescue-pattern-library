@@ -1,0 +1,9 @@
+<a href="{{include.data.url}}" class="card block text-center chop content-fill">
+  <img class="img-flex card-rounded" src="{{include.data.image}}" alt="">
+  <div class="island-1-2">
+    <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
+    <h2 class="push-1-4">{{include.data.title}}</h2>
+    <p class="push-1-2">{{include.data.description}}</p>
+    {% pattern buttons/primary text="Buy now" %}
+  </div>
+</a>

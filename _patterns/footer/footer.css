@@ -8,3 +8,8 @@ footer li a {
   color: var(--color-primary);
   padding: .4em 0;
 }
+
+p {
+  text-decoration: none;
+
+}

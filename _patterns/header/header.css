@@ -1,6 +1,15 @@
-title: "Header"
-description: |
-The header element represents a container for introductory content or a set of navigational links.
-patterns:
-  header:
-    title: "Header"
+h1 {
+  text-align: center;
+  color: var(--color-secondary-light);
+  font-family: var(--font-secondary);
+}
+a  {
+  text-align: center;
+}
+#Slideshow-slideshow .push-1-2 exa, #Slideshow-slideshow .slideshow__button-label {
+    color: #ffffff;
+}
+
+.push-1-2 exa {
+    margin: 0 auto;
+}
