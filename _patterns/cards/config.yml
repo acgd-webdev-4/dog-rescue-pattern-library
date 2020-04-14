@@ -1,0 +1,15 @@
+title: "Card"
+description: |
+A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+patterns:
+  product-card:
+    title: "Collection list"
+    width: 400
+    description: |
+      The product card is used on the product listing page to display each available product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
