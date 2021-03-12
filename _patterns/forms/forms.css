@@ -1,0 +1,65 @@
+/** Checkout Card **/
+.checkout-form {
+  background-color: rgba(1, 52, 62, .5);
+  color: var(--color-primary-light);
+  border-radius: 50px;
+  max-width: 600px;
+  margin: 10em auto;
+}
+
+.checkout-bg {
+  background-image: url("../images/bg-img-2.jpg");
+  height:70em;
+}
+
+fieldset {
+  border-top: 0;
+}
+
+.legend {
+  font-weight: lighter;
+}
+
+.flag-optional {
+  color: var(--color-secondary);
+}
+
+input {
+  background-color: rgba(174, 186, 188, 0.8);
+  border: none;
+  border-radius: 10px;
+  height: 2.5em;
+}
+
+.error-bg {
+  background-color: rgba(108, 37, 6, 0.15);
+  border-radius: 10px;
+}
+
+.error-message {
+  display: none;
+  color: var(--color-secondary);
+  font-weight: 500;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.error-message:first-child,
+input:invalid + .error-message,
+input:invalid + label + .error-message {
+  display: block;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}
+
+.sign-up {
+  color: var(--color-primary-dark);
+}
